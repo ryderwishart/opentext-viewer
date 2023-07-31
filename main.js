@@ -1,3 +1,10 @@
+const checkboxState = {
+    tagName: {},
+    className: {},
+    label: {},
+};
+
+
 // Load all XML files from the xml/ subdirectory at build time
 async function loadXMLFiles() {
     const response = await fetch("/generated_xml_manifest.json");
@@ -94,26 +101,42 @@ function loadStylesheet(stylesheet) {
 // Generate checkboxes based on the content of the selected XML file
 function populateCheckboxes(xmlDoc) {
     const checkboxesContainer = document.getElementById("checkbox-container");
-    const xmlNodes = Array.from(xmlDoc.querySelectorAll("*")); // Get all elements in the XML
+    const xmlNodes = Array.from(xmlDoc.querySelectorAll("*")); // Get all elements in the XML except header
 
     const uniqueTagNames = new Set();
     const uniqueClassNames = new Set();
     const uniqueLabels = new Set();
 
     xmlNodes.forEach((node) => {
+        // Ignore the <header> node and all descendants of <header>
+        if (node.closest("header")) return;
         uniqueTagNames.add(node.tagName);
         node.className && uniqueClassNames.add(node.className);
         node.getAttribute("label") && uniqueLabels.add(node.getAttribute("label"));
     });
 
+    // Initialize checkboxState properties
+    checkboxState.tagName = {};
+    checkboxState.className = {};
+    checkboxState.label = {};
+
     // Function to create a checkbox for a given value and type
     const createCheckbox = (value, type) => {
         const label = document.createElement("label");
         const checkbox = document.createElement("input");
+
+        checkbox.addEventListener("change", () => {
+            checkboxState[type][value] = checkbox.checked;
+            updateDisplay();
+        });
+
         checkbox.type = "checkbox";
         checkbox.checked = true;
-        checkbox.dataset[type] = value;  // Use type as the key (tagName, className, or label)
-        checkbox.addEventListener("change", () => toggleDisplay(type, value)); // Toggle display based on type and value
+        checkbox.dataset[type] = value;
+        checkbox.addEventListener("change", () => {
+            checkboxState[type][value] = checkbox.checked;
+            updateDisplay();
+        });
         label.appendChild(checkbox);
         label.appendChild(document.createTextNode(`${type}: ${value}`));
         checkboxesContainer.appendChild(label);
@@ -136,31 +159,33 @@ function populateCheckboxes(xmlDoc) {
     console.log('populateCheckboxes', { xmlNodes });
 }
 
-
-
-
-
-
-
-
-// Toggle the display of the selected XML nodes based on the state of the checkboxes
 function toggleDisplay(type, value) {
     const nodes = Array.from(document.querySelectorAll(`#xml-display .${type}-${value}`));
     nodes.forEach((node) => {
-        if (node.classList.contains('hide')) {
-            node.classList.remove('hide');
+        const hideClass = type === 'tagName' ? 'hideTag' : 'hideLabel';
+        if (node.classList.contains(hideClass)) {
+            node.classList.remove(hideClass);
         } else {
-            node.classList.add('hide');
+            node.classList.add(hideClass);
         }
     });
-    console.log('toggleDisplay', { type, value });
 }
 
-
-
-
-
-
+function updateDisplay() {
+    const nodes = Array.from(document.querySelectorAll("#xml-display *"));
+    nodes.forEach((node) => {
+        const types = ["tagName", "label"];
+        node.classList.remove("hideTag");
+        node.classList.remove("hideLabel");
+        for (const type of types) {
+            const value = type === 'tagName' ? node[type] : node.getAttribute(type) || "no-label";
+            const hideClass = type === 'tagName' ? 'hideTag' : 'hideLabel';
+            if (checkboxState[type][value] === false) {
+                node.classList.add(hideClass);
+            }
+        }
+    });
+}
 
 // Populate tooltips or status bar for functions/values on hovering an element
 function populateTooltips(node) {
@@ -191,7 +216,7 @@ function populateXMLDisplay(xmlDoc) {
 
         if (!uniqueNodes.has(identifier)) { // only process unique nodes
             uniqueNodes.add(identifier);
-            node.classList.add(`tag-${node.tagName}`);
+            node.classList.add(`tagName-${node.tagName}`);
             node.classList.add(`label-${labelAttr}`);
             uniqueTags.add(node.tagName);
             uniqueLabels.add(labelAttr);
@@ -202,8 +227,6 @@ function populateXMLDisplay(xmlDoc) {
     return { uniqueTags, uniqueLabels };
 }
 
-
-
 function addDynamicStyles(uniqueTags, uniqueLabels) {
     const styleElement = document.createElement('style');
     let styles = '';
@@ -211,18 +234,19 @@ function addDynamicStyles(uniqueTags, uniqueLabels) {
     // Add styles for unique tags
     uniqueTags.forEach((tag, i) => {
         const color = randomColor();
-        styles += `.tag-${tag} { border: 1px solid ${color}; }\n`;
+        styles += `.tag-${tag} { border: 2px solid ${color}; border-radius: 5px; padding: 5px; }\n`;
     });
 
     // Add styles for unique labels
     uniqueLabels.forEach((label, i) => {
         const color = randomColor();
-        styles += `.label-${label} { padding: 5px; background-color: ${color}; }\n`;
+        styles += `.label-${label} { outline: 2px solid ${color}; }\n`;
     });
 
     styleElement.textContent = styles;
     document.head.appendChild(styleElement);
 }
+
 
 // Function to generate random colors
 function randomColor() {
