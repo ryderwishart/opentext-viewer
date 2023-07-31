@@ -3,7 +3,8 @@ const checkboxState = {
     className: {},
     label: {},
 };
-
+const tagColors = {};
+const labelColors = {};
 
 // Load all XML files from the xml/ subdirectory at build time
 async function loadXMLFiles() {
@@ -133,6 +134,14 @@ function populateCheckboxes(xmlDoc) {
         checkbox.type = "checkbox";
         checkbox.checked = true;
         checkbox.dataset[type] = value;
+
+        // add color decoration to the checkbox label
+        if (type === 'tagName') {
+            label.style.color = tagColors[value];
+        } else if (type === 'label') {
+            label.style.color = labelColors[value];
+        }
+
         checkbox.addEventListener("change", () => {
             checkboxState[type][value] = checkbox.checked;
             updateDisplay();
@@ -234,19 +243,20 @@ function addDynamicStyles(uniqueTags, uniqueLabels) {
     // Add styles for unique tags
     uniqueTags.forEach((tag, i) => {
         const color = randomColor();
+        tagColors[tag] = color; // store the color for each tag
         styles += `.tag-${tag} { border: 2px solid ${color}; border-radius: 5px; padding: 5px; }\n`;
     });
 
     // Add styles for unique labels
     uniqueLabels.forEach((label, i) => {
         const color = randomColor();
+        labelColors[label] = color; // store the color for each label
         styles += `.label-${label} { outline: 2px solid ${color}; }\n`;
     });
 
     styleElement.textContent = styles;
     document.head.appendChild(styleElement);
 }
-
 
 // Function to generate random colors
 function randomColor() {
