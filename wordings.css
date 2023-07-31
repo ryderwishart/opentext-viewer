@@ -1,0 +1,188 @@
+/*********************************
+ * Wording Borders & Backgrounds *
+ *********************************/
+
+ww,
+w,
+path,
+ellipsis {
+    display: flex;
+    flex-direction: row;
+    align-items: center;     
+    margin: 7px 0px 7px 7px;
+}
+
+ww:last-child,
+w:last-child,
+path:last-child,
+ellipsis:last-child,
+error:last-child {
+    margin-right: 7px;
+}
+
+ww {
+    position: relative;    
+    border: 2px solid black;
+    border-radius: 35px;   
+}
+
+ww[pinned] {
+    border-radius: 25px 0px 0px 25px;    
+}
+
+w:not([status = core]) {
+    position: relative;
+    border: 2px solid darkgray;
+    border-radius: 25px;    
+    background-color: #e6e6e6;
+}
+
+w[status = connective] {
+    padding: 7px;
+    border-radius: 25px;   
+}
+
+w[status = translative] {
+    padding: 2px;
+    border-radius: 25px 0px 0px 25px;    
+}
+
+w[status = junctive] {
+    padding: 2px;
+    border-radius: 0px;
+}
+
+path {
+    position: relative;
+    align-self: stretch;    
+    border: 1px solid black;
+    border-radius: 10px;
+    border-right: none;
+    border-left: none;
+}
+
+path:not([label]) {
+    border: none;
+    margin: 0px;
+}
+
+path:first-child {
+    margin-left: 15px;
+}
+
+path:last-child {
+    margin-right: 15px;
+}
+
+
+/**********
+ * Labels *
+ **********/
+
+ww[label]:hover:not(:active)::before {
+    display: flex;
+    content: attr(label);
+    position: absolute;
+    /* horizontally center */
+    top: 50%;
+    transform: translateY(-50%);
+    /* move to left */
+    right: 100%;
+    /* basic styles */
+    padding: 10px;
+    border-radius: 50px 0px 0px 50px;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+
+
+/**********
+ * Values *
+ **********/
+
+ww[values]:active::before, 
+w[values]:active::before {
+    position: absolute;
+    /* horizontally center */
+    top: 50%;
+    transform: translateY(-50%);
+    /* move to left */
+    right: 100%;
+    /* basic styles */
+    display: flex;
+    align-self: stretch;
+    align-items: center;       
+    margin-right: 5px;    
+    padding: 15px;
+    box-shadow: 0 3px 10px white;
+    border: 1px solid white;
+    border-radius: 25px;
+    background: black;
+    content: attr(values);
+    text-align: center;
+    white-space: pre-line;
+    color: white;    
+}
+
+error[note]:hover:not(:active)::before {
+    position: absolute;
+    /* horizontally center */
+    top: 50%;
+    transform: translateY(-50%);
+    /* move to left */
+    right: 100%;
+    /* basic styles */
+    display: flex;
+    align-self: stretch;
+    align-items: center;       
+    margin-right: 5px;    
+    padding: 15px;
+    box-shadow: 0 3px 10px white;
+    border-radius: 25px;
+    background: red;
+    content: attr(note);
+    text-align: center;
+    white-space: pre-line;
+    color: white; 
+}
+
+
+/*****************
+ * Discontinuity *
+ ****************/
+
+ww[next] {
+    align-self: stretch !important;
+    border-radius: 35px 0px 0px 35px;
+    border-right-style: dashed;
+}
+
+ww[prev] {
+    align-self: stretch !important;
+    border-radius: 0px 35px 35px 0px;
+    border-left-style: dashed;
+}
+
+ww[next][prev] {
+    border-radius: 0px;
+}
+
+path[next] {
+    border-radius: 10px 0px 0px 10px;
+    border-width: 1px;
+}
+
+path[prev] {
+    border-radius: 0px 10px 10px 00px;
+    border-width: 1px;
+}
+
+*:not([next]) > *[next] {
+    align-self: stretch;
+}
+
+*:not([prev]) > *[prev] {
+    align-self: stretch;
+}

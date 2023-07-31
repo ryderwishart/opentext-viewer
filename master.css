@@ -1,0 +1,143 @@
+@font-face {
+    font-family: sbl_greekregular;
+    src: url(sbl_grk-webfont.woff2) format('woff2'), url(sbl_grk-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+  --move-color: #ffc966;
+  --act-color: pink;
+  --pred_act-color: #ffff33;
+  --gen-color: #cce6ff;
+  --event-color: #d1e39c;
+  --def-color: #e6ccb3;  
+  --trait-color: #f9f2ec;
+  --icoll-color: #e6ccff;
+  --ecoll-color: #e6ccff;
+  --circ-color: #d8605a; /*cf3830 ffcccc*/
+  --ent-color: #996633; /*ac7339*/
+  --mod_pred-color: #ffff33;
+  --nmod_pred-color: #ffff33;
+  --scen-color: #ffff33;
+}
+
+/*************************
+ * Main (Con)text Layout *
+ ************************/
+
+OpenText {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: sbl_greekregular, serif;
+}
+
+header {
+    display: none;
+}
+
+situation,
+stage,
+move {
+    display: flex;
+    padding: 15px;
+}
+
+situation {
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+situation situation {
+    margin: 15px;
+    border: 15px solid #ff8080;
+    border-radius: 35px;
+}
+
+stage {
+    flex-direction: column;
+    align-items: flex-start !important;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 35px;
+}
+
+stage[title]::before {
+    align-self: flex-start;
+    width: 200px;
+    margin-top: 15px;
+    content: attr(title);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+move {
+    flex-direction: row;
+    align-items: center;
+    margin: 25px 0px !important;
+}
+
+move::before {
+    align-self: flex-start;
+    width: 200px;
+    margin-right: 15px;
+    content: attr(id);
+    padding: 10px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+/*****************************
+ * Layout for Other Elements *
+ *****************************/
+
+v,
+v2,
+path,
+ellipsis,
+error {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ellipsis {
+    border: 2px dotted black;
+    border-radius: 35px;
+    min-height: 20px;
+    min-width: 40px;
+}
+
+error {
+    position: relative;
+    padding: 10px;
+    border: 4px solid red;
+    border-radius: 35px;
+}
+
+/**********
+ * Tokens *
+ **********/
+
+token {
+    position: relative;
+    display: inline-flex;
+    margin: 3px;
+    border-radius: 25px;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+token::before {
+    content: attr(before)
+}
+
+token::after {
+    content: attr(after)
+}
