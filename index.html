@@ -14,8 +14,23 @@
       }
 
       #file-selector {
-        flex: 1;
-        padding: 10px;
+        position: fixed; /* Make the div stay in place */
+        top: 0; /* Align it with the top of the page */
+        right: 0; /* Align it with the right side of the page */
+        z-index: 100; /* Make it appear above all other elements */
+        padding: 10px; /* Add some padding */
+        background: #f8f8f8; /* A light gray background */
+        border: 1px solid #ccc; /* A thin border */
+        border-radius: 8px; /* Rounded corners */
+      }
+
+      #file-selector select {
+        padding: 5px;
+        border: none;
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        appearance: none; /* Removes the default browser styling */
       }
 
       #checkbox-container {
@@ -61,7 +76,7 @@
     <script src="main.js"></script>
   </head>
   <body>
-    <div id="file-selector"></div>
+    <div id="file-selector">Select from the available XML files:&nbsp;</div>
     <div id="xml-display"></div>
     <div id="checkbox-container"></div>
   </body>

@@ -14,7 +14,7 @@ async function loadXMLFiles() {
     return xmlFiles;
 }
 
-window.onload = async function () {
+document.addEventListener("DOMContentLoaded", async function () {
     // Create file selector
     const fileSelector = document.getElementById("file-selector");
     const select = document.createElement("select");
@@ -55,8 +55,7 @@ window.onload = async function () {
     // Select the first file by default
     select.value = xmlFiles[0];
     select.dispatchEvent(new Event("change"));
-};
-
+});
 
 
 
