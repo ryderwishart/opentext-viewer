@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic styled XML viewing</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        margin-left: 140px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      #file-selector {
+        flex: 1;
+        padding: 10px;
+      }
+
+      #checkbox-container {
+        flex: 1;
+        padding: 10px;
+        border-left: 1px solid #ddd;
+        height: 100vh;
+        overflow-y: auto;
+        position: fixed;
+        left: 0;
+        max-width: 180px;
+      }
+
+      #xml-display {
+        flex: 3;
+        padding: 10px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type='checkbox'] {
+        margin-right: 5px;
+      }
+
+      .hide {
+        border: none !important;
+        background: none !important;
+      }
+    </style>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div id="file-selector"></div>
+    <div id="xml-display"></div>
+    <div id="checkbox-container"></div>
+  </body>
+</html>
