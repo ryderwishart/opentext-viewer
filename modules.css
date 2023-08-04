@@ -1,0 +1,247 @@
+/**********
+ * Colors *
+ **********/
+
+move {
+    --color: var(--context-color);
+}
+
+mod[class = speech_act] {
+    --color: var(--act-color);
+}
+
+mod[class = predicating_act] {
+    --color: var(--pred_act-color);
+}
+
+mod[class = generalization] {
+    --color: var(--gen-color);
+}
+
+mod[class = event] {
+    --color: var(--event-color);
+}
+
+mod[class = definition] {
+    --color: var(--def-color);
+}
+
+mod[class = trait] {
+    --color: var(--trait-color);
+}
+
+mod[class = intrinsic_collation] {
+    --color: var(--icoll-color);
+}
+
+mod[class = circumstance] {
+    --color: var(--circ-color);
+}
+
+mod[class = extrinsic_collation] {
+    --color: var(--ecoll-color);
+}
+
+mod[class = entity] {
+    --color: var(--ent-color);
+}
+
+mod[class = modal_predication] {
+    --color: var(--mod_pred-color);
+}
+
+mod[class = non-modal_predication] {
+    --color: var(--nmod_pred-color);
+}
+
+mod[class = scenario] {
+    --color: var(--scen-color);
+}
+
+
+/***********
+ * Modules *
+ ***********/
+
+mod,
+mod2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+mod:not(:last-child),
+mod2:not(:last-child) {
+    margin-right: 5px;
+}
+
+
+/***********
+ * Borders *
+ ***********/
+
+mod {
+    border: 3px solid;
+    border-radius: 35px;
+    margin: 5px;
+}
+
+mod2[class = construal] {
+    border-radius: 35px;
+    margin: 0px;
+}
+
+/* To eliminate borders for particular module classes, usually because they are lexical and so words rather than wordings. */
+mod[class = move],
+mod[class = process],
+mod[class = name],
+mod[class = category],
+mod[class = intrinsic_qualitative_scale],
+mod[class = extrinsic_qualitative_scale] {
+    border: none !important;
+    margin: 0px !important;
+}
+
+mod2 {
+    border: none !important;
+}
+
+mod {
+    border-color: var(--color);
+}
+
+
+/**********
+ * Labels *
+ **********/
+
+context > * {
+    --label-color: var(--context-color);
+}
+
+mod[class = speech_act] > * {
+    --label-color: var(--act-color);
+}
+
+mod[class = predicating_act] > * {
+    --label-color: var(--pred_act-color);
+}
+
+mod[class = generalization] > * {
+    --label-color: var(--gen-color);
+}
+
+mod[class = event] > * {
+    --label-color: var(--event-color);
+}
+
+mod[class = definition] > * {
+    --label-color: var(--def-color);
+}
+
+mod[class = trait] > * {
+    --label-color: var(--trait-color);
+}
+
+mod[class = intrinsic_collation] > * {
+    --label-color: var(--icoll-color);
+}
+
+mod[class = circumstance] > * {
+    --label-color: var(--circ-color);
+}
+
+mod[class = extrinsic_collation] > * {
+    --label-color: var(--ecoll-color);
+}
+
+mod[class = entity] > * {
+    --label-color: var(--ent-color);
+}
+
+mod[class = modal_predication] > * {
+    --label-color: var(--mod_pred-color);
+}
+
+mod[class = non-modal_predication] > * {
+    --label-color: var(--nmod_pred-color);
+}
+
+mod[class = scenario] > * {
+    --label-color: var(--scen-color);
+}
+
+*[function]:not(:active):hover::before {
+    content: attr(function);
+    position: absolute;
+    /* horizontally center */
+    top: 50%;
+    transform: translateY(-50%);
+    /* move to left */
+    right: 100%;
+    /* basic styles */
+    padding: 10px;
+    border-radius: 50px 0px 0px 50px;
+    background: var(--label-color);
+    text-align: center;
+    color: black;
+}
+
+
+/**********
+ * Values *
+ **********/
+
+*[values]:active::before {
+    position: absolute;
+    /* horizontally center */
+    top: 50%;
+    transform: translateY(-50%);
+    /* move to left */
+    right: 100%;
+    /* basic styles */
+    margin-right: 5px;
+    padding: 15px;
+    box-shadow: 0 3px 10px black;
+    border-radius: 25px;
+    background: var(--color);
+    content: attr(values);
+    text-align: center;
+    white-space: pre-line;
+    color: black;
+}
+
+
+
+/*****************
+ * Discontinuity *
+ ****************/
+
+mod[next],
+mod2[next] {
+    align-self: stretch !important;
+    border-radius: 35px 0px 0px 35px;
+    border-right-style: dashed;
+}
+
+mod[prev],
+mod2[prev] {
+    align-self: stretch !important;
+    border-radius: 0px 35px 35px 0px;
+    border-left-style: dashed;
+}
+
+mod[next][prev],
+mod2[next][prev] {
+    border-radius: 0px;
+}
+
+*:not([next]) > *[next] {
+    align-self: stretch;
+}
+
+*:not([prev]) > *[prev] {
+    align-self: stretch;
+}

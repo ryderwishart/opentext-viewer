@@ -8,7 +8,7 @@ path,
 ellipsis {
     display: flex;
     flex-direction: row;
-    align-items: center;     
+    align-items: center;
     margin: 7px 0px 7px 7px;
 }
 
@@ -21,30 +21,30 @@ error:last-child {
 }
 
 ww {
-    position: relative;    
+    position: relative;
     border: 2px solid black;
-    border-radius: 35px;   
+    border-radius: 35px;
 }
 
 ww[pinned] {
-    border-radius: 25px 0px 0px 25px;    
+    border-radius: 25px 0px 0px 25px;
 }
 
 w:not([status = core]) {
     position: relative;
     border: 2px solid darkgray;
-    border-radius: 25px;    
+    border-radius: 25px;
     background-color: #e6e6e6;
 }
 
 w[status = connective] {
     padding: 7px;
-    border-radius: 25px;   
+    border-radius: 25px;
 }
 
 w[status = translative] {
     padding: 2px;
-    border-radius: 25px 0px 0px 25px;    
+    border-radius: 25px 0px 0px 25px;
 }
 
 w[status = junctive] {
@@ -54,16 +54,11 @@ w[status = junctive] {
 
 path {
     position: relative;
-    align-self: stretch;    
+    align-self: stretch;
     border: 1px solid black;
     border-radius: 10px;
     border-right: none;
     border-left: none;
-}
-
-path:not([label]) {
-    border: none;
-    margin: 0px;
 }
 
 path:first-child {
@@ -75,13 +70,13 @@ path:last-child {
 }
 
 
-/**********
- * Labels *
- **********/
+/*******************
+ * Function Labels *
+ *******************/
 
-ww[label]:hover:not(:active)::before {
+*[function]:hover:not(:active)::before {
     display: flex;
-    content: attr(label);
+    content: attr(function);
     position: absolute;
     /* horizontally center */
     top: 50%;
@@ -90,6 +85,7 @@ ww[label]:hover:not(:active)::before {
     right: 100%;
     /* basic styles */
     padding: 10px;
+    box-shadow: 0 3px 15px white;
     border-radius: 50px 0px 0px 50px;
     background: black;
     text-align: center;
@@ -102,8 +98,7 @@ ww[label]:hover:not(:active)::before {
  * Values *
  **********/
 
-ww[values]:active::before, 
-w[values]:active::before {
+*[values]:active::before {
     position: absolute;
     /* horizontally center */
     top: 50%;
@@ -111,10 +106,7 @@ w[values]:active::before {
     /* move to left */
     right: 100%;
     /* basic styles */
-    display: flex;
-    align-self: stretch;
-    align-items: center;       
-    margin-right: 5px;    
+    margin-right: 5px;
     padding: 15px;
     box-shadow: 0 3px 10px white;
     border: 1px solid white;
@@ -123,7 +115,7 @@ w[values]:active::before {
     content: attr(values);
     text-align: center;
     white-space: pre-line;
-    color: white;    
+    color: white;
 }
 
 error[note]:hover:not(:active)::before {
@@ -134,10 +126,7 @@ error[note]:hover:not(:active)::before {
     /* move to left */
     right: 100%;
     /* basic styles */
-    display: flex;
-    align-self: stretch;
-    align-items: center;       
-    margin-right: 5px;    
+    margin-right: 5px;
     padding: 15px;
     box-shadow: 0 3px 10px white;
     border-radius: 25px;
@@ -145,7 +134,7 @@ error[note]:hover:not(:active)::before {
     content: attr(note);
     text-align: center;
     white-space: pre-line;
-    color: white; 
+    color: white;
 }
 
 

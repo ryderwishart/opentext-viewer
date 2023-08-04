@@ -6,20 +6,20 @@
 }
 
 :root {
-  --move-color: #ffc966;
-  --act-color: pink;
-  --pred_act-color: #ffff33;
-  --gen-color: #cce6ff;
-  --event-color: #d1e39c;
-  --def-color: #e6ccb3;  
-  --trait-color: #f9f2ec;
-  --icoll-color: #e6ccff;
-  --ecoll-color: #e6ccff;
-  --circ-color: #d8605a; /*cf3830 ffcccc*/
-  --ent-color: #996633; /*ac7339*/
-  --mod_pred-color: #ffff33;
-  --nmod_pred-color: #ffff33;
-  --scen-color: #ffff33;
+    --context-color: #ff8080; /*#ffc966*/
+    --act-color: pink;
+    --pred_act-color: #ffff33;
+    --gen-color: #cce6ff;
+    --event-color: #d1e39c;
+    --def-color: #e6ccb3;
+    --trait-color: #f9f2ec;
+    --icoll-color: #e6ccff;
+    --ecoll-color: #e6ccff;
+    --circ-color: #d8605a; /*cf3830 ffcccc*/
+    --ent-color: #996633; /*ac7339*/
+    --mod_pred-color: #ffff33;
+    --nmod_pred-color: #ffff33;
+    --scen-color: #ffff33;
 }
 
 /*************************
@@ -36,60 +36,62 @@ header {
     display: none;
 }
 
-situation,
-stage,
-move {
+text {
+    display: flex;
+    padding-left: 200px;
+}
+
+context {
     display: flex;
     padding: 15px;
+    border-radius: 35px;
 }
 
-situation {
+context[class = situation],
+context [class = stage] {
     flex-direction: column;
     align-items: flex-start !important;
 }
 
-situation situation {
+context context[class = situation] {
     margin: 15px;
     border: 15px solid #ff8080;
-    border-radius: 35px;
 }
 
-stage {
-    flex-direction: column;
-    align-items: flex-start !important;
+context[class = stage] {
     margin-bottom: 15px;
-    border: 2px solid black;
-    border-radius: 35px;
+    border: 5px solid #ff8080;    
 }
 
-stage[title]::before {
+context[class = stage][title]::before {
     align-self: flex-start;
     width: 200px;
-    margin-top: 15px;
     content: attr(title);
+    margin: 10px;
     padding: 10px;
-    border: 2px solid black;
+    border: 5px solid #ff8080;
     border-radius: 10px;
     background: white;
     color: black;
     text-align: center;
 }
 
-move {
+context[class = move] {
     flex-direction: row;
-    align-items: center;
     margin: 25px 0px !important;
+    border: 2px solid #ff8080;
 }
 
-move::before {
+context[class = move][id]::before {
     align-self: flex-start;
     width: 200px;
     margin-right: 15px;
     content: attr(id);
     padding: 10px;
+    border: 2px solid #ff8080;
     border-radius: 10px;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     text-align: center;
 }
 
