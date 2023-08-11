@@ -101,28 +101,44 @@ function populateCheckboxes(xmlDoc) {
     const checkboxesContainer = document.getElementById("checkbox-container");
     const xmlNodes = Array.from(xmlDoc.querySelectorAll("*"));
 
-    const uniqueTagNames = new Set();
-    const uniqueClassNames = new Set();
+    const tagClassMapping = {};
 
     xmlNodes.forEach((node) => {
         if (node.closest("header")) return;
-        uniqueTagNames.add(node.tagName);
-        node.className && uniqueClassNames.add(node.className);
-
-        // Add .{tagName} to node, converting to lowercase
-        node.classList.add(node.tagName.toLowerCase());
+        const tagName = node.tagName.toLowerCase();
+        if (!tagClassMapping[tagName]) {
+            tagClassMapping[tagName] = new Set();
+        }
+        if (node.className) {
+            node.className.split(' ').forEach(className => tagClassMapping[tagName].add(className));
+        }
     });
 
     checkboxState.tagName = {};
     checkboxState.className = {};
 
-    const createCheckbox = (value, type) => {
+    const createCheckbox = (value, type, container) => {
         const label = document.createElement("label");
         const checkbox = document.createElement("input");
 
         checkbox.addEventListener("change", () => {
             checkboxState[type][value] = checkbox.checked;
             updateDisplay();
+
+            // If it's a tagName checkbox and it's unchecked, uncheck all nested className checkboxes
+            if (type === "tagName" && !checkbox.checked) {
+                container.querySelectorAll('input').forEach(classCheckbox => {
+                    classCheckbox.checked = false;
+                    checkboxState.className[classCheckbox.dataset.value] = false;
+                });
+            }
+            // If it's a tagName checkbox and it's checked, check all nested className checkboxes
+            else if (type === "tagName" && checkbox.checked) {
+                container.querySelectorAll('input').forEach(classCheckbox => {
+                    classCheckbox.checked = true;
+                    checkboxState.className[classCheckbox.dataset.value] = true;
+                });
+            }
         });
 
         checkbox.type = "checkbox";
@@ -131,19 +147,26 @@ function populateCheckboxes(xmlDoc) {
 
         label.appendChild(checkbox);
         label.appendChild(document.createTextNode(`${type}: ${value}`));
-        checkboxesContainer.appendChild(label);
+        container.appendChild(label);
     };
 
-    ["Tag Names", "Class Names"].forEach((heading, i) => {
-        const uniqueSet = [uniqueTagNames, uniqueClassNames][i];
-        const type = ["tagName", "className"][i];
-        if (uniqueSet.size > 0) {
-            const h3 = document.createElement("h3");
-            h3.textContent = heading;
-            checkboxesContainer.appendChild(h3);
-            uniqueSet.forEach(value => createCheckbox(value, type));
-        }
-    });
+    for (const tagName in tagClassMapping) {
+        const tagSection = document.createElement("div");
+        checkboxesContainer.appendChild(tagSection);
+
+        const h3 = document.createElement("h3");
+        h3.textContent = `Tag Name: ${tagName}`;
+        tagSection.appendChild(h3);
+
+        createCheckbox(tagName, "tagName", tagSection);
+
+        const classSection = document.createElement("div");
+        tagSection.appendChild(classSection);
+
+        tagClassMapping[tagName].forEach(className => {
+            createCheckbox(className, "className", classSection);
+        });
+    }
 }
 
 function updateDisplay() {
