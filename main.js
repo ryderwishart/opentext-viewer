@@ -149,7 +149,7 @@ function populateCheckboxes(xmlDoc) {
 function updateDisplay() {
     for (const tagName in checkboxState.tagName) {
         const hide = checkboxState.tagName[tagName] === false;
-        const elements = document.querySelectorAll(`#xml-display .${tagName}`);
+        const elements = document.querySelectorAll(`#xml-display ${tagName}`);
         elements.forEach((element) => {
             if (hide) {
                 element.classList.add('hideTag');
@@ -185,7 +185,6 @@ function populateTooltips(node) {
 function populateXMLDisplay(xmlDoc) {
     console.log({ xmlDoc })
     const xmlDisplayContainer = document.getElementById("xml-display");
-    const uniqueNodes = new Set();
     const uniqueTags = new Set();
     const uniqueLabels = new Set();
 
@@ -196,18 +195,17 @@ function populateXMLDisplay(xmlDoc) {
 
     // Scan for unique nodes
     const xmlNodes = Array.from(xmlDisplayContainer.querySelectorAll("*")); // Get all elements in the XML
-    xmlNodes.forEach((node) => {
-        const labelAttr = node.getAttribute("label") || "no-label";
-        const identifier = `${node.tagName}.${node.className}.${labelAttr}`; // unique identifier based on tag name, class name and label
 
-        if (!uniqueNodes.has(identifier)) { // only process unique nodes
-            uniqueNodes.add(identifier);
-            // node.classList.add(`tagName-${node.tagName}`);
-            // node.classList.add(`label-${labelAttr}`);
-            uniqueTags.add(node.tagName);
-            uniqueLabels.add(labelAttr);
-        }
+    xmlNodes.forEach((node) => {
+        if (node.closest("header")) return; // Ignore the <header> node and all descendants of <header>
+
+        // Add the tag name to the set of unique tags
+        uniqueTags.add(node.tagName.toLowerCase());
+
+        // Add the tag name as a class to the node
+        // node.classList.add(node.tagName.toLowerCase());
     });
+
     return { uniqueTags, uniqueLabels };
 }
 
@@ -219,8 +217,9 @@ function addDynamicStyles(uniqueTags, uniqueLabels) {
     uniqueTags.forEach((tag) => {
         const color = randomColor();
         tagColors[tag] = color; // store the color for each tag
-        styles += `.${tag} { border: 2px solid ${color}; border-radius: 5px; padding: 5px; }\n`;
+        styles += `${tag} { border: 2px solid ${color}; border-radius: 5px; padding: 5px; margin: 5px; }\n`;
     });
+
 
     // Add styles for unique class names
     uniqueClassNames.forEach((className) => {
