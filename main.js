@@ -53,6 +53,23 @@ document.addEventListener("DOMContentLoaded", async function () {
     // Select the first file by default
     select.value = xmlFiles[0];
     select.dispatchEvent(new Event("change"));
+
+    setTimeout(() => {
+        // Uncheck all checkboxes after they are created
+        document.getElementById('checkbox-container').querySelectorAll('input').forEach((checkbox) => {
+            checkbox.checked = false;
+            if (checkbox.dataset.tagName) {
+                checkboxState.tagName[checkbox.dataset.tagName] = false;
+            }
+            if (checkbox.dataset.className) {
+                checkboxState.className[checkbox.dataset.className] = false;
+            }
+        });
+
+        // Trigger an update to apply the hide classes
+        updateDisplay();
+    }, 200);
+
 });
 
 // Parse the selected XML file and extract the necessary information
@@ -276,6 +293,23 @@ async function main() {
     await Promise.all(stylesheets.map(loadStylesheet));
     addDynamicStyles(uniqueTags, uniqueLabels);
     const { uniqueTags, uniqueLabels } = populateXMLDisplay(xmlDoc);
+
+    setTimeout(() => {
+        // Uncheck all checkboxes after they are created
+        document.getElementById('checkbox-container').querySelectorAll('input').forEach((checkbox) => {
+            checkbox.checked = false;
+            if (checkbox.dataset.tagName) {
+                checkboxState.tagName[checkbox.dataset.tagName] = false;
+            }
+            if (checkbox.dataset.className) {
+                checkboxState.className[checkbox.dataset.className] = false;
+            }
+        });
+
+        // Trigger an update to apply the hide classes
+        updateDisplay();
+    }, 200);
+
 }
 
 
