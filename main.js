@@ -12,51 +12,48 @@ async function loadXMLFiles() {
     return xmlFiles;
 }
 
-// document.addEventListener("DOMContentLoaded", async function () {
-//     // Create file selector
-//     const fileSelector = document.getElementById("file-selector");
-//     const select = document.createElement("select");
-//     select.addEventListener("change", async () => {
-//         // Clear current XML content and stylesheet
-//         document.getElementById("xml-display").innerHTML = "";
-//         document.getElementById("checkbox-container").innerHTML = "";
-//         // const oldStylesheet = document.querySelector("link[rel=stylesheet]");
-//         // if (oldStylesheet) {
-//         //     oldStylesheet.remove();
-//         // }
+document.addEventListener("DOMContentLoaded", async function () {
+    // Create file selector
+    const fileSelector = document.getElementById("file-selector");
+    const select = document.createElement("select");
+    select.addEventListener("change", async () => {
+        // Clear current XML content and stylesheet
+        document.getElementById("xml-display").innerHTML = "";
+        document.getElementById("checkbox-container").innerHTML = "";
+        const oldStylesheet = document.querySelector("link[rel=stylesheet]");
+        if (oldStylesheet) {
+            oldStylesheet.remove();
+        }
 
-//         // Fetch and parse selected file
-//         const selectedFile = select.value;
-//         const { stylesheets, xmlDoc } = await parseXMLFile(selectedFile);
+        // Fetch and parse selected file
+        const selectedFile = select.value;
+        const { stylesheets, xmlDoc } = await parseXMLFile(selectedFile);
 
-//         for (const stylesheet of stylesheets) {
-//             await Promise.all(stylesheets.map(loadStylesheet));
-//         }
+        for (const stylesheet of stylesheets) {
+            await Promise.all(stylesheets.map(loadStylesheet));
+        }
 
-//         // Repopulate XML content and stylesheet
-//         const { uniqueTags, uniqueLabels } = populateXMLDisplay(xmlDoc);
-//         // addDynamicStyles(uniqueTags, uniqueLabels);
-//         populateCheckboxes(xmlDoc);
-//     });
+        // Repopulate XML content and stylesheet
+        const { uniqueTags, uniqueLabels } = populateXMLDisplay(xmlDoc);
+        addDynamicStyles(uniqueTags, uniqueLabels);
+        populateCheckboxes(xmlDoc);
+    });
 
-//     fileSelector.appendChild(select);
+    fileSelector.appendChild(select);
 
-//     // Load all XML files and populate file selector
-//     const xmlFiles = await loadXMLFiles();
-//     xmlFiles.forEach((file) => {
-//         const option = document.createElement("option");
-//         option.value = file;
-//         option.text = file;
-//         select.appendChild(option);
-//     });
+    // Load all XML files and populate file selector
+    const xmlFiles = await loadXMLFiles();
+    xmlFiles.forEach((file) => {
+        const option = document.createElement("option");
+        option.value = file;
+        option.text = file;
+        select.appendChild(option);
+    });
 
-//     // Select the first file by default
-//     select.value = xmlFiles[0];
-//     select.dispatchEvent(new Event("change"));
-// });
-
-
-
+    // Select the first file by default
+    select.value = xmlFiles[0];
+    select.dispatchEvent(new Event("change"));
+});
 
 // Parse the selected XML file and extract the necessary information
 async function parseXMLFile(file) {
@@ -112,8 +109,8 @@ function populateCheckboxes(xmlDoc) {
         uniqueTagNames.add(node.tagName);
         node.className && uniqueClassNames.add(node.className);
 
-        // Add .{tagName} to node
-        node.classList.add(node.tagName);
+        // Add .{tagName} to node, converting to lowercase
+        node.classList.add(node.tagName.toLowerCase());
     });
 
     checkboxState.tagName = {};
@@ -186,7 +183,6 @@ function populateTooltips(node) {
 }
 
 function populateXMLDisplay(xmlDoc) {
-    debugger;
     console.log({ xmlDoc })
     const xmlDisplayContainer = document.getElementById("xml-display");
     const uniqueNodes = new Set();
@@ -216,7 +212,7 @@ function populateXMLDisplay(xmlDoc) {
 }
 
 function addDynamicStyles(uniqueTags, uniqueLabels) {
-    const styleElement = document.createElement('style');
+    const styleElement = document.createElement('style2');
     let styles = '';
 
     // Add styles for unique tags
@@ -254,10 +250,10 @@ async function main() {
     console.log('main', { xmlFiles });
     const selectedFile = xmlFiles[0]; // Select the first file by default
     const { stylesheets, xmlDoc } = await parseXMLFile(selectedFile);
-    await Promise.all(stylesheets.map(loadStylesheet));
-    const { uniqueTags, uniqueLabels } = populateXMLDisplay(xmlDoc);
     populateCheckboxes(xmlDoc);
+    await Promise.all(stylesheets.map(loadStylesheet));
     addDynamicStyles(uniqueTags, uniqueLabels);
+    const { uniqueTags, uniqueLabels } = populateXMLDisplay(xmlDoc);
 }
 
 
