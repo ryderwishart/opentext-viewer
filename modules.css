@@ -2,59 +2,55 @@
  * Colors *
  **********/
 
-move {
-    --color: var(--context-color);
-}
-
-module[class = speech_act] {
+[class ^= "speech_act"] {
     --color: var(--act-color);
 }
 
-module[class = predicating_act] {
+[class ^= "predicating_act"] {
     --color: var(--pred_act-color);
 }
 
-module[class = generalization] {
+[class ^= "generalization"] {
     --color: var(--gen-color);
 }
 
-module[class = event] {
+[class ^= "event"] {
     --color: var(--event-color);
 }
 
-module[class = definition] {
+[class ^= "definition"] {
     --color: var(--def-color);
 }
 
-module[class = trait] {
+[class ^= "trait"] {
     --color: var(--trait-color);
 }
 
-module[class = intrinsic_collation] {
+[class ^= "intrinsic_collation"] {
     --color: var(--icoll-color);
 }
 
-module[class = circumstance] {
+[class ^= "circumstance"] {
     --color: var(--circ-color);
 }
 
-module[class = extrinsic_collation] {
+[class ^= "extrinsic_collation"] {
     --color: var(--ecoll-color);
 }
 
-module[class = entity] {
+[class ^= "entity"] {
     --color: var(--ent-color);
 }
 
-module[class = modal_predication] {
+[class ^= "modal_predication"] {
     --color: var(--mod_pred-color);
 }
 
-module[class = non-modal_predication] {
+[class ^= "non-modal_predication"] {
     --color: var(--nmod_pred-color);
 }
 
-module[class = scenario] {
+[class ^= "scenario"] {
     --color: var(--scen-color);
 }
 
@@ -69,7 +65,6 @@ module2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 5px;
 }
 
 module:not(:last-child),
@@ -83,118 +78,121 @@ module2:not(:last-child) {
  ***********/
 
 module {
-    border: 3px solid;
+    margin: 10px;
+    box-shadow: 0 0 10px var(--color);
     border-radius: 35px;
-    margin: 5px;
-}
-
-module2[class = construal] {
-    border-radius: 35px;
-    margin: 0px;
 }
 
 /* To eliminate borders for particular module classes, usually because they are lexical and so words rather than wordings. */
-module[class = move],
-module[class = process],
-module[class = name],
-module[class = category],
-module[class = intrinsic_qualitative_scale],
-module[class = extrinsic_qualitative_scale] {
+[class ^= "move"],
+[class ^= "process"],
+[class ^= "name"],
+[class ^= "category"],
+[class ^= "intrinsic_qualitative_scale"],
+[class ^= "extrinsic_qualitative_scale"] {
     border: none !important;
+    box-shadow: none !important;
     margin: 0px !important;
 }
 
 module2 {
-    border: none !important;
+    border: 3px solid var(--color);
+    border-radius: 35px;
 }
 
-module {
-    border-color: var(--color);
+[class $= "+connection"], [class $= "+re-construal"], [class $= "+set"], [class $= "+operation"] {
+    border-style: hidden;
+    padding: 5px;
+}
+
+[class $= "+connection"], [class $= "+operation"] {  
+    padding: 5px;
 }
 
 
-/**********
+/*/\**********
  * Labels *
- **********/
+ **********\/
 
 context > * {
     --label-color: var(--context-color);
 }
 
-module[class = speech_act] > * {
+module[class = "speech_act"] > * {
     --label-color: var(--act-color);
 }
 
-module[class = predicating_act] > * {
+module[class = "predicating_act"] > * {
     --label-color: var(--pred_act-color);
 }
 
-module[class = generalization] > * {
+module[class = "generalization"] > * {
     --label-color: var(--gen-color);
 }
 
-module[class = event] > * {
+module[class = "event"] > * {
     --label-color: var(--event-color);
 }
 
-module[class = definition] > * {
+module[class = "definition"] > * {
     --label-color: var(--def-color);
 }
 
-module[class = trait] > * {
+module[class = "trait"] > * {
     --label-color: var(--trait-color);
 }
 
-module[class = intrinsic_collation] > * {
+module[class = "intrinsic_collation"] > * {
     --label-color: var(--icoll-color);
 }
 
-module[class = circumstance] > * {
+module[class = "circumstance"] > * {
     --label-color: var(--circ-color);
 }
 
-module[class = extrinsic_collation] > * {
+module[class = "extrinsic_collation"] > * {
     --label-color: var(--ecoll-color);
 }
 
-module[class = entity] > * {
+module[class = "entity"] > * {
     --label-color: var(--ent-color);
 }
 
-module[class = modal_predication] > * {
+module[class = "modal_predication"] > * {
     --label-color: var(--mod_pred-color);
 }
 
-module[class = non-modal_predication] > * {
+module[class = "non-modal_predication"] > * {
     --label-color: var(--nmod_pred-color);
 }
 
-module[class = scenario] > * {
+module[class = "scenario"] > * {
     --label-color: var(--scen-color);
 }
 
-*[function]:not(:active):hover::before {
+module[function]:not(:active):hover::before {
     content: attr(function);
     position: absolute;
-    /* horizontally center */
+    /\* horizontally center *\/
     top: 50%;
     transform: translateY(-50%);
-    /* move to left */
+    /\* move to left *\/
     right: 100%;
-    /* basic styles */
+    /\* basic styles *\/
     padding: 10px;
     border-radius: 50px 0px 0px 50px;
     background: var(--label-color);
     text-align: center;
     color: black;
 }
-
+*/
 
 /**********
  * Values *
  **********/
 
-*[values]:active::before {
+module[values]:active::before,
+module2[values]:active::before{
     position: absolute;
     /* horizontally center */
     top: 50%;
