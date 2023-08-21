@@ -73,9 +73,9 @@ module2:not(:last-child) {
 }
 
 
-/***********
- * Borders *
- ***********/
+/*************************
+ * Box-Shadows & Borders *
+ *************************/
 
 module {
     margin: 10px;
@@ -84,7 +84,6 @@ module {
 }
 
 /* To eliminate borders for particular module classes, usually because they are lexical and so words rather than wordings. */
-[class ^= "move"],
 [class ^= "process"],
 [class ^= "name"],
 [class ^= "category"],
@@ -95,18 +94,23 @@ module {
     margin: 0px !important;
 }
 
-module2 {
-    border: 3px solid var(--color);
+module2 {    
     border-radius: 35px;
 }
 
-[class $= "+connection"], [class $= "+re-construal"], [class $= "+set"], [class $= "+operation"] {
-    border-style: hidden;
-    padding: 5px;
+[class $= "+re-construal"], [class $= "+set"] {
+    border: 2px dashed var(--color);
+    margin: 5px;
 }
 
-[class $= "+connection"], [class $= "+operation"] {  
-    padding: 5px;
+[class $= "+connection"], [class $= "+operation"] {
+    border: 2px dotted var(--color);
+    margin: 5px;
+}
+
+[class $= "+action"], [class $= "+construal"] {
+    border: 3px solid var(--color);
+    margin: 5px;
 }
 
 
@@ -220,15 +224,13 @@ module2[values]:active::before{
 module[next],
 module2[next] {
     align-self: stretch !important;
-    border-radius: 35px 0px 0px 35px;
-    border-right-style: dashed;
+    border-radius: 35px 0px 0px 35px;    
 }
 
 module[prev],
 module2[prev] {
     align-self: stretch !important;
     border-radius: 0px 35px 35px 0px;
-    border-left-style: dashed;
 }
 
 module[next][prev],
