@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", async function () {
         }
 
         // Repopulate XML content and stylesheet
-        const { uniqueTags, uniqueLabels } = populateXMLDisplay(xmlDoc);
-        addDynamicStyles(uniqueTags, uniqueLabels);
+        const { uniqueTags, uniqueClassNames } = populateXMLDisplay(xmlDoc);
+        addDynamicStyles(uniqueTags, uniqueClassNames);
         populateCheckboxes(xmlDoc);
     });
 
@@ -122,24 +122,46 @@ function populateCheckboxes(xmlDoc) {
         const label = document.createElement("label");
         const checkbox = document.createElement("input");
 
+        checkbox.dataset[type] = value;
+        if (type === "tagName") {
+            container.dataset.tagname = value; // Add data attribute for tag name section
+        }
+
         checkbox.addEventListener("change", () => {
             checkboxState[type][value] = checkbox.checked;
             updateDisplay();
 
             // If it's a tagName checkbox and it's unchecked, uncheck all nested className checkboxes
-            if (type === "tagName" && !checkbox.checked) {
+            // if (type === "tagName" && !checkbox.checked) {
+            //     container.querySelectorAll('input').forEach(classCheckbox => {
+            //         classCheckbox.checked = false;
+            //         checkboxState.className[classCheckbox.dataset.value] = false;
+            //         const elements = document.querySelectorAll(`#xml-display .${classCheckbox.dataset.value}`);
+            //         elements.forEach((element) => {
+            //             element.setAttribute('data-hide-class', true);
+            //         });
+            //     });
+            // }
+            // // If it's a tagName checkbox and it's checked, check all nested className checkboxes
+            // else if (type === "tagName" && checkbox.checked) {
+            //     container.querySelectorAll('input').forEach(classCheckbox => {
+            //         classCheckbox.checked = true;
+            //         checkboxState.className[classCheckbox.dataset.value] = true;
+            //         const elements = document.querySelectorAll(`#xml-display .${classCheckbox.dataset.value}`);
+            //         elements.forEach((element) => {
+            //             element.removeAttribute('data-hide-class');
+            //         });
+            //     });
+            // }
+            // Handle tagName checkbox change
+            if (type === "tagName") {
                 container.querySelectorAll('input').forEach(classCheckbox => {
-                    classCheckbox.checked = false;
-                    checkboxState.className[classCheckbox.dataset.value] = false;
+                    classCheckbox.checked = checkbox.checked;
+                    checkboxState.className[classCheckbox.dataset.className] = checkbox.checked;
                 });
             }
-            // If it's a tagName checkbox and it's checked, check all nested className checkboxes
-            else if (type === "tagName" && checkbox.checked) {
-                container.querySelectorAll('input').forEach(classCheckbox => {
-                    classCheckbox.checked = true;
-                    checkboxState.className[classCheckbox.dataset.value] = true;
-                });
-            }
+
+            updateDisplay();
         });
 
         checkbox.type = "checkbox";
@@ -174,36 +196,26 @@ function populateCheckboxes(xmlDoc) {
 }
 
 function updateDisplay() {
-    for (const tagName in checkboxState.tagName) {
-        // Always hide OpenText and Text tagnames
-        if (tagName.toLowerCase() === 'opentext' || tagName.toLowerCase() === 'text') {
-            const elements = document.querySelectorAll(`#xml-display ${tagName}`);
-            elements.forEach((element) => {
-                element.classList.add('hideTag');
-            });
-            continue;
-        }
 
+    for (const tagName in checkboxState.tagName) {
         const hide = checkboxState.tagName[tagName] === false;
         const elements = document.querySelectorAll(`#xml-display ${tagName}`);
         elements.forEach((element) => {
-            if (hide) {
-                element.classList.add('hideTag');
-            } else {
-                element.classList.remove('hideTag');
-            }
+            element.setAttribute('data-hide-tag', hide.toString());
         });
-    }
 
-    for (const className in checkboxState.className) {
-        const hide = checkboxState.className[className] === false;
-        const elements = document.querySelectorAll(`#xml-display .${className}`);
-        elements.forEach((element) => {
+        const classSection = document.querySelector(`#checkbox-container div[data-tagname="${tagName}"] div`);
+        classSection.querySelectorAll('input').forEach(classCheckbox => {
+            const className = classCheckbox.dataset.className;
             if (hide) {
-                element.classList.add('hideClass');
+                checkboxState.className[className] = false;
             } else {
-                element.classList.remove('hideClass');
+                checkboxState.className[className] = classCheckbox.checked;
             }
+            const classElements = document.querySelectorAll(`#xml-display .${className}`);
+            classElements.forEach((element) => {
+                element.setAttribute('data-hide-class', (!checkboxState.className[className]).toString());
+            });
         });
     }
 }
@@ -222,7 +234,7 @@ function populateXMLDisplay(xmlDoc) {
     console.log({ xmlDoc })
     const xmlDisplayContainer = document.getElementById("xml-display");
     const uniqueTags = new Set();
-    const uniqueLabels = new Set();
+    const uniqueClassNames = new Set();
 
     // Clone the entire XML document into the "xml-display" container
     const clonedNode = xmlDoc.documentElement.cloneNode(true);
@@ -238,14 +250,16 @@ function populateXMLDisplay(xmlDoc) {
         // Add the tag name to the set of unique tags
         uniqueTags.add(node.tagName.toLowerCase());
 
-        // Add the tag name as a class to the node
-        // node.classList.add(node.tagName.toLowerCase());
+        // Add the class names to the set of unique class names
+        if (node.className) {
+            node.className.split(' ').forEach(className => uniqueClassNames.add(className));
+        }
     });
 
-    return { uniqueTags, uniqueLabels };
+    return { uniqueTags, uniqueClassNames };
 }
 
-function addDynamicStyles(uniqueTags, uniqueLabels) {
+function addDynamicStyles(uniqueTags, uniqueClassNames) {
     const styleElement = document.createElement('style2');
     let styles = '';
 
@@ -287,8 +301,8 @@ async function main() {
     const { stylesheets, xmlDoc } = await parseXMLFile(selectedFile);
     populateCheckboxes(xmlDoc);
     await Promise.all(stylesheets.map(loadStylesheet));
-    addDynamicStyles(uniqueTags, uniqueLabels);
-    const { uniqueTags, uniqueLabels } = populateXMLDisplay(xmlDoc);
+    addDynamicStyles(uniqueTags, uniqueClassNames);
+    const { uniqueTags, uniqueClassNames } = populateXMLDisplay(xmlDoc);
 
 
 }

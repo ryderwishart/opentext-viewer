@@ -62,12 +62,21 @@
         margin-right: 5px;
       }
 
-      .hideTag, .hideClass {
-        display: contents !important;        
-      }     
+      .hideTag,
+      .hideClass {
+        display: contents !important;
+      }
 
       header {
         display: none;
+      }
+
+      #xml-display [data-hide-tag='true'] {
+        display: contents !important;
+      }
+
+      #xml-display [data-hide-class='true'] {
+        display: contents !important;
       }
     </style>
     <script src="main.js"></script>
