@@ -47,23 +47,23 @@ context {
     border-radius: 35px;
 }
 
-context[class = situation],
-context [class = stage] {
+context[class = "situation"],
+context [class = "stage"] {
     flex-direction: column;
     align-items: flex-start !important;
 }
 
-context context[class = situation] {
+context context[class = "situation"] {
     margin: 15px;
     border: 15px solid #ff8080;
 }
 
-context[class = stage] {
+context[class = "stage"] {
     margin-bottom: 15px;
     border: 5px solid #ff8080;    
 }
 
-context[class = stage][title]::before {
+context[class = "stage"][title]::before {
     align-self: flex-start;
     width: 200px;
     content: attr(title);
@@ -76,13 +76,13 @@ context[class = stage][title]::before {
     text-align: center;
 }
 
-context[class = move] {
+context[class = "move"] {
     flex-direction: row;
     margin: 25px 0px !important;
     border: 2px solid #ff8080;
 }
 
-context[class = move][id]::before {
+context[class = "move"][id]::before {
     align-self: flex-start;
     width: 200px;
     margin-right: 15px;

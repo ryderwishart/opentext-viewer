@@ -18,34 +18,34 @@ error:last-child {
     margin-right: 7px;
 }
 
-wording[class = cluster] {
+wording[class = "cluster"] {
     position: relative;
     border: 2px solid black;
     border-radius: 35px;
 }
 
-wording[class = cluster][pinned] {
+wording[class = "cluster"][pinned] {
     border-radius: 25px 0px 0px 25px;
 }
 
-wording[class = word]:not([status = core]) {
+wording[class = "word"]:not([status = "core"]) {
     position: relative;
     border: 2px solid darkgray;
     border-radius: 25px;
     background-color: #e6e6e6;
 }
 
-wording[class = word][status = connective] {
+wording[class = "word"][status = "connective"] {
     padding: 7px;
     border-radius: 25px;
 }
 
-wording[class = word][status = translative] {
+wording[class = "word"][status = "translative"] {
     padding: 2px;
     border-radius: 25px 0px 0px 25px;
 }
 
-wording[class = word][status = junctive] {
+wording[class = "word"][status = "junctive"] {
     padding: 2px;
     border-radius: 0px;
 }
@@ -57,6 +57,7 @@ path {
     border-radius: 10px;
     border-right: none;
     border-left: none;
+    padding: 5px 0px;
 }
 
 path:first-child {
@@ -72,7 +73,8 @@ path:last-child {
  * Function Labels *
  *******************/
 
-*[function]:hover:not(:active)::before {
+wording[function]:hover:not(:active)::before,
+path[function]:hover:not(:active)::before {
     display: flex;
     content: attr(function);
     position: absolute;
@@ -96,7 +98,7 @@ path:last-child {
  * Values *
  **********/
 
-*[values]:active::before {
+wording[values]:active::before {
     position: absolute;
     /* horizontally center */
     top: 50%;
@@ -140,19 +142,19 @@ error[note]:hover:not(:active)::before {
  * Discontinuity *
  ****************/
 
-wording[class = cluster][next] {
+wording[class = "cluster"][next] {
     align-self: stretch !important;
     border-radius: 35px 0px 0px 35px;
     border-right-style: dashed;
 }
 
-wording[class = cluster][prev] {
+wording[class = "cluster"][prev] {
     align-self: stretch !important;
     border-radius: 0px 35px 35px 0px;
     border-left-style: dashed;
 }
 
-wording[class = cluster][next][prev] {
+wording[class = "cluster"][next][prev] {
     border-radius: 0px;
 }
 
