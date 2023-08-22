@@ -129,39 +129,22 @@ function populateCheckboxes(xmlDoc) {
 
         checkbox.addEventListener("change", () => {
             checkboxState[type][value] = checkbox.checked;
-            updateDisplay();
 
-            // If it's a tagName checkbox and it's unchecked, uncheck all nested className checkboxes
-            // if (type === "tagName" && !checkbox.checked) {
-            //     container.querySelectorAll('input').forEach(classCheckbox => {
-            //         classCheckbox.checked = false;
-            //         checkboxState.className[classCheckbox.dataset.value] = false;
-            //         const elements = document.querySelectorAll(`#xml-display .${classCheckbox.dataset.value}`);
-            //         elements.forEach((element) => {
-            //             element.setAttribute('data-hide-class', true);
-            //         });
-            //     });
-            // }
-            // // If it's a tagName checkbox and it's checked, check all nested className checkboxes
-            // else if (type === "tagName" && checkbox.checked) {
-            //     container.querySelectorAll('input').forEach(classCheckbox => {
-            //         classCheckbox.checked = true;
-            //         checkboxState.className[classCheckbox.dataset.value] = true;
-            //         const elements = document.querySelectorAll(`#xml-display .${classCheckbox.dataset.value}`);
-            //         elements.forEach((element) => {
-            //             element.removeAttribute('data-hide-class');
-            //         });
-            //     });
-            // }
-            // Handle tagName checkbox change
             if (type === "tagName") {
+                // If it's a tagName checkbox, update all nested className checkboxes
                 container.querySelectorAll('input').forEach(classCheckbox => {
                     classCheckbox.checked = checkbox.checked;
                     checkboxState.className[classCheckbox.dataset.className] = checkbox.checked;
                 });
+            } else if (type === "className") {
+                // If it's a className checkbox, update the specific class
+                const elements = document.querySelectorAll(`#xml-display .${value}`);
+                elements.forEach((element) => {
+                    element.setAttribute('data-hide-class', (!checkbox.checked).toString());
+                });
             }
 
-            updateDisplay();
+            updateDisplay(); // Call updateDisplay here to reflect the changes
         });
 
         checkbox.type = "checkbox";
@@ -169,19 +152,22 @@ function populateCheckboxes(xmlDoc) {
         checkbox.dataset[type] = value;
 
         label.appendChild(checkbox);
-        label.appendChild(document.createTextNode(`${type}: ${value}`));
+        // label.appendChild(document.createTextNode(`${type}: ${value}`));
+        label.appendChild(document.createTextNode(value));
         container.appendChild(label);
     };
 
     for (const tagName in tagClassMapping) {
         // Skip creating checkboxes for OpenText and Text tagnames
-        if (tagName.toLowerCase() === 'opentext' || tagName.toLowerCase() === 'text') continue;
+        if (tagName.toLowerCase() === 'opentext'
+            || tagName.toLowerCase() === 'text'
+            || tagName.toLowerCase() === 'token') continue;
 
         const tagSection = document.createElement("div");
         checkboxesContainer.appendChild(tagSection);
 
         const h3 = document.createElement("h3");
-        h3.textContent = `Tag Name: ${tagName}`;
+        h3.textContent = tagName;
         tagSection.appendChild(h3);
 
         createCheckbox(tagName, "tagName", tagSection);
@@ -196,26 +182,34 @@ function populateCheckboxes(xmlDoc) {
 }
 
 function updateDisplay() {
-
     for (const tagName in checkboxState.tagName) {
-        const hide = checkboxState.tagName[tagName] === false;
+        const hideTag = checkboxState.tagName[tagName] === false;
         const elements = document.querySelectorAll(`#xml-display ${tagName}`);
         elements.forEach((element) => {
-            element.setAttribute('data-hide-tag', hide.toString());
+            element.setAttribute('data-hide-tag', hideTag.toString());
         });
 
-        const classSection = document.querySelector(`#checkbox-container div[data-tagname="${tagName}"] div`);
-        classSection.querySelectorAll('input').forEach(classCheckbox => {
-            const className = classCheckbox.dataset.className;
-            if (hide) {
-                checkboxState.className[className] = false;
-            } else {
-                checkboxState.className[className] = classCheckbox.checked;
-            }
-            const classElements = document.querySelectorAll(`#xml-display .${className}`);
-            classElements.forEach((element) => {
-                element.setAttribute('data-hide-class', (!checkboxState.className[className]).toString());
+        // If the parent tag is hidden but some child classes are still shown, handle those cases
+        if (hideTag) {
+            const tagContainer = document.querySelector(`#checkbox-container div[data-tagname="${tagName}"] div`);
+            tagContainer.querySelectorAll('input').forEach(classCheckbox => {
+                const className = classCheckbox.dataset.className;
+                if (classCheckbox.checked) {
+                    const classElements = document.querySelectorAll(`#xml-display ${tagName}.${className}`);
+                    classElements.forEach((element) => {
+                        element.removeAttribute('data-hide-tag');
+                    });
+                }
             });
+        }
+    }
+
+    // Loop through className state to update all classes
+    for (const className in checkboxState.className) {
+        const hide = checkboxState.className[className] === false;
+        const classElements = document.querySelectorAll(`#xml-display .${className}`);
+        classElements.forEach((element) => {
+            element.setAttribute('data-hide-class', hide.toString());
         });
     }
 }
@@ -299,7 +293,7 @@ async function main() {
     console.log('main', { xmlFiles });
     const selectedFile = xmlFiles[0]; // Select the first file by default
     const { stylesheets, xmlDoc } = await parseXMLFile(selectedFile);
-    populateCheckboxes(xmlDoc);
+    // populateCheckboxes(xmlDoc);
     await Promise.all(stylesheets.map(loadStylesheet));
     addDynamicStyles(uniqueTags, uniqueClassNames);
     const { uniqueTags, uniqueClassNames } = populateXMLDisplay(xmlDoc);
