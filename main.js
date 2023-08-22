@@ -179,7 +179,7 @@ function updateDisplay() {
         if (tagName.toLowerCase() === 'opentext' || tagName.toLowerCase() === 'text' || tagName.toLowerCase() === 'path' || tagName.toLowerCase() === 'token' || tagName.toLowerCase() === 'ellipsis') {
             const elements = document.querySelectorAll(`#xml-display ${tagName}`);
             elements.forEach((element) => {
-                dataset.hideTag = "true";
+                element.dataset.hideTag = "true";
             });
             continue;
         }
@@ -188,9 +188,9 @@ function updateDisplay() {
         const elements = document.querySelectorAll(`#xml-display ${tagName}`);
         elements.forEach((element) => {
             if (hide) {
-                dataset.hideTag = "true";
+                element.dataset.hideTag = "true";
             } else {
-                dataset.hideTag = "false";
+                element.dataset.hideTag = "false";
             }
         });
     }
@@ -200,9 +200,9 @@ function updateDisplay() {
         const elements = document.querySelectorAll(`#xml-display .${className}`);
         elements.forEach((element) => {
             if (hide) {
-                dataset.hideClass = "true";
+                element.dataset.hideClass = "true";
             } else {
-                dataset.hideClass = "false";
+                element.dataset.hideClass = "false";
             }
         });
     }
