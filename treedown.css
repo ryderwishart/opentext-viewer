@@ -4,7 +4,9 @@
 
 book {
   padding: 2em;
-  margin-left: 180px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
 }
 milestone {
   color: blue;
