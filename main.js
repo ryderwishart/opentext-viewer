@@ -54,22 +54,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     select.value = xmlFiles[0];
     select.dispatchEvent(new Event("change"));
 
-    setTimeout(() => {
-        // Uncheck all checkboxes after they are created
-        document.getElementById('checkbox-container').querySelectorAll('input').forEach((checkbox) => {
-            checkbox.checked = false;
-            if (checkbox.dataset.tagName) {
-                checkboxState.tagName[checkbox.dataset.tagName] = false;
-            }
-            if (checkbox.dataset.className) {
-                checkboxState.className[checkbox.dataset.className] = false;
-            }
-        });
-
-        // Trigger an update to apply the hide classes
-        updateDisplay();
-    }, 200);
-
 });
 
 // Parse the selected XML file and extract the necessary information
@@ -168,6 +152,9 @@ function populateCheckboxes(xmlDoc) {
     };
 
     for (const tagName in tagClassMapping) {
+        // Skip creating checkboxes for OpenText and Text tagnames
+        if (tagName.toLowerCase() === 'opentext' || tagName.toLowerCase() === 'text') continue;
+
         const tagSection = document.createElement("div");
         checkboxesContainer.appendChild(tagSection);
 
@@ -188,6 +175,15 @@ function populateCheckboxes(xmlDoc) {
 
 function updateDisplay() {
     for (const tagName in checkboxState.tagName) {
+        // Always hide OpenText and Text tagnames
+        if (tagName.toLowerCase() === 'opentext' || tagName.toLowerCase() === 'text') {
+            const elements = document.querySelectorAll(`#xml-display ${tagName}`);
+            elements.forEach((element) => {
+                element.classList.add('hideTag');
+            });
+            continue;
+        }
+
         const hide = checkboxState.tagName[tagName] === false;
         const elements = document.querySelectorAll(`#xml-display ${tagName}`);
         elements.forEach((element) => {
@@ -294,21 +290,6 @@ async function main() {
     addDynamicStyles(uniqueTags, uniqueLabels);
     const { uniqueTags, uniqueLabels } = populateXMLDisplay(xmlDoc);
 
-    setTimeout(() => {
-        // Uncheck all checkboxes after they are created
-        document.getElementById('checkbox-container').querySelectorAll('input').forEach((checkbox) => {
-            checkbox.checked = false;
-            if (checkbox.dataset.tagName) {
-                checkboxState.tagName[checkbox.dataset.tagName] = false;
-            }
-            if (checkbox.dataset.className) {
-                checkboxState.className[checkbox.dataset.className] = false;
-            }
-        });
-
-        // Trigger an update to apply the hide classes
-        updateDisplay();
-    }, 200);
 
 }
 
