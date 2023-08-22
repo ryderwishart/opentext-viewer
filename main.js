@@ -152,8 +152,8 @@ function populateCheckboxes(xmlDoc) {
     };
 
     for (const tagName in tagClassMapping) {
-        // Skip creating checkboxes for OpenText and Text tagnames
-        if (tagName.toLowerCase() === 'opentext' || tagName.toLowerCase() === 'text') continue;
+        // Skip creating checkboxes for unwanted tagnames
+        if (tagName.toLowerCase() === 'opentext' || tagName.toLowerCase() === 'text' || tagName.toLowerCase() === 'path' || tagName.toLowerCase() === 'token' || tagName.toLowerCase() === 'ellipsis') continue;
 
         const tagSection = document.createElement("div");
         checkboxesContainer.appendChild(tagSection);
@@ -175,11 +175,11 @@ function populateCheckboxes(xmlDoc) {
 
 function updateDisplay() {
     for (const tagName in checkboxState.tagName) {
-        // Always hide OpenText and Text tagnames
-        if (tagName.toLowerCase() === 'opentext' || tagName.toLowerCase() === 'text') {
+        // Always hide unwanted tagnames
+        if (tagName.toLowerCase() === 'opentext' || tagName.toLowerCase() === 'text' || tagName.toLowerCase() === 'path' || tagName.toLowerCase() === 'token' || tagName.toLowerCase() === 'ellipsis') {
             const elements = document.querySelectorAll(`#xml-display ${tagName}`);
             elements.forEach((element) => {
-                element.classList.add('hideTag');
+                element.dataset.hideTag = "true";
             });
             continue;
         }
@@ -188,9 +188,9 @@ function updateDisplay() {
         const elements = document.querySelectorAll(`#xml-display ${tagName}`);
         elements.forEach((element) => {
             if (hide) {
-                element.classList.add('hideTag');
+                element.dataset.hideTag = "true";
             } else {
-                element.classList.remove('hideTag');
+                element.dataset.hideTag = "false";
             }
         });
     }
@@ -200,9 +200,9 @@ function updateDisplay() {
         const elements = document.querySelectorAll(`#xml-display .${className}`);
         elements.forEach((element) => {
             if (hide) {
-                element.classList.add('hideClass');
+                element.dataset.hideClass = "true";
             } else {
-                element.classList.remove('hideClass');
+                element.dataset.hideClass = "false";
             }
         });
     }
