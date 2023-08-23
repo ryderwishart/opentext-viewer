@@ -80,23 +80,26 @@ module2:not(:last-child) {
  * Functions *
  *************/
 
-function {
+function, function2 {
     align-self: stretch;
     display: flex;
     flex-direction: column;
-    margin: 7px 0px 7px 7px;
     justify-content: center;
 }
 
-function:first-child {
+*:hover > function, *:hover > function2 {    
+    margin: 7px 0px 7px 7px;
+}
+
+*:hover > function:first-child, *:hover > function2:first-child {
     margin-left: 7px;
 }
 
-function:last-child {
+*:hover > function:last-child, *:hover > function2:last-child {
     margin-right: 7px;
 }
 
-*:hover > function::before {
+*:hover > function::before, *:hover > function2::before {
     margin-bottom: auto;
     height: 20px;
     display: flex;
@@ -111,11 +114,11 @@ function:last-child {
     color: #505050;
 }
 
-function > * {
+*:hover > function > *, *:hover > function2 > * {
     margin: auto 0px;
 }
 
-*:hover > function::after {
+*:hover > function::after, *:hover > function2::after {
     margin-top: auto;
     height: 20px;
     display: flex;

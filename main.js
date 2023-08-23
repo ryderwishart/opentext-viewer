@@ -161,6 +161,10 @@ function populateCheckboxes(xmlDoc) {
         // Skip creating checkboxes for OpenText and Text tagnames
         if (tagName.toLowerCase() === 'opentext'
             || tagName.toLowerCase() === 'text'
+            || tagName.toLowerCase() === 'module2'            
+            || tagName.toLowerCase() === 'function2'
+            || tagName.toLowerCase() === 'path'
+            || tagName.toLowerCase() === 'ellipsis'
             || tagName.toLowerCase() === 'token') continue;
 
         const tagSection = document.createElement("div");
