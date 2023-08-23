@@ -2,6 +2,10 @@
  * Colors *
  **********/
 
+context {
+    --color: var(--context-color);
+}
+
 [class ^= "speech_act"] {
     --color: var(--act-color);
 }
@@ -72,15 +76,62 @@ module2:not(:last-child) {
     margin-right: 5px;
 }
 
+/*************
+ * Functions *
+ *************/
+
+function {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0px 7px 7px;
+    justify-content: center;
+}
+
+function:first-child {
+    margin-left: 7px;
+}
+
+function:last-child {
+    margin-right: 7px;
+}
+
+*:hover > function::before {
+    margin-bottom: auto;
+    height: 20px;
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
+    padding: 2px 5px;
+    border-radius: 15px 15px 0px 0px;
+    background: var(--color);
+    align-items: center;
+    justify-content: center;
+    content: attr(label);
+    color: #505050;
+}
+
+function > * {
+    margin: auto 0px;
+}
+
+*:hover > function::after {
+    margin-top: auto;
+    height: 20px;
+    display: flex;
+    padding: 2px 5px;
+    content: attr(none);
+}
+
 
 /*************************
- * Box-Shadows & Borders *
+ * Borders & Box Shadows *
  *************************/
 
 module {
     margin: 10px;
     box-shadow: 0 0 10px var(--color);
-    border-radius: 35px;
+    border-radius: 20px;
 }
 
 /* To eliminate borders for particular module classes, usually because they are lexical and so words rather than wordings. */
@@ -95,108 +146,31 @@ module {
 }
 
 module2 {    
-    border-radius: 35px;
+    border-radius: 20px;
 }
 
-[class $= "+re-construal"], [class $= "+set"] {
+module2[class $= "+re-construal"], module2[class $= "+set"] {
     border: 2px dashed var(--color);
     margin: 5px;
 }
 
-[class $= "+connection"], [class $= "+operation"] {
+module2[class $= "+connection"], module2[class $= "+operation"] {
     border: 2px dotted var(--color);
     margin: 5px;
 }
 
-[class $= "+action"], [class $= "+construal"] {
+module2[class $= "+action"], module2[class $= "+construal"] {
     border: 3px solid var(--color);
     margin: 5px;
 }
 
-
-/*/\**********
- * Labels *
- **********\/
-
-context > * {
-    --label-color: var(--context-color);
-}
-
-module[class = "speech_act"] > * {
-    --label-color: var(--act-color);
-}
-
-module[class = "predicating_act"] > * {
-    --label-color: var(--pred_act-color);
-}
-
-module[class = "generalization"] > * {
-    --label-color: var(--gen-color);
-}
-
-module[class = "event"] > * {
-    --label-color: var(--event-color);
-}
-
-module[class = "definition"] > * {
-    --label-color: var(--def-color);
-}
-
-module[class = "trait"] > * {
-    --label-color: var(--trait-color);
-}
-
-module[class = "intrinsic_collation"] > * {
-    --label-color: var(--icoll-color);
-}
-
-module[class = "circumstance"] > * {
-    --label-color: var(--circ-color);
-}
-
-module[class = "extrinsic_collation"] > * {
-    --label-color: var(--ecoll-color);
-}
-
-module[class = "entity"] > * {
-    --label-color: var(--ent-color);
-}
-
-module[class = "modal_predication"] > * {
-    --label-color: var(--mod_pred-color);
-}
-
-module[class = "non-modal_predication"] > * {
-    --label-color: var(--nmod_pred-color);
-}
-
-module[class = "scenario"] > * {
-    --label-color: var(--scen-color);
-}
-
-module[function]:not(:active):hover::before {
-    content: attr(function);
-    position: absolute;
-    /\* horizontally center *\/
-    top: 50%;
-    transform: translateY(-50%);
-    /\* move to left *\/
-    right: 100%;
-    /\* basic styles *\/
-    padding: 10px;
-    border-radius: 50px 0px 0px 50px;
-    background: var(--label-color);
-    text-align: center;
-    color: black;
-}
-*/
 
 /**********
  * Values *
  **********/
 
 module[values]:active::before,
-module2[values]:active::before{
+module2[values]:active::before {
     position: absolute;
     /* horizontally center */
     top: 50%;
@@ -216,7 +190,6 @@ module2[values]:active::before{
 }
 
 
-
 /*****************
  * Discontinuity *
  ****************/
@@ -224,13 +197,13 @@ module2[values]:active::before{
 module[next],
 module2[next] {
     align-self: stretch !important;
-    border-radius: 35px 0px 0px 35px;    
+    border-radius: 20px 0px 0px 20px;    
 }
 
 module[prev],
 module2[prev] {
     align-self: stretch !important;
-    border-radius: 0px 35px 35px 0px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 module[next][prev],

@@ -38,7 +38,6 @@ header {
 
 text {
     display: flex;
-    padding-left: 200px;
 }
 
 context {
@@ -53,14 +52,14 @@ context [class = "stage"] {
     align-items: flex-start !important;
 }
 
-context context[class = "situation"] {
+context[class = "situation"] {
     margin: 15px;
-    border: 15px solid #ff8080;
+    border: 12px solid #ff8080;
 }
 
 context[class = "stage"] {
     margin-bottom: 15px;
-    border: 5px solid #ff8080;    
+    border: 8px solid #ff8080;    
 }
 
 context[class = "stage"][title]::before {
@@ -69,7 +68,7 @@ context[class = "stage"][title]::before {
     content: attr(title);
     margin: 10px;
     padding: 10px;
-    border: 5px solid #ff8080;
+    border: 4px solid #ff8080;
     border-radius: 10px;
     background: white;
     color: black;
@@ -78,12 +77,12 @@ context[class = "stage"][title]::before {
 
 context[class = "move"] {
     flex-direction: row;
+    align-items: center;
     margin: 25px 0px !important;
-    border: 2px solid #ff8080;
+    border: 4px solid #ff8080;
 }
 
-context[class = "move"][id]::before {
-    align-self: flex-start;
+context[class = "move"][id]::before { 
     width: 200px;
     margin-right: 15px;
     content: attr(id);
@@ -128,18 +127,31 @@ error {
  **********/
 
 token {
-    position: relative;
-    display: inline-flex;
-    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7px 0px 7px 7px;
     border-radius: 25px;
     justify-content: center;
     white-space: nowrap;
 }
 
-token::before {
+token:first-child {
+    margin-left: 7px;
+}
+
+token:last-child {
+    margin-right: 7px;
+}
+
+greek::before {
     content: attr(before)
 }
 
-token::after {
+greek::after {
     content: attr(after)
+}
+
+english {
+    color: silver;
 }

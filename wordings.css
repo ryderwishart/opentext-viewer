@@ -11,6 +11,13 @@ ellipsis {
     margin: 7px 0px 7px 7px;
 }
 
+wording:first-child,
+path:first-child,
+ellipsis:first-child,
+error:first-child {
+    margin-left: 7px;
+}
+
 wording:last-child,
 path:last-child,
 ellipsis:last-child,
@@ -21,7 +28,7 @@ error:last-child {
 wording[class = "cluster"] {
     position: relative;
     border: 2px solid black;
-    border-radius: 35px;
+    border-radius: 20px;
 }
 
 wording[class = "cluster"][pinned] {
@@ -35,18 +42,19 @@ wording[class = "word"]:not([status = "core"]) {
     background-color: #e6e6e6;
 }
 
+wording[class = "word"][status = "core"] token {
+    margin: 0px;
+}
+
 wording[class = "word"][status = "connective"] {
-    padding: 7px;
     border-radius: 25px;
 }
 
 wording[class = "word"][status = "translative"] {
-    padding: 2px;
     border-radius: 25px 0px 0px 25px;
 }
 
 wording[class = "word"][status = "junctive"] {
-    padding: 2px;
     border-radius: 0px;
 }
 
@@ -79,14 +87,14 @@ path[function]:hover:not(:active)::before {
     content: attr(function);
     position: absolute;
     /* horizontally center */
-    top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
     /* move to left */
-    right: 100%;
+    bottom: 100%;
     /* basic styles */
     padding: 10px;
     box-shadow: 0 3px 15px white;
-    border-radius: 50px 0px 0px 50px;
+    border-radius: 50px 50px 0px 0px;
     background: black;
     text-align: center;
     color: white;
@@ -98,7 +106,8 @@ path[function]:hover:not(:active)::before {
  * Values *
  **********/
 
-wording[values]:active::before {
+wording[values]:active::before,
+path[values]:active::before {
     position: absolute;
     /* horizontally center */
     top: 50%;
@@ -144,13 +153,13 @@ error[note]:hover:not(:active)::before {
 
 wording[class = "cluster"][next] {
     align-self: stretch !important;
-    border-radius: 35px 0px 0px 35px;
+    border-radius: 20px 0px 0px 20px;
     border-right-style: dashed;
 }
 
 wording[class = "cluster"][prev] {
     align-self: stretch !important;
-    border-radius: 0px 35px 35px 0px;
+    border-radius: 0px 20px 20px 0px;
     border-left-style: dashed;
 }
 
