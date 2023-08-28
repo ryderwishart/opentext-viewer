@@ -1,3 +1,22 @@
+:root {
+    --context-color: #ff8080;
+    --speech-color: orange;
+    --act-color: pink;
+    --pred_act-color: #ffff33;
+    --abstr-color: #cce6ff;
+    --event-color: #d1e39c;
+    --def-color: #b89c81;
+    --trait-color: #e7ded5;
+    --icoll-color: #e6ccff;
+    --ecoll-color: #e6ccff;
+    --circ-color: #d8605a; /*cf3830 ffcccc*/
+    --ent-color: #895b2d; /*ac7339*/
+    --mod_pred-color: #ffff33;
+    --nmod_pred-color: #ffff33;
+    --scen-color: #ffff33;
+}
+
+
 /**********
  * Colors *
  **********/
@@ -6,55 +25,59 @@ context {
     --color: var(--context-color);
 }
 
-[class ^= "speech_act"] {
+[class = "speech"] {
+    --color: var(--speech-color);
+}
+
+[class = "speech_act"] {
     --color: var(--act-color);
 }
 
-[class ^= "predicating_act"] {
+[class = "predicating_act"] {
     --color: var(--pred_act-color);
 }
 
-[class ^= "generalization"] {
-    --color: var(--gen-color);
+[class = "abstraction"] {
+    --color: var(--abstr-color);
 }
 
-[class ^= "event"] {
+[class = "event"] {
     --color: var(--event-color);
 }
 
-[class ^= "definition"] {
+[class = "definition"] {
     --color: var(--def-color);
 }
 
-[class ^= "trait"] {
+[class = "trait"] {
     --color: var(--trait-color);
 }
 
-[class ^= "intrinsic_collation"] {
+[class = "intrinsic_collation"] {
     --color: var(--icoll-color);
 }
 
-[class ^= "circumstance"] {
+[class = "circumstance"] {
     --color: var(--circ-color);
 }
 
-[class ^= "extrinsic_collation"] {
+[class = "extrinsic_collation"] {
     --color: var(--ecoll-color);
 }
 
-[class ^= "entity"] {
+[class = "entity"] {
     --color: var(--ent-color);
 }
 
-[class ^= "modal_predication"] {
+[class = "modal_predication"] {
     --color: var(--mod_pred-color);
 }
 
-[class ^= "non-modal_predication"] {
+[class = "non-modal_predication"] {
     --color: var(--nmod_pred-color);
 }
 
-[class ^= "scenario"] {
+[class = "scenario"] {
     --color: var(--scen-color);
 }
 
@@ -63,43 +86,69 @@ context {
  * Modules *
  ***********/
 
-module,
-module2 {
+module {
     position: relative;
+    margin: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-radius: 20px;
 }
 
-module:not(:last-child),
-module2:not(:last-child) {
+module:not(:last-child) {
     margin-right: 5px;
+}
+
+/* To eliminate borders for particular module classes, usually because they are lexical and so words rather than wordings. */
+module[pos] {
+    border: none !important;
+    box-shadow: none !important;
+    margin: 0px !important;
+}
+
+module[subclass = "activation"] {
+    margin: 10px;
+    box-shadow: 0 0 10px var(--color);
+}
+
+module[subclass = "re-construal"],
+module[subclass = "set"] {
+    border: 2px dashed var(--color);
+}
+
+module[subclass = "connection"],
+module[subclass = "operation"] {
+    border: 2px dotted var(--color);
+}
+
+module[subclass = "specification"] {
+    border: 3px solid var(--color);
 }
 
 /*************
  * Functions *
  *************/
 
-function, function2 {
+function {
     align-self: stretch;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-*:hover > function, *:hover > function2 {    
+*:hover > function {
     margin: 7px 0px 7px 7px;
 }
 
-*:hover > function:first-child, *:hover > function2:first-child {
+*:hover > function:first-child {
     margin-left: 7px;
 }
 
-*:hover > function:last-child, *:hover > function2:last-child {
+*:hover > function:last-child {
     margin-right: 7px;
 }
 
-*:hover > function::before, *:hover > function2::before {
+*:hover > function::before {
     margin-bottom: auto;
     height: 20px;
     display: flex;
@@ -114,11 +163,11 @@ function, function2 {
     color: #505050;
 }
 
-*:hover > function > *, *:hover > function2 > * {
+*:hover > function > * {
     margin: auto 0px;
 }
 
-*:hover > function::after, *:hover > function2::after {
+*:hover > function::after {
     margin-top: auto;
     height: 20px;
     display: flex;
@@ -127,53 +176,11 @@ function, function2 {
 }
 
 
-/*************************
- * Borders & Box Shadows *
- *************************/
-
-module {
-    margin: 10px;
-    box-shadow: 0 0 10px var(--color);
-    border-radius: 20px;
-}
-
-/* To eliminate borders for particular module classes, usually because they are lexical and so words rather than wordings. */
-[class ^= "process"],
-[class ^= "name"],
-[class ^= "category"],
-[class ^= "intrinsic_qualitative_scale"],
-[class ^= "extrinsic_qualitative_scale"] {
-    border: none !important;
-    box-shadow: none !important;
-    margin: 0px !important;
-}
-
-module2 {    
-    border-radius: 20px;
-}
-
-module2[class $= "+re-construal"], module2[class $= "+set"] {
-    border: 2px dashed var(--color);
-    margin: 5px;
-}
-
-module2[class $= "+connection"], module2[class $= "+operation"] {
-    border: 2px dotted var(--color);
-    margin: 5px;
-}
-
-module2[class $= "+action"], module2[class $= "+construal"] {
-    border: 3px solid var(--color);
-    margin: 5px;
-}
-
-
 /**********
  * Values *
  **********/
 
-module[values]:active::before,
-module2[values]:active::before {
+module[values]:active::before {
     position: absolute;
     /* horizontally center */
     top: 50%;
@@ -197,20 +204,17 @@ module2[values]:active::before {
  * Discontinuity *
  ****************/
 
-module[next],
-module2[next] {
+module[next] {
     align-self: stretch !important;
-    border-radius: 20px 0px 0px 20px;    
+    border-radius: 20px 0px 0px 20px;
 }
 
-module[prev],
-module2[prev] {
+module[prev] {
     align-self: stretch !important;
     border-radius: 0px 20px 20px 0px;
 }
 
-module[next][prev],
-module2[next][prev] {
+module[next][prev] {
     border-radius: 0px;
 }
 

@@ -6,20 +6,7 @@
 }
 
 :root {
-    --context-color: #ff8080; /*#ffc966*/
-    --act-color: pink;
-    --pred_act-color: #ffff33;
-    --gen-color: #cce6ff;
-    --event-color: #d1e39c;
-    --def-color: #e6ccb3;
-    --trait-color: #f0dece;
-    --icoll-color: #e6ccff;
-    --ecoll-color: #e6ccff;
-    --circ-color: #d8605a; /*cf3830 ffcccc*/
-    --ent-color: #996633; /*ac7339*/
-    --mod_pred-color: #ffff33;
-    --nmod_pred-color: #ffff33;
-    --scen-color: #ffff33;
+    --context-color: #ff8080;
 }
 
 /*************************
@@ -75,14 +62,14 @@ context[class = "stage"][title]::before {
     text-align: center;
 }
 
-context[class = "move"] {
+context[class = "action"] {
     flex-direction: row;
     align-items: center;
     margin: 25px 0px !important;
     border: 4px solid #ff8080;
 }
 
-context[class = "move"][id]::before { 
+context[class = "action"][id]::before { 
     width: 200px;
     margin-right: 15px;
     content: attr(id);
@@ -94,13 +81,12 @@ context[class = "move"][id]::before {
     text-align: center;
 }
 
-/*****************************
- * Layout for Other Elements *
- *****************************/
+/****************************
+ * Layout for Misc Elements *
+ ****************************/
 
 v,
 v2,
-path,
 ellipsis,
 error {
     display: flex;

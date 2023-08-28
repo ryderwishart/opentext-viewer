@@ -3,7 +3,6 @@
  *********************************/
 
 wording,
-path,
 ellipsis {
     display: flex;
     flex-direction: row;
@@ -12,14 +11,12 @@ ellipsis {
 }
 
 wording:first-child,
-path:first-child,
 ellipsis:first-child,
 error:first-child {
     margin-left: 7px;
 }
 
 wording:last-child,
-path:last-child,
 ellipsis:last-child,
 error:last-child {
     margin-right: 7px;
@@ -58,7 +55,7 @@ wording[class = "word"][status = "junctive"] {
     border-radius: 0px;
 }
 
-path {
+wording[class = "path"] {
     position: relative;
     align-self: stretch;
     border: 1px solid black;
@@ -68,11 +65,11 @@ path {
     padding: 5px 0px;
 }
 
-path:first-child {
+wording[class = "path"]:first-child {
     margin-left: 15px;
 }
 
-path:last-child {
+wording[class = "path"]:last-child {
     margin-right: 15px;
 }
 
@@ -81,8 +78,7 @@ path:last-child {
  * Function Labels *
  *******************/
 
-wording[function]:hover:not(:active)::before,
-path[function]:hover:not(:active)::before {
+wording[function]:hover:not(:active)::before {
     display: flex;
     content: attr(function);
     position: absolute;
@@ -106,8 +102,7 @@ path[function]:hover:not(:active)::before {
  * Values *
  **********/
 
-wording[values]:active::before,
-path[values]:active::before {
+wording[values]:active::before {
     position: absolute;
     /* horizontally center */
     top: 50%;
@@ -167,12 +162,12 @@ wording[class = "cluster"][next][prev] {
     border-radius: 0px;
 }
 
-path[next] {
+wording[class = "path"][next] {
     border-radius: 10px 0px 0px 10px;
     border-width: 1px;
 }
 
-path[prev] {
+wording[class = "path"][prev] {
     border-radius: 0px 10px 10px 00px;
     border-width: 1px;
 }
