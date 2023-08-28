@@ -39,7 +39,7 @@ wording[class = "word"]:not([status = "core"]) {
     background-color: #e6e6e6;
 }
 
-wording[class = "word"][status = "core"] token {
+wording[class = "word"][status = "core"] > token {
     margin: 0px;
 }
 

@@ -2,7 +2,7 @@
     --context-color: #ff8080;
     --speech-color: orange;
     --act-color: pink;
-    --pred_act-color: #ffff33;
+    --pred_act-color: #ffee33;
     --abstr-color: #cce6ff;
     --event-color: #d1e39c;
     --def-color: #b89c81;
@@ -11,9 +11,9 @@
     --ecoll-color: #e6ccff;
     --circ-color: #d8605a; /*cf3830 ffcccc*/
     --ent-color: #895b2d; /*ac7339*/
-    --mod_pred-color: #ffff33;
-    --nmod_pred-color: #ffff33;
-    --scen-color: #ffff33;
+    --mod_pred-color: #ffee33;
+    --nmod_pred-color: #ffee33;
+    --scen-color: #ffee33;
 }
 
 
@@ -163,10 +163,6 @@ function {
     color: #505050;
 }
 
-*:hover > function > * {
-    margin: auto 0px;
-}
-
 *:hover > function::after {
     margin-top: auto;
     height: 20px;
@@ -209,13 +205,28 @@ module[next] {
     border-radius: 20px 0px 0px 20px;
 }
 
+*:hover > function[next]::before {    
+    border-radius: 15px 0px 0px 0px;    
+    content: attr(label) ' …';
+}
+
 module[prev] {
     align-self: stretch !important;
     border-radius: 0px 20px 20px 0px;
 }
 
-module[next][prev] {
+*:hover > function[prev]::before {    
+    border-radius: 0px 15px 0px 0px;    
+    content: '… ' attr(label);
+}
+
+module[prev][next] {
     border-radius: 0px;
+}
+
+*:hover > function[prev][next]::before {    
+    border-radius: 0px;    
+    content: '… ' attr(label) ' …';
 }
 
 *:not([next]) > *[next] {
