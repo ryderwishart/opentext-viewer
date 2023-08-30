@@ -141,10 +141,10 @@ function populateCheckboxes(xmlDoc) {
 
             if (type === "tagName") {
                 // If it's a tagName checkbox, add hide class to tagName instances
-                // container.querySelectorAll('input').forEach(classCheckbox => {
-                //     classCheckbox.checked = checkbox.checked;
-                //     checkboxState.className[classCheckbox.dataset.className] = checkbox.checked;
-                // });
+                container.querySelectorAll('input').forEach(classCheckbox => {
+                    classCheckbox.checked = checkbox.checked;
+                    checkboxState.className[classCheckbox.dataset.className] = checkbox.checked;
+                });
                 const elements = document.querySelectorAll(`#xml-display ${value}`);
                 elements.forEach((element) => {
                     element.setAttribute('data-hide-tag', (!checkbox.checked).toString());
