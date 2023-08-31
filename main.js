@@ -159,7 +159,7 @@ function populateCheckboxes(xmlDoc) {
                 // If it's a subclass checkbox, update the specific subclass
                 const elements = document.querySelectorAll(`#xml-display [subclass="${value}"]`);
                 elements.forEach((element) => {
-                    element.setAttribute('data-hide-class', (!checkbox.checked).toString());
+                    element.setAttribute('data-hide-subclass', (!checkbox.checked).toString());
                 });
             }
 
@@ -186,6 +186,7 @@ function populateCheckboxes(xmlDoc) {
             || tagName.toLowerCase() === 'ellipsis'
             || tagName.toLowerCase() === 'token'
             || tagName.toLowerCase() === 'greek'
+            || tagName.toLowerCase() === 'function'
             || tagName.toLowerCase() === 'english') continue;
 
         const tagSection = document.createElement("div");
@@ -195,17 +196,49 @@ function populateCheckboxes(xmlDoc) {
         h3.textContent = tagName;
         tagSection.appendChild(h3);
 
-        createCheckbox(tagName, "tagName", tagSection);
+        createCheckbox('[toggle all]', "tagName", tagSection);
 
-        const classSection = document.createElement("div");
-        tagSection.appendChild(classSection);
+        // Add sublist sections for both classname children and subclass children
+        
+        const classnameSublist = document.createElement("div"); // FIXME: add subclass to subclass list, add classname to classname list
+        const classnameSublistTitle = document.createElement('h4'); 
+        classnameSublistTitle.textContent = 'classnameSublist'
+        classnameSublist.appendChild(classnameSublistTitle)
+        tagSection.appendChild(classnameSublist);
+
+        const subclassSublist = document.createElement("div"); // FIXME: add subclass to subclass list, add classname to classname list
+        const subclassSublistTitle = document.createElement('h4'); 
+        subclassSublistTitle.textContent = 'subclassSublist'
+        subclassSublist.appendChild(subclassSublistTitle)
+        tagSection.appendChild(subclassSublist);
 
         tagClassMapping[tagName].forEach(name => {
             if (subclasses.includes(name)) {
-                createCheckbox(name, "subclass", classSection);
+                createCheckbox(name, "subclass", subclassSublist);
             } else
-                createCheckbox(name, "className", classSection);
+                createCheckbox(name, "className", classnameSublist);
         });
+
+        // If a sublist (either className or subclass) is empty, hide the sublist
+        if (classnameSublist.childElementCount === 1) {
+            classnameSublist.style.display = 'none';
+        }
+        // Sort the sublists alphabetically (if they have any children)
+        else {
+            const sortedClassnameSublist = Array.from(classnameSublist.querySelectorAll('label')).sort((a, b) => {
+                return a.textContent.localeCompare(b.textContent);
+            });
+            sortedClassnameSublist.forEach(label => classnameSublist.appendChild(label));
+        }
+        if (subclassSublist.childElementCount === 1) {
+            subclassSublist.style.display = 'none';
+        } else {
+            const sortedSubclassSublist = Array.from(subclassSublist.querySelectorAll('label')).sort((a, b) => {
+                return a.textContent.localeCompare(b.textContent);
+            });
+            sortedSubclassSublist.forEach(label => subclassSublist.appendChild(label));
+        }
+
     }
 }
 
@@ -220,9 +253,9 @@ function updateDisplay() {
         // If the parent tag is hidden but some child classes are still shown, handle those cases
         if (hideTag) {
             const tagContainer = document.querySelector(`#checkbox-container div[data-tagname="${tagName}"] div`);
-            tagContainer.querySelectorAll('input').forEach(classCheckbox => {
-                const className = classCheckbox.dataset.className;
-                if (classCheckbox.checked) {
+            tagContainer.querySelectorAll('input').forEach(checkboxInTagNameSubList => {
+                const className = checkboxInTagNameSubList.dataset.className;
+                if (checkboxInTagNameSubList.checked) {
                     const classElements = document.querySelectorAll(`#xml-display ${tagName}.${className}`);
                     classElements.forEach((element) => {
                         element.removeAttribute('data-hide-tag');
@@ -240,6 +273,16 @@ function updateDisplay() {
             element.setAttribute('data-hide-class', hide.toString());
         });
     }
+
+    // Loop through subclasses state to update all subclasses
+    for (const subclass in checkboxState.subclass) {
+        const hide = checkboxState.subclass[subclass] === false;
+        const subclassElements = document.querySelectorAll(`#xml-display [subclass="${subclass}"]`);
+        subclassElements.forEach((element) => {
+            element.setAttribute('data-hide-subclass', hide.toString());
+        });
+    }
+
 }
 
 // Populate tooltips or status bar for functions/values on hovering an element
