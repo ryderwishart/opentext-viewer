@@ -10,8 +10,8 @@
     --ecoll-color: #e6ccff;
     --circ-color: #d8605a; /*cf3830 ffcccc*/
     --ent-color: #895b2d; /*ac7339*/
-    --mod_pred-color: #ffee33;
-    --nmod_pred-color: #ffee33;
+    --pred_mod-color: #ffee33;
+    --pred-color: #ffee33;
     --scen-color: #ffee33;
 }
 
@@ -32,7 +32,7 @@ context {
     --color: var(--act-color);
 }
 
-[class = "predicating_act"] {
+[class = "predication_active"] {
     --color: var(--pred_act-color);
 }
 
@@ -68,12 +68,12 @@ context {
     --color: var(--ent-color);
 }
 
-[class = "modal_predication"] {
-    --color: var(--mod_pred-color);
+[class = "predication_modal"] {
+    --color: var(--pred_mod-color);
 }
 
-[class = "non-modal_predication"] {
-    --color: var(--nmod_pred-color);
+[class = "predication"] {
+    --color: var(--pred-color);
 }
 
 [class = "scenario"] {
@@ -98,7 +98,7 @@ module:not(:last-child) {
     margin-right: 5px;
 }
 
-/* To eliminate borders for particular module classes, usually because they are lexical and so words rather than wordings. */
+/* To eliminate borders for lexical classes, so users can focus on syntactic wordings. */
 module[pos] {
     border: none !important;
     box-shadow: none !important;
@@ -116,7 +116,8 @@ module[subclass = "set"] {
 }
 
 module[subclass = "connection"],
-module[subclass = "operation"] {
+module[subclass = "operation"],
+module[subclass = "option"] {
     border: 2px dotted var(--color);
 }
 

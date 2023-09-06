@@ -114,6 +114,7 @@ token {
     align-items: center;
     margin: 7px 0px 7px 7px;
     border-radius: 25px;
+    padding: 5px;
     justify-content: center;
     white-space: nowrap;
 }
