@@ -45,12 +45,13 @@ context[class = "situation"] {
 }
 
 context[class = "stage"] {
-    margin-bottom: 15px;
+    margin: 15px;
     border: 8px solid var(--context-color);    
 }
 
 context[class = "stage"][title]::before {
     align-self: flex-start;
+    margin: 15px; 
     content: attr(title);
     padding: 10px;
     border: 4px solid var(--context-color);
@@ -60,14 +61,12 @@ context[class = "stage"][title]::before {
 }
 
 context[class = "action"] {   
-    margin: 25px 10px;
+    margin: 15px;
     border: 4px solid var(--context-color);
 }
 
-context[class = "action"][id]::before { 
-    width: 200px;
-    margin-right: 15px;
-    margin-bottom: 10px;
+context[class = "action"][id]::before {     
+    margin: 15px;    
     content: attr(id);
     padding: 10px;
     border: 2px solid var(--context-color);
