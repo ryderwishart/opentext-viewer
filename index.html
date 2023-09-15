@@ -84,6 +84,13 @@
         background: none;
       }
 
+      #xml-display * > [data-hide-tag='true'],
+      #xml-display * > [data-hide-class='true'],
+      #xml-display * > [data-hide-subclass='true'] {
+        flex-direction: row;
+        align-items: center;
+      }
+
       #xml-display [data-hide-tag='true']:before,
       #xml-display [data-hide-tag='true']:after,
       #xml-display [data-hide-class='true']:before,
