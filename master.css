@@ -61,7 +61,7 @@ context[class = "stage"][title]::before {
 }
 
 context[class = "action"] {   
-    margin: 15px;
+    margin: 15px !important; /*The !important flag keeps sentences spaced vertically even when contexts are not being shown.*/ 
     border: 4px solid var(--context-color);
 }
 
