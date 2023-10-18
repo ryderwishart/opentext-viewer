@@ -1,172 +1,198 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Dynamic styled XML viewing</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        color: #333;
-        margin: 0;
-        padding: 20px;
-        /* margin-left: 140px; */
-        display: flex;
-        justify-content: space-between;
-      }
 
-      #file-selector {
-        position: fixed; /* Make the div stay in place */
-        top: 0; /* Align it with the top of the page */
-        right: 0; /* Align it with the right side of the page */
-        z-index: 100; /* Make it appear above all other elements */
-        padding: 10px; /* Add some padding */
-        background: #f8f8f8; /* A light gray background */
-        border: 1px solid #ccc; /* A thin border */
-        border-radius: 8px; /* Rounded corners */
-      }
+<head>
+  <title>Dynamic styled XML viewing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      overflow-x: hidden;      
+    }
 
-      #file-selector select {
-        padding: 5px;
-        border: none;
-        border-radius: 4px;
-        background: #fff;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-        appearance: none; /* Removes the default browser styling */
-      }
+    /* General styles */
+    h3,
+    h4 {
+      margin-bottom: 10px;
+    }
 
-      #checkbox-container {
-        flex: 1;
-        padding: 10px;
-        border-left: 1px solid #ddd;
-        height: 100vh;
-        overflow: scroll;
-        position: fixed;
-        left: 0;
-        max-width: 250px;
-        box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
-        background: #f8f8f8;
-      }
+    label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+    }
 
-      #checkbox-container label {
-        margin-left: 15px;
-        overflow: hidden;
-      }
+    /* CSS to hide and show the sidebar is developed by Austin Wulf: 
+http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
+    .left {
+      background-color: #d6d6d6;
+      padding-left: 1em;
+      padding-top: 50px;
+      padding-bottom: 1000px;
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 0;
+      overflow: auto;
+      overflow-y: scroll;
+    }
 
-      #xml-display {
-        flex: 3;
-        margin-top: 15px;
-        margin-left: 250px;
-        padding: 10px;
-      }
+    .right {
+      width: 100%;
+      min-height: 10000px;
+      background: #eeeeee;
+      position: relative;
+      top: 40px;
+      bottom: 100%;
+      left: 0;
+      z-index: 1;
+      padding: 10px;
+      overflow-x: auto;
+    }
 
-      label {
-        display: block;
-        margin-bottom: 10px;
-      }
+    .nav-trigger {
+      display: block !important;
+      height: 0 !important;
+      width: 0 !important;
+    }
 
-      input[type='checkbox'] {
-        margin-right: 5px;
-        margin-left: 5px;
-      }
+    label[for="nav-trigger"] {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      z-index: 2;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+      background-size: contain;
+    }
 
-      header {
-        display: none;
-      }
+    .nav-trigger:checked+label {
+      left: 250px;
+    }
 
-      #xml-display [data-hide-tag='true'],
-      #xml-display [data-hide-class='true'],
-      #xml-display [data-hide-subclass='true'] {        
-        margin: 0px;
-        box-shadow: none;
-        border: none;
-        padding: 0px;
-        background: none;
-      }
+    .nav-trigger:checked~.right {
+      left: 225px;
+      box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    }
 
-      #xml-display [depth = '2'] [data-hide-tag='true'],
-      #xml-display [depth = '2'] [data-hide-class='true'],
-      #xml-display [depth = '2'] [data-hide-subclass='true'] {
-        flex-direction: row;
-        align-items: center;
-      }
+    .nav-trigger+label,
+    .right {
+      transition: left 0.2s;
+    }
 
-      #xml-display [data-hide-tag='true']:before,
-      #xml-display [data-hide-tag='true']:after,
-      #xml-display [data-hide-class='true']:before,
-      #xml-display [data-hide-class='true']:after,
-      #xml-display [data-hide-subclass='true']:before,
-      #xml-display [data-hide-subclass='true']:after {
-        display: none !important;
-      }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
 
-      /* General styles */
-      #checkbox-container {
-        font-family: Arial, sans-serif;
-        margin: 20px;
-      }
+    input[type='checkbox'] {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
 
-      h3,
-      h4 {
-        margin-bottom: 10px;
-      }
+    #xml-display header {
+      display: none;
+    }
 
-      label {
-        display: flex;
-        align-items: center;
-        margin-bottom: 8px;
-      }
+    #xml-display [data-hide-tag='true'],
+    #xml-display [data-hide-class='true'],
+    #xml-display [data-hide-subclass='true'] {
+      margin: 0px;
+      box-shadow: none;
+      border: none;
+      padding: 0px;
+      background: none;
+    }
 
-      input[type='checkbox'] {
-        margin-right: 8px;
-      }
+    #xml-display [depth='2'] [data-hide-tag='true'],
+    #xml-display [depth='2'] [data-hide-class='true'],
+    #xml-display [depth='2'] [data-hide-subclass='true'] {
+      flex-direction: row;
+      align-items: center;
+    }
 
-      /* Improve checkbox appearance */
-      input[type='checkbox'] {
-        appearance: none;
-        width: 18px;
-        height: 18px;
-        background: #fff;
-        border-radius: 4px;
-        border: 2px solid #333;
-        cursor: pointer;
-      }
+    #xml-display [data-hide-tag='true']:before,
+    #xml-display [data-hide-tag='true']:after,
+    #xml-display [data-hide-class='true']:before,
+    #xml-display [data-hide-class='true']:after,
+    #xml-display [data-hide-subclass='true']:before,
+    #xml-display [data-hide-subclass='true']:after {
+      display: none !important;
+    }
 
-      input[type='checkbox']:checked {
-        background: #007bff;
-        border-color: #007bff;
-        position: relative;
-        padding: 2px;
-      }
+    /* Improve checkbox appearance */
+    #checkbox-container input[type='checkbox'] {
+      margin-right: 8px;
+    }
 
-      input[type='checkbox']:checked:after {
-        content: '';
-        width: 4px;
-        height: 8px;
-        border: solid white;
-        border-width: 0 3px 3px 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(45deg);
-      }
+    #checkbox-container input[type='checkbox'] {
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      background: #fff;
+      border-radius: 4px;
+      border: 2px solid #333;
+      cursor: pointer;
+    }
 
-      /* Section styles */
-      div[data-tagname] {
-        margin-top: 20px;
-      }
+    #checkbox-container input[type='checkbox']:checked {
+      background: #007bff;
+      border-color: #007bff;
+      position: relative;
+      padding: 2px;
+    }
 
-      hr {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        border: 0;
-        height: 1px;
-        background: #ccc;
-      }
-    </style>
-    <script src="main.js"></script>
-  </head>
-  <body>
-    <div id="file-selector">Select from the available XML files:&nbsp;</div>
-    <div id="xml-display"></div>
+    #checkbox-container input[type='checkbox']:checked:after {
+      content: '';
+      width: 4px;
+      height: 8px;
+      border: solid white;
+      border-width: 0 3px 3px 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    /* Section styles */
+    div[data-tagname] {
+      margin-top: 20px;
+    }
+
+    hr {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 0;
+      height: 1px;
+      background: #ccc;
+    }
+  </style>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div class="left">
+    <div id="file-selector"><h3>Files</h3></div>
     <div id="checkbox-container"></div>
-  </body>
+  </div>
+
+  <!-- Navigation Menu Trigger -->
+  <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+  <label for="nav-trigger"></label>
+
+  <!-- Content Div -->
+  <div id="xml-display" class="right">
+    <p>
+    <h2>OpenText 2.0 Prototype Display</h2>
+    </p>
+  </div>
+</body>
+
 </html>

@@ -167,7 +167,7 @@ function populateCheckboxes(xmlDoc) {
 
         const subclassSublist = document.createElement("div");
         const subclassSublistTitle = document.createElement('h4');
-        subclassSublistTitle.textContent = 'Sub-classes (logical systems)'
+        subclassSublistTitle.textContent = 'Sub-classes'
         subclassSublist.appendChild(subclassSublistTitle)
         tagSection.appendChild(subclassSublist);
 
