@@ -205,6 +205,10 @@ module[next] {
     border-radius: 20px 0px 0px 20px;
 }
 
+module[subclass = "specification"][next] {
+    border-right-style: dashed;
+}
+
 *:hover > function[next]::before {    
     border-radius: 15px 0px 0px 0px;    
     content: attr(label) ' …';
@@ -213,6 +217,10 @@ module[next] {
 module[prev] {
     align-self: stretch !important;
     border-radius: 0px 20px 20px 0px;
+}
+
+module[subclass = "specification"][prev] {
+    border-left-style: dashed;
 }
 
 *:hover > function[prev]::before {    
