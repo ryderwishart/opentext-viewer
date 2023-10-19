@@ -85,21 +85,22 @@ function populateCheckboxes(xmlDoc) {
         }
     });
 
-    // FIXME: this doesn't allow class names to be duplicates (e.g. same class or subclass name on different elements but with independent toggling)
+    // FIXME: this now allows class names to be duplicates (e.g. same class or subclass name on different elements but with independent toggling), but it's a hack (it concatenates strings to produce unique values)
     checkboxState.tag = {};
     checkboxState.class = {};
     checkboxState.subclass = {};
 
-    const createCheckbox = (value, type, container, master) => {
+    const createCheckbox = (tag, container, type, value, master) => {
         const label = document.createElement("label");
         const checkbox = document.createElement("input");
 
         // FIXME: colorize labels for checkboxes based on CSS invoked by checkbox state (add class attribute to checkbox label, or maybe an example element before or after the checkbox)
         checkbox.addEventListener("change", () => {
-            // Update the checkboxState to reflect the change
-            checkboxState[type][value] = checkbox.checked;
+
             // If it's a tagName checkbox, hide all relevant tags                    
             if (type === "tag") {
+                // Update the checkboxState to reflect the change
+                checkboxState[type][tag + "_" + value] = checkbox.checked;
                 const elements = document.querySelectorAll(`#xml-display ${value.replace(/([^\w\s])/g, '\\$1')}`);
                 elements.forEach((element) => {
                     element.setAttribute('data-hide-tag', (!checkbox.checked).toString());
@@ -107,8 +108,10 @@ function populateCheckboxes(xmlDoc) {
             }
             // If it's a master checkbox (i.e. toggle all), adjust relevant elements AND toggle all checkboxes inside the container
             else if (master) {
+                // Update the checkboxState to reflect the change
+                checkboxState[type][tag + "_" + value] = checkbox.checked;
                 if (type === "class") {
-                    // If it's a className checkbox, hide all classes (but only for the current tagName)
+                    // If it's a className checkbox, hide all classes
                     const tagName = checkbox.closest("div[data-tag-name]").dataset.tagName
                     console.log('checkboxTagName', tagName);
                     const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[class]`);
@@ -116,7 +119,7 @@ function populateCheckboxes(xmlDoc) {
                         element.setAttribute('data-hide-class', (!checkbox.checked).toString());
                     });
                 } else if (type === "subclass") {
-                    // If it's a subclass checkbox, hide all subclasses (but only for the current tagName)
+                    // If it's a subclass checkbox, hide all subclasses
                     const tagName = checkbox.closest("div[data-tag-name]").dataset.tagName
                     console.log('checkboxTagName', tagName);
                     const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[subclass]`);
@@ -124,26 +127,28 @@ function populateCheckboxes(xmlDoc) {
                         element.setAttribute('data-hide-subclass', (!checkbox.checked).toString());
                     });
                 }
-                // Update subcheckboxes that occur within the same menu section
+                // Update subcheckboxes regardless of whether or not they occur within the same menu section
                 container.querySelectorAll('input').forEach(subCheckbox => {
                     subCheckbox.checked = checkbox.checked;
                     // Update checkboxStates for the specific checkboxes
-                    checkboxState[type][subCheckbox.dataset.type] = checkbox.checked;
+                    checkboxState[type][tag + "_" + subCheckbox.dataset.type] = checkbox.checked;
                 });
             } else
-                if (type === "class") {
-                    // If it's a className checkbox, hide the specific class
-                    const elements = document.querySelectorAll(`#xml-display [class="${value}"]`);
-                    elements.forEach((element) => {
-                        element.setAttribute('data-hide-class', (!checkbox.checked).toString());
-                    });
-                } else if (type === "subclass") {
-                    // If it's a subclass checkbox, hide the specific subclass
-                    const elements = document.querySelectorAll(`#xml-display [subclass="${value}"]`);
-                    elements.forEach((element) => {
-                        element.setAttribute('data-hide-subclass', (!checkbox.checked).toString());
-                    });
-                }
+                // Update the checkboxState to reflect the change
+                checkboxState[type][tag + "_" + value] = checkbox.checked;
+            if (type === "class") {
+                // If it's a className checkbox, hide the specific class
+                const elements = document.querySelectorAll(`#xml-display [class="${value}"]`);
+                elements.forEach((element) => {
+                    element.setAttribute('data-hide-class', (!checkbox.checked).toString());
+                });
+            } else if (type === "subclass") {
+                // If it's a subclass checkbox, hide the specific subclass
+                const elements = document.querySelectorAll(`#xml-display [subclass="${value}"]`);
+                elements.forEach((element) => {
+                    element.setAttribute('data-hide-subclass', (!checkbox.checked).toString());
+                });
+            }
         });
 
         checkbox.type = "checkbox";
@@ -182,7 +187,7 @@ function populateCheckboxes(xmlDoc) {
         tagNameSection.appendChild(hr);
         tagNameSection.appendChild(h3);
 
-        createCheckbox(tagName, "tag", tagNameSection, true);
+        createCheckbox(tagName, tagNameSection, "tag", tagName, true);
 
         // Add sections as needed for classes and subclasses
         const tagElements = document.querySelectorAll(`#xml-display ${tagName}`);
@@ -212,9 +217,9 @@ function populateCheckboxes(xmlDoc) {
             classNameSectionTitle.textContent = 'Classes'
             classNameSection.appendChild(classNameSectionTitle)
             tagNameSection.appendChild(classNameSection);
-            createCheckbox("class", "class", classNameSection, true);
+            createCheckbox(tagName, classNameSection, "class", "class", true);
             Array.from(classList).sort().forEach((name) => {
-                createCheckbox(name, "class", classNameSection, false);
+                createCheckbox(tagName, classNameSection, "class", name, false);
             });
         }
 
@@ -228,9 +233,9 @@ function populateCheckboxes(xmlDoc) {
             subclassNameSectionTitle.textContent = 'Sub-classes'
             subclassNameSection.appendChild(subclassNameSectionTitle)
             tagNameSection.appendChild(subclassNameSection);
-            createCheckbox("subclass", "subclass", subclassNameSection, true);
+            createCheckbox(tagName, subclassNameSection, "subclass", "subclass", true);
             Array.from(subclassList).sort().forEach((name) => {
-                createCheckbox(name, "subclass", subclassNameSection, false);
+                createCheckbox(tagName, subclassNameSection, "subclass", name, false);
             });
         }
     }
