@@ -1,7 +1,7 @@
 const checkboxState = {
     tagName: {},
     className: {},
-    subclass: {},
+    subclassName: {},
 };
 const tagColors = {};
 
@@ -39,7 +39,6 @@ async function parseXMLFile(file) {
     }
 }
 
-
 function loadStylesheet(stylesheet) {
     return new Promise((resolve) => {
         const linkElement = document.createElement("link");
@@ -53,35 +52,42 @@ function loadStylesheet(stylesheet) {
     });
 }
 
-
 // Generate checkboxes based on the content of the selected XML file
 function populateCheckboxes(xmlDoc) {
     const checkboxesContainer = document.getElementById("checkbox-container");
     const xmlNodes = Array.from(xmlDoc.querySelectorAll("*"));
-
+    const tagNames = new Set();
     const tagClassMapping = {};
-    const subclasses = [];
+    const tagSubclassMapping = {};
 
     xmlNodes.forEach((node) => {
-        if (node.closest("header")) return;
+        if (!node.closest("text")) return;
         const tagName = node.tagName.toLowerCase();
+        // If tagNames does not yet contain this tagName as an item, add the string value of tagName to tagNames    
+        if (!tagNames[tagName]) {
+            tagNames.add(tagName);
+        }
+        // If tagName does not yet have a mapping of class names, then create a new set
         if (!tagClassMapping[tagName]) {
             tagClassMapping[tagName] = new Set();
         }
-        if (node.className) {
-            node.className.split(' ').forEach(className => tagClassMapping[tagName].add(className));
+        // If node has @class, then add that to the set of class names
+        if (node.hasAttribute('class')) {
+            tagClassMapping[tagName].add(node.getAttribute('class'));
         }
-        // If node has @subclass, then add that to the set of class names
+        // If tagName does not yet have a mapping of subclass names, then create a new set
+        if (!tagSubclassMapping[tagName]) {
+            tagSubclassMapping[tagName] = new Set();
+        }
+        // If node has @class, then add that to the set of class names
         if (node.hasAttribute('subclass')) {
-            const subclass = node.getAttribute('subclass');
-            tagClassMapping[tagName].add(subclass);
-            subclasses.push(subclass);
+            tagSubclassMapping[tagName].add(node.getAttribute('subclass'));
         }
     });
 
     checkboxState.tagName = {};
     checkboxState.className = {};
-    checkboxState.subclass = {};
+    checkboxState.subclassName = {};
 
     const createCheckbox = (value, type, container) => {
         const label = document.createElement("label");
@@ -89,7 +95,7 @@ function populateCheckboxes(xmlDoc) {
 
         checkbox.dataset[type] = value;
         if (type === "tagName") {
-            container.dataset.tagname = value; // Add data attribute for tag name section
+            container.dataset.tagName = value; // Add data attribute for tag name section
         }
         // FIXME: colorize labels for checkboxes based on CSS invoked by checkbox state (add class attribute to checkbox label, or maybe an example element before or after the checkbox)
         checkbox.addEventListener("change", () => {
@@ -111,7 +117,7 @@ function populateCheckboxes(xmlDoc) {
                 elements.forEach((element) => {
                     element.setAttribute('data-hide-class', (!checkbox.checked).toString());
                 });
-            } else if (type === "subclass") {
+            } else if (type === "subclassName") {
                 // If it's a subclass checkbox, update the specific subclass
                 const elements = document.querySelectorAll(`#xml-display [subclass="${value}"]`);
                 elements.forEach((element) => {
@@ -125,16 +131,16 @@ function populateCheckboxes(xmlDoc) {
         checkbox.type = "checkbox";
         checkbox.checked = true;
         checkbox.dataset[type] = value;
-
         label.appendChild(checkbox);
-        // label.appendChild(document.createTextNode(`${type}: ${value}`));
-        label.appendChild(document.createTextNode(value));
-        // Add 'subclass' to text label if type is 'subclass'
-
+        const labelText = type === "tagName" ? "[toggle all]" : value;
+        label.appendChild(document.createTextNode(labelText));
         container.appendChild(label);
     };
 
-    for (const tagName in tagClassMapping) {
+    // For each unique tagName create a section in the left menu
+    console.log('tagNames', tagNames);
+    for (const tagName of tagNames) {
+        console.log('tagName', tagName);
         // Skip creating checkboxes for OpenText and Text tagnames
         if (tagName.toLowerCase() === 'opentext'
             || tagName.toLowerCase() === 'text'
@@ -156,141 +162,53 @@ function populateCheckboxes(xmlDoc) {
         tagSection.appendChild(hr);
         tagSection.appendChild(h3);
 
-        createCheckbox('[toggle all]', "tagName", tagSection);
-        // Add sublist sections for both classname children and subclass children
+        createCheckbox(tagName, "tagName", tagSection);
 
-        const classnameSublist = document.createElement("div");
-        const classnameSublistTitle = document.createElement('h4');
-        classnameSublistTitle.textContent = 'Classes'
-        classnameSublist.appendChild(classnameSublistTitle)
-        tagSection.appendChild(classnameSublist);
+        // Add sections for both classname children and subclass children
+        const tagElements = document.querySelectorAll(`#xml-display ${tagName}`);
+        console.log('tagElements', { tagElements });
+        const classList = new Set();
+        const subclassList = new Set();
 
-        const subclassSublist = document.createElement("div");
-        const subclassSublistTitle = document.createElement('h4');
-        subclassSublistTitle.textContent = 'Sub-classes'
-        subclassSublist.appendChild(subclassSublistTitle)
-        tagSection.appendChild(subclassSublist);
-
-        tagClassMapping[tagName].forEach(name => {
-            if (subclasses.includes(name)) {
-                createCheckbox(name, "subclass", subclassSublist);
-            } else
-                createCheckbox(name, "className", classnameSublist);
+        tagElements.forEach((element) => {
+            const classAttr = element.getAttribute('class');
+            const subclassAttr = element.getAttribute('subclass');
+            if (classAttr) {
+                classList.add(classAttr);
+            }
+            if (subclassAttr) {
+                subclassList.add(subclassAttr);
+            }
         });
 
-        // If a sublist (either className or subclass) is empty, hide the sublist
-        // if (classnameSublist.childElementCount === 1 && subclassSublist.childElementCount === 1) {
-        //     classnameSublist.style.display = 'none';
-        //     subclassSublist.style.display = 'none';
-        // }
-        // If there are only classes, show the list of classes with no headings and no toggle-all checkbox
-        // else if (classnameSublist.childElementCount > 1 && subclassSublist.childElementCount === 1) {
-        //     subclassSublist.style.display = 'none';
-        //     const sortedClassnameSublist = Array.from(classnameSublist.querySelectorAll('label')).sort((a, b) => {
-        //         return a.textContent.localeCompare(b.textContent);
-        //     });
-        //     sortedClassnameSublist.forEach(label => classnameSublist.appendChild(label));
-        // }
-        // // If there are classes and subclasses, then use subheadings and toggle-all checkboxes for both sublists
-        // else {
-        //     const sortedClassnameSublist = Array.from(classnameSublist.querySelectorAll('label')).sort((a, b) => {
-        //         return a.textContent.localeCompare(b.textContent);
-        //     });
-        //     sortedClassnameSublist.forEach(label => classnameSublist.appendChild(label));
-        //     // Create a label
-        //     const toggleAllLabel = document.createElement('label');
-        //     toggleAllLabel.textContent = '[toggle all]';
-        //     // Add a toggle all checkbox to the className sublist
-        //     const toggleAllCheckbox = document.createElement('input');
-        //     toggleAllCheckbox.type = 'checkbox';
-        //     // checked by default
-        //     toggleAllCheckbox.checked = true;
-        //     toggleAllCheckbox.addEventListener('change', () => {
-        //         const checked = toggleAllCheckbox.checked;
-        //         classnameSublist.querySelectorAll('input').forEach(checkbox => {
-        //             checkbox.checked = checked;
-        //             checkboxState.className[checkbox.dataset.className] = checked;
-        //         });
-        //         updateDisplay();
-        //     }
-        //     );
-        //     // Append the checkbox to the label
-        //     toggleAllLabel.appendChild(toggleAllCheckbox);
-        //     // Insert the label at the top of the sublist (after the h4)
-        //     classnameSublist.insertBefore(toggleAllLabel, classnameSublist.firstChild.nextSibling);
-        // }
-        // // make chekcbox checked by default
-        // // add tagname, classname, subclass to checkbox label (e.g., [toggle all tagname], [toggle all classname], [toggle all subclass]])
-
-        // if (subclassSublist.childElementCount === 1) {
-        //     subclassSublist.style.display = 'none';
-        // } else {
-        //     const sortedSubclassSublist = Array.from(subclassSublist.querySelectorAll('label')).sort((a, b) => {
-        //         return a.textContent.localeCompare(b.textContent);
-        //     });
-        //     sortedSubclassSublist.forEach(label => subclassSublist.appendChild(label));
-        //     // Add a label
-        //     const toggleAllLabel = document.createElement('label');
-        //     toggleAllLabel.textContent = '[toggle all]';
-        //     // append to the top of the sublist
-        //     const toggleAllCheckbox = document.createElement('input');
-        //     subclassSublist.insertBefore(toggleAllCheckbox, subclassSublist.firstChild.nextSibling);
-        //     // Add a toggle all checkbox to the subclass sublist
-        //     toggleAllCheckbox.type = 'checkbox';
-        //     // checked by default
-        //     toggleAllCheckbox.checked = true;
-        //     toggleAllCheckbox.addEventListener('change', () => {
-        //         const checked = toggleAllCheckbox.checked;
-        //         subclassSublist.querySelectorAll('input').forEach(checkbox => {
-        //             checkbox.checked = checked;
-        //             checkboxState.subclass[checkbox.dataset.subclass] = checked;
-        //         });
-        //         updateDisplay();
-        //     }
-        //     );
-        // }
-        function addToggleAllCheckbox(sublist, stateKey, stateObj, updateDisplayFunc) {
-            if (sublist.childElementCount > 1) {
-                const sortedSublist = Array.from(sublist.querySelectorAll('label'))
-                    .sort((a, b) => a.textContent.localeCompare(b.textContent));
-
-                sortedSublist.forEach(label => sublist.appendChild(label));
-
-                const toggleAllLabel = document.createElement('label');
-                toggleAllLabel.textContent = '[toggle all]';
-
-                const toggleAllCheckbox = document.createElement('input');
-                toggleAllCheckbox.type = 'checkbox';
-                toggleAllCheckbox.checked = true;
-
-                toggleAllCheckbox.addEventListener('change', () => {
-                    const checked = toggleAllCheckbox.checked;
-                    sublist.querySelectorAll('input').forEach(checkbox => {
-                        checkbox.checked = checked;
-                        stateObj[stateKey][checkbox.dataset[stateKey]] = checked;
-                    });
-                    updateDisplayFunc();
-                });
-
-                toggleAllLabel.appendChild(toggleAllCheckbox);
-                sublist.insertBefore(toggleAllLabel, sublist.firstChild.nextSibling);
-            }
+        console.log('tagNameClassList', classList);
+        if (classList.size > 1) {
+            const classnameSection = document.createElement("div");
+            const classnameSectionTitle = document.createElement('h4');
+            classnameSectionTitle.textContent = 'Classes'
+            classnameSection.appendChild(classnameSectionTitle)
+            tagSection.appendChild(classnameSection);
+            // addToggleAllCheckbox(classList, "className", checkboxState, updateDisplay);
+            Array.from(classList).sort().forEach((name) => {
+                createCheckbox(name, "className", classnameSection);
+            });
         }
-        // Use the helper function to refactor the repetitive code
 
-        if (classnameSublist.childElementCount === 1) {
-            classnameSublist.style.opacity = 0;
-        } else {
-            addToggleAllCheckbox(classnameSublist, "className", checkboxState, updateDisplay);
+        console.log('tagNameSubclassList', subclassList);
+        if (subclassList.size > 1) {
+            const subclassNameSection = document.createElement("div");
+            const subclassNameSectionTitle = document.createElement('h4');
+            subclassNameSectionTitle.textContent = 'Sub-classes'
+            subclassNameSection.appendChild(subclassNameSectionTitle)
+            tagSection.appendChild(subclassNameSection);
+            // addToggleAllCheckbox(subclassList, "subclassName", checkboxState, updateDisplay);  
+            Array.from(subclassList).sort().forEach((name) => {
+                createCheckbox(name, "subclassName", subclassNameSection);
+            });
         }
-        if (subclassSublist.childElementCount === 1) {
-            subclassSublist.style.opacity = 0;
-        } else {
-            addToggleAllCheckbox(subclassSublist, "subclass", checkboxState, updateDisplay);
-        }
+
 
     }
-
 
 }
 
@@ -302,9 +220,9 @@ function updateDisplay() {
             element.setAttribute('data-hide-tag', hideTag.toString());
         });
 
-        // If the parent tag is hidden but some child classes are still shown, handle those cases
+        // If the relevant tagName is unchecked but some child classes are still checked, handle those cases
         if (hideTag) {
-            const tagContainer = document.querySelector(`#checkbox-container div[data-tagname="${tagName}"] div`);
+            const tagContainer = document.querySelector(`#checkbox-container div[data-tag-name="${tagName}"] div`);
             tagContainer.querySelectorAll('input').forEach(checkboxInTagNameSubList => {
                 const className = checkboxInTagNameSubList.dataset.className;
                 if (checkboxInTagNameSubList.checked) {
@@ -320,16 +238,16 @@ function updateDisplay() {
     // Loop through className state to update all classes
     for (const className in checkboxState.className) {
         const hide = checkboxState.className[className] === false;
-        const classElements = document.querySelectorAll(`#xml-display .${className}`);
+        const classElements = document.querySelectorAll(`#xml-display [class="${className}"]`);
         classElements.forEach((element) => {
             element.setAttribute('data-hide-class', hide.toString());
         });
     }
 
     // Loop through subclasses state to update all subclasses
-    for (const subclass in checkboxState.subclass) {
-        const hide = checkboxState.subclass[subclass] === false;
-        const subclassElements = document.querySelectorAll(`#xml-display [subclass="${subclass}"]`);
+    for (const subclassName in checkboxState.subclassName) {
+        const hide = checkboxState.subclassName[subclassName] === false;
+        const subclassElements = document.querySelectorAll(`#xml-display [subclass="${subclassName}"]`);
         subclassElements.forEach((element) => {
             element.setAttribute('data-hide-subclass', hide.toString());
         });
@@ -350,30 +268,11 @@ function populateTooltips(node) {
 function populateXMLDisplay(xmlDoc) {
     console.log({ xmlDoc })
     const xmlDisplayContainer = document.getElementById("xml-display");
-    const uniqueTags = new Set();
-    const uniqueClassNames = new Set();
 
     // Clone the entire XML document into the "xml-display" container
     const clonedNode = xmlDoc.documentElement.cloneNode(true);
     xmlDisplayContainer.innerHTML = "";
     xmlDisplayContainer.appendChild(clonedNode);
-
-    // Scan for unique nodes
-    const xmlNodes = Array.from(xmlDisplayContainer.querySelectorAll("*")); // Get all elements in the XML
-
-    xmlNodes.forEach((node) => {
-        if (node.closest("header")) return; // Ignore the <header> node and all descendants of <header>
-
-        // Add the tag name to the set of unique tags
-        uniqueTags.add(node.tagName.toLowerCase());
-
-        // Add the class names to the set of unique class names
-        if (node.className) {
-            node.className.split(' ').forEach(className => uniqueClassNames.add(className));
-        }
-    });
-
-    return { uniqueTags, uniqueClassNames };
 }
 
 // Main function to initialize the application
@@ -384,10 +283,6 @@ async function main() {
     const { stylesheets, xmlDoc } = await parseXMLFile(selectedFile);
     // populateCheckboxes(xmlDoc);
     await Promise.all(stylesheets.map(loadStylesheet));
-    addDynamicStyles(uniqueTags, uniqueClassNames);
-    const { uniqueTags, uniqueClassNames } = populateXMLDisplay(xmlDoc);
-
-
 }
 
 document.addEventListener("DOMContentLoaded", async function () {
@@ -412,8 +307,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         }
 
         // Repopulate XML content and stylesheet
-        const { uniqueTags, uniqueClassNames } = populateXMLDisplay(xmlDoc);
-        // addDynamicStyles(uniqueTags, uniqueClassNames);
+        populateXMLDisplay(xmlDoc);
         populateCheckboxes(xmlDoc);
     });
 
