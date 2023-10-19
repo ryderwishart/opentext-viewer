@@ -165,7 +165,6 @@ function populateCheckboxes(xmlDoc) {
             || tagName.toLowerCase() === 'ellipsis'
             || tagName.toLowerCase() === 'token'
             || tagName.toLowerCase() === 'greek'
-            || tagName.toLowerCase() === 'function'
             || tagName.toLowerCase() === 'english') continue;
 
         // Create div for checkboxes related to the current tagName

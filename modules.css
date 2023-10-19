@@ -136,19 +136,19 @@ function {
     justify-content: center;
 }
 
-*:hover > function {
+function {
     margin: 7px 0px 7px 7px;
 }
 
-*:hover > function:first-child {
+function:first-child {
     margin-left: 7px;
 }
 
-*:hover > function:last-child {
+function:last-child {
     margin-right: 7px;
 }
 
-*:hover > function::before {
+function::before {
     margin-bottom: auto;
     height: 20px;
     display: flex;
@@ -163,7 +163,7 @@ function {
     color: #505050;
 }
 
-*:hover > function::after {
+function::after {
     margin-top: auto;
     height: 20px;
     display: flex;
