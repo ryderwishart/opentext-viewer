@@ -36,7 +36,7 @@ context[class = "situation"],
 context [class = "stage"],
 context [class = "action"] {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start !important;
 }
 
 context[class = "situation"] {
@@ -45,31 +45,33 @@ context[class = "situation"] {
 }
 
 context[class = "stage"] {
-    margin: 15px;
+    margin-bottom: 15px;
     border: 8px solid var(--context-color);    
 }
 
 context[class = "stage"][title]::before {
     align-self: flex-start;
-    margin: 15px; 
+    width: 200px;
     content: attr(title);
+    margin: 10px;
     padding: 10px;
     border: 4px solid var(--context-color);
     background: white;
     color: var(--context-color);
     text-align: center;
 }
-
+/*
 context[class = "action"] {   
-    margin: 15px !important; /*The !important flag keeps sentences spaced vertically even when contexts are not being shown.*/ 
+    margin: 25px 0px !important;
     border: 4px solid var(--context-color);
-}
+}*/
 
-context[class = "action"][id]::before {     
-    margin: 15px;    
+context[class = "action"][id]::before { 
+    width: 200px;
+    margin-right: 15px;
     content: attr(id);
-    padding: 10px;
-    border: 2px solid var(--context-color);
+    padding: 10px;/*
+    border: 2px solid var(--context-color);*/
     background: white;
     color: var(--context-color);
     text-align: center;
@@ -107,14 +109,12 @@ error {
  **********/
 
 token {
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
     align-items: center;
     margin: 7px 0px 7px 7px;
     border-radius: 25px;
     padding: 5px;
     justify-content: center;
-    white-space: nowrap;
 }
 
 token:first-child {
@@ -125,14 +125,27 @@ token:last-child {
     margin-right: 7px;
 }
 
-greek::before {
-    content: attr(before)
+token::before {
+    content: attr(before);
 }
 
-greek::after {
-    content: attr(after)
+token::after {
+    content: attr(after);
 }
 
-english {
-    color: silver;
+token[gloss_berean] {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    padding: 5px;
+    justify-content: center;
+}
+
+token[gloss_berean]::before {
+    content: none;
+}
+
+token[gloss_berean]::after {
+    content: attr(gloss_berean);
 }

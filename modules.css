@@ -107,7 +107,7 @@ module[pos] {
 
 module[subclass = "activation"] {
     margin: 10px;
-    box-shadow: 0 0 3px 3px var(--color);
+    box-shadow: 0 0 10px var(--color);
 }
 
 module[subclass = "re-construal"],
@@ -136,19 +136,19 @@ function {
     justify-content: center;
 }
 
-function {
+*:hover > function {
     margin: 7px 0px 7px 7px;
 }
 
-function:first-child {
+*:hover > function:first-child {
     margin-left: 7px;
 }
 
-function:last-child {
+*:hover > function:last-child {
     margin-right: 7px;
 }
 
-function::before {
+*:hover > function::before {
     margin-bottom: auto;
     height: 20px;
     display: flex;
@@ -163,7 +163,7 @@ function::before {
     color: #505050;
 }
 
-function::after {
+*:hover > function::after {
     margin-top: auto;
     height: 20px;
     display: flex;
@@ -205,11 +205,7 @@ module[next] {
     border-radius: 20px 0px 0px 20px;
 }
 
-module[subclass = "specification"][next] {
-    border-right-style: dashed;
-}
-
-function[next]::before {    
+*:hover > function[next]::before {    
     border-radius: 15px 0px 0px 0px;    
     content: attr(label) ' …';
 }
@@ -219,11 +215,7 @@ module[prev] {
     border-radius: 0px 20px 20px 0px;
 }
 
-module[subclass = "specification"][prev] {
-    border-left-style: dashed;
-}
-
-function[prev]::before {    
+*:hover > function[prev]::before {    
     border-radius: 0px 15px 0px 0px;    
     content: '… ' attr(label);
 }
@@ -232,7 +224,7 @@ module[prev][next] {
     border-radius: 0px;
 }
 
-function[prev][next]::before {    
+*:hover > function[prev][next]::before {    
     border-radius: 0px;    
     content: '… ' attr(label) ' …';
 }
