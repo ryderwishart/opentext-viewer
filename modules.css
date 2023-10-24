@@ -179,10 +179,11 @@ function {
 module[values]:active::before {
     position: absolute;
     /* horizontally center */
-    top: 50%;
-    transform: translateY(-50%);
+    /*top: 50%;*/
+    transform: translateY(100%);
     /* move to left */
-    right: 100%;
+    /*right: 100%;*/
+    z-index: 1;
     /* basic styles */
     margin-right: 5px;
     padding: 15px;
