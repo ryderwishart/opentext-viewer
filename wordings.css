@@ -146,19 +146,21 @@ error[note]:hover:not(:active)::before {
  * Discontinuity *
  ****************/
 
+ /* Discontinuous wordings need to fill the vertical space, so they are visually aligned as having the same height. */
 wording[class = "cluster"][next] {
-    align-self: stretch !important;
+    flex-grow: 1;
     border-radius: 20px 0px 0px 20px;
     border-right-style: dashed;
 }
 
 wording[class = "cluster"][prev] {
-    align-self: stretch !important;
+    flex-grow: 1;
     border-radius: 0px 20px 20px 0px;
     border-left-style: dashed;
 }
 
 wording[class = "cluster"][next][prev] {
+    flex-grow: 1;
     border-radius: 0px;
 }
 
