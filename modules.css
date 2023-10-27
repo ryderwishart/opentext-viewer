@@ -134,21 +134,14 @@ function {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-*:hover > function {
     margin: 7px 0px 7px 7px;
 }
 
-*:hover > function:first-child {
-    margin-left: 7px;
-}
-
-*:hover > function:last-child {
+function:last-child {
     margin-right: 7px;
 }
 
-*:hover > function::before {
+function::before {
     margin-bottom: auto;
     height: 20px;
     display: flex;
@@ -163,7 +156,8 @@ function {
     color: #505050;
 }
 
-*:hover > function::after {
+/* This keeps the text vertically centered and hence in line. */
+function::after {
     margin-top: auto;
     height: 20px;
     display: flex;
@@ -206,7 +200,7 @@ module[next] {
     border-radius: 20px 0px 0px 20px;
 }
 
-*:hover > function[next]::before {    
+function[next]::before {    
     border-radius: 15px 0px 0px 0px;    
     content: attr(label) ' …';
 }
@@ -216,7 +210,7 @@ module[prev] {
     border-radius: 0px 20px 20px 0px;
 }
 
-*:hover > function[prev]::before {    
+function[prev]::before {    
     border-radius: 0px 15px 0px 0px;    
     content: '… ' attr(label);
 }
@@ -225,7 +219,7 @@ module[prev][next] {
     border-radius: 0px;
 }
 
-*:hover > function[prev][next]::before {    
+function[prev][next]::before {    
     border-radius: 0px;    
     content: '… ' attr(label) ' …';
 }
