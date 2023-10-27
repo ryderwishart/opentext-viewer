@@ -137,14 +137,16 @@ function populateCheckboxes(xmlDoc) {
                 // Update the checkboxState to reflect the change
                 checkboxState[type][tag + "_" + value] = checkbox.checked;
             if (type === "class") {
+                const tagName = checkbox.closest("div[data-tag-name]").dataset.tagName
                 // If it's a className checkbox, hide the specific class
-                const elements = document.querySelectorAll(`#xml-display [class="${value}"]`);
+                const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[class="${value}"]`);
                 elements.forEach((element) => {
                     element.setAttribute('data-hide-class', (!checkbox.checked).toString());
                 });
             } else if (type === "subclass") {
+                const tagName = checkbox.closest("div[data-tag-name]").dataset.tagName
                 // If it's a subclass checkbox, hide the specific subclass
-                const elements = document.querySelectorAll(`#xml-display [subclass="${value}"]`);
+                const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[subclass="${value}"]`);
                 elements.forEach((element) => {
                     element.setAttribute('data-hide-subclass', (!checkbox.checked).toString());
                 });
