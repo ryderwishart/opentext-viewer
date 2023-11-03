@@ -179,9 +179,10 @@ module[values]:active::before {
     display: flex;
     align-items: center;
     height: 12px;
+    width: 100%;
     /* horizontally center */
-    /*top: 50%;*/
-    transform: translateY(-100%);
+    bottom: 100%;
+    /* transform: translateY(-100%); */
     /* move to left */
     /*right: 100%;*/
     z-index: 1;
