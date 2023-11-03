@@ -126,7 +126,7 @@ module[subclass = "option"] {
 
 module[subclass = "specification"] {
     padding-top: 12px;
-    border-top: 7px solid var(--color);
+    border-top: 10px solid var(--color);
 }
 
 /*************
