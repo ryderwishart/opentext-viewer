@@ -45,7 +45,7 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
     .right {
       width: 100%;
       min-height: 10000px;
-      background: #eeeeee;
+      background: #ffffff;
       position: relative;
       top: 40px;
       bottom: 100%;
@@ -96,11 +96,37 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
       display: none;
     }
 
-    #xml-display [data-hide-tag='true'],
-    #xml-display [data-hide-class='true'],
-    #xml-display [data-hide-subclass='true'] {
+    #xml-display [data-hide-tag='true'] {
       margin: 0px;
-      box-shadow: none;
+      border: none;
+      padding: 0px;
+      background: none;
+    }
+
+    #xml-display module:not([data-hide-tag='true']) wording {      
+      align-items: flex-start !important;
+      align-self: flex-start !important;
+    }
+
+    #xml-display module[data-hide-tag='true'] wording {      
+      align-items: center !important;
+      align-self: center !important;
+    }
+
+    #xml-display wording[data-hide-class='true'] {      
+      margin: 0px;
+      border: none;
+      padding: 0px;
+      background: none;    
+    }
+
+    #xml-display module[data-hide-class='true'] {      
+      border-top-width: 1px !important;
+      padding-top: 5px;      
+    }
+
+    #xml-display [data-hide-subclass='true'] {
+      margin-top: 0px;
       border: none;
       padding: 0px;
       background: none;
@@ -110,7 +136,6 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
     #xml-display [depth='2'] [data-hide-class='true'],
     #xml-display [depth='2'] [data-hide-subclass='true'] {
       flex-direction: row;
-      align-items: center;
     }
 
     #xml-display [data-hide-tag='true']:before,

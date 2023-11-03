@@ -87,42 +87,46 @@ context {
 
 module {
     position: relative;
-    margin: 5px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    border-radius: 20px;
+    /* align-items: flex-start; */
 }
 
-module:not(:last-child) {
-    margin-right: 5px;
+module:not(:first-child) {
+    margin-left: 10px;
+}
+
+wording > module {
+    margin: 0px 10px;
 }
 
 /* To eliminate borders for lexical classes, so users can focus on syntactic wordings. */
 module[pos] {
     border: none !important;
-    box-shadow: none !important;
     margin: 0px !important;
 }
 
 module[subclass = "activation"] {
-    margin: 10px;
-    box-shadow: 0 0 10px var(--color);
+    padding-top: 12px;
+    border-top: 3px dashed var(--color);
 }
 
 module[subclass = "re-construal"],
 module[subclass = "set"] {
-    border: 2px dashed var(--color);
+    padding-top: 12px;
+    border-top: 3px dotted var(--color);
 }
 
 module[subclass = "connection"],
 module[subclass = "operation"],
 module[subclass = "option"] {
-    border: 2px dotted var(--color);
+    padding-top: 12px;
+    border-top: 3px dotted var(--color);
 }
 
 module[subclass = "specification"] {
-    border: 3px solid var(--color);
+    padding-top: 12px;
+    border-top: 7px solid var(--color);
 }
 
 /*************
@@ -172,21 +176,25 @@ function::after {
 
 module[values]:active::before {
     position: absolute;
+    display: flex;
+    align-items: center;
+    height: 12px;
     /* horizontally center */
     /*top: 50%;*/
-    transform: translateY(100%);
+    transform: translateY(-100%);
     /* move to left */
     /*right: 100%;*/
     z-index: 1;
     /* basic styles */
     margin-right: 5px;
-    padding: 15px;
+    padding: 0px 15px;
     box-shadow: 0 3px 10px black;
     border-radius: 25px;
     background: var(--color);
     content: attr(values);
     text-align: center;
-    white-space: pre-line;
+    text-wrap: nowrap;
+    font-size:smaller;
     color: black;
 }
 
@@ -196,38 +204,29 @@ module[values]:active::before {
  ****************/
 
 module[next] {
-    align-self: stretch !important;
-    border-radius: 20px 0px 0px 20px;
+    flex-grow: 1;
 }
 
-function[next]::before {    
-    border-radius: 15px 0px 0px 0px;    
+function[next]::before {     
     content: attr(label) ' …';
 }
 
 module[prev] {
-    align-self: stretch !important;
-    border-radius: 0px 20px 20px 0px;
+    flex-grow: 1;
 }
 
-function[prev]::before {    
-    border-radius: 0px 15px 0px 0px;    
+function[prev]::before {      
     content: '… ' attr(label);
 }
 
-module[prev][next] {
-    border-radius: 0px;
-}
-
-function[prev][next]::before {    
-    border-radius: 0px;    
+function[prev][next]::before {   
     content: '… ' attr(label) ' …';
 }
 
 *:not([next]) > *[next] {
-    align-self: stretch;
+    flex-grow: 1;
 }
 
 *:not([prev]) > *[prev] {
-    align-self: stretch;
+    flex-grow: 1;
 }
