@@ -1702,7 +1702,7 @@
          <wording class="cluster" status="satellite" function="Augmentation">
           <module class="speech_act" subclass="specification" values="introducing">
            <module class="entity" subclass="activation" values="∅">
-            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+            <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
              <wording class="word" status="translative">
               <token n="99" gloss_berean="that" id="SBL.1John.1.5.13">ὅτι</token>
              </wording>
@@ -1924,7 +1924,7 @@
                         </wording>
                         <wording class="cluster" status="satellite" function="Obj_Part">
                          <module class="entity" subclass="activation" values="∅">
-                          <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                          <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                            <wording class="word" status="translative">
                             <token n="113" gloss_berean="that" id="SBL.1John.1.6.3">ὅτι</token>
                            </wording>
@@ -2613,7 +2613,7 @@
                      </wording>
                      <wording class="cluster" status="satellite" function="Obj_Part">
                       <module class="entity" subclass="activation" values="∅">
-                       <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                       <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                         <wording class="word" status="translative">
                          <token n="159" gloss_berean="that" id="SBL.1John.1.8.3">ὅτι</token>
                         </wording>
@@ -2980,7 +2980,7 @@
             </module>
             <wording class="cluster" status="satellite" function="Instantiator">
              <module class="entity" subclass="activation" values="∅">
-              <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ἵνα">
+              <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ἵνα">
                <wording class="word" status="translative">
                 <token n="181" gloss_berean="that" id="SBL.1John.1.9.10">ἵνα</token>
                </wording>
@@ -3168,7 +3168,7 @@
                      </wording>
                      <wording class="cluster" status="satellite" function="Obj_Part">
                       <module class="entity" subclass="activation" values="∅">
-                       <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                       <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                         <wording class="word" status="translative">
                          <token n="194" gloss_berean="that" id="SBL.1John.1.10.3">ὅτι</token>
                         </wording>
@@ -4076,7 +4076,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="252" gloss_berean="that" id="SBL.1John.2.3.5">ὅτι</token>
                    </wording>
@@ -4247,7 +4247,7 @@
                                </wording>
                                <wording class="cluster" status="satellite" function="Obj_Part">
                                 <module class="entity" subclass="activation" values="∅">
-                                 <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι&#xA;projecting">
+                                 <module class="entity" subclass="specification" values="#quotation&#xA;quotation_marker&#xA;$ὅτι">
                                   <wording class="word" status="translative">
                                    <token n="262" gloss_berean="-" id="SBL.1John.2.4.3">ὅτι</token>
                                   </wording>
@@ -4876,7 +4876,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="298" gloss_berean="that" id="SBL.1John.2.5.19">ὅτι</token>
                    </wording>
@@ -9176,7 +9176,7 @@
                            </wording>
                            <wording class="cluster" status="satellite" function="Obj_Part">
                             <module class="entity" subclass="activation" values="∅">
-                             <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                             <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                               <wording class="word" status="translative">
                                <token n="557" gloss_berean="that" id="SBL.1John.2.18.8">ὅτι</token>
                               </wording>
@@ -9318,7 +9318,7 @@
                            </wording>
                            <wording class="cluster" status="satellite" function="Obj_Part">
                             <module class="entity" subclass="activation" values="∅">
-                             <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                             <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                               <wording class="word" status="translative">
                                <token n="567" gloss_berean="that" id="SBL.1John.2.18.18">ὅτι</token>
                               </wording>
@@ -9660,7 +9660,7 @@
         <module class="speech" subclass="specification" values="∅">
          <module class="speech_act" subclass="specification" values="introducing">
           <module class="entity" subclass="activation" values="∅">
-           <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ἵνα">
+           <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ἵνα">
             <wording class="word" status="translative">
              <token n="589" gloss_berean="[it is] so that" id="SBL.1John.2.19.19">ἵνα</token>
             </wording>
@@ -9681,7 +9681,7 @@
               </module>
               <wording class="cluster" status="satellite" function="Instantiator">
                <module class="entity" subclass="activation" values="∅">
-                <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                  <wording class="word" status="translative">
                   <token n="591" gloss_berean="that" id="SBL.1John.2.19.21">ὅτι</token>
                  </wording>
@@ -10340,7 +10340,7 @@
                                   </wording>
                                   <wording class="cluster" status="satellite" function="Obj_Part">
                                    <module class="entity" subclass="activation" values="∅">
-                                    <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                                    <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                                      <wording class="word" status="translative">
                                       <token n="636" gloss_berean="that" id="SBL.1John.2.22.9">ὅτι</token>
                                      </wording>
@@ -11890,7 +11890,7 @@
                         <module prev="d5e6878" xml:id="d5e6878_2" class="entity" subclass="activation" values="re-construed">
                          <module prev="d3e6844" xml:id="d3e6844_2" class="entity" subclass="re-construal" values="∅">
                           <wording class="path">
-                           <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ἵνα">
+                           <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ἵνα">
                             <wording class="word" status="translative">
                              <token n="731" gloss_berean="that" id="SBL.1John.2.27.16">ἵνα</token>
                             </wording>
@@ -12635,7 +12635,7 @@
                        </wording>
                        <wording class="cluster" status="satellite" function="Obj_Part">
                         <module class="entity" subclass="activation" values="∅">
-                         <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                         <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                           <wording class="word" status="translative">
                            <token n="780" gloss_berean="that" id="SBL.1John.2.29.3">ὅτι</token>
                           </wording>
@@ -12700,7 +12700,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="784" gloss_berean="that" id="SBL.1John.2.29.7">ὅτι</token>
                    </wording>
@@ -12971,7 +12971,7 @@
                     <module prev="d5e7474" xml:id="d5e7474_2" class="entity" subclass="activation" values="re-construed">
                      <module prev="d3e7438" xml:id="d3e7438_2" class="entity" subclass="re-construal" values="∅">
                       <wording class="path">
-                       <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ἵνα">
+                       <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ἵνα">
                         <wording class="word" status="translative">
                          <token n="800" gloss_berean="that" id="SBL.1John.3.1.8">ἵνα</token>
                         </wording>
@@ -13482,7 +13482,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="828" gloss_berean="that" id="SBL.1John.3.2.12">ὅτι</token>
                    </wording>
@@ -14131,7 +14131,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="871" gloss_berean="that" id="SBL.1John.3.5.3">ὅτι</token>
                    </wording>
@@ -16299,7 +16299,7 @@
          <wording class="cluster" status="satellite" function="Augmentation">
           <module class="speech_act" subclass="specification" values="introducing">
            <module class="entity" subclass="activation" values="∅">
-            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ἵνα">
+            <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ἵνα">
              <wording class="word" status="translative">
               <token n="1004" gloss_berean="that" id="SBL.1John.3.11.10">ἵνα</token>
              </wording>
@@ -16625,7 +16625,7 @@
         <module class="speech" subclass="specification" values="∅">
          <module class="speech_act" subclass="specification" values="introducing">
           <module class="entity" subclass="activation" values="∅">
-           <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+           <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
             <wording class="word" status="translative">
              <token n="1024" gloss_berean="Because" id="SBL.1John.3.12.18">ὅτι</token>
             </wording>
@@ -17044,7 +17044,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="1046" gloss_berean="that" id="SBL.1John.3.14.3">ὅτι</token>
                    </wording>
@@ -17481,7 +17481,7 @@
                     </wording>
                     <wording class="cluster" status="satellite" function="Obj_Part">
                      <module class="entity" subclass="activation" values="∅">
-                      <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                      <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                        <wording class="word" status="translative">
                         <token n="1075" gloss_berean="that" id="SBL.1John.3.15.11">ὅτι</token>
                        </wording>
@@ -17712,7 +17712,7 @@
          <wording class="cluster" status="satellite" function="Augmentation">
           <module class="speech_act" subclass="specification" values="introducing">
            <module class="entity" subclass="activation" values="∅">
-            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+            <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
              <wording class="word" status="translative">
               <token n="1090" gloss_berean="because" id="SBL.1John.3.16.6">ὅτι</token>
              </wording>
@@ -18723,7 +18723,7 @@
                    </wording>
                    <wording class="cluster" status="satellite" function="Obj_Part">
                     <module class="entity" subclass="activation" values="∅">
-                     <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                     <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                       <wording class="word" status="translative">
                        <token n="1152" gloss_berean="that" id="SBL.1John.3.19.4">ὅτι</token>
                       </wording>
@@ -18892,7 +18892,7 @@
                         </module>
                        </wording>
                        <wording class="path">
-                        <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι&#xA;$ὅτι">
+                        <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;$ὅτι">
                          <wording xml:id="d3e10957" next="d3e10957_2" class="word" status="translative">
                           <token n="1164" gloss_berean="that" id="SBL.1John.3.20.1">ὅτι</token>
                          </wording>
@@ -19753,7 +19753,7 @@
          <wording class="cluster" status="satellite" function="Augmentation">
           <module class="speech_act" subclass="specification" values="introducing">
            <module class="entity" subclass="activation" values="∅">
-            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ἵνα">
+            <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ἵνα">
              <wording class="word" status="translative">
               <token n="1217" gloss_berean="that" id="SBL.1John.3.23.7">ἵνα</token>
              </wording>
@@ -20285,7 +20285,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="1250" gloss_berean="that" id="SBL.1John.3.24.18">ὅτι</token>
                    </wording>
@@ -20593,7 +20593,7 @@
                         </module>
                        </wording>
                        <wording class="path">
-                        <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$εἰ">
+                        <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$εἰ">
                          <wording class="word" status="translative">
                           <token n="1269" gloss_berean="whether" id="SBL.1John.4.1.10">εἰ</token>
                          </wording>
@@ -21431,7 +21431,7 @@
                                  </wording>
                                  <wording class="cluster" status="satellite" function="Obj_Part">
                                   <module class="entity" subclass="activation" values="∅">
-                                   <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                                   <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                                     <wording class="word" status="translative">
                                      <token n="1322" gloss_berean="that" id="SBL.1John.4.3.22">ὅτι</token>
                                     </wording>
@@ -23385,7 +23385,7 @@
          <wording class="cluster" status="satellite" function="Augmentation">
           <module class="speech_act" subclass="specification" values="introducing">
            <module class="entity" subclass="activation" values="∅">
-            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+            <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
              <wording class="word" status="translative">
               <token n="1442" gloss_berean="that" id="SBL.1John.4.9.10">ὅτι</token>
              </wording>
@@ -24646,7 +24646,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι&#xA;#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="1519" gloss_berean="that" id="SBL.1John.4.13.4">ὅτι</token>
                    </wording>
@@ -24943,7 +24943,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="objectifying&#xA;#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="objectifying&#xA;#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="1539" gloss_berean="that" id="SBL.1John.4.14.6">ὅτι</token>
                    </wording>
@@ -25138,7 +25138,7 @@
                    </wording>
                    <wording class="cluster" status="satellite" function="Obj_Part">
                     <module class="entity" subclass="activation" values="∅">
-                     <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                     <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                       <wording class="word" status="translative">
                        <token n="1551" gloss_berean="that" id="SBL.1John.4.15.4">ὅτι</token>
                       </wording>
@@ -26151,7 +26151,7 @@
          <wording class="cluster" status="satellite" function="Augmentation">
           <module class="speech_act" subclass="specification" values="introducing">
            <module class="entity" subclass="activation" values="∅">
-            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+            <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
              <wording class="word" status="translative">
               <token n="1616" gloss_berean="that" id="SBL.1John.4.17.16">ὅτι</token>
              </wording>
@@ -26907,7 +26907,7 @@
                           </wording>
                           <wording class="cluster" status="satellite" function="Obj_Part">
                            <module class="entity" subclass="activation" values="∅">
-                            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι&#xA;projecting">
+                            <module class="entity" subclass="specification" values="#quotation&#xA;quotation_marker&#xA;$ὅτι">
                              <wording class="word" status="translative">
                               <token n="1664" gloss_berean="-" id="SBL.1John.4.20.4">ὅτι</token>
                              </wording>
@@ -27520,7 +27520,7 @@
          <wording class="cluster" status="satellite" function="Augmentation">
           <module class="speech_act" subclass="specification" values="introducing">
            <module class="entity" subclass="activation" values="∅">
-            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ἵνα">
+            <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ἵνα">
              <wording class="word" status="translative">
               <token n="1699" gloss_berean="that" id="SBL.1John.4.21.8">ἵνα</token>
              </wording>
@@ -27723,7 +27723,7 @@
                             </wording>
                             <wording class="cluster" status="satellite" function="Obj_Part">
                              <module class="entity" subclass="activation" values="∅">
-                              <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                              <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                                <wording class="word" status="translative">
                                 <token n="1712" gloss_berean="that" id="SBL.1John.5.1.4">ὅτι</token>
                                </wording>
@@ -28081,7 +28081,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="1736" gloss_berean="that" id="SBL.1John.5.2.4">ὅτι</token>
                    </wording>
@@ -28457,7 +28457,7 @@
          <wording class="cluster" status="satellite" function="Augmentation">
           <module class="speech_act" subclass="specification" values="introducing">
            <module class="entity" subclass="activation" values="∅">
-            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ἵνα">
+            <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ἵνα">
              <wording class="word" status="translative">
               <token n="1758" gloss_berean="that" id="SBL.1John.5.3.8">ἵνα</token>
              </wording>
@@ -29162,7 +29162,7 @@
                                   </wording>
                                   <wording class="cluster" status="satellite" function="Obj_Part">
                                    <module class="entity" subclass="activation" values="∅">
-                                    <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                                    <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                                      <wording class="word" status="translative">
                                       <token n="1803" gloss_berean="that" id="SBL.1John.5.5.12">ὅτι</token>
                                      </wording>
@@ -30520,7 +30520,7 @@
          <wording class="cluster" status="satellite" function="Augmentation">
           <module class="speech_act" subclass="specification" values="introducing">
            <module class="entity" subclass="activation" values="∅">
-            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+            <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
              <wording class="word" status="translative">
               <token n="1884" gloss_berean="that" id="SBL.1John.5.9.20">ὅτι</token>
              </wording>
@@ -31231,7 +31231,7 @@
          <wording class="cluster" status="satellite" function="Augmentation">
           <module class="speech_act" subclass="specification" values="introducing">
            <module class="entity" subclass="activation" values="∅">
-            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+            <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
              <wording class="word" status="translative">
               <token n="1929" gloss_berean="that" id="SBL.1John.5.11.6">ὅτι</token>
              </wording>
@@ -31869,7 +31869,7 @@
                        </wording>
                        <wording class="cluster" status="satellite" function="Obj_Part">
                         <module class="entity" subclass="activation" values="∅">
-                         <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                         <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                           <wording class="word" status="translative">
                            <token n="1968" gloss_berean="that" id="SBL.1John.5.13.6">ὅτι</token>
                           </wording>
@@ -32252,7 +32252,7 @@
          <wording class="cluster" status="satellite" function="Augmentation">
           <module class="speech_act" subclass="specification" values="introducing">
            <module class="entity" subclass="activation" values="∅">
-            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+            <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
              <wording class="word" status="translative">
               <token n="1990" gloss_berean="that" id="SBL.1John.5.14.10">ὅτι</token>
              </wording>
@@ -32436,7 +32436,7 @@
                        </wording>
                        <wording class="cluster" status="satellite" function="Obj_Part">
                         <module class="entity" subclass="activation" values="∅">
-                         <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                         <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                           <wording class="word" status="translative">
                            <token n="2003" gloss_berean="that" id="SBL.1John.5.15.4">ὅτι</token>
                           </wording>
@@ -32550,7 +32550,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="2010" gloss_berean="that" id="SBL.1John.5.15.11">ὅτι</token>
                    </wording>
@@ -33162,7 +33162,7 @@
                    </wording>
                    <wording class="cluster" status="satellite" function="Obj_Part">
                     <module class="entity" subclass="activation" values="∅">
-                     <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ἵνα">
+                     <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ἵνα">
                       <wording class="word" status="translative">
                        <token n="2047" gloss_berean="that" id="SBL.1John.5.16.30">ἵνα</token>
                       </wording>
@@ -33384,7 +33384,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="2060" gloss_berean="that" id="SBL.1John.5.18.2">ὅτι</token>
                    </wording>
@@ -33736,7 +33736,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="2084" gloss_berean="that" id="SBL.1John.5.19.2">ὅτι</token>
                    </wording>
@@ -33961,7 +33961,7 @@
                <module prev="d3e19765" xml:id="d3e19765_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying">
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="2099" gloss_berean="that" id="SBL.1John.5.20.3">ὅτι</token>
                    </wording>

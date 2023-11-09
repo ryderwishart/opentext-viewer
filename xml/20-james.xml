@@ -505,7 +505,7 @@
                        </wording>
                        <wording class="cluster" status="satellite" function="Obj_Part">
                         <module class="entity" subclass="activation" values="∅">
-                         <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                         <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                           <wording class="word" status="translative">
                            <token n="26" gloss_berean="that" id="SBL.Jas.1.3.2">ὅτι</token>
                           </wording>
@@ -1605,7 +1605,7 @@
                   <module prev="d3e826" xml:id="d3e826_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
                    <wording class="cluster" status="satellite" function="Obj_Part">
                     <module class="entity" subclass="activation" values="∅">
-                     <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                     <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                       <wording class="word" status="translative">
                        <token n="88" gloss_berean="that" id="SBL.Jas.1.7.7">ὅτι</token>
                       </wording>
@@ -3195,7 +3195,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι&#xA;projecting">
+                  <module class="entity" subclass="specification" values="#quotation&#xA;quotation_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="177" gloss_berean="-" id="SBL.Jas.1.13.4">ὅτι</token>
                    </wording>
@@ -8067,7 +8067,7 @@
                              </wording>
                              <wording class="cluster" status="satellite" function="Obj_Part">
                               <module class="entity" subclass="activation" values="∅">
-                               <module class="entity" subclass="specification" values="#metarepresentation&#xA;projecting">
+                               <module class="entity" subclass="specification" values="#quotation">
                                 <context class="situation" id="situation.SBL.Jas.2.3.12-15" depth="2">
                                  <context class="stage" id="stage.SBL.Jas.2.3.12-15">
                                   <context class="action" id="action.SBL.Jas.2.3.12-15">
@@ -8214,7 +8214,7 @@
                           </wording>
                           <wording class="cluster" status="satellite" function="Obj_Part">
                            <module class="entity" subclass="activation" values="∅">
-                            <module class="entity" subclass="specification" values="#metarepresentation&#xA;projecting">
+                            <module class="entity" subclass="specification" values="#quotation">
                              <context class="situation" id="situation.SBL.Jas.2.3.20-28" depth="2">
                               <context class="stage" id="stage.SBL.Jas.2.3.20-28">
                                <context class="action" id="action.SBL.Jas.2.3.20-28">
@@ -10071,7 +10071,7 @@
                          </wording>
                          <wording class="cluster" status="satellite" function="Obj_Part">
                           <module class="entity" subclass="activation" values="∅">
-                           <module class="entity" subclass="specification" values="#metarepresentation&#xA;projecting">
+                           <module class="entity" subclass="specification" values="#quotation">
                             <context class="situation" id="situation.SBL.Jas.2.11.4-5" depth="2">
                              <context class="stage" id="stage.SBL.Jas.2.11.4-5">
                               <context class="action" id="action.SBL.Jas.2.11.4-5">
@@ -10141,7 +10141,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$καί&#xA;projecting">
+                  <module class="entity" subclass="specification" values="#quotation&#xA;quotation_marker&#xA;$καί">
                    <wording class="word" status="translative">
                     <token n="573" gloss_berean="also" id="SBL.Jas.2.11.7">καί</token>
                    </wording>
@@ -11485,7 +11485,7 @@
                              <module prev="d3e6315" xml:id="d3e6315_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;extra_participant&#xA;medial-final">
                               <wording class="cluster" status="satellite" function="Obj_Part">
                                <module class="entity" subclass="activation" values="∅">
-                                <module class="entity" subclass="specification" values="#metarepresentation&#xA;projecting">
+                                <module class="entity" subclass="specification" values="#quotation">
                                  <context class="situation" id="situation.SBL.Jas.2.16.7-12" depth="2">
                                   <context class="stage" id="stage.SBL.Jas.2.16.7-12">
                                    <context class="action" id="action.SBL.Jas.2.16.7-12">
@@ -12034,7 +12034,7 @@
                <module prev="d3e6644" xml:id="d3e6644_2" class="event" subclass="specification" values="informational_environment&#xA;expected&#xA;objectifying">
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;projecting">
+                  <module class="entity" subclass="specification" values="#quotation">
                    <context class="situation" id="situation.SBL.Jas.2.18.4-9" depth="2">
                     <context class="stage" id="stage.SBL.Jas.2.18.4-9">
                      <context class="action" id="action.SBL.Jas.2.18.4-9">
@@ -12505,7 +12505,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="699" gloss_berean="that" id="SBL.Jas.2.19.3">ὅτι</token>
                    </wording>
@@ -12851,7 +12851,7 @@
                       <module prev="d3e7085" xml:id="d3e7085_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying">
                        <wording class="cluster" status="satellite" function="Obj_Part">
                         <module class="entity" subclass="activation" values="∅">
-                         <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                         <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                           <wording class="word" status="translative">
                            <token n="718" gloss_berean="that" id="SBL.Jas.2.20.7">ὅτι</token>
                           </wording>
@@ -13271,7 +13271,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="743" gloss_berean="that" id="SBL.Jas.2.22.2">ὅτι</token>
                    </wording>
@@ -13562,7 +13562,7 @@
                                            </wording>
                                            <wording class="cluster" status="satellite" function="Obj_Part">
                                             <module class="entity" subclass="activation" values="∅">
-                                             <module class="entity" subclass="specification" values="#metarepresentation&#xA;projecting">
+                                             <module class="entity" subclass="specification" values="#quotation">
                                               <context class="situation" id="situation.SBL.Jas.2.23.7-16" depth="2">
                                                <context class="stage" id="stage.SBL.Jas.2.23.7-16">
                                                 <context class="action" id="action.SBL.Jas.2.23.7-16">
@@ -13870,7 +13870,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="778" gloss_berean="that" id="SBL.Jas.2.24.2">ὅτι</token>
                    </wording>
@@ -14656,7 +14656,7 @@
                           </wording>
                           <wording class="cluster" status="satellite" function="Obj_Part">
                            <module class="entity" subclass="activation" values="∅">
-                            <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                            <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                              <wording class="word" status="translative">
                               <token n="828" gloss_berean="that" id="SBL.Jas.3.1.8">ὅτι</token>
                              </wording>
@@ -20566,7 +20566,7 @@
                      </wording>
                      <wording class="cluster" status="satellite" function="Obj_Part">
                       <module class="entity" subclass="activation" values="∅">
-                       <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ἵνα">
+                       <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ἵνα">
                         <wording class="word" status="translative">
                          <token n="1163" gloss_berean="that" id="SBL.Jas.4.3.8">ἵνα</token>
                         </wording>
@@ -20712,7 +20712,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="1172" gloss_berean="that" id="SBL.Jas.4.4.4">ὅτι</token>
                    </wording>
@@ -21163,7 +21163,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="1195" gloss_berean="that" id="SBL.Jas.4.5.3">ὅτι</token>
                    </wording>
@@ -21229,7 +21229,7 @@
                          </wording>
                          <wording class="cluster" status="satellite" function="Obj_Part">
                           <module class="entity" subclass="activation" values="∅">
-                           <module class="entity" subclass="specification" values="#metarepresentation&#xA;projecting">
+                           <module class="entity" subclass="specification" values="#quotation">
                             <context class="situation" id="situation.SBL.Jas.4.5.8-16" depth="2">
                              <context class="stage" id="stage.SBL.Jas.4.5.8-16">
                               <context class="action" id="action.SBL.Jas.4.5.8-16">
@@ -21521,7 +21521,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;projecting">
+                  <module class="entity" subclass="specification" values="#quotation">
                    <context class="situation" id="situation.SBL.Jas.4.6.7-14" depth="2">
                     <context class="stage" id="stage.SBL.Jas.4.6.7-14">
                      <context class="action" id="action.SBL.Jas.4.6.7-14">
@@ -23431,7 +23431,7 @@
                      </wording>
                      <wording class="cluster" status="satellite" function="Obj_Part">
                       <module class="entity" subclass="activation" values="∅">
-                       <module class="entity" subclass="specification" values="#metarepresentation&#xA;projecting">
+                       <module class="entity" subclass="specification" values="#quotation">
                         <context class="situation" id="situation.SBL.Jas.4.13.5-20" depth="2">
                          <context class="stage" id="stage.SBL.Jas.4.13.5-20">
                           <context class="action" id="action.SBL.Jas.4.13.5-20">
@@ -24140,7 +24140,7 @@
                        <module prev="d3e13449" xml:id="d3e13449_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
                         <wording class="cluster" status="satellite" function="Obj_Part">
                          <module class="entity" subclass="activation" values="∅">
-                          <module class="entity" subclass="specification" values="#metarepresentation&#xA;projecting">
+                          <module class="entity" subclass="specification" values="#quotation">
                            <context class="situation" id="situation.SBL.Jas.4.15.5-15" depth="2">
                             <context class="stage" id="stage.SBL.Jas.4.15.5-15">
                              <context class="action" id="action.SBL.Jas.4.15.5-15">
@@ -24565,7 +24565,7 @@
                   <module xml:id="d21e14280" next="d21e14280_2" class="circumstance" subclass="operation" values="∅">
                    <module xml:id="d19e14248" next="d19e14248_2" class="circumstance" subclass="specification" values="#oblique_association&#xA;dative_association">
                     <module xml:id="d17e14209" next="d17e14209_2" class="entity" subclass="activation" values="∅">
-                     <module xml:id="d15e14164" next="d15e14164_2" class="entity" subclass="specification" values="#predication">
+                     <module xml:id="d15e14164" next="d15e14164_2" class="entity" subclass="specification" values="#predication_non-modal">
                       <module xml:id="d13e14112" next="d13e14112_2" class="predication" subclass="activation" values="∅">
                        <module xml:id="d11e14048" next="d11e14048_2" class="predication" subclass="specification" values="∅">
                         <module xml:id="d9e13974" next="d9e13974_2" class="abstraction" subclass="activation" values="∅">
@@ -24613,7 +24613,7 @@
                   <module prev="d21e14280" xml:id="d21e14280_2" class="circumstance" subclass="operation" values="∅">
                    <module prev="d19e14248" xml:id="d19e14248_2" class="circumstance" subclass="specification" values="#oblique_association&#xA;dative_association">
                     <module prev="d17e14209" xml:id="d17e14209_2" class="entity" subclass="activation" values="∅">
-                     <module prev="d15e14164" xml:id="d15e14164_2" class="entity" subclass="specification" values="#predication">
+                     <module prev="d15e14164" xml:id="d15e14164_2" class="entity" subclass="specification" values="#predication_non-modal">
                       <module prev="d13e14112" xml:id="d13e14112_2" class="predication" subclass="activation" values="∅">
                        <module prev="d11e14048" xml:id="d11e14048_2" class="predication" subclass="specification" values="∅">
                         <module prev="d9e13974" xml:id="d9e13974_2" class="abstraction" subclass="activation" values="∅">
@@ -24681,7 +24681,7 @@
                    <module class="circumstance" subclass="operation" values="∅">
                     <module class="circumstance" subclass="specification" values="#oblique_association&#xA;dative_association">
                      <module class="entity" subclass="activation" values="∅">
-                      <module class="entity" subclass="specification" values="#predication">
+                      <module class="entity" subclass="specification" values="#predication_non-modal">
                        <module class="predication" subclass="activation" values="∅">
                         <module class="predication" subclass="specification" values="∅">
                          <module class="abstraction" subclass="activation" values="∅">
@@ -27876,7 +27876,7 @@
                      <module prev="d5e15646" xml:id="d5e15646_2" class="entity" subclass="activation" values="re-construed">
                       <module prev="d3e15549" xml:id="d3e15549_2" class="entity" subclass="re-construal" values="∅">
                        <wording class="path">
-                        <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                        <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                          <wording class="word" status="translative">
                           <token n="1568" gloss_berean="that" id="SBL.Jas.5.11.14">ὅτι</token>
                          </wording>
@@ -30537,7 +30537,7 @@
                 </wording>
                 <wording class="cluster" status="satellite" function="Obj_Part">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="#metarepresentation&#xA;metarepresentation_marker&#xA;$ὅτι">
+                  <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                    <wording class="word" status="translative">
                     <token n="1723" gloss_berean="that" id="SBL.Jas.5.20.2">ὅτι</token>
                    </wording>
