@@ -1782,7 +1782,7 @@
                        <module class="definition" subclass="activation" values="∅">
                         <module class="definition" subclass="specification" values="∅">
                          <module class="trait" subclass="activation" values="∅">
-                          <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation&#xA;#morphological_relative">
+                          <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation">
                            <module class="predication_modal" subclass="activation" values="∅">
                             <module class="predication_modal" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;internal_orientation">
                              <wording class="cluster" status="satellite" subclass="Subject">
@@ -3797,7 +3797,7 @@
                <module class="definition" subclass="activation" values="∅">
                 <module class="definition" subclass="specification" values="∅">
                  <module class="trait" subclass="activation" values="∅">
-                  <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation&#xA;#morphological_relative">
+                  <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation">
                    <module class="predication_modal" subclass="activation" values="∅">
                     <module class="predication_modal" subclass="specification" values="construed_instantiator&#xA;internal_orientation">
                      <module xml:id="d9e2157" next="d9e2157_2" class="abstraction" subclass="activation" values="∅">
@@ -4125,35 +4125,27 @@
                <module prev="d3e2245" xml:id="d3e2245_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;centrality_tbd&#xA;extra_participant&#xA;#reception">
                 <wording class="cluster" status="satellite" subclass="Object">
                  <module class="entity" subclass="activation" values="∅">
-                  <module class="entity" subclass="specification" values="gender_tbd&#xA;number_tbd">
-                   <module class="definition" subclass="activation" values="∅">
-                    <module class="definition" subclass="specification" values="∅">
-                     <module class="trait" subclass="activation" values="∅">
-                      <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation&#xA;#phonological_relative">
-                       <module class="predication_modal" subclass="activation" values="∅">
-                        <module class="predication_modal" subclass="specification" values="internal_orientation">
-                         <module class="abstraction" subclass="activation" values="∅">
-                          <module class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
-                           <wording class="cluster" status="satellite" subclass="Circumstance">
-                            <module class="circumstance" subclass="activation" values="∅">
-                             <module class="circumstance" subclass="specification" values="#mannerism">
-                              <wording class="word" status="core">
-                               <token n="7041" gloss_berean="how" id="SBL.John.9.15.8" pin="interrogative">πῶς</token>
-                              </wording>
-                             </module>
-                            </module>
-                           </wording>
-                           <module class="event" subclass="activation" values="∅">
-                            <module class="event" subclass="specification" values="complete_duration">
-                             <wording class="word" status="core">
-                              <module class="process" subclass="specification" pos="true" values="$ἀναβλέπω">
-                               <token n="7042" gloss_berean="he had received sight" id="SBL.John.9.15.9" after=".">ἀνέβλεψεν</token>
-                              </module>
-                             </wording>
-                            </module>
-                           </module>
-                          </module>
+                  <module class="entity" subclass="specification" values="#interrogation">
+                   <module class="predication_modal" subclass="activation" values="∅">
+                    <module class="predication_modal" subclass="specification" values="internal_orientation">
+                     <module class="abstraction" subclass="activation" values="∅">
+                      <module class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
+                       <wording class="cluster" status="satellite" subclass="Circumstance">
+                        <module class="circumstance" subclass="activation" values="∅">
+                         <module class="circumstance" subclass="specification" values="#mannerism">
+                          <wording class="word" status="core">
+                           <token n="7041" gloss_berean="how" id="SBL.John.9.15.8" pin="interrogative">πῶς</token>
+                          </wording>
                          </module>
+                        </module>
+                       </wording>
+                       <module class="event" subclass="activation" values="∅">
+                        <module class="event" subclass="specification" values="complete_duration">
+                         <wording class="word" status="core">
+                          <module class="process" subclass="specification" pos="true" values="$ἀναβλέπω">
+                           <token n="7042" gloss_berean="he had received sight" id="SBL.John.9.15.9" after=".">ἀνέβλεψεν</token>
+                          </module>
+                         </wording>
                         </module>
                        </module>
                       </module>
@@ -4179,10 +4171,10 @@
      <wording class="cluster" status="independent">
       <module class="speech" subclass="activation" values="∅">
        <module class="speech" subclass="connection" values="connection_marker&#xA;progressive">
-        <module xml:id="d9e2371" next="d9e2371_2" class="speech" subclass="specification" values="∅">
-         <module xml:id="d7e2355" next="d7e2355_2" class="speech_act" subclass="specification" values="∅">
-          <module xml:id="d5e2336" next="d5e2336_2" class="predication_active" subclass="activation" values="∅">
-           <module xml:id="d3e2317" next="d3e2317_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
+        <module xml:id="d9e2367" next="d9e2367_2" class="speech" subclass="specification" values="∅">
+         <module xml:id="d7e2351" next="d7e2351_2" class="speech_act" subclass="specification" values="∅">
+          <module xml:id="d5e2332" next="d5e2332_2" class="predication_active" subclass="activation" values="∅">
+           <module xml:id="d3e2313" next="d3e2313_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
             <wording class="cluster" status="satellite" subclass="Subject">
              <module class="entity" subclass="activation" values="∅">
               <module class="entity" subclass="specification" values="gendered">
@@ -4207,10 +4199,10 @@
         <wording class="word" status="junctive">
          <token n="7044" gloss_berean="And" id="SBL.John.9.15.11">δὲ</token>
         </wording>
-        <module prev="d9e2371" xml:id="d9e2371_2" class="speech" subclass="specification" values="∅">
-         <module prev="d7e2355" xml:id="d7e2355_2" class="speech_act" subclass="specification" values="∅">
-          <module prev="d5e2336" xml:id="d5e2336_2" class="predication_active" subclass="activation" values="∅">
-           <module prev="d3e2317" xml:id="d3e2317_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
+        <module prev="d9e2367" xml:id="d9e2367_2" class="speech" subclass="specification" values="∅">
+         <module prev="d7e2351" xml:id="d7e2351_2" class="speech_act" subclass="specification" values="∅">
+          <module prev="d5e2332" xml:id="d5e2332_2" class="predication_active" subclass="activation" values="∅">
+           <module prev="d3e2313" xml:id="d3e2313_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
             <module class="abstraction" subclass="activation" values="∅">
              <module class="abstraction" subclass="specification" values="∅">
               <module class="event" subclass="activation" values="∅">
@@ -4281,10 +4273,10 @@
                                  <wording class="cluster" status="satellite" subclass="Circumstance">
                                   <module class="circumstance" subclass="activation" values="∅">
                                    <module class="circumstance" subclass="specification" values="#positional_association&#xA;$ἐπί&#xA;accusative_association">
-                                    <module xml:id="d9e2441" next="d9e2441_2" class="entity" subclass="activation" values="∅">
-                                     <module xml:id="d7e2424" next="d7e2424_2" class="entity" subclass="specification" values="gendered&#xA;plural">
-                                      <module xml:id="d5e2404" next="d5e2404_2" class="definition" subclass="activation" values="∅">
-                                       <module xml:id="d3e2384" next="d3e2384_2" class="definition" subclass="specification" values="elaborated&#xA;preparatory">
+                                    <module xml:id="d9e2437" next="d9e2437_2" class="entity" subclass="activation" values="∅">
+                                     <module xml:id="d7e2420" next="d7e2420_2" class="entity" subclass="specification" values="gendered&#xA;plural">
+                                      <module xml:id="d5e2400" next="d5e2400_2" class="definition" subclass="activation" values="∅">
+                                       <module xml:id="d3e2380" next="d3e2380_2" class="definition" subclass="specification" values="elaborated&#xA;preparatory">
                                         <wording class="cluster" status="satellite" subclass="Modifier">
                                          <module class="trait" subclass="activation" values="∅">
                                           <module class="trait" subclass="specification" values="#contextualized">
@@ -4317,10 +4309,10 @@
                                     <wording class="word" status="translative">
                                      <token n="7050" gloss_berean="on" id="SBL.John.9.15.17">ἐπὶ</token>
                                     </wording>
-                                    <module prev="d9e2441" xml:id="d9e2441_2" class="entity" subclass="activation" values="∅">
-                                     <module prev="d7e2424" xml:id="d7e2424_2" class="entity" subclass="specification" values="gendered&#xA;plural">
-                                      <module prev="d5e2404" xml:id="d5e2404_2" class="definition" subclass="activation" values="∅">
-                                       <module prev="d3e2384" xml:id="d3e2384_2" class="definition" subclass="specification" values="elaborated&#xA;preparatory">
+                                    <module prev="d9e2437" xml:id="d9e2437_2" class="entity" subclass="activation" values="∅">
+                                     <module prev="d7e2420" xml:id="d7e2420_2" class="entity" subclass="specification" values="gendered&#xA;plural">
+                                      <module prev="d5e2400" xml:id="d5e2400_2" class="definition" subclass="activation" values="∅">
+                                       <module prev="d3e2380" xml:id="d3e2380_2" class="definition" subclass="specification" values="elaborated&#xA;preparatory">
                                         <module class="trait" subclass="activation" values="∅">
                                          <module class="trait" subclass="specification" values="differentiation&#xA;indication&#xA;#articulation">
                                           <wording class="word" status="translative">
@@ -4445,14 +4437,14 @@
      <wording class="cluster" status="independent">
       <module class="speech" subclass="activation" values="∅">
        <module class="speech" subclass="connection" values="connection_marker&#xA;#advancing">
-        <module xml:id="d17e2555" next="d17e2555_2" class="speech" subclass="specification" values="∅">
-         <module xml:id="d15e2552" next="d15e2552_2" class="speech_act" subclass="specification" values="∅">
-          <module xml:id="d13e2548" next="d13e2548_2" class="predication_active" subclass="activation" values="∅">
-           <module xml:id="d11e2542" next="d11e2542_2" class="predication_active" subclass="specification" values="construed_instantiator">
-            <module xml:id="d9e2527" next="d9e2527_2" class="abstraction" subclass="activation" values="∅">
-             <module xml:id="d7e2509" next="d7e2509_2" class="abstraction" subclass="specification" values="plural">
-              <module xml:id="d5e2488" next="d5e2488_2" class="event" subclass="activation" values="∅">
-               <module xml:id="d3e2467" next="d3e2467_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
+        <module xml:id="d17e2551" next="d17e2551_2" class="speech" subclass="specification" values="∅">
+         <module xml:id="d15e2548" next="d15e2548_2" class="speech_act" subclass="specification" values="∅">
+          <module xml:id="d13e2544" next="d13e2544_2" class="predication_active" subclass="activation" values="∅">
+           <module xml:id="d11e2538" next="d11e2538_2" class="predication_active" subclass="specification" values="construed_instantiator">
+            <module xml:id="d9e2523" next="d9e2523_2" class="abstraction" subclass="activation" values="∅">
+             <module xml:id="d7e2505" next="d7e2505_2" class="abstraction" subclass="specification" values="plural">
+              <module xml:id="d5e2484" next="d5e2484_2" class="event" subclass="activation" values="∅">
+               <module xml:id="d3e2463" next="d3e2463_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
                 <wording class="word" status="core">
                  <module class="process" subclass="specification" pos="true" values="$λέγω">
                   <token n="7057" gloss_berean="Were saying" id="SBL.John.9.16.1">ἔλεγον</token>
@@ -4469,10 +4461,10 @@
         <wording class="word" status="junctive">
          <token n="7058" gloss_berean="therefore" id="SBL.John.9.16.2">οὖν</token>
         </wording>
-        <module prev="d17e2555" xml:id="d17e2555_2" class="speech" subclass="specification" values="∅">
-         <module prev="d15e2552" xml:id="d15e2552_2" class="speech_act" subclass="specification" values="∅">
-          <module prev="d13e2548" xml:id="d13e2548_2" class="predication_active" subclass="activation" values="∅">
-           <module prev="d11e2542" xml:id="d11e2542_2" class="predication_active" subclass="specification" values="construed_instantiator">
+        <module prev="d17e2551" xml:id="d17e2551_2" class="speech" subclass="specification" values="∅">
+         <module prev="d15e2548" xml:id="d15e2548_2" class="speech_act" subclass="specification" values="∅">
+          <module prev="d13e2544" xml:id="d13e2544_2" class="predication_active" subclass="activation" values="∅">
+           <module prev="d11e2538" xml:id="d11e2538_2" class="predication_active" subclass="specification" values="construed_instantiator">
             <wording class="cluster" status="satellite" subclass="Subject">
              <module class="entity" subclass="activation" values="∅">
               <module class="entity" subclass="specification" values="gendered&#xA;plural">
@@ -4531,10 +4523,10 @@
               </module>
              </module>
             </wording>
-            <module prev="d9e2527" xml:id="d9e2527_2" class="abstraction" subclass="activation" values="∅">
-             <module prev="d7e2509" xml:id="d7e2509_2" class="abstraction" subclass="specification" values="plural">
-              <module prev="d5e2488" xml:id="d5e2488_2" class="event" subclass="activation" values="∅">
-               <module prev="d3e2467" xml:id="d3e2467_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
+            <module prev="d9e2523" xml:id="d9e2523_2" class="abstraction" subclass="activation" values="∅">
+             <module prev="d7e2505" xml:id="d7e2505_2" class="abstraction" subclass="specification" values="plural">
+              <module prev="d5e2484" xml:id="d5e2484_2" class="event" subclass="activation" values="∅">
+               <module prev="d3e2463" xml:id="d3e2463_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
                 <wording class="cluster" status="satellite" subclass="Object">
                  <module class="entity" subclass="activation" values="∅">
                   <module class="entity" subclass="specification" values="#quotation">
@@ -4554,10 +4546,10 @@
                               </wording>
                               <module class="predication_active" subclass="operation" values="∅">
                                <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;circumscribed">
-                                <module xml:id="d9e2557" next="d9e2557_2" class="abstraction" subclass="activation" values="∅">
-                                 <module xml:id="d7e2538" next="d7e2538_2" class="abstraction" subclass="specification" values="∅">
-                                  <module xml:id="d5e2516" next="d5e2516_2" class="event" subclass="activation" values="∅">
-                                   <module xml:id="d3e2494" next="d3e2494_2" class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction">
+                                <module xml:id="d9e2553" next="d9e2553_2" class="abstraction" subclass="activation" values="∅">
+                                 <module xml:id="d7e2534" next="d7e2534_2" class="abstraction" subclass="specification" values="∅">
+                                  <module xml:id="d5e2512" next="d5e2512_2" class="event" subclass="activation" values="∅">
+                                   <module xml:id="d3e2490" next="d3e2490_2" class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction">
                                     <wording class="word" status="core">
                                      <module class="process" subclass="specification" pos="true" values="$εἰμί">
                                       <token n="7064" gloss_berean="is" id="SBL.John.9.16.8">ἔστιν</token>
@@ -4567,11 +4559,11 @@
                                   </module>
                                  </module>
                                 </module>
-                                <wording xml:id="d11e2617" next="d11e2617_2" class="cluster" status="satellite" subclass="Subject">
-                                 <module xml:id="d9e2587" next="d9e2587_2" class="entity" subclass="activation" values="∅">
-                                  <module xml:id="d7e2567" next="d7e2567_2" class="entity" subclass="specification" values="gendered">
-                                   <module xml:id="d5e2544" next="d5e2544_2" class="definition" subclass="activation" values="∅">
-                                    <module xml:id="d3e2521" next="d3e2521_2" class="definition" subclass="specification" values="elaborated&#xA;preparatory">
+                                <wording xml:id="d11e2613" next="d11e2613_2" class="cluster" status="satellite" subclass="Subject">
+                                 <module xml:id="d9e2583" next="d9e2583_2" class="entity" subclass="activation" values="∅">
+                                  <module xml:id="d7e2563" next="d7e2563_2" class="entity" subclass="specification" values="gendered">
+                                   <module xml:id="d5e2540" next="d5e2540_2" class="definition" subclass="activation" values="∅">
+                                    <module xml:id="d3e2517" next="d3e2517_2" class="definition" subclass="specification" values="elaborated&#xA;preparatory">
                                      <wording class="cluster" status="satellite" subclass="Modifier">
                                       <module class="trait" subclass="activation" values="∅">
                                        <module class="trait" subclass="specification" values="differentiation&#xA;indication&#xA;#proximate&#xA;distant">
@@ -4586,10 +4578,10 @@
                                   </module>
                                  </module>
                                 </wording>
-                                <module prev="d9e2557" xml:id="d9e2557_2" class="abstraction" subclass="activation" values="∅">
-                                 <module prev="d7e2538" xml:id="d7e2538_2" class="abstraction" subclass="specification" values="∅">
-                                  <module prev="d5e2516" xml:id="d5e2516_2" class="event" subclass="activation" values="∅">
-                                   <module prev="d3e2494" xml:id="d3e2494_2" class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction">
+                                <module prev="d9e2553" xml:id="d9e2553_2" class="abstraction" subclass="activation" values="∅">
+                                 <module prev="d7e2534" xml:id="d7e2534_2" class="abstraction" subclass="specification" values="∅">
+                                  <module prev="d5e2512" xml:id="d5e2512_2" class="event" subclass="activation" values="∅">
+                                   <module prev="d3e2490" xml:id="d3e2490_2" class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction">
                                     <wording class="cluster" status="satellite" subclass="Complement">
                                      <module class="abstraction" subclass="activation" values="∅">
                                       <module class="abstraction" subclass="specification" values="extrinsic">
@@ -4624,11 +4616,11 @@
                                   </module>
                                  </module>
                                 </module>
-                                <wording prev="d11e2617" xml:id="d11e2617_2" class="cluster" status="satellite" subclass="Subject">
-                                 <module prev="d9e2587" xml:id="d9e2587_2" class="entity" subclass="activation" values="∅">
-                                  <module prev="d7e2567" xml:id="d7e2567_2" class="entity" subclass="specification" values="gendered">
-                                   <module prev="d5e2544" xml:id="d5e2544_2" class="definition" subclass="activation" values="∅">
-                                    <module prev="d3e2521" xml:id="d3e2521_2" class="definition" subclass="specification" values="elaborated&#xA;preparatory">
+                                <wording prev="d11e2613" xml:id="d11e2613_2" class="cluster" status="satellite" subclass="Subject">
+                                 <module prev="d9e2583" xml:id="d9e2583_2" class="entity" subclass="activation" values="∅">
+                                  <module prev="d7e2563" xml:id="d7e2563_2" class="entity" subclass="specification" values="gendered">
+                                   <module prev="d5e2540" xml:id="d5e2540_2" class="definition" subclass="activation" values="∅">
+                                    <module prev="d3e2517" xml:id="d3e2517_2" class="definition" subclass="specification" values="elaborated&#xA;preparatory">
                                      <module class="trait" subclass="activation" values="∅">
                                       <module class="trait" subclass="specification" values="differentiation&#xA;indication&#xA;#articulation">
                                        <wording class="word" status="translative">
@@ -4670,8 +4662,8 @@
                                     <module class="event" subclass="activation" values="grouped">
                                      <module class="event" subclass="set" values="∅">
                                       <module class="event" subclass="operation" values="negative&#xA;negated_factuality">
-                                       <module xml:id="d5e2579" next="d5e2579_2" class="event" subclass="operation" values="∅">
-                                        <module xml:id="d3e2555" next="d3e2555_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;preparatory">
+                                       <module xml:id="d5e2575" next="d5e2575_2" class="event" subclass="operation" values="∅">
+                                        <module xml:id="d3e2551" next="d3e2551_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;preparatory">
                                          <wording class="cluster" status="satellite" subclass="Object">
                                           <module class="entity" subclass="activation" values="∅">
                                            <module class="entity" subclass="specification" values="∅">
@@ -4707,8 +4699,8 @@
                                        <wording class="word" status="junctive">
                                         <token n="7073" gloss_berean="not" id="SBL.John.9.16.17">οὐ</token>
                                        </wording>
-                                       <module prev="d5e2579" xml:id="d5e2579_2" class="event" subclass="operation" values="∅">
-                                        <module prev="d3e2555" xml:id="d3e2555_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;preparatory">
+                                       <module prev="d5e2575" xml:id="d5e2575_2" class="event" subclass="operation" values="∅">
+                                        <module prev="d3e2551" xml:id="d3e2551_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;preparatory">
                                          <wording class="word" status="core">
                                           <module class="process" subclass="specification" pos="true" values="$τηρέω">
                                            <token n="7074" gloss_berean="He does keep" id="SBL.John.9.16.18" after=".">τηρεῖ</token>
@@ -4798,8 +4790,8 @@
                           <module class="speech_act" subclass="specification" values="∅">
                            <module class="predication_active" subclass="activation" values="∅">
                             <module class="predication_active" subclass="specification" values="construed_instantiator">
-                             <module xml:id="d9e2732" next="d9e2732_2" class="abstraction" subclass="activation" values="∅">
-                              <module xml:id="d7e2711" next="d7e2711_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
+                             <module xml:id="d9e2728" next="d9e2728_2" class="abstraction" subclass="activation" values="∅">
+                              <module xml:id="d7e2707" next="d7e2707_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
                                <wording class="cluster" status="satellite" subclass="Circumstance">
                                 <module class="circumstance" subclass="activation" values="∅">
                                  <module class="circumstance" subclass="specification" values="#mannerism">
@@ -4809,8 +4801,8 @@
                                  </module>
                                 </module>
                                </wording>
-                               <module xml:id="d5e2692" next="d5e2692_2" class="event" subclass="activation" values="∅">
-                                <module xml:id="d3e2667" next="d3e2667_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
+                               <module xml:id="d5e2688" next="d5e2688_2" class="event" subclass="activation" values="∅">
+                                <module xml:id="d3e2663" next="d3e2663_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
                                  <wording class="word" status="core">
                                   <module class="process" subclass="specification" pos="true" values="affected&#xA;$δύναμαι">
                                    <token n="7078" gloss_berean="is able" id="SBL.John.9.16.22">δύναται</token>
@@ -4854,10 +4846,10 @@
                                </module>
                               </module>
                              </wording>
-                             <module prev="d9e2732" xml:id="d9e2732_2" class="abstraction" subclass="activation" values="∅">
-                              <module prev="d7e2711" xml:id="d7e2711_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
-                               <module prev="d5e2692" xml:id="d5e2692_2" class="event" subclass="activation" values="∅">
-                                <module prev="d3e2667" xml:id="d3e2667_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
+                             <module prev="d9e2728" xml:id="d9e2728_2" class="abstraction" subclass="activation" values="∅">
+                              <module prev="d7e2707" xml:id="d7e2707_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
+                               <module prev="d5e2688" xml:id="d5e2688_2" class="event" subclass="activation" values="∅">
+                                <module prev="d3e2663" xml:id="d3e2663_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
                                  <wording class="cluster" status="satellite" subclass="Object">
                                   <module class="entity" subclass="activation" values="∅">
                                    <module class="entity" subclass="specification" values="#scenario">
@@ -5023,14 +5015,14 @@
      <wording class="cluster" status="independent">
       <module class="speech" subclass="activation" values="∅">
        <module class="speech" subclass="connection" values="connection_marker&#xA;#advancing">
-        <module xml:id="d17e2891" next="d17e2891_2" class="speech" subclass="specification" values="∅">
-         <module xml:id="d15e2887" next="d15e2887_2" class="speech_act" subclass="specification" values="∅">
-          <module xml:id="d13e2882" next="d13e2882_2" class="predication_active" subclass="activation" values="∅">
-           <module xml:id="d11e2874" next="d11e2874_2" class="predication_active" subclass="specification" values="∅">
-            <module xml:id="d9e2855" next="d9e2855_2" class="abstraction" subclass="activation" values="∅">
-             <module xml:id="d7e2833" next="d7e2833_2" class="abstraction" subclass="specification" values="plural">
-              <module xml:id="d5e2807" next="d5e2807_2" class="event" subclass="activation" values="∅">
-               <module xml:id="d3e2781" next="d3e2781_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;extra_participant&#xA;medial-final&#xA;circumscribed">
+        <module xml:id="d17e2887" next="d17e2887_2" class="speech" subclass="specification" values="∅">
+         <module xml:id="d15e2883" next="d15e2883_2" class="speech_act" subclass="specification" values="∅">
+          <module xml:id="d13e2878" next="d13e2878_2" class="predication_active" subclass="activation" values="∅">
+           <module xml:id="d11e2870" next="d11e2870_2" class="predication_active" subclass="specification" values="∅">
+            <module xml:id="d9e2851" next="d9e2851_2" class="abstraction" subclass="activation" values="∅">
+             <module xml:id="d7e2829" next="d7e2829_2" class="abstraction" subclass="specification" values="plural">
+              <module xml:id="d5e2803" next="d5e2803_2" class="event" subclass="activation" values="∅">
+               <module xml:id="d3e2777" next="d3e2777_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;extra_participant&#xA;medial-final&#xA;circumscribed">
                 <wording class="word" status="core">
                  <module class="process" subclass="specification" pos="true" values="$λέγω">
                   <token n="7089" gloss_berean="They say" id="SBL.John.9.17.1">λέγουσιν</token>
@@ -5047,14 +5039,14 @@
         <wording class="word" status="junctive">
          <token n="7090" gloss_berean="therefore" id="SBL.John.9.17.2">οὖν</token>
         </wording>
-        <module prev="d17e2891" xml:id="d17e2891_2" class="speech" subclass="specification" values="∅">
-         <module prev="d15e2887" xml:id="d15e2887_2" class="speech_act" subclass="specification" values="∅">
-          <module prev="d13e2882" xml:id="d13e2882_2" class="predication_active" subclass="activation" values="∅">
-           <module prev="d11e2874" xml:id="d11e2874_2" class="predication_active" subclass="specification" values="∅">
-            <module prev="d9e2855" xml:id="d9e2855_2" class="abstraction" subclass="activation" values="∅">
-             <module prev="d7e2833" xml:id="d7e2833_2" class="abstraction" subclass="specification" values="plural">
-              <module prev="d5e2807" xml:id="d5e2807_2" class="event" subclass="activation" values="∅">
-               <module prev="d3e2781" xml:id="d3e2781_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;extra_participant&#xA;medial-final&#xA;circumscribed">
+        <module prev="d17e2887" xml:id="d17e2887_2" class="speech" subclass="specification" values="∅">
+         <module prev="d15e2883" xml:id="d15e2883_2" class="speech_act" subclass="specification" values="∅">
+          <module prev="d13e2878" xml:id="d13e2878_2" class="predication_active" subclass="activation" values="∅">
+           <module prev="d11e2870" xml:id="d11e2870_2" class="predication_active" subclass="specification" values="∅">
+            <module prev="d9e2851" xml:id="d9e2851_2" class="abstraction" subclass="activation" values="∅">
+             <module prev="d7e2829" xml:id="d7e2829_2" class="abstraction" subclass="specification" values="plural">
+              <module prev="d5e2803" xml:id="d5e2803_2" class="event" subclass="activation" values="∅">
+               <module prev="d3e2777" xml:id="d3e2777_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;extra_participant&#xA;medial-final&#xA;circumscribed">
                 <wording class="cluster" status="satellite" subclass="Object2">
                  <module class="entity" subclass="activation" values="∅">
                   <module class="entity" subclass="specification" values="gendered">
@@ -5117,10 +5109,10 @@
                           <module class="speech_act" subclass="specification" values="∅">
                            <module class="predication_active" subclass="activation" values="∅">
                             <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;interactant">
-                             <module xml:id="d9e2908" next="d9e2908_2" class="abstraction" subclass="activation" values="∅">
-                              <module xml:id="d7e2885" next="d7e2885_2" class="abstraction" subclass="specification" values="circumscribed">
-                               <module xml:id="d5e2858" next="d5e2858_2" class="event" subclass="activation" values="∅">
-                                <module xml:id="d3e2831" next="d3e2831_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;preparatory&#xA;circumscribed">
+                             <module xml:id="d9e2904" next="d9e2904_2" class="abstraction" subclass="activation" values="∅">
+                              <module xml:id="d7e2881" next="d7e2881_2" class="abstraction" subclass="specification" values="circumscribed">
+                               <module xml:id="d5e2854" next="d5e2854_2" class="event" subclass="activation" values="∅">
+                                <module xml:id="d3e2827" next="d3e2827_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;preparatory&#xA;circumscribed">
                                  <wording class="cluster" status="satellite" subclass="Object">
                                   <module class="entity" subclass="activation" values="∅">
                                    <module class="entity" subclass="specification" values="∅">
@@ -5159,10 +5151,10 @@
                                </module>
                               </module>
                              </wording>
-                             <module prev="d9e2908" xml:id="d9e2908_2" class="abstraction" subclass="activation" values="∅">
-                              <module prev="d7e2885" xml:id="d7e2885_2" class="abstraction" subclass="specification" values="circumscribed">
-                               <module prev="d5e2858" xml:id="d5e2858_2" class="event" subclass="activation" values="∅">
-                                <module prev="d3e2831" xml:id="d3e2831_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;preparatory&#xA;circumscribed">
+                             <module prev="d9e2904" xml:id="d9e2904_2" class="abstraction" subclass="activation" values="∅">
+                              <module prev="d7e2881" xml:id="d7e2881_2" class="abstraction" subclass="specification" values="circumscribed">
+                               <module prev="d5e2854" xml:id="d5e2854_2" class="event" subclass="activation" values="∅">
+                                <module prev="d3e2827" xml:id="d3e2827_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;preparatory&#xA;circumscribed">
                                  <wording class="word" status="core">
                                   <module class="process" subclass="specification" pos="true" values="$λέγω">
                                    <token n="7096" gloss_berean="say" id="SBL.John.9.17.8">λέγεις</token>
@@ -5306,10 +5298,10 @@
      <wording class="cluster" status="independent">
       <module class="speech" subclass="activation" values="∅">
        <module class="speech" subclass="connection" values="connection_marker&#xA;progressive">
-        <module xml:id="d9e3010" next="d9e3010_2" class="speech" subclass="specification" values="∅">
-         <module xml:id="d7e2986" next="d7e2986_2" class="speech_act" subclass="specification" values="∅">
-          <module xml:id="d5e2958" next="d5e2958_2" class="predication_active" subclass="activation" values="∅">
-           <module xml:id="d3e2930" next="d3e2930_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
+        <module xml:id="d9e3006" next="d9e3006_2" class="speech" subclass="specification" values="∅">
+         <module xml:id="d7e2982" next="d7e2982_2" class="speech_act" subclass="specification" values="∅">
+          <module xml:id="d5e2954" next="d5e2954_2" class="predication_active" subclass="activation" values="∅">
+           <module xml:id="d3e2926" next="d3e2926_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
             <wording class="cluster" status="satellite" subclass="Subject">
              <module class="entity" subclass="activation" values="∅">
               <module class="entity" subclass="specification" values="gendered">
@@ -5334,10 +5326,10 @@
         <wording class="word" status="junctive">
          <token n="7105" gloss_berean="And" id="SBL.John.9.17.17">δὲ</token>
         </wording>
-        <module prev="d9e3010" xml:id="d9e3010_2" class="speech" subclass="specification" values="∅">
-         <module prev="d7e2986" xml:id="d7e2986_2" class="speech_act" subclass="specification" values="∅">
-          <module prev="d5e2958" xml:id="d5e2958_2" class="predication_active" subclass="activation" values="∅">
-           <module prev="d3e2930" xml:id="d3e2930_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
+        <module prev="d9e3006" xml:id="d9e3006_2" class="speech" subclass="specification" values="∅">
+         <module prev="d7e2982" xml:id="d7e2982_2" class="speech_act" subclass="specification" values="∅">
+          <module prev="d5e2954" xml:id="d5e2954_2" class="predication_active" subclass="activation" values="∅">
+           <module prev="d3e2926" xml:id="d3e2926_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
             <module class="abstraction" subclass="activation" values="∅">
              <module class="abstraction" subclass="specification" values="∅">
               <module class="event" subclass="activation" values="∅">
@@ -5424,20 +5416,20 @@
      <wording class="cluster" status="independent">
       <module class="speech" subclass="activation" values="∅">
        <module class="speech" subclass="connection" values="connection_marker&#xA;#advancing">
-        <module xml:id="d23e3133" next="d23e3133_2" class="speech" subclass="specification" values="∅">
-         <module xml:id="d21e3132" next="d21e3132_2" class="speech_act" subclass="specification" values="∅">
-          <module xml:id="d19e3131" next="d19e3131_2" class="predication_active" subclass="activation" values="grouped">
-           <module xml:id="d17e3126" next="d17e3126_2" class="predication_active" subclass="set" values="∅">
-            <module xml:id="d15e3121" next="d15e3121_2" class="predication_active" subclass="operation" values="negative&#xA;negated_factuality">
+        <module xml:id="d23e3129" next="d23e3129_2" class="speech" subclass="specification" values="∅">
+         <module xml:id="d21e3128" next="d21e3128_2" class="speech_act" subclass="specification" values="∅">
+          <module xml:id="d19e3127" next="d19e3127_2" class="predication_active" subclass="activation" values="grouped">
+           <module xml:id="d17e3122" next="d17e3122_2" class="predication_active" subclass="set" values="∅">
+            <module xml:id="d15e3117" next="d15e3117_2" class="predication_active" subclass="operation" values="negative&#xA;negated_factuality">
              <wording class="word" status="junctive">
               <token n="7110" gloss_berean="Not" id="SBL.John.9.18.1">Οὐκ</token>
              </wording>
-             <module xml:id="d13e3118" next="d13e3118_2" class="predication_active" subclass="operation" values="∅">
-              <module xml:id="d11e3109" next="d11e3109_2" class="predication_active" subclass="specification" values="construed_instantiator">
-               <module xml:id="d9e3087" next="d9e3087_2" class="abstraction" subclass="activation" values="∅">
-                <module xml:id="d7e3062" next="d7e3062_2" class="abstraction" subclass="specification" values="plural">
-                 <module xml:id="d5e3033" next="d5e3033_2" class="event" subclass="activation" values="∅">
-                  <module xml:id="d3e3004" next="d3e3004_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;circumscribed&#xA;circumscribed">
+             <module xml:id="d13e3114" next="d13e3114_2" class="predication_active" subclass="operation" values="∅">
+              <module xml:id="d11e3105" next="d11e3105_2" class="predication_active" subclass="specification" values="construed_instantiator">
+               <module xml:id="d9e3083" next="d9e3083_2" class="abstraction" subclass="activation" values="∅">
+                <module xml:id="d7e3058" next="d7e3058_2" class="abstraction" subclass="specification" values="plural">
+                 <module xml:id="d5e3029" next="d5e3029_2" class="event" subclass="activation" values="∅">
+                  <module xml:id="d3e3000" next="d3e3000_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;circumscribed&#xA;circumscribed">
                    <wording class="word" status="core">
                     <module class="process" subclass="specification" pos="true" values="$πιστεύω">
                      <token n="7111" gloss_berean="did believe" id="SBL.John.9.18.2">ἐπίστευσαν</token>
@@ -5457,13 +5449,13 @@
         <wording class="word" status="junctive">
          <token n="7112" gloss_berean="then" id="SBL.John.9.18.3">οὖν</token>
         </wording>
-        <module prev="d23e3133" xml:id="d23e3133_2" class="speech" subclass="specification" values="∅">
-         <module prev="d21e3132" xml:id="d21e3132_2" class="speech_act" subclass="specification" values="∅">
-          <module prev="d19e3131" xml:id="d19e3131_2" class="predication_active" subclass="activation" values="grouped">
-           <module prev="d17e3126" xml:id="d17e3126_2" class="predication_active" subclass="set" values="∅">
-            <module prev="d15e3121" xml:id="d15e3121_2" class="predication_active" subclass="operation" values="negative&#xA;negated_factuality">
-             <module prev="d13e3118" xml:id="d13e3118_2" class="predication_active" subclass="operation" values="∅">
-              <module prev="d11e3109" xml:id="d11e3109_2" class="predication_active" subclass="specification" values="construed_instantiator">
+        <module prev="d23e3129" xml:id="d23e3129_2" class="speech" subclass="specification" values="∅">
+         <module prev="d21e3128" xml:id="d21e3128_2" class="speech_act" subclass="specification" values="∅">
+          <module prev="d19e3127" xml:id="d19e3127_2" class="predication_active" subclass="activation" values="grouped">
+           <module prev="d17e3122" xml:id="d17e3122_2" class="predication_active" subclass="set" values="∅">
+            <module prev="d15e3117" xml:id="d15e3117_2" class="predication_active" subclass="operation" values="negative&#xA;negated_factuality">
+             <module prev="d13e3114" xml:id="d13e3114_2" class="predication_active" subclass="operation" values="∅">
+              <module prev="d11e3105" xml:id="d11e3105_2" class="predication_active" subclass="specification" values="construed_instantiator">
                <wording class="cluster" status="satellite" subclass="Subject">
                 <module class="entity" subclass="activation" values="∅">
                  <module class="entity" subclass="specification" values="gendered&#xA;plural">
@@ -5498,10 +5490,10 @@
                  </module>
                 </module>
                </wording>
-               <module prev="d9e3087" xml:id="d9e3087_2" class="abstraction" subclass="activation" values="∅">
-                <module prev="d7e3062" xml:id="d7e3062_2" class="abstraction" subclass="specification" values="plural">
-                 <module prev="d5e3033" xml:id="d5e3033_2" class="event" subclass="activation" values="∅">
-                  <module prev="d3e3004" xml:id="d3e3004_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;circumscribed&#xA;circumscribed">
+               <module prev="d9e3083" xml:id="d9e3083_2" class="abstraction" subclass="activation" values="∅">
+                <module prev="d7e3058" xml:id="d7e3058_2" class="abstraction" subclass="specification" values="plural">
+                 <module prev="d5e3029" xml:id="d5e3029_2" class="event" subclass="activation" values="∅">
+                  <module prev="d3e3000" xml:id="d3e3000_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;circumscribed&#xA;circumscribed">
                    <wording class="cluster" status="satellite" subclass="Circumstance">
                     <module class="circumstance" subclass="activation" values="∅">
                      <module class="circumstance" subclass="specification" values="#positional_association&#xA;$περί&#xA;genitive_association">
@@ -5616,7 +5608,7 @@
                         <module class="definition" subclass="activation" values="∅">
                          <module class="definition" subclass="specification" values="∅">
                           <module class="trait" subclass="activation" values="∅">
-                           <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation&#xA;#morphological_relative">
+                           <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation">
                             <module class="predication_modal" subclass="activation" values="grouped">
                              <module class="predication_modal" subclass="set" values="∅">
                               <wording class="path">
@@ -5886,16 +5878,16 @@
                                                                    </module>
                                                                    <wording class="cluster" status="satellite" subclass="Modifier">
                                                                     <module class="trait" subclass="activation" values="∅">
-                                                                     <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation&#xA;#morphological_relative">
+                                                                     <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation">
                                                                       <module class="predication_modal" subclass="activation" values="∅">
                                                                        <module class="predication_modal" subclass="specification" values="construed_instantiator&#xA;internal_orientation&#xA;interactant">
-                                                                        <module xml:id="d15e3417" next="d15e3417_2" class="abstraction" subclass="activation" values="∅">
-                                                                         <module xml:id="d13e3410" next="d13e3410_2" class="abstraction" subclass="specification" values="plural">
-                                                                          <module xml:id="d11e3400" next="d11e3400_2" class="event" subclass="activation" values="∅">
-                                                                           <module xml:id="d9e3357" next="d9e3357_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
-                                                                            <wording xml:id="d7e3331" next="d7e3331_2" class="cluster" status="satellite" subclass="Object">
-                                                                             <module xml:id="d5e3301" next="d5e3301_2" class="entity" subclass="activation" values="re-construed">
-                                                                              <module xml:id="d3e3271" next="d3e3271_2" class="entity" subclass="re-construal" values="∅">
+                                                                        <module xml:id="d15e3413" next="d15e3413_2" class="abstraction" subclass="activation" values="∅">
+                                                                         <module xml:id="d13e3406" next="d13e3406_2" class="abstraction" subclass="specification" values="plural">
+                                                                          <module xml:id="d11e3396" next="d11e3396_2" class="event" subclass="activation" values="∅">
+                                                                           <module xml:id="d9e3353" next="d9e3353_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
+                                                                            <wording xml:id="d7e3327" next="d7e3327_2" class="cluster" status="satellite" subclass="Object">
+                                                                             <module xml:id="d5e3297" next="d5e3297_2" class="entity" subclass="activation" values="re-construed">
+                                                                              <module xml:id="d3e3267" next="d3e3267_2" class="entity" subclass="re-construal" values="∅">
                                                                                <wording class="path">
                                                                                 <module class="entity" subclass="specification" values="gendered">
                                                                                  <module class="definition" subclass="activation" values="∅">
@@ -5935,18 +5927,18 @@
                                                                           </module>
                                                                          </module>
                                                                         </wording>
-                                                                        <module prev="d15e3417" xml:id="d15e3417_2" class="abstraction" subclass="activation" values="∅">
-                                                                         <module prev="d13e3410" xml:id="d13e3410_2" class="abstraction" subclass="specification" values="plural">
-                                                                          <module prev="d11e3400" xml:id="d11e3400_2" class="event" subclass="activation" values="∅">
-                                                                           <module prev="d9e3357" xml:id="d9e3357_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
+                                                                        <module prev="d15e3413" xml:id="d15e3413_2" class="abstraction" subclass="activation" values="∅">
+                                                                         <module prev="d13e3406" xml:id="d13e3406_2" class="abstraction" subclass="specification" values="plural">
+                                                                          <module prev="d11e3396" xml:id="d11e3396_2" class="event" subclass="activation" values="∅">
+                                                                           <module prev="d9e3353" xml:id="d9e3353_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying">
                                                                             <wording class="word" status="core">
                                                                              <module class="process" subclass="specification" pos="true" values="$λέγω">
                                                                               <token n="7141" gloss_berean="say" id="SBL.John.9.19.12">λέγετε</token>
                                                                              </module>
                                                                             </wording>
-                                                                            <wording prev="d7e3331" xml:id="d7e3331_2" class="cluster" status="satellite" subclass="Object">
-                                                                             <module prev="d5e3301" xml:id="d5e3301_2" class="entity" subclass="activation" values="re-construed">
-                                                                              <module prev="d3e3271" xml:id="d3e3271_2" class="entity" subclass="re-construal" values="∅">
+                                                                            <wording prev="d7e3327" xml:id="d7e3327_2" class="cluster" status="satellite" subclass="Object">
+                                                                             <module prev="d5e3297" xml:id="d5e3297_2" class="entity" subclass="activation" values="re-construed">
+                                                                              <module prev="d3e3267" xml:id="d3e3267_2" class="entity" subclass="re-construal" values="∅">
                                                                                <wording class="path">
                                                                                 <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                                                                                  <wording class="word" status="translative">
@@ -6031,12 +6023,12 @@
                                                    <wording class="cluster" status="independent">
                                                     <module class="speech" subclass="activation" values="∅">
                                                      <module class="speech" subclass="connection" values="connection_marker&#xA;#advancing">
-                                                      <module xml:id="d13e3478" next="d13e3478_2" class="speech" subclass="specification" values="∅">
-                                                       <module xml:id="d11e3467" next="d11e3467_2" class="speech_act" subclass="specification" values="∅">
-                                                        <module xml:id="d9e3423" next="d9e3423_2" class="predication_active" subclass="activation" values="∅">
-                                                         <module xml:id="d7e3396" next="d7e3396_2" class="predication_active" subclass="specification" values="∅">
-                                                          <module xml:id="d5e3365" next="d5e3365_2" class="abstraction" subclass="activation" values="∅">
-                                                           <module xml:id="d3e3334" next="d3e3334_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
+                                                      <module xml:id="d13e3474" next="d13e3474_2" class="speech" subclass="specification" values="∅">
+                                                       <module xml:id="d11e3463" next="d11e3463_2" class="speech_act" subclass="specification" values="∅">
+                                                        <module xml:id="d9e3419" next="d9e3419_2" class="predication_active" subclass="activation" values="∅">
+                                                         <module xml:id="d7e3392" next="d7e3392_2" class="predication_active" subclass="specification" values="∅">
+                                                          <module xml:id="d5e3361" next="d5e3361_2" class="abstraction" subclass="activation" values="∅">
+                                                           <module xml:id="d3e3330" next="d3e3330_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
                                                             <wording class="cluster" status="satellite" subclass="Circumstance">
                                                              <module class="circumstance" subclass="activation" values="∅">
                                                               <module class="circumstance" subclass="specification" values="#mannerism">
@@ -6055,12 +6047,12 @@
                                                       <wording class="word" status="junctive">
                                                        <token n="7146" gloss_berean="then" id="SBL.John.9.19.17">οὖν</token>
                                                       </wording>
-                                                      <module prev="d13e3478" xml:id="d13e3478_2" class="speech" subclass="specification" values="∅">
-                                                       <module prev="d11e3467" xml:id="d11e3467_2" class="speech_act" subclass="specification" values="∅">
-                                                        <module prev="d9e3423" xml:id="d9e3423_2" class="predication_active" subclass="activation" values="∅">
-                                                         <module prev="d7e3396" xml:id="d7e3396_2" class="predication_active" subclass="specification" values="∅">
-                                                          <module prev="d5e3365" xml:id="d5e3365_2" class="abstraction" subclass="activation" values="∅">
-                                                           <module prev="d3e3334" xml:id="d3e3334_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
+                                                      <module prev="d13e3474" xml:id="d13e3474_2" class="speech" subclass="specification" values="∅">
+                                                       <module prev="d11e3463" xml:id="d11e3463_2" class="speech_act" subclass="specification" values="∅">
+                                                        <module prev="d9e3419" xml:id="d9e3419_2" class="predication_active" subclass="activation" values="∅">
+                                                         <module prev="d7e3392" xml:id="d7e3392_2" class="predication_active" subclass="specification" values="∅">
+                                                          <module prev="d5e3361" xml:id="d5e3361_2" class="abstraction" subclass="activation" values="∅">
+                                                           <module prev="d3e3330" xml:id="d3e3330_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
                                                             <module class="event" subclass="activation" values="∅">
                                                              <module class="event" subclass="specification" values="informational_environment&#xA;circumscribed">
                                                               <wording class="word" status="core">
@@ -6145,14 +6137,14 @@
      <wording class="cluster" status="independent">
       <module class="speech" subclass="activation" values="∅">
        <module class="speech" subclass="connection" values="connection_marker&#xA;#advancing">
-        <module xml:id="d17e3538" next="d17e3538_2" class="speech" subclass="specification" values="∅">
-         <module xml:id="d15e3531" next="d15e3531_2" class="speech_act" subclass="specification" values="∅">
-          <module xml:id="d13e3522" next="d13e3522_2" class="predication_active" subclass="activation" values="∅">
-           <module xml:id="d11e3510" next="d11e3510_2" class="predication_active" subclass="specification" values="construed_instantiator">
-            <module xml:id="d9e3485" next="d9e3485_2" class="abstraction" subclass="activation" values="∅">
-             <module xml:id="d7e3457" next="d7e3457_2" class="abstraction" subclass="specification" values="∅">
-              <module xml:id="d5e3425" next="d5e3425_2" class="event" subclass="activation" values="grouped">
-               <module xml:id="d3e3393" next="d3e3393_2" class="event" subclass="set" values="∅">
+        <module xml:id="d17e3534" next="d17e3534_2" class="speech" subclass="specification" values="∅">
+         <module xml:id="d15e3527" next="d15e3527_2" class="speech_act" subclass="specification" values="∅">
+          <module xml:id="d13e3518" next="d13e3518_2" class="predication_active" subclass="activation" values="∅">
+           <module xml:id="d11e3506" next="d11e3506_2" class="predication_active" subclass="specification" values="construed_instantiator">
+            <module xml:id="d9e3481" next="d9e3481_2" class="abstraction" subclass="activation" values="∅">
+             <module xml:id="d7e3453" next="d7e3453_2" class="abstraction" subclass="specification" values="∅">
+              <module xml:id="d5e3421" next="d5e3421_2" class="event" subclass="activation" values="grouped">
+               <module xml:id="d3e3389" next="d3e3389_2" class="event" subclass="set" values="∅">
                 <wording class="path">
                  <module class="event" subclass="operation" values="∅">
                   <module class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;cropped">
@@ -6175,10 +6167,10 @@
         <wording class="word" status="junctive">
          <token n="7150" gloss_berean="therefore" id="SBL.John.9.20.2">οὖν</token>
         </wording>
-        <module prev="d17e3538" xml:id="d17e3538_2" class="speech" subclass="specification" values="∅">
-         <module prev="d15e3531" xml:id="d15e3531_2" class="speech_act" subclass="specification" values="∅">
-          <module prev="d13e3522" xml:id="d13e3522_2" class="predication_active" subclass="activation" values="∅">
-           <module prev="d11e3510" xml:id="d11e3510_2" class="predication_active" subclass="specification" values="construed_instantiator">
+        <module prev="d17e3534" xml:id="d17e3534_2" class="speech" subclass="specification" values="∅">
+         <module prev="d15e3527" xml:id="d15e3527_2" class="speech_act" subclass="specification" values="∅">
+          <module prev="d13e3518" xml:id="d13e3518_2" class="predication_active" subclass="activation" values="∅">
+           <module prev="d11e3506" xml:id="d11e3506_2" class="predication_active" subclass="specification" values="construed_instantiator">
             <wording class="cluster" status="satellite" subclass="Subject">
              <module class="entity" subclass="activation" values="∅">
               <module class="entity" subclass="specification" values="gendered&#xA;plural">
@@ -6234,10 +6226,10 @@
               </module>
              </module>
             </wording>
-            <module prev="d9e3485" xml:id="d9e3485_2" class="abstraction" subclass="activation" values="∅">
-             <module prev="d7e3457" xml:id="d7e3457_2" class="abstraction" subclass="specification" values="∅">
-              <module prev="d5e3425" xml:id="d5e3425_2" class="event" subclass="activation" values="grouped">
-               <module prev="d3e3393" xml:id="d3e3393_2" class="event" subclass="set" values="∅">
+            <module prev="d9e3481" xml:id="d9e3481_2" class="abstraction" subclass="activation" values="∅">
+             <module prev="d7e3453" xml:id="d7e3453_2" class="abstraction" subclass="specification" values="∅">
+              <module prev="d5e3421" xml:id="d5e3421_2" class="event" subclass="activation" values="grouped">
+               <module prev="d3e3389" xml:id="d3e3389_2" class="event" subclass="set" values="∅">
                 <wording class="path">
                  <module class="event" subclass="operation" values="addition_marker">
                   <wording class="word" status="junctive">
@@ -6450,15 +6442,15 @@
                           <wording class="cluster" status="independent">
                            <module class="speech" subclass="activation" values="∅">
                             <module class="speech" subclass="connection" values="connection_marker&#xA;progressive">
-                             <module xml:id="d19e3735" next="d19e3735_2" class="speech" subclass="specification" values="∅">
-                              <module xml:id="d17e3725" next="d17e3725_2" class="speech_act" subclass="specification" values="∅">
-                               <module xml:id="d15e3717" next="d15e3717_2" class="predication_active" subclass="activation" values="grouped">
-                                <module xml:id="d13e3707" next="d13e3707_2" class="predication_active" subclass="set" values="∅">
-                                 <wording xml:id="d11e3694" next="d11e3694_2" class="path">
-                                  <module xml:id="d9e3636" next="d9e3636_2" class="predication_active" subclass="operation" values="∅">
-                                   <module xml:id="d7e3607" next="d7e3607_2" class="predication_active" subclass="specification" values="∅">
-                                    <module xml:id="d5e3574" next="d5e3574_2" class="abstraction" subclass="activation" values="∅">
-                                     <module xml:id="d3e3541" next="d3e3541_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory&#xA;circumscribed&#xA;preparatory">
+                             <module xml:id="d19e3731" next="d19e3731_2" class="speech" subclass="specification" values="∅">
+                              <module xml:id="d17e3721" next="d17e3721_2" class="speech_act" subclass="specification" values="∅">
+                               <module xml:id="d15e3713" next="d15e3713_2" class="predication_active" subclass="activation" values="grouped">
+                                <module xml:id="d13e3703" next="d13e3703_2" class="predication_active" subclass="set" values="∅">
+                                 <wording xml:id="d11e3690" next="d11e3690_2" class="path">
+                                  <module xml:id="d9e3632" next="d9e3632_2" class="predication_active" subclass="operation" values="∅">
+                                   <module xml:id="d7e3603" next="d7e3603_2" class="predication_active" subclass="specification" values="∅">
+                                    <module xml:id="d5e3570" next="d5e3570_2" class="abstraction" subclass="activation" values="∅">
+                                     <module xml:id="d3e3537" next="d3e3537_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory&#xA;circumscribed&#xA;preparatory">
                                       <wording class="cluster" status="satellite" subclass="Circumstance">
                                        <module class="circumstance" subclass="activation" values="∅">
                                         <module class="circumstance" subclass="specification" values="#mannerism">
@@ -6480,15 +6472,15 @@
                              <wording class="word" status="junctive">
                               <token n="7168" gloss_berean="however" id="SBL.John.9.21.2">δὲ</token>
                              </wording>
-                             <module prev="d19e3735" xml:id="d19e3735_2" class="speech" subclass="specification" values="∅">
-                              <module prev="d17e3725" xml:id="d17e3725_2" class="speech_act" subclass="specification" values="∅">
-                               <module prev="d15e3717" xml:id="d15e3717_2" class="predication_active" subclass="activation" values="grouped">
-                                <module prev="d13e3707" xml:id="d13e3707_2" class="predication_active" subclass="set" values="∅">
-                                 <wording prev="d11e3694" xml:id="d11e3694_2" class="path">
-                                  <module prev="d9e3636" xml:id="d9e3636_2" class="predication_active" subclass="operation" values="∅">
-                                   <module prev="d7e3607" xml:id="d7e3607_2" class="predication_active" subclass="specification" values="∅">
-                                    <module prev="d5e3574" xml:id="d5e3574_2" class="abstraction" subclass="activation" values="∅">
-                                     <module prev="d3e3541" xml:id="d3e3541_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory&#xA;circumscribed&#xA;preparatory">
+                             <module prev="d19e3731" xml:id="d19e3731_2" class="speech" subclass="specification" values="∅">
+                              <module prev="d17e3721" xml:id="d17e3721_2" class="speech_act" subclass="specification" values="∅">
+                               <module prev="d15e3713" xml:id="d15e3713_2" class="predication_active" subclass="activation" values="grouped">
+                                <module prev="d13e3703" xml:id="d13e3703_2" class="predication_active" subclass="set" values="∅">
+                                 <wording prev="d11e3690" xml:id="d11e3690_2" class="path">
+                                  <module prev="d9e3632" xml:id="d9e3632_2" class="predication_active" subclass="operation" values="∅">
+                                   <module prev="d7e3603" xml:id="d7e3603_2" class="predication_active" subclass="specification" values="∅">
+                                    <module prev="d5e3570" xml:id="d5e3570_2" class="abstraction" subclass="activation" values="∅">
+                                     <module prev="d3e3537" xml:id="d3e3537_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory&#xA;circumscribed&#xA;preparatory">
                                       <wording class="cluster" status="satellite" subclass="Circumstance">
                                        <module class="circumstance" subclass="activation" values="∅">
                                         <module class="circumstance" subclass="specification" values="∅">
@@ -6906,8 +6898,8 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="∅">
            <module class="predication_active" subclass="specification" values="construed_instantiator">
-            <module xml:id="d5e3848" next="d5e3848_2" class="abstraction" subclass="activation" values="∅">
-             <module xml:id="d3e3814" next="d3e3814_2" class="abstraction" subclass="specification" values="plural&#xA;circumscribed">
+            <module xml:id="d5e3844" next="d5e3844_2" class="abstraction" subclass="activation" values="∅">
+             <module xml:id="d3e3810" next="d3e3810_2" class="abstraction" subclass="specification" values="plural&#xA;circumscribed">
               <module class="event" subclass="activation" values="∅">
                <module class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;preparatory">
                 <wording class="cluster" status="satellite" subclass="Object">
@@ -6991,8 +6983,8 @@
               </module>
              </module>
             </wording>
-            <module prev="d5e3848" xml:id="d5e3848_2" class="abstraction" subclass="activation" values="∅">
-             <module prev="d3e3814" xml:id="d3e3814_2" class="abstraction" subclass="specification" values="plural&#xA;circumscribed">
+            <module prev="d5e3844" xml:id="d5e3844_2" class="abstraction" subclass="activation" values="∅">
+             <module prev="d3e3810" xml:id="d3e3810_2" class="abstraction" subclass="specification" values="plural&#xA;circumscribed">
               <wording class="cluster" status="satellite" subclass="Circumstance">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="#associated_proposition&#xA;$ὅτι">
@@ -7067,12 +7059,12 @@
      <wording class="cluster" status="independent">
       <module class="speech" subclass="activation" values="∅">
        <module class="speech" subclass="connection" values="connection_marker&#xA;#supporting">
-        <module xml:id="d13e4049" next="d13e4049_2" class="speech" subclass="specification" values="∅">
-         <module xml:id="d11e4035" next="d11e4035_2" class="speech_act" subclass="specification" values="∅">
-          <module xml:id="d9e4008" next="d9e4008_2" class="predication_active" subclass="activation" values="∅">
-           <module xml:id="d7e3978" next="d7e3978_2" class="predication_active" subclass="specification" values="construed_instantiator">
-            <module xml:id="d5e3943" next="d5e3943_2" class="abstraction" subclass="activation" values="∅">
-             <module xml:id="d3e3908" next="d3e3908_2" class="abstraction" subclass="specification" values="plural&#xA;circumscribed&#xA;preparatory">
+        <module xml:id="d13e4045" next="d13e4045_2" class="speech" subclass="specification" values="∅">
+         <module xml:id="d11e4031" next="d11e4031_2" class="speech_act" subclass="specification" values="∅">
+          <module xml:id="d9e4004" next="d9e4004_2" class="predication_active" subclass="activation" values="∅">
+           <module xml:id="d7e3974" next="d7e3974_2" class="predication_active" subclass="specification" values="construed_instantiator">
+            <module xml:id="d5e3939" next="d5e3939_2" class="abstraction" subclass="activation" values="∅">
+             <module xml:id="d3e3904" next="d3e3904_2" class="abstraction" subclass="specification" values="plural&#xA;circumscribed&#xA;preparatory">
               <wording class="cluster" status="satellite" subclass="Circumstance">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="∅">
@@ -7097,14 +7089,14 @@
         <wording class="word" status="junctive">
          <token n="7200" gloss_berean="for" id="SBL.John.9.22.11">γὰρ</token>
         </wording>
-        <module prev="d13e4049" xml:id="d13e4049_2" class="speech" subclass="specification" values="∅">
-         <module prev="d11e4035" xml:id="d11e4035_2" class="speech_act" subclass="specification" values="∅">
-          <module prev="d9e4008" xml:id="d9e4008_2" class="predication_active" subclass="activation" values="∅">
-           <module prev="d7e3978" xml:id="d7e3978_2" class="predication_active" subclass="specification" values="construed_instantiator">
-            <module xml:id="d5e3943_2" next="d5e3943_2_2" prev="d5e3943" class="abstraction" subclass="activation" values="∅">
-             <module xml:id="d3e3908_2" next="d3e3908_2_2" prev="d3e3908" class="abstraction" subclass="specification" values="plural&#xA;circumscribed&#xA;preparatory">
-              <module xml:id="d5e3955" next="d5e3955_2" class="event" subclass="activation" values="∅">
-               <module xml:id="d3e3919" next="d3e3919_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying">
+        <module prev="d13e4045" xml:id="d13e4045_2" class="speech" subclass="specification" values="∅">
+         <module prev="d11e4031" xml:id="d11e4031_2" class="speech_act" subclass="specification" values="∅">
+          <module prev="d9e4004" xml:id="d9e4004_2" class="predication_active" subclass="activation" values="∅">
+           <module prev="d7e3974" xml:id="d7e3974_2" class="predication_active" subclass="specification" values="construed_instantiator">
+            <module xml:id="d5e3939_2" next="d5e3939_2_2" prev="d5e3939" class="abstraction" subclass="activation" values="∅">
+             <module xml:id="d3e3904_2" next="d3e3904_2_2" prev="d3e3904" class="abstraction" subclass="specification" values="plural&#xA;circumscribed&#xA;preparatory">
+              <module xml:id="d5e3951" next="d5e3951_2" class="event" subclass="activation" values="∅">
+               <module xml:id="d3e3915" next="d3e3915_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying">
                 <wording class="word" status="core">
                  <module class="process" subclass="specification" pos="true" values="affected&#xA;$συντίθεμαι">
                   <token n="7201" gloss_berean="had agreed together" id="SBL.John.9.22.12">συνετέθειντο</token>
@@ -7148,10 +7140,10 @@
               </module>
              </module>
             </wording>
-            <module prev="d5e3943" xml:id="d5e3943_2" class="abstraction" subclass="activation" values="∅">
-             <module prev="d3e3908" xml:id="d3e3908_2" class="abstraction" subclass="specification" values="plural&#xA;circumscribed&#xA;preparatory">
-              <module prev="d5e3955" xml:id="d5e3955_2" class="event" subclass="activation" values="∅">
-               <module prev="d3e3919" xml:id="d3e3919_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying">
+            <module prev="d5e3939" xml:id="d5e3939_2" class="abstraction" subclass="activation" values="∅">
+             <module prev="d3e3904" xml:id="d3e3904_2" class="abstraction" subclass="specification" values="plural&#xA;circumscribed&#xA;preparatory">
+              <module prev="d5e3951" xml:id="d5e3951_2" class="event" subclass="activation" values="∅">
+               <module prev="d3e3915" xml:id="d3e3915_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying">
                 <wording class="cluster" status="satellite" subclass="Object">
                  <module class="entity" subclass="activation" values="∅">
                   <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ἵνα">
@@ -7300,8 +7292,8 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="∅">
            <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
-            <module xml:id="d5e4069" next="d5e4069_2" class="abstraction" subclass="activation" values="∅">
-             <module xml:id="d3e4032" next="d3e4032_2" class="abstraction" subclass="specification" values="plural&#xA;circumscribed&#xA;preparatory">
+            <module xml:id="d5e4065" next="d5e4065_2" class="abstraction" subclass="activation" values="∅">
+             <module xml:id="d3e4028" next="d3e4028_2" class="abstraction" subclass="specification" values="plural&#xA;circumscribed&#xA;preparatory">
               <wording class="cluster" status="satellite" subclass="Circumstance">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="#positional_association&#xA;$διά&#xA;accusative_association">
@@ -7383,8 +7375,8 @@
               </module>
              </module>
             </wording>
-            <module prev="d5e4069" xml:id="d5e4069_2" class="abstraction" subclass="activation" values="∅">
-             <module prev="d3e4032" xml:id="d3e4032_2" class="abstraction" subclass="specification" values="plural&#xA;circumscribed&#xA;preparatory">
+            <module prev="d5e4065" xml:id="d5e4065_2" class="abstraction" subclass="activation" values="∅">
+             <module prev="d3e4028" xml:id="d3e4028_2" class="abstraction" subclass="specification" values="plural&#xA;circumscribed&#xA;preparatory">
               <module class="event" subclass="activation" values="∅">
                <module class="event" subclass="specification" values="complete_duration&#xA;objectifying">
                 <wording class="word" status="core">
@@ -7515,14 +7507,14 @@
      <wording class="cluster" status="independent">
       <module class="speech" subclass="activation" values="∅">
        <module class="speech" subclass="connection" values="connection_marker&#xA;#advancing">
-        <module xml:id="d17e4331" next="d17e4331_2" class="speech" subclass="specification" values="∅">
-         <module xml:id="d15e4322" next="d15e4322_2" class="speech_act" subclass="specification" values="∅">
-          <module xml:id="d13e4310" next="d13e4310_2" class="predication_active" subclass="activation" values="∅">
-           <module xml:id="d11e4295" next="d11e4295_2" class="predication_active" subclass="specification" values="∅">
-            <module xml:id="d9e4266" next="d9e4266_2" class="abstraction" subclass="activation" values="∅">
-             <module xml:id="d7e4234" next="d7e4234_2" class="abstraction" subclass="specification" values="plural">
-              <module xml:id="d5e4196" next="d5e4196_2" class="event" subclass="activation" values="∅">
-               <module xml:id="d3e4158" next="d3e4158_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;circumscribed">
+        <module xml:id="d17e4327" next="d17e4327_2" class="speech" subclass="specification" values="∅">
+         <module xml:id="d15e4318" next="d15e4318_2" class="speech_act" subclass="specification" values="∅">
+          <module xml:id="d13e4306" next="d13e4306_2" class="predication_active" subclass="activation" values="∅">
+           <module xml:id="d11e4291" next="d11e4291_2" class="predication_active" subclass="specification" values="∅">
+            <module xml:id="d9e4262" next="d9e4262_2" class="abstraction" subclass="activation" values="∅">
+             <module xml:id="d7e4230" next="d7e4230_2" class="abstraction" subclass="specification" values="plural">
+              <module xml:id="d5e4192" next="d5e4192_2" class="event" subclass="activation" values="∅">
+               <module xml:id="d3e4154" next="d3e4154_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;circumscribed">
                 <wording class="word" status="core">
                  <module class="process" subclass="specification" pos="true" values="$φωνέω">
                   <token n="7223" gloss_berean="They called" id="SBL.John.9.24.1">Ἐφώνησαν</token>
@@ -7539,19 +7531,19 @@
         <wording class="word" status="junctive">
          <token n="7224" gloss_berean="therefore" id="SBL.John.9.24.2">οὖν</token>
         </wording>
-        <module prev="d17e4331" xml:id="d17e4331_2" class="speech" subclass="specification" values="∅">
-         <module prev="d15e4322" xml:id="d15e4322_2" class="speech_act" subclass="specification" values="∅">
-          <module prev="d13e4310" xml:id="d13e4310_2" class="predication_active" subclass="activation" values="∅">
-           <module prev="d11e4295" xml:id="d11e4295_2" class="predication_active" subclass="specification" values="∅">
-            <module prev="d9e4266" xml:id="d9e4266_2" class="abstraction" subclass="activation" values="∅">
-             <module prev="d7e4234" xml:id="d7e4234_2" class="abstraction" subclass="specification" values="plural">
-              <module prev="d5e4196" xml:id="d5e4196_2" class="event" subclass="activation" values="∅">
-               <module prev="d3e4158" xml:id="d3e4158_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;circumscribed">
-                <wording xml:id="d11e4308" next="d11e4308_2" class="cluster" status="satellite" subclass="Object">
-                 <module xml:id="d9e4278" next="d9e4278_2" class="entity" subclass="activation" values="∅">
-                  <module xml:id="d7e4245" next="d7e4245_2" class="entity" subclass="specification" values="gendered">
-                   <module xml:id="d5e4206" next="d5e4206_2" class="definition" subclass="activation" values="∅">
-                    <module xml:id="d3e4167" next="d3e4167_2" class="definition" subclass="specification" values="elaborated">
+        <module prev="d17e4327" xml:id="d17e4327_2" class="speech" subclass="specification" values="∅">
+         <module prev="d15e4318" xml:id="d15e4318_2" class="speech_act" subclass="specification" values="∅">
+          <module prev="d13e4306" xml:id="d13e4306_2" class="predication_active" subclass="activation" values="∅">
+           <module prev="d11e4291" xml:id="d11e4291_2" class="predication_active" subclass="specification" values="∅">
+            <module prev="d9e4262" xml:id="d9e4262_2" class="abstraction" subclass="activation" values="∅">
+             <module prev="d7e4230" xml:id="d7e4230_2" class="abstraction" subclass="specification" values="plural">
+              <module prev="d5e4192" xml:id="d5e4192_2" class="event" subclass="activation" values="∅">
+               <module prev="d3e4154" xml:id="d3e4154_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;circumscribed">
+                <wording xml:id="d11e4304" next="d11e4304_2" class="cluster" status="satellite" subclass="Object">
+                 <module xml:id="d9e4274" next="d9e4274_2" class="entity" subclass="activation" values="∅">
+                  <module xml:id="d7e4241" next="d7e4241_2" class="entity" subclass="specification" values="gendered">
+                   <module xml:id="d5e4202" next="d5e4202_2" class="definition" subclass="activation" values="∅">
+                    <module xml:id="d3e4163" next="d3e4163_2" class="definition" subclass="specification" values="elaborated">
                      <module class="trait" subclass="activation" values="∅">
                       <module class="trait" subclass="specification" values="differentiation&#xA;indication&#xA;#articulation">
                        <wording class="word" status="translative">
@@ -7607,14 +7599,14 @@
                   </module>
                  </module>
                 </wording>
-                <wording prev="d11e4308" xml:id="d11e4308_2" class="cluster" status="satellite" subclass="Object">
-                 <module prev="d9e4278" xml:id="d9e4278_2" class="entity" subclass="activation" values="∅">
-                  <module prev="d7e4245" xml:id="d7e4245_2" class="entity" subclass="specification" values="gendered">
-                   <module prev="d5e4206" xml:id="d5e4206_2" class="definition" subclass="activation" values="∅">
-                    <module prev="d3e4167" xml:id="d3e4167_2" class="definition" subclass="specification" values="elaborated">
+                <wording prev="d11e4304" xml:id="d11e4304_2" class="cluster" status="satellite" subclass="Object">
+                 <module prev="d9e4274" xml:id="d9e4274_2" class="entity" subclass="activation" values="∅">
+                  <module prev="d7e4241" xml:id="d7e4241_2" class="entity" subclass="specification" values="gendered">
+                   <module prev="d5e4202" xml:id="d5e4202_2" class="definition" subclass="activation" values="∅">
+                    <module prev="d3e4163" xml:id="d3e4163_2" class="definition" subclass="specification" values="elaborated">
                      <wording class="cluster" status="satellite" subclass="Modifier">
                       <module class="trait" subclass="activation" values="∅">
-                       <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation&#xA;#morphological_relative">
+                       <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation">
                         <module class="predication_modal" subclass="activation" values="∅">
                          <module class="predication_modal" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;internal_orientation">
                           <wording class="cluster" status="satellite" subclass="Subject">
@@ -7967,14 +7959,14 @@
      <wording class="cluster" status="independent">
       <module class="speech" subclass="activation" values="∅">
        <module class="speech" subclass="connection" values="connection_marker&#xA;#advancing">
-        <module xml:id="d17e4592" next="d17e4592_2" class="speech" subclass="specification" values="∅">
-         <module xml:id="d15e4582" next="d15e4582_2" class="speech_act" subclass="specification" values="∅">
-          <module xml:id="d13e4569" next="d13e4569_2" class="predication_active" subclass="activation" values="∅">
-           <module xml:id="d11e4552" next="d11e4552_2" class="predication_active" subclass="specification" values="construed_instantiator">
-            <module xml:id="d9e4521" next="d9e4521_2" class="abstraction" subclass="activation" values="∅">
-             <module xml:id="d7e4487" next="d7e4487_2" class="abstraction" subclass="specification" values="∅">
-              <module xml:id="d5e4447" next="d5e4447_2" class="event" subclass="activation" values="∅">
-               <module xml:id="d3e4407" next="d3e4407_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying">
+        <module xml:id="d17e4588" next="d17e4588_2" class="speech" subclass="specification" values="∅">
+         <module xml:id="d15e4578" next="d15e4578_2" class="speech_act" subclass="specification" values="∅">
+          <module xml:id="d13e4565" next="d13e4565_2" class="predication_active" subclass="activation" values="∅">
+           <module xml:id="d11e4548" next="d11e4548_2" class="predication_active" subclass="specification" values="construed_instantiator">
+            <module xml:id="d9e4517" next="d9e4517_2" class="abstraction" subclass="activation" values="∅">
+             <module xml:id="d7e4483" next="d7e4483_2" class="abstraction" subclass="specification" values="∅">
+              <module xml:id="d5e4443" next="d5e4443_2" class="event" subclass="activation" values="∅">
+               <module xml:id="d3e4403" next="d3e4403_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying">
                 <wording class="word" status="core">
                  <module class="process" subclass="specification" pos="true" values="subjective_participation_tbd&#xA;$ἀποκρίνομαι">
                   <token n="7247" gloss_berean="Answered" id="SBL.John.9.25.1">ἀπεκρίθη</token>
@@ -7991,10 +7983,10 @@
         <wording class="word" status="junctive">
          <token n="7248" gloss_berean="then" id="SBL.John.9.25.2">οὖν</token>
         </wording>
-        <module prev="d17e4592" xml:id="d17e4592_2" class="speech" subclass="specification" values="∅">
-         <module prev="d15e4582" xml:id="d15e4582_2" class="speech_act" subclass="specification" values="∅">
-          <module prev="d13e4569" xml:id="d13e4569_2" class="predication_active" subclass="activation" values="∅">
-           <module prev="d11e4552" xml:id="d11e4552_2" class="predication_active" subclass="specification" values="construed_instantiator">
+        <module prev="d17e4588" xml:id="d17e4588_2" class="speech" subclass="specification" values="∅">
+         <module prev="d15e4578" xml:id="d15e4578_2" class="speech_act" subclass="specification" values="∅">
+          <module prev="d13e4565" xml:id="d13e4565_2" class="predication_active" subclass="activation" values="∅">
+           <module prev="d11e4548" xml:id="d11e4548_2" class="predication_active" subclass="specification" values="construed_instantiator">
             <wording class="cluster" status="satellite" subclass="Subject">
              <module class="entity" subclass="activation" values="∅">
               <module class="entity" subclass="specification" values="gendered">
@@ -8012,10 +8004,10 @@
               </module>
              </module>
             </wording>
-            <module prev="d9e4521" xml:id="d9e4521_2" class="abstraction" subclass="activation" values="∅">
-             <module prev="d7e4487" xml:id="d7e4487_2" class="abstraction" subclass="specification" values="∅">
-              <module prev="d5e4447" xml:id="d5e4447_2" class="event" subclass="activation" values="∅">
-               <module prev="d3e4407" xml:id="d3e4407_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying">
+            <module prev="d9e4517" xml:id="d9e4517_2" class="abstraction" subclass="activation" values="∅">
+             <module prev="d7e4483" xml:id="d7e4483_2" class="abstraction" subclass="specification" values="∅">
+              <module prev="d5e4443" xml:id="d5e4443_2" class="event" subclass="activation" values="∅">
+               <module prev="d3e4403" xml:id="d3e4403_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying">
                 <wording class="cluster" status="satellite" subclass="Object">
                  <module class="entity" subclass="activation" values="∅">
                   <module class="entity" subclass="specification" values="#quotation">
@@ -8034,8 +8026,8 @@
                                <module class="event" subclass="activation" values="grouped">
                                 <module class="event" subclass="set" values="∅">
                                  <module class="event" subclass="operation" values="negative&#xA;negated_factuality">
-                                  <module xml:id="d5e4472" next="d5e4472_2" class="event" subclass="operation" values="∅">
-                                   <module xml:id="d3e4431" next="d3e4431_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying&#xA;preparatory">
+                                  <module xml:id="d5e4468" next="d5e4468_2" class="event" subclass="operation" values="∅">
+                                   <module xml:id="d3e4427" next="d3e4427_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying&#xA;preparatory">
                                     <wording class="cluster" status="satellite" subclass="Object">
                                      <module class="entity" subclass="activation" values="∅">
                                       <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$εἰ">
@@ -8090,8 +8082,8 @@
                                   <wording class="word" status="junctive">
                                    <token n="7253" gloss_berean="not" id="SBL.John.9.25.7">οὐκ</token>
                                   </wording>
-                                  <module prev="d5e4472" xml:id="d5e4472_2" class="event" subclass="operation" values="∅">
-                                   <module prev="d3e4431" xml:id="d3e4431_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying&#xA;preparatory">
+                                  <module prev="d5e4468" xml:id="d5e4468_2" class="event" subclass="operation" values="∅">
+                                   <module prev="d3e4427" xml:id="d3e4427_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying&#xA;preparatory">
                                     <wording class="word" status="core">
                                      <module class="process" subclass="specification" pos="true" values="$οἶδα">
                                       <token n="7254" gloss_berean="I know" id="SBL.John.9.25.8" after="·">οἶδα</token>
@@ -8124,9 +8116,9 @@
                               <module class="abstraction" subclass="specification" values="∅">
                                <module class="event" subclass="activation" values="∅">
                                 <module class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying">
-                                 <wording xml:id="d7e4566" next="d7e4566_2" class="cluster" status="satellite" subclass="Object">
-                                  <module xml:id="d5e4524" next="d5e4524_2" class="entity" subclass="activation" values="re-construed">
-                                   <module xml:id="d3e4482" next="d3e4482_2" class="entity" subclass="re-construal" values="∅">
+                                 <wording xml:id="d7e4562" next="d7e4562_2" class="cluster" status="satellite" subclass="Object">
+                                  <module xml:id="d5e4520" next="d5e4520_2" class="entity" subclass="activation" values="re-construed">
+                                   <module xml:id="d3e4478" next="d3e4478_2" class="entity" subclass="re-construal" values="∅">
                                     <wording class="path">
                                      <module class="entity" subclass="specification" values="∅">
                                       <module class="definition" subclass="activation" values="∅">
@@ -8156,9 +8148,9 @@
                                    <token n="7256" gloss_berean="I do know" id="SBL.John.9.25.10">οἶδα</token>
                                   </module>
                                  </wording>
-                                 <wording prev="d7e4566" xml:id="d7e4566_2" class="cluster" status="satellite" subclass="Object">
-                                  <module prev="d5e4524" xml:id="d5e4524_2" class="entity" subclass="activation" values="re-construed">
-                                   <module prev="d3e4482" xml:id="d3e4482_2" class="entity" subclass="re-construal" values="∅">
+                                 <wording prev="d7e4562" xml:id="d7e4562_2" class="cluster" status="satellite" subclass="Object">
+                                  <module prev="d5e4520" xml:id="d5e4520_2" class="entity" subclass="activation" values="re-construed">
+                                   <module prev="d3e4478" xml:id="d3e4478_2" class="entity" subclass="re-construal" values="∅">
                                     <wording class="path">
                                      <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                                       <wording class="word" status="translative">
@@ -8276,14 +8268,14 @@
      <wording class="cluster" status="independent">
       <module class="speech" subclass="activation" values="∅">
        <module class="speech" subclass="connection" values="connection_marker&#xA;#advancing">
-        <module xml:id="d17e4768" next="d17e4768_2" class="speech" subclass="specification" values="∅">
-         <module xml:id="d15e4757" next="d15e4757_2" class="speech_act" subclass="specification" values="∅">
-          <module xml:id="d13e4743" next="d13e4743_2" class="predication_active" subclass="activation" values="∅">
-           <module xml:id="d11e4725" next="d11e4725_2" class="predication_active" subclass="specification" values="∅">
-            <module xml:id="d9e4693" next="d9e4693_2" class="abstraction" subclass="activation" values="∅">
-             <module xml:id="d7e4657" next="d7e4657_2" class="abstraction" subclass="specification" values="plural">
-              <module xml:id="d5e4614" next="d5e4614_2" class="event" subclass="activation" values="∅">
-               <module xml:id="d3e4571" next="d3e4571_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;extra_participant&#xA;medial-final">
+        <module xml:id="d17e4764" next="d17e4764_2" class="speech" subclass="specification" values="∅">
+         <module xml:id="d15e4753" next="d15e4753_2" class="speech_act" subclass="specification" values="∅">
+          <module xml:id="d13e4739" next="d13e4739_2" class="predication_active" subclass="activation" values="∅">
+           <module xml:id="d11e4721" next="d11e4721_2" class="predication_active" subclass="specification" values="∅">
+            <module xml:id="d9e4689" next="d9e4689_2" class="abstraction" subclass="activation" values="∅">
+             <module xml:id="d7e4653" next="d7e4653_2" class="abstraction" subclass="specification" values="plural">
+              <module xml:id="d5e4610" next="d5e4610_2" class="event" subclass="activation" values="∅">
+               <module xml:id="d3e4567" next="d3e4567_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;extra_participant&#xA;medial-final">
                 <wording class="word" status="core">
                  <module class="process" subclass="specification" pos="true" values="$λέγω">
                   <token n="7262" gloss_berean="They said" id="SBL.John.9.26.1">εἶπον</token>
@@ -8300,14 +8292,14 @@
         <wording class="word" status="junctive">
          <token n="7263" gloss_berean="therefore" id="SBL.John.9.26.2">οὖν</token>
         </wording>
-        <module prev="d17e4768" xml:id="d17e4768_2" class="speech" subclass="specification" values="∅">
-         <module prev="d15e4757" xml:id="d15e4757_2" class="speech_act" subclass="specification" values="∅">
-          <module prev="d13e4743" xml:id="d13e4743_2" class="predication_active" subclass="activation" values="∅">
-           <module prev="d11e4725" xml:id="d11e4725_2" class="predication_active" subclass="specification" values="∅">
-            <module prev="d9e4693" xml:id="d9e4693_2" class="abstraction" subclass="activation" values="∅">
-             <module prev="d7e4657" xml:id="d7e4657_2" class="abstraction" subclass="specification" values="plural">
-              <module prev="d5e4614" xml:id="d5e4614_2" class="event" subclass="activation" values="∅">
-               <module prev="d3e4571" xml:id="d3e4571_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;extra_participant&#xA;medial-final">
+        <module prev="d17e4764" xml:id="d17e4764_2" class="speech" subclass="specification" values="∅">
+         <module prev="d15e4753" xml:id="d15e4753_2" class="speech_act" subclass="specification" values="∅">
+          <module prev="d13e4739" xml:id="d13e4739_2" class="predication_active" subclass="activation" values="∅">
+           <module prev="d11e4721" xml:id="d11e4721_2" class="predication_active" subclass="specification" values="∅">
+            <module prev="d9e4689" xml:id="d9e4689_2" class="abstraction" subclass="activation" values="∅">
+             <module prev="d7e4653" xml:id="d7e4653_2" class="abstraction" subclass="specification" values="plural">
+              <module prev="d5e4610" xml:id="d5e4610_2" class="event" subclass="activation" values="∅">
+               <module prev="d3e4567" xml:id="d3e4567_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;extra_participant&#xA;medial-final">
                 <wording class="cluster" status="satellite" subclass="Object2">
                  <module class="entity" subclass="activation" values="∅">
                   <module class="entity" subclass="specification" values="gendered">
@@ -8961,11 +8953,11 @@
                                      <module class="abstraction" subclass="specification" values="∅">
                                       <module class="event" subclass="activation" values="∅">
                                        <module class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction&#xA;preparatory">
-                                        <wording xml:id="d11e5130" next="d11e5130_2" class="cluster" status="satellite" subclass="Complement">
-                                         <module xml:id="d9e5097" next="d9e5097_2" class="abstraction" subclass="activation" values="∅">
-                                          <module xml:id="d7e5060" next="d7e5060_2" class="abstraction" subclass="specification" values="intrinsic&#xA;gendered">
-                                           <module xml:id="d5e5016" next="d5e5016_2" class="definition" subclass="activation" values="∅">
-                                            <module xml:id="d3e4972" next="d3e4972_2" class="definition" subclass="specification" values="elaborated">
+                                        <wording xml:id="d11e5126" next="d11e5126_2" class="cluster" status="satellite" subclass="Complement">
+                                         <module xml:id="d9e5093" next="d9e5093_2" class="abstraction" subclass="activation" values="∅">
+                                          <module xml:id="d7e5056" next="d7e5056_2" class="abstraction" subclass="specification" values="intrinsic&#xA;gendered">
+                                           <module xml:id="d5e5012" next="d5e5012_2" class="definition" subclass="activation" values="∅">
+                                            <module xml:id="d3e4968" next="d3e4968_2" class="definition" subclass="specification" values="elaborated">
                                              <module class="trait" subclass="activation" values="∅">
                                               <module class="trait" subclass="specification" values="categorization">
                                                <wording class="word" status="core">
@@ -8985,11 +8977,11 @@
                                           <token n="7298" gloss_berean="are" id="SBL.John.9.28.7">εἶ</token>
                                          </module>
                                         </wording>
-                                        <wording prev="d11e5130" xml:id="d11e5130_2" class="cluster" status="satellite" subclass="Complement">
-                                         <module prev="d9e5097" xml:id="d9e5097_2" class="abstraction" subclass="activation" values="∅">
-                                          <module prev="d7e5060" xml:id="d7e5060_2" class="abstraction" subclass="specification" values="intrinsic&#xA;gendered">
-                                           <module prev="d5e5016" xml:id="d5e5016_2" class="definition" subclass="activation" values="∅">
-                                            <module prev="d3e4972" xml:id="d3e4972_2" class="definition" subclass="specification" values="elaborated">
+                                        <wording prev="d11e5126" xml:id="d11e5126_2" class="cluster" status="satellite" subclass="Complement">
+                                         <module prev="d9e5093" xml:id="d9e5093_2" class="abstraction" subclass="activation" values="∅">
+                                          <module prev="d7e5056" xml:id="d7e5056_2" class="abstraction" subclass="specification" values="intrinsic&#xA;gendered">
+                                           <module prev="d5e5012" xml:id="d5e5012_2" class="definition" subclass="activation" values="∅">
+                                            <module prev="d3e4968" xml:id="d3e4968_2" class="definition" subclass="specification" values="elaborated">
                                              <wording class="cluster" status="satellite" subclass="Modifier">
                                               <module class="trait" subclass="activation" values="∅">
                                                <module class="trait" subclass="specification" values="#contextualized">
@@ -9029,8 +9021,8 @@
                                  </wording>
                                  <wording class="path">
                                   <module class="predication_active" subclass="operation" values="addition_marker&#xA;progressive">
-                                   <module xml:id="d5e5045" next="d5e5045_2" class="predication_active" subclass="operation" values="∅">
-                                    <module xml:id="d3e5000" next="d3e5000_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;interactant&#xA;non-speaker">
+                                   <module xml:id="d5e5041" next="d5e5041_2" class="predication_active" subclass="operation" values="∅">
+                                    <module xml:id="d3e4996" next="d3e4996_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;interactant&#xA;non-speaker">
                                      <wording class="cluster" status="satellite" subclass="Subject">
                                       <module class="entity" subclass="activation" values="∅">
                                        <module class="entity" subclass="specification" values="plural">
@@ -9053,17 +9045,17 @@
                                    <wording class="word" status="junctive">
                                     <token n="7301" gloss_berean="however" id="SBL.John.9.28.10">δὲ</token>
                                    </wording>
-                                   <module prev="d5e5045" xml:id="d5e5045_2" class="predication_active" subclass="operation" values="∅">
-                                    <module prev="d3e5000" xml:id="d3e5000_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;interactant&#xA;non-speaker">
+                                   <module prev="d5e5041" xml:id="d5e5041_2" class="predication_active" subclass="operation" values="∅">
+                                    <module prev="d3e4996" xml:id="d3e4996_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;interactant&#xA;non-speaker">
                                      <module class="abstraction" subclass="activation" values="∅">
                                       <module class="abstraction" subclass="specification" values="plural">
                                        <module class="event" subclass="activation" values="∅">
                                         <module class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction">
-                                         <wording xml:id="d11e5186" next="d11e5186_2" class="cluster" status="satellite" subclass="Complement">
-                                          <module xml:id="d9e5152" next="d9e5152_2" class="abstraction" subclass="activation" values="∅">
-                                           <module xml:id="d7e5114" next="d7e5114_2" class="abstraction" subclass="specification" values="intrinsic&#xA;gendered&#xA;plural">
-                                            <module xml:id="d5e5065" next="d5e5065_2" class="definition" subclass="activation" values="∅">
-                                             <module xml:id="d3e5019" next="d3e5019_2" class="definition" subclass="specification" values="elaborated&#xA;preparatory">
+                                         <wording xml:id="d11e5182" next="d11e5182_2" class="cluster" status="satellite" subclass="Complement">
+                                          <module xml:id="d9e5148" next="d9e5148_2" class="abstraction" subclass="activation" values="∅">
+                                           <module xml:id="d7e5110" next="d7e5110_2" class="abstraction" subclass="specification" values="intrinsic&#xA;gendered&#xA;plural">
+                                            <module xml:id="d5e5061" next="d5e5061_2" class="definition" subclass="activation" values="∅">
+                                             <module xml:id="d3e5015" next="d3e5015_2" class="definition" subclass="specification" values="elaborated&#xA;preparatory">
                                               <wording class="cluster" status="satellite" subclass="Modifier">
                                                <module class="trait" subclass="activation" values="∅">
                                                 <module class="trait" subclass="specification" values="#contextualized">
@@ -9112,11 +9104,11 @@
                                            <token n="7304" gloss_berean="are" id="SBL.John.9.28.13">ἐσμὲν</token>
                                           </module>
                                          </wording>
-                                         <wording prev="d11e5186" xml:id="d11e5186_2" class="cluster" status="satellite" subclass="Complement">
-                                          <module prev="d9e5152" xml:id="d9e5152_2" class="abstraction" subclass="activation" values="∅">
-                                           <module prev="d7e5114" xml:id="d7e5114_2" class="abstraction" subclass="specification" values="intrinsic&#xA;gendered&#xA;plural">
-                                            <module prev="d5e5065" xml:id="d5e5065_2" class="definition" subclass="activation" values="∅">
-                                             <module prev="d3e5019" xml:id="d3e5019_2" class="definition" subclass="specification" values="elaborated&#xA;preparatory">
+                                         <wording prev="d11e5182" xml:id="d11e5182_2" class="cluster" status="satellite" subclass="Complement">
+                                          <module prev="d9e5148" xml:id="d9e5148_2" class="abstraction" subclass="activation" values="∅">
+                                           <module prev="d7e5110" xml:id="d7e5110_2" class="abstraction" subclass="specification" values="intrinsic&#xA;gendered&#xA;plural">
+                                            <module prev="d5e5061" xml:id="d5e5061_2" class="definition" subclass="activation" values="∅">
+                                             <module prev="d3e5015" xml:id="d3e5015_2" class="definition" subclass="specification" values="elaborated&#xA;preparatory">
                                               <module class="trait" subclass="activation" values="∅">
                                                <module class="trait" subclass="specification" values="categorization">
                                                 <wording class="word" status="core">
@@ -9268,18 +9260,18 @@
                                  </wording>
                                  <wording class="path">
                                   <module class="predication_active" subclass="operation" values="addition_marker&#xA;progressive">
-                                   <module xml:id="d25e5376" next="d25e5376_2" class="predication_active" subclass="operation" values="∅">
-                                    <module xml:id="d23e5374" next="d23e5374_2" class="predication_active" subclass="specification" values="interactant&#xA;non-speaker">
-                                     <module xml:id="d21e5372" next="d21e5372_2" class="abstraction" subclass="activation" values="∅">
-                                      <module xml:id="d19e5369" next="d19e5369_2" class="abstraction" subclass="specification" values="∅">
-                                       <module xml:id="d17e5358" next="d17e5358_2" class="event" subclass="activation" values="grouped">
-                                        <module xml:id="d15e5346" next="d15e5346_2" class="event" subclass="set" values="∅">
-                                         <module xml:id="d13e5331" next="d13e5331_2" class="event" subclass="operation" values="negative&#xA;negated_factuality">
-                                          <module xml:id="d11e5310" next="d11e5310_2" class="event" subclass="operation" values="∅">
-                                           <module xml:id="d9e5275" next="d9e5275_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying&#xA;centrality_tbd">
-                                            <wording xml:id="d7e5236" next="d7e5236_2" class="cluster" status="satellite" subclass="Object">
-                                             <module xml:id="d5e5189" next="d5e5189_2" class="entity" subclass="activation" values="re-construed">
-                                              <module xml:id="d3e5142" next="d3e5142_2" class="entity" subclass="re-construal" values="∅">
+                                   <module xml:id="d25e5372" next="d25e5372_2" class="predication_active" subclass="operation" values="∅">
+                                    <module xml:id="d23e5370" next="d23e5370_2" class="predication_active" subclass="specification" values="interactant&#xA;non-speaker">
+                                     <module xml:id="d21e5368" next="d21e5368_2" class="abstraction" subclass="activation" values="∅">
+                                      <module xml:id="d19e5365" next="d19e5365_2" class="abstraction" subclass="specification" values="∅">
+                                       <module xml:id="d17e5354" next="d17e5354_2" class="event" subclass="activation" values="grouped">
+                                        <module xml:id="d15e5342" next="d15e5342_2" class="event" subclass="set" values="∅">
+                                         <module xml:id="d13e5327" next="d13e5327_2" class="event" subclass="operation" values="negative&#xA;negated_factuality">
+                                          <module xml:id="d11e5306" next="d11e5306_2" class="event" subclass="operation" values="∅">
+                                           <module xml:id="d9e5271" next="d9e5271_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying&#xA;centrality_tbd">
+                                            <wording xml:id="d7e5232" next="d7e5232_2" class="cluster" status="satellite" subclass="Object">
+                                             <module xml:id="d5e5185" next="d5e5185_2" class="entity" subclass="activation" values="re-construed">
+                                              <module xml:id="d3e5138" next="d3e5138_2" class="entity" subclass="re-construal" values="∅">
                                                <wording class="path">
                                                 <module class="entity" subclass="specification" values="gendered">
                                                  <module class="definition" subclass="activation" values="∅">
@@ -9310,32 +9302,32 @@
                                    <wording class="word" status="junctive">
                                     <token n="7314" gloss_berean="however" id="SBL.John.9.29.9">δὲ</token>
                                    </wording>
-                                   <module prev="d25e5376" xml:id="d25e5376_2" class="predication_active" subclass="operation" values="∅">
-                                    <module prev="d23e5374" xml:id="d23e5374_2" class="predication_active" subclass="specification" values="interactant&#xA;non-speaker">
-                                     <module prev="d21e5372" xml:id="d21e5372_2" class="abstraction" subclass="activation" values="∅">
-                                      <module prev="d19e5369" xml:id="d19e5369_2" class="abstraction" subclass="specification" values="∅">
-                                       <module prev="d17e5358" xml:id="d17e5358_2" class="event" subclass="activation" values="grouped">
-                                        <module prev="d15e5346" xml:id="d15e5346_2" class="event" subclass="set" values="∅">
-                                         <module prev="d13e5331" xml:id="d13e5331_2" class="event" subclass="operation" values="negative&#xA;negated_factuality">
+                                   <module prev="d25e5372" xml:id="d25e5372_2" class="predication_active" subclass="operation" values="∅">
+                                    <module prev="d23e5370" xml:id="d23e5370_2" class="predication_active" subclass="specification" values="interactant&#xA;non-speaker">
+                                     <module prev="d21e5368" xml:id="d21e5368_2" class="abstraction" subclass="activation" values="∅">
+                                      <module prev="d19e5365" xml:id="d19e5365_2" class="abstraction" subclass="specification" values="∅">
+                                       <module prev="d17e5354" xml:id="d17e5354_2" class="event" subclass="activation" values="grouped">
+                                        <module prev="d15e5342" xml:id="d15e5342_2" class="event" subclass="set" values="∅">
+                                         <module prev="d13e5327" xml:id="d13e5327_2" class="event" subclass="operation" values="negative&#xA;negated_factuality">
                                           <wording class="word" status="junctive">
                                            <token n="7315" gloss_berean="not" id="SBL.John.9.29.10">οὐκ</token>
                                           </wording>
-                                          <module prev="d11e5310" xml:id="d11e5310_2" class="event" subclass="operation" values="∅">
-                                           <module prev="d9e5275" xml:id="d9e5275_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying&#xA;centrality_tbd">
+                                          <module prev="d11e5306" xml:id="d11e5306_2" class="event" subclass="operation" values="∅">
+                                           <module prev="d9e5271" xml:id="d9e5271_2" class="event" subclass="specification" values="complete_duration&#xA;informational_environment&#xA;objectifying&#xA;centrality_tbd">
                                             <wording class="word" status="core">
                                              <module class="process" subclass="specification" pos="true" values="$οἶδα">
                                               <token n="7316" gloss_berean="we know" id="SBL.John.9.29.11">οἴδαμεν</token>
                                              </module>
                                             </wording>
-                                            <wording prev="d7e5236" xml:id="d7e5236_2" class="cluster" status="satellite" subclass="Object">
-                                             <module prev="d5e5189" xml:id="d5e5189_2" class="entity" subclass="activation" values="re-construed">
-                                              <module prev="d3e5142" xml:id="d3e5142_2" class="entity" subclass="re-construal" values="∅">
+                                            <wording prev="d7e5232" xml:id="d7e5232_2" class="cluster" status="satellite" subclass="Object">
+                                             <module prev="d5e5185" xml:id="d5e5185_2" class="entity" subclass="activation" values="re-construed">
+                                              <module prev="d3e5138" xml:id="d3e5138_2" class="entity" subclass="re-construal" values="∅">
                                                <wording class="path">
                                                 <module class="entity" subclass="specification" values="gender_tbd&#xA;number_tbd">
                                                  <module class="definition" subclass="activation" values="∅">
                                                   <module class="definition" subclass="specification" values="∅">
                                                    <module class="trait" subclass="activation" values="∅">
-                                                    <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation&#xA;#morphological_relative">
+                                                    <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation">
                                                      <module class="predication_modal" subclass="activation" values="∅">
                                                       <module class="predication_modal" subclass="specification" values="internal_orientation">
                                                        <module class="abstraction" subclass="activation" values="∅">
@@ -9520,14 +9512,14 @@
                           <wording class="cluster" status="independent">
                            <module class="speech" subclass="activation" values="∅">
                             <module class="speech" subclass="connection" values="connection_marker&#xA;#supporting">
-                             <module xml:id="d17e5490" next="d17e5490_2" class="speech" subclass="specification" values="augmented">
-                              <module xml:id="d15e5477" next="d15e5477_2" class="speech_act" subclass="specification" values="∅">
-                               <module xml:id="d13e5461" next="d13e5461_2" class="predication_active" subclass="activation" values="∅">
-                                <module xml:id="d11e5439" next="d11e5439_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
-                                 <module xml:id="d9e5403" next="d9e5403_2" class="abstraction" subclass="activation" values="∅">
-                                  <module xml:id="d7e5363" next="d7e5363_2" class="abstraction" subclass="specification" values="∅">
-                                   <module xml:id="d5e5315" next="d5e5315_2" class="event" subclass="activation" values="∅">
-                                    <module xml:id="d3e5267" next="d3e5267_2" class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction&#xA;preparatory">
+                             <module xml:id="d17e5486" next="d17e5486_2" class="speech" subclass="specification" values="augmented">
+                              <module xml:id="d15e5473" next="d15e5473_2" class="speech_act" subclass="specification" values="∅">
+                               <module xml:id="d13e5457" next="d13e5457_2" class="predication_active" subclass="activation" values="∅">
+                                <module xml:id="d11e5435" next="d11e5435_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
+                                 <module xml:id="d9e5399" next="d9e5399_2" class="abstraction" subclass="activation" values="∅">
+                                  <module xml:id="d7e5359" next="d7e5359_2" class="abstraction" subclass="specification" values="∅">
+                                   <module xml:id="d5e5311" next="d5e5311_2" class="event" subclass="activation" values="∅">
+                                    <module xml:id="d3e5263" next="d3e5263_2" class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction&#xA;preparatory">
                                      <wording class="cluster" status="satellite" subclass="Complement">
                                       <module class="abstraction" subclass="activation" values="∅">
                                        <module class="abstraction" subclass="specification" values="extrinsic">
@@ -9567,10 +9559,10 @@
                              <wording class="word" status="junctive">
                               <token n="7327" gloss_berean="for" id="SBL.John.9.30.9">γὰρ</token>
                              </wording>
-                             <module prev="d17e5490" xml:id="d17e5490_2" class="speech" subclass="specification" values="augmented">
-                              <module prev="d15e5477" xml:id="d15e5477_2" class="speech_act" subclass="specification" values="∅">
-                               <module prev="d13e5461" xml:id="d13e5461_2" class="predication_active" subclass="activation" values="∅">
-                                <module prev="d11e5439" xml:id="d11e5439_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
+                             <module prev="d17e5486" xml:id="d17e5486_2" class="speech" subclass="specification" values="augmented">
+                              <module prev="d15e5473" xml:id="d15e5473_2" class="speech_act" subclass="specification" values="∅">
+                               <module prev="d13e5457" xml:id="d13e5457_2" class="predication_active" subclass="activation" values="∅">
+                                <module prev="d11e5435" xml:id="d11e5435_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
                                  <wording class="cluster" status="satellite" subclass="Subject">
                                   <module class="entity" subclass="activation" values="∅">
                                    <module class="entity" subclass="specification" values="∅">
@@ -9605,10 +9597,10 @@
                                    </module>
                                   </module>
                                  </wording>
-                                 <module prev="d9e5403" xml:id="d9e5403_2" class="abstraction" subclass="activation" values="∅">
-                                  <module prev="d7e5363" xml:id="d7e5363_2" class="abstraction" subclass="specification" values="∅">
-                                   <module prev="d5e5315" xml:id="d5e5315_2" class="event" subclass="activation" values="∅">
-                                    <module prev="d3e5267" xml:id="d3e5267_2" class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction&#xA;preparatory">
+                                 <module prev="d9e5399" xml:id="d9e5399_2" class="abstraction" subclass="activation" values="∅">
+                                  <module prev="d7e5359" xml:id="d7e5359_2" class="abstraction" subclass="specification" values="∅">
+                                   <module prev="d5e5311" xml:id="d5e5311_2" class="event" subclass="activation" values="∅">
+                                    <module prev="d3e5263" xml:id="d3e5263_2" class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction&#xA;preparatory">
                                      <wording class="word" status="core">
                                       <module class="process" subclass="specification" pos="true" values="$εἰμί">
                                        <token n="7330" gloss_berean="is" id="SBL.John.9.30.12">ἐστιν</token>
@@ -9667,45 +9659,37 @@
                                               </wording>
                                               <wording class="cluster" status="satellite" subclass="Object">
                                                <module class="entity" subclass="activation" values="∅">
-                                                <module class="entity" subclass="specification" values="gender_tbd&#xA;number_tbd">
-                                                 <module class="definition" subclass="activation" values="∅">
-                                                  <module class="definition" subclass="specification" values="∅">
-                                                   <module class="trait" subclass="activation" values="∅">
-                                                    <module class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation&#xA;#phonological_relative">
-                                                     <module class="predication_modal" subclass="activation" values="∅">
-                                                      <module class="predication_modal" subclass="specification" values="internal_orientation">
-                                                       <module class="abstraction" subclass="activation" values="∅">
-                                                        <module class="abstraction" subclass="specification" values="∅">
-                                                         <module class="event" subclass="activation" values="∅">
-                                                          <module class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction">
-                                                           <wording class="cluster" status="satellite" subclass="Complement">
-                                                            <module class="abstraction" subclass="activation" values="∅">
-                                                             <module class="abstraction" subclass="specification" values="extrinsic">
-                                                              <module class="circumstance" subclass="activation" values="∅">
-                                                               <module class="circumstance" subclass="specification" values="∅">
-                                                                <module class="extrinsic_collation" subclass="activation" values="∅">
-                                                                 <module class="extrinsic_collation" subclass="specification" values="relative_range">
-                                                                  <wording class="word" status="core">
-                                                                   <module class="extrinsic_quality" subclass="specification" pos="true" values="extrinsic_domain_tbd&#xA;$πόθεν">
-                                                                    <token n="7335" gloss_berean="from where" id="SBL.John.9.30.17">πόθεν</token>
-                                                                   </module>
-                                                                  </wording>
-                                                                 </module>
-                                                                </module>
+                                                <module class="entity" subclass="specification" values="#interrogation">
+                                                 <module class="predication_modal" subclass="activation" values="∅">
+                                                  <module class="predication_modal" subclass="specification" values="internal_orientation">
+                                                   <module class="abstraction" subclass="activation" values="∅">
+                                                    <module class="abstraction" subclass="specification" values="∅">
+                                                     <module class="event" subclass="activation" values="∅">
+                                                      <module class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction">
+                                                       <wording class="cluster" status="satellite" subclass="Complement">
+                                                        <module class="abstraction" subclass="activation" values="∅">
+                                                         <module class="abstraction" subclass="specification" values="extrinsic">
+                                                          <module class="circumstance" subclass="activation" values="∅">
+                                                           <module class="circumstance" subclass="specification" values="∅">
+                                                            <module class="extrinsic_collation" subclass="activation" values="∅">
+                                                             <module class="extrinsic_collation" subclass="specification" values="relative_range">
+                                                              <wording class="word" status="core">
+                                                               <module class="extrinsic_quality" subclass="specification" pos="true" values="extrinsic_domain_tbd&#xA;$πόθεν">
+                                                                <token n="7335" gloss_berean="from where" id="SBL.John.9.30.17">πόθεν</token>
                                                                </module>
-                                                              </module>
+                                                              </wording>
                                                              </module>
                                                             </module>
-                                                           </wording>
-                                                           <wording class="word" status="core">
-                                                            <module class="process" subclass="specification" pos="true" values="$εἰμί">
-                                                             <token n="7336" gloss_berean="He is" id="SBL.John.9.30.18" after=",">ἐστίν</token>
-                                                            </module>
-                                                           </wording>
+                                                           </module>
                                                           </module>
                                                          </module>
                                                         </module>
-                                                       </module>
+                                                       </wording>
+                                                       <wording class="word" status="core">
+                                                        <module class="process" subclass="specification" pos="true" values="$εἰμί">
+                                                         <token n="7336" gloss_berean="He is" id="SBL.John.9.30.18" after=",">ἐστίν</token>
+                                                        </module>
+                                                       </wording>
                                                       </module>
                                                      </module>
                                                     </module>
@@ -9843,13 +9827,13 @@
                                            </wording>
                                            <module class="predication_modal" subclass="activation" values="∅">
                                             <module class="predication_modal" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;internal_orientation">
-                                             <module xml:id="d15e5672" next="d15e5672_2" class="abstraction" subclass="activation" values="∅">
-                                              <module xml:id="d13e5655" next="d13e5655_2" class="abstraction" subclass="specification" values="∅">
-                                               <module xml:id="d11e5632" next="d11e5632_2" class="event" subclass="activation" values="grouped">
-                                                <module xml:id="d9e5595" next="d9e5595_2" class="event" subclass="set" values="∅">
-                                                 <module xml:id="d7e5554" next="d7e5554_2" class="event" subclass="operation" values="negative&#xA;negated_factuality">
-                                                  <module xml:id="d5e5505" next="d5e5505_2" class="event" subclass="operation" values="∅">
-                                                   <module xml:id="d3e5456" next="d3e5456_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;preparatory&#xA;peripheral&#xA;part-whole">
+                                             <module xml:id="d15e5664" next="d15e5664_2" class="abstraction" subclass="activation" values="∅">
+                                              <module xml:id="d13e5647" next="d13e5647_2" class="abstraction" subclass="specification" values="∅">
+                                               <module xml:id="d11e5624" next="d11e5624_2" class="event" subclass="activation" values="grouped">
+                                                <module xml:id="d9e5587" next="d9e5587_2" class="event" subclass="set" values="∅">
+                                                 <module xml:id="d7e5546" next="d7e5546_2" class="event" subclass="operation" values="negative&#xA;negated_factuality">
+                                                  <module xml:id="d5e5497" next="d5e5497_2" class="event" subclass="operation" values="∅">
+                                                   <module xml:id="d3e5448" next="d3e5448_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;preparatory&#xA;peripheral&#xA;part-whole">
                                                     <wording class="cluster" status="satellite" subclass="Object">
                                                      <module class="entity" subclass="activation" values="∅">
                                                       <module class="entity" subclass="specification" values="gendered&#xA;plural">
@@ -9910,16 +9894,16 @@
                                                </module>
                                               </module>
                                              </wording>
-                                             <module prev="d15e5672" xml:id="d15e5672_2" class="abstraction" subclass="activation" values="∅">
-                                              <module prev="d13e5655" xml:id="d13e5655_2" class="abstraction" subclass="specification" values="∅">
-                                               <module prev="d11e5632" xml:id="d11e5632_2" class="event" subclass="activation" values="grouped">
-                                                <module prev="d9e5595" xml:id="d9e5595_2" class="event" subclass="set" values="∅">
-                                                 <module prev="d7e5554" xml:id="d7e5554_2" class="event" subclass="operation" values="negative&#xA;negated_factuality">
+                                             <module prev="d15e5664" xml:id="d15e5664_2" class="abstraction" subclass="activation" values="∅">
+                                              <module prev="d13e5647" xml:id="d13e5647_2" class="abstraction" subclass="specification" values="∅">
+                                               <module prev="d11e5624" xml:id="d11e5624_2" class="event" subclass="activation" values="grouped">
+                                                <module prev="d9e5587" xml:id="d9e5587_2" class="event" subclass="set" values="∅">
+                                                 <module prev="d7e5546" xml:id="d7e5546_2" class="event" subclass="operation" values="negative&#xA;negated_factuality">
                                                   <wording class="word" status="junctive">
                                                    <token n="7347" gloss_berean="not" id="SBL.John.9.31.6">οὐκ</token>
                                                   </wording>
-                                                  <module prev="d5e5505" xml:id="d5e5505_2" class="event" subclass="operation" values="∅">
-                                                   <module prev="d3e5456" xml:id="d3e5456_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;preparatory&#xA;peripheral&#xA;part-whole">
+                                                  <module prev="d5e5497" xml:id="d5e5497_2" class="event" subclass="operation" values="∅">
+                                                   <module prev="d3e5448" xml:id="d3e5448_2" class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;preparatory&#xA;peripheral&#xA;part-whole">
                                                     <wording class="word" status="core">
                                                      <module class="process" subclass="specification" pos="true" values="$ἀκούω">
                                                       <token n="7348" gloss_berean="does hear" id="SBL.John.9.31.7" after=",">ἀκούει</token>
@@ -10216,10 +10200,10 @@
                                        </wording>
                                        <module class="predication_modal" subclass="activation" values="∅">
                                         <module class="predication_modal" subclass="specification" values="construed_instantiator&#xA;internal_orientation">
-                                         <module xml:id="d9e5807" next="d9e5807_2" class="abstraction" subclass="activation" values="∅">
-                                          <module xml:id="d7e5765" next="d7e5765_2" class="abstraction" subclass="specification" values="∅">
-                                           <module xml:id="d5e5715" next="d5e5715_2" class="event" subclass="activation" values="∅">
-                                            <module xml:id="d3e5665" next="d3e5665_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying">
+                                         <module xml:id="d9e5799" next="d9e5799_2" class="abstraction" subclass="activation" values="∅">
+                                          <module xml:id="d7e5757" next="d7e5757_2" class="abstraction" subclass="specification" values="∅">
+                                           <module xml:id="d5e5707" next="d5e5707_2" class="event" subclass="activation" values="∅">
+                                            <module xml:id="d3e5657" next="d3e5657_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying">
                                              <wording class="word" status="core">
                                               <module class="process" subclass="specification" pos="true" values="$ἀνοίγω">
                                                <token n="7367" gloss_berean="opened" id="SBL.John.9.32.7">ἠνέῳξέν</token>
@@ -10246,10 +10230,10 @@
                                            </module>
                                           </module>
                                          </wording>
-                                         <module prev="d9e5807" xml:id="d9e5807_2" class="abstraction" subclass="activation" values="∅">
-                                          <module prev="d7e5765" xml:id="d7e5765_2" class="abstraction" subclass="specification" values="∅">
-                                           <module prev="d5e5715" xml:id="d5e5715_2" class="event" subclass="activation" values="∅">
-                                            <module prev="d3e5665" xml:id="d3e5665_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying">
+                                         <module prev="d9e5799" xml:id="d9e5799_2" class="abstraction" subclass="activation" values="∅">
+                                          <module prev="d7e5757" xml:id="d7e5757_2" class="abstraction" subclass="specification" values="∅">
+                                           <module prev="d5e5707" xml:id="d5e5707_2" class="event" subclass="activation" values="∅">
+                                            <module prev="d3e5657" xml:id="d3e5657_2" class="event" subclass="specification" values="complete_duration&#xA;objectifying">
                                              <wording class="cluster" status="satellite" subclass="Object">
                                               <module class="entity" subclass="activation" values="∅">
                                                <module class="entity" subclass="specification" values="gendered&#xA;plural">
@@ -10359,10 +10343,10 @@
                                          </wording>
                                          <module class="predication_modal" subclass="operation" values="∅">
                                           <module class="predication_modal" subclass="specification" values="construed_instantiator&#xA;internal_orientation">
-                                           <module xml:id="d9e5889" next="d9e5889_2" class="abstraction" subclass="activation" values="∅">
-                                            <module xml:id="d7e5846" next="d7e5846_2" class="abstraction" subclass="specification" values="∅">
-                                             <module xml:id="d5e5795" next="d5e5795_2" class="event" subclass="activation" values="∅">
-                                              <module xml:id="d3e5744" next="d3e5744_2" class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction">
+                                           <module xml:id="d9e5881" next="d9e5881_2" class="abstraction" subclass="activation" values="∅">
+                                            <module xml:id="d7e5838" next="d7e5838_2" class="abstraction" subclass="specification" values="∅">
+                                             <module xml:id="d5e5787" next="d5e5787_2" class="event" subclass="activation" values="∅">
+                                              <module xml:id="d3e5736" next="d3e5736_2" class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction">
                                                <wording class="word" status="core">
                                                 <module class="process" subclass="specification" pos="true" values="$εἰμί">
                                                  <token n="7374" gloss_berean="were" id="SBL.John.9.33.3">ἦν</token>
@@ -10389,10 +10373,10 @@
                                              </module>
                                             </module>
                                            </wording>
-                                           <module prev="d9e5889" xml:id="d9e5889_2" class="abstraction" subclass="activation" values="∅">
-                                            <module prev="d7e5846" xml:id="d7e5846_2" class="abstraction" subclass="specification" values="∅">
-                                             <module prev="d5e5795" xml:id="d5e5795_2" class="event" subclass="activation" values="∅">
-                                              <module prev="d3e5744" xml:id="d3e5744_2" class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction">
+                                           <module prev="d9e5881" xml:id="d9e5881_2" class="abstraction" subclass="activation" values="∅">
+                                            <module prev="d7e5838" xml:id="d7e5838_2" class="abstraction" subclass="specification" values="∅">
+                                             <module prev="d5e5787" xml:id="d5e5787_2" class="event" subclass="activation" values="∅">
+                                              <module prev="d3e5736" xml:id="d3e5736_2" class="event" subclass="specification" values="informational_environment&#xA;complementary_abstraction">
                                                <wording class="cluster" status="satellite" subclass="Complement">
                                                 <module class="abstraction" subclass="activation" values="∅">
                                                  <module class="abstraction" subclass="specification" values="extrinsic">
@@ -10602,8 +10586,8 @@
                                  <wording class="path">
                                   <module class="predication_active" subclass="operation" values="∅">
                                    <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;interactant">
-                                    <module xml:id="d5e5926" next="d5e5926_2" class="abstraction" subclass="activation" values="∅">
-                                     <module xml:id="d3e5874" next="d3e5874_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
+                                    <module xml:id="d5e5918" next="d5e5918_2" class="abstraction" subclass="activation" values="∅">
+                                     <module xml:id="d3e5866" next="d3e5866_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
                                       <wording class="cluster" status="satellite" subclass="Circumstance">
                                        <module class="circumstance" subclass="activation" values="∅">
                                         <module class="circumstance" subclass="specification" values="#positional_association&#xA;$ἐν&#xA;dative_association">
@@ -10649,8 +10633,8 @@
                                       </module>
                                      </module>
                                     </wording>
-                                    <module prev="d5e5926" xml:id="d5e5926_2" class="abstraction" subclass="activation" values="∅">
-                                     <module prev="d3e5874" xml:id="d3e5874_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
+                                    <module prev="d5e5918" xml:id="d5e5918_2" class="abstraction" subclass="activation" values="∅">
+                                     <module prev="d3e5866" xml:id="d3e5866_2" class="abstraction" subclass="specification" values="circumscribed&#xA;preparatory">
                                       <module class="event" subclass="activation" values="∅">
                                        <module class="event" subclass="specification" values="complete_duration&#xA;objectifying&#xA;cropped&#xA;circumscribed">
                                         <wording class="word" status="core">
