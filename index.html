@@ -103,14 +103,8 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
       background: none;
     }
 
-    #xml-display module:not([data-hide-tag='true']) wording {      
-      align-items: flex-start !important;
-      align-self: flex-start !important;
-    }
-
-    #xml-display module[data-hide-tag='true'] wording {      
-      align-items: center !important;
-      align-self: center !important;
+    #xml-display context[data-hide-subclass='true'] * {      
+      display:none;
     }
 
     #xml-display wording[data-hide-class='true'] {      
@@ -120,12 +114,31 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
       background: none;    
     }
 
+    #xml-display wording[data-hide-subclass='true'] {      
+      min-width: 10px;
+      min-height: 10px;
+    }
+
+    #xml-display wording[data-hide-subclass='true'] * {            
+      display: none;    
+    }
+ 
+    #xml-display module[data-hide-tag='true'] wording {      
+      align-items: center !important;
+      align-self: center !important;
+    }
+
+    #xml-display module:not([data-hide-tag='true']) wording {      
+      align-items: flex-start !important;
+      align-self: flex-start !important;
+    }
+
     #xml-display module[data-hide-class='true'] {      
       border-top-width: 1px !important;
       padding-top: 5px;      
     }
 
-    #xml-display [data-hide-subclass='true'] {
+    #xml-display module[data-hide-subclass='true'] {
       margin-top: 0px;
       border: none;
       padding-top: 0px !important;
@@ -183,6 +196,10 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    #checkbox-container input[type='checkbox'][data-tag]:checked ~ div {
+      display: none;
     }
 
     /* Section styles */

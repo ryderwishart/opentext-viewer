@@ -75,18 +75,18 @@ wording[class = "path"]:last-child {
  * Function Labels *
  *******************/
 
-wording[function]:hover {
+wording[subclass]:hover {
     border-top: none;
     padding: 15px 0px;
 }
 
-wording[function]:hover::before {
+wording[subclass]:hover::before {
     position: absolute;
     /* horizontally center */
     transform: translateY(100%);
     /* move to left */
     bottom: 100%;
-    content: attr(function);   
+    content: attr(subclass);   
     width: 100%;
     height: 15px;
     border-radius: 20px 20px 0px 0px;
@@ -96,15 +96,15 @@ wording[function]:hover::before {
     color: black;
 }
 
-wording[function][prev]:hover::before {
+wording[subclass][prev]:hover::before {
     border-radius: 0px 20px 0px 0px;
 }
 
-wording[function][next]:hover::before {
+wording[subclass][next]:hover::before {
     border-radius: 20px 0px 0px 0px;
 }
 
-wording[function][prev][next]:hover::before {
+wording[subclass][prev][next]:hover::before {
     border-radius: 0px;
 }
 
