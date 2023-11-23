@@ -45,7 +45,7 @@
             <wording class="cluster" status="satellite" subclass="Instantiator">
              <module class="entity" subclass="activation" values="re-construed">
               <module class="entity" subclass="re-construal" values="∅">
-               <wording class="path" subclass="Instantiator">
+               <wording class="path" subclass="=1">
                 <module class="entity" subclass="specification" values="gendered">
                  <module class="definition" subclass="activation" values="∅">
                   <module class="definition" subclass="specification" values="∅">
@@ -62,7 +62,7 @@
                  </module>
                 </module>
                </wording>
-               <wording class="path" subclass="Instantiator">
+               <wording class="path" subclass="=2">
                 <module class="entity" subclass="specification" values="gendered">
                  <module class="definition" subclass="activation" values="∅">
                   <module class="definition" subclass="specification" values="elaborated">
@@ -73,7 +73,7 @@
                        <module class="circumstance" subclass="specification" values="#oblique_association&#xA;accusative_association">
                         <module class="entity" subclass="activation" values="grouped">
                          <module class="entity" subclass="set" values="conjunctive">
-                          <wording class="path" subclass="Elaboration">
+                          <wording class="path" subclass="±1">
                            <module class="entity" subclass="operation" values="∅">
                             <module class="entity" subclass="specification" values="gendered">
                              <module class="definition" subclass="activation" values="∅">
@@ -92,14 +92,14 @@
                             </module>
                            </module>
                           </wording>
-                          <wording class="path" subclass="Elaboration">
+                          <wording class="path" subclass="±2">
                            <module class="entity" subclass="operation" values="addition_marker">
                             <wording class="word" status="junctive">
                              <token n="3" gloss_berean="and" id="SBL.Jas.1.1.3">καὶ</token>
                             </wording>
                             <module class="entity" subclass="operation" values="re-construed">
                              <module class="entity" subclass="re-construal" values="re-construed">
-                              <wording class="path" subclass="±2">
+                              <wording class="path" subclass="=1">
                                <module class="entity" subclass="specification" values="gendered">
                                 <module class="definition" subclass="activation" values="∅">
                                  <module class="definition" subclass="specification" values="∅">
@@ -116,9 +116,9 @@
                                 </module>
                                </module>
                               </wording>
-                              <wording class="path" subclass="±2">
+                              <wording class="path" subclass="=2">
                                <module class="entity" subclass="re-construal" values="∅">
-                                <wording class="path" subclass="=2">
+                                <wording class="path" subclass="=1">
                                  <module class="entity" subclass="specification" values="gendered">
                                   <module class="definition" subclass="activation" values="∅">
                                    <module class="definition" subclass="specification" values="∅">
@@ -788,7 +788,7 @@
                        <wording class="cluster" status="satellite" subclass="Comp_Prop">
                         <module class="abstraction" subclass="activation" values="grouped">
                          <module class="abstraction" subclass="set" values="conjunctive">
-                          <wording class="path" subclass="Comp_Prop">
+                          <wording class="path" subclass="±1">
                            <module class="abstraction" subclass="operation" values="∅">
                             <module class="abstraction" subclass="specification" values="intrinsic&#xA;gendered&#xA;plural">
                              <module class="definition" subclass="activation" values="∅">
@@ -811,7 +811,7 @@
                             </module>
                            </module>
                           </wording>
-                          <wording class="path" subclass="Comp_Prop">
+                          <wording class="path" subclass="±2">
                            <module class="abstraction" subclass="operation" values="addition_marker">
                             <wording class="word" status="junctive">
                              <token n="43" gloss_berean="and" id="SBL.Jas.1.4.10">καὶ</token>
@@ -1022,7 +1022,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="directive&#xA;circumscribed&#xA;preparatory">
                <module class="abstraction" subclass="activation" values="∅">
@@ -1054,7 +1054,7 @@
                               <wording xml:id="d17e605" next="d17e605_2" class="cluster" status="satellite" subclass="Elaboration">
                                <module xml:id="d15e599" next="d15e599_2" class="trait" subclass="activation" values="grouped">
                                 <module xml:id="d13e596" next="d13e596_2" class="trait" subclass="set" values="conjunctive">
-                                 <wording xml:id="d11e593" next="d11e593_2" class="path" subclass="Elaboration">
+                                 <wording xml:id="d11e593" next="d11e593_2" class="path" subclass="±1">
                                   <module xml:id="d9e590" next="d9e590_2" class="trait" subclass="operation" values="∅">
                                    <module xml:id="d7e587" next="d7e587_2" class="trait" subclass="specification" values="differentiation&#xA;description&#xA;#participation">
                                     <module xml:id="d5e584" next="d5e584_2" class="event" subclass="activation" values="∅">
@@ -1084,7 +1084,7 @@
                               <wording prev="d17e605" xml:id="d17e605_2" class="cluster" status="satellite" subclass="Elaboration">
                                <module prev="d15e599" xml:id="d15e599_2" class="trait" subclass="activation" values="grouped">
                                 <module prev="d13e596" xml:id="d13e596_2" class="trait" subclass="set" values="conjunctive">
-                                 <wording prev="d11e593" xml:id="d11e593_2" class="path" subclass="Elaboration">
+                                 <wording prev="d11e593" xml:id="d11e593_2" class="path" subclass="±1">
                                   <module prev="d9e590" xml:id="d9e590_2" class="trait" subclass="operation" values="∅">
                                    <module prev="d7e587" xml:id="d7e587_2" class="trait" subclass="specification" values="differentiation&#xA;description&#xA;#participation">
                                     <module prev="d5e584" xml:id="d5e584_2" class="event" subclass="activation" values="∅">
@@ -1126,7 +1126,7 @@
                                    </module>
                                   </module>
                                  </wording>
-                                 <wording class="path" subclass="Elaboration">
+                                 <wording class="path" subclass="±2">
                                   <module class="trait" subclass="operation" values="addition_marker">
                                    <wording class="word" status="junctive">
                                     <token n="61" gloss_berean="and" id="SBL.Jas.1.5.14">καὶ</token>
@@ -1176,7 +1176,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="64" gloss_berean="and" id="SBL.Jas.1.5.17">καὶ</token>
@@ -1463,7 +1463,7 @@
                        <wording class="cluster" status="satellite" subclass="Elaboration">
                         <module class="trait" subclass="activation" values="grouped">
                          <module class="trait" subclass="set" values="conjunctive">
-                          <wording class="path" subclass="Elaboration">
+                          <wording class="path" subclass="±1">
                            <module class="trait" subclass="operation" values="∅">
                             <module class="trait" subclass="specification" values="differentiation&#xA;description&#xA;#participation">
                              <module class="event" subclass="activation" values="∅">
@@ -1478,7 +1478,7 @@
                             </module>
                            </module>
                           </wording>
-                          <wording class="path" subclass="Elaboration">
+                          <wording class="path" subclass="±2">
                            <module class="trait" subclass="operation" values="addition_marker">
                             <wording class="word" status="junctive">
                              <token n="80" gloss_berean="and" id="SBL.Jas.1.6.14">καὶ</token>
@@ -2250,7 +2250,7 @@
          <module xml:id="d21e1292" next="d21e1292_2" class="speech_act" subclass="specification" values="∅">
           <module xml:id="d19e1290" next="d19e1290_2" class="predication_active" subclass="activation" values="grouped">
            <module xml:id="d17e1285" next="d17e1285_2" class="predication_active" subclass="set" values="conjunctive">
-            <wording xml:id="d15e1277" next="d15e1277_2" class="path" subclass="Move">
+            <wording xml:id="d15e1277" next="d15e1277_2" class="path" subclass="±1">
              <module xml:id="d13e1269" next="d13e1269_2" class="predication_active" subclass="operation" values="∅">
               <module xml:id="d11e1260" next="d11e1260_2" class="predication_active" subclass="specification" values="construed_instantiator">
                <module xml:id="d9e1250" next="d9e1250_2" class="abstraction" subclass="activation" values="∅">
@@ -2280,7 +2280,7 @@
          <module prev="d21e1292" xml:id="d21e1292_2" class="speech_act" subclass="specification" values="∅">
           <module prev="d19e1290" xml:id="d19e1290_2" class="predication_active" subclass="activation" values="grouped">
            <module prev="d17e1285" xml:id="d17e1285_2" class="predication_active" subclass="set" values="conjunctive">
-            <wording prev="d15e1277" xml:id="d15e1277_2" class="path" subclass="Move">
+            <wording prev="d15e1277" xml:id="d15e1277_2" class="path" subclass="±1">
              <module prev="d13e1269" xml:id="d13e1269_2" class="predication_active" subclass="operation" values="∅">
               <module prev="d11e1260" xml:id="d11e1260_2" class="predication_active" subclass="specification" values="construed_instantiator">
                <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -2361,7 +2361,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="131" gloss_berean="and" id="SBL.Jas.1.11.8">καὶ</token>
@@ -3599,7 +3599,7 @@
                          </module>
                         </module>
                        </wording>
-                       <wording class="path" subclass="Abstr">
+                       <wording class="path" subclass="±1">
                         <module class="event" subclass="operation" values="∅">
                          <module class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;cropped&#xA;circumscribed&#xA;preparatory">
                           <wording class="word" status="core">
@@ -3610,7 +3610,7 @@
                          </module>
                         </module>
                        </wording>
-                       <wording class="path" subclass="Abstr">
+                       <wording class="path" subclass="±2">
                         <module class="event" subclass="operation" values="addition_marker">
                          <wording class="word" status="junctive">
                           <token n="199" gloss_berean="and" id="SBL.Jas.1.14.9">καὶ</token>
@@ -3653,7 +3653,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
                <module xml:id="d5e2014" next="d5e2014_2" class="abstraction" subclass="activation" values="∅">
@@ -3759,7 +3759,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker&#xA;progressive">
               <module xml:id="d19e2168" next="d19e2168_2" class="predication_active" subclass="operation" values="∅">
                <module xml:id="d17e2160" next="d17e2160_2" class="predication_active" subclass="specification" values="construed_instantiator">
@@ -3985,7 +3985,7 @@
             <wording class="cluster" status="satellite" subclass="Instantiator">
              <module class="entity" subclass="activation" values="grouped">
               <module class="entity" subclass="set" values="conjunctive">
-               <wording class="path" subclass="Instantiator">
+               <wording class="path" subclass="±1">
                 <module class="entity" subclass="operation" values="∅">
                  <module class="entity" subclass="specification" values="gendered&#xA;feminine">
                   <module class="definition" subclass="activation" values="∅">
@@ -4028,7 +4028,7 @@
                  </module>
                 </module>
                </wording>
-               <wording class="path" subclass="Instantiator">
+               <wording class="path" subclass="±2">
                 <module class="entity" subclass="operation" values="addition_marker">
                  <wording class="word" status="junctive">
                   <token n="221" gloss_berean="and" id="SBL.Jas.1.17.4">καὶ</token>
@@ -4238,7 +4238,7 @@
                                       <wording class="cluster" status="satellite" subclass="Instantiator">
                                        <module class="entity" subclass="activation" values="grouped">
                                         <module class="entity" subclass="set" values="∅">
-                                         <wording class="path" subclass="Instantiator">
+                                         <wording class="path" subclass="^1">
                                           <module class="entity" subclass="option" values="∅">
                                            <module class="entity" subclass="specification" values="gendered&#xA;feminine">
                                             <module class="definition" subclass="activation" values="∅">
@@ -4257,7 +4257,7 @@
                                            </module>
                                           </module>
                                          </wording>
-                                         <wording class="path" subclass="Instantiator">
+                                         <wording class="path" subclass="^2">
                                           <module class="entity" subclass="option" values="disjunctive_marker">
                                            <wording class="word" status="junctive">
                                             <token n="238" gloss_berean="or" id="SBL.Jas.1.17.21">ἢ</token>
@@ -5136,7 +5136,7 @@
                             </module>
                            </module>
                           </wording>
-                          <wording class="path" subclass="Obj_Part">
+                          <wording class="path" subclass="±1">
                            <module class="definition" subclass="operation" values="∅">
                             <module class="definition" subclass="specification" values="elaborated&#xA;preparatory">
                              <module class="trait" subclass="activation" values="∅">
@@ -5151,7 +5151,7 @@
                             </module>
                            </module>
                           </wording>
-                          <wording class="path" subclass="Obj_Part">
+                          <wording class="path" subclass="±2">
                            <module class="definition" subclass="operation" values="addition_marker">
                             <wording class="word" status="junctive">
                              <token n="285" gloss_berean="and" id="SBL.Jas.1.21.5">καὶ</token>
@@ -5246,7 +5246,7 @@
                 <wording class="cluster" status="satellite" subclass="Obj_Part">
                  <module class="entity" subclass="activation" values="re-construed">
                   <module class="entity" subclass="re-construal" values="∅">
-                   <wording class="path" subclass="Obj_Part">
+                   <wording class="path" subclass="=1">
                     <module class="entity" subclass="specification" values="gendered">
                      <module class="definition" subclass="activation" values="∅">
                       <module class="definition" subclass="specification" values="∅">
@@ -5289,7 +5289,7 @@
                      </module>
                     </module>
                    </wording>
-                   <wording class="path" subclass="Obj_Part">
+                   <wording class="path" subclass="=2">
                     <module class="entity" subclass="specification" values="gendered">
                      <module class="definition" subclass="activation" values="∅">
                       <module class="definition" subclass="specification" values="∅">
@@ -5449,7 +5449,7 @@
                 <wording class="cluster" status="satellite" subclass="Comp_Prop">
                  <module class="abstraction" subclass="activation" values="grouped">
                   <module class="abstraction" subclass="set" values="conjunctive">
-                   <wording class="path" subclass="Comp_Prop">
+                   <wording class="path" subclass="±1">
                     <module class="abstraction" subclass="operation" values="∅">
                      <module class="abstraction" subclass="specification" values="intrinsic&#xA;gendered&#xA;plural">
                       <module class="definition" subclass="activation" values="∅">
@@ -5495,7 +5495,7 @@
                      </module>
                     </module>
                    </wording>
-                   <wording class="path" subclass="Comp_Prop">
+                   <wording class="path" subclass="±2">
                     <module class="abstraction" subclass="operation" values="addition_marker">
                      <wording class="word" status="junctive">
                       <token n="304" gloss_berean="and" id="SBL.Jas.1.22.5">καὶ</token>
@@ -5609,7 +5609,7 @@
                             </module>
                            </module>
                           </wording>
-                          <wording class="path" subclass="Circumstance">
+                          <wording class="path" subclass="±1">
                            <module class="predication_modal" subclass="operation" values="∅">
                             <module class="predication_modal" subclass="specification" values="internal_orientation&#xA;construed_instantiator&#xA;preparatory">
                              <module class="abstraction" subclass="activation" values="∅">
@@ -5674,7 +5674,7 @@
                             </module>
                            </module>
                           </wording>
-                          <wording class="path" subclass="Circumstance">
+                          <wording class="path" subclass="±2">
                            <module class="predication_modal" subclass="operation" values="addition_marker">
                             <wording class="word" status="junctive">
                              <token n="316" gloss_berean="and" id="SBL.Jas.1.23.7">καὶ</token>
@@ -5937,7 +5937,7 @@
          <module xml:id="d21e3442" next="d21e3442_2" class="speech_act" subclass="specification" values="∅">
           <module xml:id="d19e3436" next="d19e3436_2" class="predication_active" subclass="activation" values="grouped">
            <module xml:id="d17e3424" next="d17e3424_2" class="predication_active" subclass="set" values="conjunctive">
-            <wording xml:id="d15e3409" next="d15e3409_2" class="path" subclass="Move">
+            <wording xml:id="d15e3409" next="d15e3409_2" class="path" subclass="±1">
              <module xml:id="d13e3394" next="d13e3394_2" class="predication_active" subclass="operation" values="∅">
               <module xml:id="d11e3378" next="d11e3378_2" class="predication_active" subclass="specification" values="∅">
                <module xml:id="d9e3360" next="d9e3360_2" class="abstraction" subclass="activation" values="∅">
@@ -5967,7 +5967,7 @@
          <module prev="d21e3442" xml:id="d21e3442_2" class="speech_act" subclass="specification" values="∅">
           <module prev="d19e3436" xml:id="d19e3436_2" class="predication_active" subclass="activation" values="grouped">
            <module prev="d17e3424" xml:id="d17e3424_2" class="predication_active" subclass="set" values="conjunctive">
-            <wording prev="d15e3409" xml:id="d15e3409_2" class="path" subclass="Move">
+            <wording prev="d15e3409" xml:id="d15e3409_2" class="path" subclass="±1">
              <module prev="d13e3394" xml:id="d13e3394_2" class="predication_active" subclass="operation" values="∅">
               <module prev="d11e3378" xml:id="d11e3378_2" class="predication_active" subclass="specification" values="∅">
                <module prev="d9e3360" xml:id="d9e3360_2" class="abstraction" subclass="activation" values="∅">
@@ -5998,7 +5998,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="333" gloss_berean="and" id="SBL.Jas.1.24.4">καὶ</token>
@@ -6022,7 +6022,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±3">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="335" gloss_berean="and" id="SBL.Jas.1.24.6">καὶ</token>
@@ -6154,7 +6154,7 @@
                 <module prev="d3e3390" xml:id="d3e3390_2" class="trait" subclass="specification" values="differentiation&#xA;indication&#xA;#articulation">
                  <module class="definition" subclass="activation" values="grouped">
                   <module class="definition" subclass="set" values="conjunctive">
-                   <wording class="path" subclass="Subst">
+                   <wording class="path" subclass="±1">
                     <module class="definition" subclass="operation" values="∅">
                      <module class="definition" subclass="specification" values="∅">
                       <module class="trait" subclass="activation" values="∅">
@@ -6174,7 +6174,7 @@
                              </wording>
                              <module class="entity" subclass="activation" values="re-construed">
                               <module class="entity" subclass="re-construal" values="∅">
-                               <wording class="path" subclass="Circumstance">
+                               <wording class="path" subclass="=1">
                                 <module class="entity" subclass="specification" values="gendered">
                                  <module class="definition" subclass="activation" values="∅">
                                   <module class="definition" subclass="specification" values="elaborated">
@@ -6206,7 +6206,7 @@
                                  </module>
                                 </module>
                                </wording>
-                               <wording class="path" subclass="Circumstance">
+                               <wording class="path" subclass="=2">
                                 <module class="entity" subclass="specification" values="gender_tbd&#xA;number_tbd">
                                  <module class="definition" subclass="activation" values="∅">
                                   <module class="definition" subclass="specification" values="∅">
@@ -6273,7 +6273,7 @@
                      </module>
                     </module>
                    </wording>
-                   <wording class="path" subclass="Subst">
+                   <wording class="path" subclass="±2">
                     <module class="definition" subclass="operation" values="addition_marker">
                      <wording class="word" status="junctive">
                       <token n="349" gloss_berean="and" id="SBL.Jas.1.25.10">καὶ</token>
@@ -6299,7 +6299,7 @@
                                   <wording xml:id="d7e3542" next="d7e3542_2" class="cluster" status="satellite" subclass="Comp_Prop">
                                    <module xml:id="d5e3516" next="d5e3516_2" class="abstraction" subclass="activation" values="grouped">
                                     <module xml:id="d3e3490" next="d3e3490_2" class="abstraction" subclass="set" values="conjunctive">
-                                     <wording class="path" subclass="Comp_Prop">
+                                     <wording class="path" subclass="±1">
                                       <module class="abstraction" subclass="operation" values="negative&#xA;negated_factuality">
                                        <wording class="word" status="junctive">
                                         <token n="351" gloss_berean="not" id="SBL.Jas.1.25.12">οὐκ</token>
@@ -6361,7 +6361,7 @@
                                   <wording prev="d7e3542" xml:id="d7e3542_2" class="cluster" status="satellite" subclass="Comp_Prop">
                                    <module prev="d5e3516" xml:id="d5e3516_2" class="abstraction" subclass="activation" values="grouped">
                                     <module prev="d3e3490" xml:id="d3e3490_2" class="abstraction" subclass="set" values="conjunctive">
-                                     <wording class="path" subclass="Comp_Prop">
+                                     <wording class="path" subclass="±2">
                                       <module class="abstraction" subclass="operation" values="addition_marker&#xA;corrective">
                                        <wording class="word" status="junctive">
                                         <token n="355" gloss_berean="but" id="SBL.Jas.1.25.16">ἀλλὰ</token>
@@ -6657,7 +6657,7 @@
                          <module class="circumstance" subclass="specification" values="#characterization">
                           <module class="abstraction" subclass="activation" values="grouped">
                            <module class="abstraction" subclass="set" values="conjunctive">
-                            <wording class="path" subclass="Circumstance">
+                            <wording class="path" subclass="±1">
                              <module class="abstraction" subclass="operation" values="negative">
                               <wording class="word" status="junctive">
                                <token n="370" gloss_berean="not" id="SBL.Jas.1.26.6">μὴ</token>
@@ -6721,7 +6721,7 @@
                               </module>
                              </module>
                             </wording>
-                            <wording class="path" subclass="Circumstance">
+                            <wording class="path" subclass="±2">
                              <module class="abstraction" subclass="operation" values="addition_marker&#xA;corrective">
                               <wording class="word" status="junctive">
                                <token n="374" gloss_berean="but" id="SBL.Jas.1.26.10">ἀλλὰ</token>
@@ -6920,7 +6920,7 @@
                  <wording class="cluster" status="satellite" subclass="Elaboration">
                   <module class="trait" subclass="activation" values="grouped">
                    <module class="trait" subclass="set" values="conjunctive">
-                    <wording class="path" subclass="Elaboration">
+                    <wording class="path" subclass="±1">
                      <module class="trait" subclass="operation" values="∅">
                       <module class="trait" subclass="specification" values="differentiation&#xA;description">
                        <module class="intrinsic_collation" subclass="activation" values="∅">
@@ -6935,7 +6935,7 @@
                       </module>
                      </module>
                     </wording>
-                    <wording class="path" subclass="Elaboration">
+                    <wording class="path" subclass="±2">
                      <module class="trait" subclass="operation" values="addition_marker">
                       <wording class="word" status="junctive">
                        <token n="384" gloss_berean="and" id="SBL.Jas.1.27.3">καὶ</token>
@@ -6977,7 +6977,7 @@
                             </wording>
                             <module class="definition" subclass="activation" values="grouped">
                              <module class="definition" subclass="set" values="conjunctive">
-                              <wording class="path" subclass="Subst">
+                              <wording class="path" subclass="±1">
                                <module class="definition" subclass="operation" values="∅">
                                 <module class="definition" subclass="specification" values="∅">
                                  <module class="trait" subclass="activation" values="∅">
@@ -6992,7 +6992,7 @@
                                 </module>
                                </module>
                               </wording>
-                              <wording class="path" subclass="Subst">
+                              <wording class="path" subclass="±2">
                                <module class="definition" subclass="operation" values="addition_marker">
                                 <wording class="word" status="junctive">
                                  <token n="389" gloss_berean="and" id="SBL.Jas.1.27.8">καὶ</token>
@@ -7066,7 +7066,7 @@
                        <module class="trait" subclass="specification" values="#contextualized">
                         <module class="circumstance" subclass="activation" values="grouped">
                          <module class="circumstance" subclass="set" values="conjunctive">
-                          <wording class="path" subclass="Elaboration">
+                          <wording class="path" subclass="±1">
                            <module class="circumstance" subclass="operation" values="∅">
                             <module class="circumstance" subclass="specification" values="#oblique_association&#xA;association_tbd">
                              <module class="entity" subclass="activation" values="∅">
@@ -7083,7 +7083,7 @@
                                    <wording class="cluster" status="satellite" subclass="Obj_Part">
                                     <module class="entity" subclass="activation" values="grouped">
                                      <module class="entity" subclass="set" values="conjunctive">
-                                      <wording class="path" subclass="Obj_Part">
+                                      <wording class="path" subclass="±1">
                                        <module class="entity" subclass="operation" values="∅">
                                         <module class="entity" subclass="specification" values="gendered&#xA;plural">
                                          <module class="definition" subclass="activation" values="∅">
@@ -7106,7 +7106,7 @@
                                         </module>
                                        </module>
                                       </wording>
-                                      <wording class="path" subclass="Obj_Part">
+                                      <wording class="path" subclass="±2">
                                        <module class="entity" subclass="operation" values="addition_marker">
                                         <wording class="word" status="junctive">
                                          <token n="395" gloss_berean="and" id="SBL.Jas.1.27.14">καὶ</token>
@@ -7208,7 +7208,7 @@
                             </module>
                            </module>
                           </wording>
-                          <wording class="path" subclass="Elaboration">
+                          <wording class="path" subclass="±2">
                            <module class="circumstance" subclass="operation" values="∅">
                             <module class="circumstance" subclass="specification" values="#oblique_association&#xA;association_tbd">
                              <module class="entity" subclass="activation" values="∅">
@@ -7453,7 +7453,7 @@
                                   <module class="entity" subclass="specification" values="∅">
                                    <module class="definition" subclass="activation" values="re-construed">
                                     <module class="definition" subclass="re-construal" values="re-construed">
-                                     <wording class="path" subclass="Elaboration">
+                                     <wording class="path" subclass="=1">
                                       <module class="definition" subclass="specification" values="elaborated">
                                        <module class="trait" subclass="activation" values="∅">
                                         <module class="trait" subclass="specification" values="differentiation&#xA;indication&#xA;#articulation">
@@ -7502,9 +7502,9 @@
                                        </module>
                                       </module>
                                      </wording>
-                                     <wording class="path" subclass="Elaboration">
+                                     <wording class="path" subclass="=2">
                                       <module class="definition" subclass="re-construal" values="∅">
-                                       <wording class="path" subclass="=2">
+                                       <wording class="path" subclass="=1">
                                         <module class="definition" subclass="specification" values="elaborated">
                                          <module class="trait" subclass="activation" values="∅">
                                           <module class="trait" subclass="specification" values="familiarization">
@@ -7627,7 +7627,7 @@
            <module prev="d3e4228" xml:id="d3e4228_2" class="circumstance" subclass="specification" values="#associated_proposition&#xA;$ἐάν">
             <module class="predication_modal" subclass="activation" values="grouped">
              <module class="predication_modal" subclass="set" values="conjunctive">
-              <wording class="path" subclass="Circumstance">
+              <wording class="path" subclass="±1">
                <module class="predication_modal" subclass="operation" values="grouped">
                 <module class="predication_modal" subclass="set" values="conjunctive">
                  <wording class="path" subclass="±1">
@@ -7779,7 +7779,7 @@
                    </module>
                   </module>
                  </wording>
-                 <wording class="path" subclass="±1">
+                 <wording class="path" subclass="±2">
                   <module class="predication_modal" subclass="operation" values="addition_marker&#xA;progressive">
                    <module xml:id="d5e4359" next="d5e4359_2" class="predication_modal" subclass="operation" values="∅">
                     <module xml:id="d3e4328" next="d3e4328_2" class="predication_modal" subclass="specification" values="construed_instantiator&#xA;contemplative">
@@ -7887,11 +7887,11 @@
                 </module>
                </module>
               </wording>
-              <wording class="path" subclass="Circumstance">
+              <wording class="path" subclass="±2">
                <module class="predication_modal" subclass="operation" values="addition_marker&#xA;progressive">
                 <module xml:id="d25e4599" next="d25e4599_2" class="predication_modal" subclass="operation" values="grouped">
                  <module xml:id="d23e4594" next="d23e4594_2" class="predication_modal" subclass="set" values="conjunctive">
-                  <wording xml:id="d21e4589" next="d21e4589_2" class="path" subclass="±2">
+                  <wording xml:id="d21e4589" next="d21e4589_2" class="path" subclass="±1">
                    <module xml:id="d19e4581" next="d19e4581_2" class="predication_modal" subclass="operation" values="grouped">
                     <module xml:id="d17e4567" next="d17e4567_2" class="predication_modal" subclass="set" values="conjunctive">
                      <wording xml:id="d15e4550" next="d15e4550_2" class="path" subclass="±1">
@@ -7923,7 +7923,7 @@
                 </wording>
                 <module prev="d25e4599" xml:id="d25e4599_2" class="predication_modal" subclass="operation" values="grouped">
                  <module prev="d23e4594" xml:id="d23e4594_2" class="predication_modal" subclass="set" values="conjunctive">
-                  <wording prev="d21e4589" xml:id="d21e4589_2" class="path" subclass="±2">
+                  <wording prev="d21e4589" xml:id="d21e4589_2" class="path" subclass="±1">
                    <module prev="d19e4581" xml:id="d19e4581_2" class="predication_modal" subclass="operation" values="grouped">
                     <module prev="d17e4567" xml:id="d17e4567_2" class="predication_modal" subclass="set" values="conjunctive">
                      <wording prev="d15e4550" xml:id="d15e4550_2" class="path" subclass="±1">
@@ -8037,7 +8037,7 @@
                        </module>
                       </module>
                      </wording>
-                     <wording class="path" subclass="±1">
+                     <wording class="path" subclass="±2">
                       <module class="predication_modal" subclass="operation" values="addition_marker">
                        <wording class="word" status="junctive">
                         <token n="449" gloss_berean="and" id="SBL.Jas.2.3.10">καὶ</token>
@@ -8213,7 +8213,7 @@
                                     <module class="speech_act" subclass="specification" values="∅">
                                      <module class="predication_active" subclass="activation" values="grouped">
                                       <module class="predication_active" subclass="set" values="∅">
-                                       <wording class="path" subclass="Move">
+                                       <wording class="path" subclass="^1">
                                         <module class="predication_active" subclass="option" values="∅">
                                          <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;directive&#xA;interactant">
                                           <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -8249,7 +8249,7 @@
                                          </module>
                                         </module>
                                        </wording>
-                                       <wording class="path" subclass="Move">
+                                       <wording class="path" subclass="^2">
                                         <module class="predication_active" subclass="option" values="disjunctive_marker">
                                          <wording class="word" status="junctive">
                                           <token n="461" gloss_berean="or" id="SBL.Jas.2.3.22">ἢ</token>
@@ -8384,7 +8384,7 @@
             <wording class="word" status="satellite">
              <token n="468" gloss_berean="not" id="SBL.Jas.2.4.1">οὐ</token>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="interactant&#xA;interrogative&#xA;confirmation_request&#xA;positive_bias">
                <module class="abstraction" subclass="activation" values="∅">
@@ -8427,7 +8427,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="472" gloss_berean="and" id="SBL.Jas.2.4.5">καὶ</token>
@@ -8727,7 +8727,7 @@
                 <wording class="cluster" status="satellite" subclass="Comp_Prop">
                  <module class="abstraction" subclass="activation" values="grouped">
                   <module class="abstraction" subclass="set" values="conjunctive">
-                   <wording class="path" subclass="Comp_Prop">
+                   <wording class="path" subclass="±1">
                     <module class="abstraction" subclass="operation" values="∅">
                      <module class="abstraction" subclass="specification" values="intrinsic&#xA;gendered&#xA;plural">
                       <module class="definition" subclass="activation" values="∅">
@@ -8780,7 +8780,7 @@
                      </module>
                     </module>
                    </wording>
-                   <wording class="path" subclass="Comp_Prop">
+                   <wording class="path" subclass="±2">
                     <module class="abstraction" subclass="operation" values="addition_marker">
                      <wording class="word" status="junctive">
                       <token n="492" gloss_berean="and" id="SBL.Jas.2.5.16">καὶ</token>
@@ -9050,7 +9050,7 @@
             <wording class="word" status="satellite">
              <token n="506" gloss_berean="Not" id="SBL.Jas.2.6.6">οὐχ</token>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;interrogative&#xA;confirmation_request&#xA;positive_bias">
                <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -9120,7 +9120,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="511" gloss_berean="and" id="SBL.Jas.2.6.11">καὶ</token>
@@ -9252,7 +9252,7 @@
                 <wording class="cluster" status="satellite" subclass="Obj_Part">
                  <module class="entity" subclass="activation" values="re-construed">
                   <module class="entity" subclass="re-construal" values="∅">
-                   <wording class="path" subclass="Obj_Part">
+                   <wording class="path" subclass="=1">
                     <module class="entity" subclass="specification" values="∅">
                      <module class="definition" subclass="activation" values="∅">
                       <module class="definition" subclass="specification" values="∅">
@@ -9295,7 +9295,7 @@
                      </module>
                     </module>
                    </wording>
-                   <wording class="path" subclass="Obj_Part">
+                   <wording class="path" subclass="=2">
                     <module class="entity" subclass="specification" values="∅">
                      <module class="definition" subclass="activation" values="∅">
                       <module class="definition" subclass="specification" values="∅">
@@ -9448,7 +9448,7 @@
                           </wording>
                           <module class="entity" subclass="activation" values="re-construed">
                            <module class="entity" subclass="re-construal" values="∅">
-                            <wording class="path" subclass="Circumstance">
+                            <wording class="path" subclass="=1">
                              <module class="entity" subclass="specification" values="gendered&#xA;feminine">
                               <module class="definition" subclass="activation" values="∅">
                                <module class="definition" subclass="specification" values="∅">
@@ -9476,7 +9476,7 @@
                               </module>
                              </module>
                             </wording>
-                            <wording class="path" subclass="Circumstance">
+                            <wording class="path" subclass="=2">
                              <module class="entity" subclass="specification" values="gendered">
                               <module class="definition" subclass="activation" values="∅">
                                <module class="definition" subclass="specification" values="∅">
@@ -9749,7 +9749,7 @@
                   <module xml:id="d13e5617" next="d13e5617_2" class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation">
                    <module xml:id="d11e5594" next="d11e5594_2" class="predication_modal" subclass="activation" values="grouped">
                     <module xml:id="d9e5567" next="d9e5567_2" class="predication_modal" subclass="set" values="conjunctive">
-                     <wording xml:id="d7e5539" next="d7e5539_2" class="path" subclass="Subst">
+                     <wording xml:id="d7e5539" next="d7e5539_2" class="path" subclass="±1">
                       <module xml:id="d5e5503" next="d5e5503_2" class="predication_modal" subclass="operation" values="∅">
                        <module xml:id="d3e5467" next="d3e5467_2" class="predication_modal" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;contemplative">
                         <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -9801,7 +9801,7 @@
                   <module prev="d13e5617" xml:id="d13e5617_2" class="trait" subclass="specification" values="differentiation&#xA;#relative_differentiation">
                    <module prev="d11e5594" xml:id="d11e5594_2" class="predication_modal" subclass="activation" values="grouped">
                     <module prev="d9e5567" xml:id="d9e5567_2" class="predication_modal" subclass="set" values="conjunctive">
-                     <wording prev="d7e5539" xml:id="d7e5539_2" class="path" subclass="Subst">
+                     <wording prev="d7e5539" xml:id="d7e5539_2" class="path" subclass="±1">
                       <module prev="d5e5503" xml:id="d5e5503_2" class="predication_modal" subclass="operation" values="∅">
                        <module prev="d3e5467" xml:id="d3e5467_2" class="predication_modal" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;contemplative">
                         <module class="abstraction" subclass="activation" values="∅">
@@ -9859,7 +9859,7 @@
                        </module>
                       </module>
                      </wording>
-                     <wording class="path" subclass="Subst">
+                     <wording class="path" subclass="±2">
                       <module class="predication_modal" subclass="operation" values="addition_marker&#xA;progressive">
                        <module xml:id="d13e5672" next="d13e5672_2" class="predication_modal" subclass="operation" values="∅">
                         <module xml:id="d11e5648" next="d11e5648_2" class="predication_modal" subclass="specification" values="contemplative">
@@ -10229,7 +10229,7 @@
                 <module prev="d3e5690" xml:id="d3e5690_2" class="circumstance" subclass="specification" values="#associated_proposition&#xA;$εἰ">
                  <module class="predication_modal" subclass="activation" values="grouped">
                   <module class="predication_modal" subclass="set" values="conjunctive">
-                   <wording class="path" subclass="Circumstance">
+                   <wording class="path" subclass="±1">
                     <module class="predication_modal" subclass="operation" values="∅">
                      <module class="predication_modal" subclass="specification" values="internal_orientation&#xA;interactant">
                       <module class="abstraction" subclass="activation" values="∅">
@@ -10257,7 +10257,7 @@
                      </module>
                     </module>
                    </wording>
-                   <wording class="path" subclass="Circumstance">
+                   <wording class="path" subclass="±2">
                     <module class="predication_modal" subclass="operation" values="addition_marker&#xA;progressive">
                      <module class="predication_modal" subclass="operation" values="∅">
                       <module class="predication_modal" subclass="specification" values="internal_orientation&#xA;interactant">
@@ -10359,7 +10359,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="directive&#xA;interactant&#xA;circumscribed">
                <module class="abstraction" subclass="activation" values="∅">
@@ -10393,7 +10393,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="587" gloss_berean="and" id="SBL.Jas.2.12.3">καὶ</token>
@@ -10885,7 +10885,7 @@
                  </wording>
                  <module class="predication_modal" subclass="activation" values="grouped">
                   <module class="predication_modal" subclass="set" values="conjunctive">
-                   <wording class="path" subclass="Circumstance">
+                   <wording class="path" subclass="±1">
                     <module class="predication_modal" subclass="operation" values="∅">
                      <module class="predication_modal" subclass="specification" values="construed_instantiator&#xA;contemplative">
                       <module xml:id="d23e6345" next="d23e6345_2" class="abstraction" subclass="activation" values="∅">
@@ -10981,7 +10981,7 @@
                      </module>
                     </module>
                    </wording>
-                   <wording class="path" subclass="Circumstance">
+                   <wording class="path" subclass="±2">
                     <module class="predication_modal" subclass="operation" values="addition_marker&#xA;progressive">
                      <module xml:id="d19e6370" next="d19e6370_2" class="predication_modal" subclass="operation" values="∅">
                       <module xml:id="d17e6349" next="d17e6349_2" class="predication_modal" subclass="specification" values="contemplative">
@@ -11190,7 +11190,7 @@
                  </wording>
                  <module class="predication_modal" subclass="activation" values="grouped">
                   <module class="predication_modal" subclass="set" values="conjunctive">
-                   <wording class="path" subclass="Circumstance">
+                   <wording class="path" subclass="±1">
                     <module class="predication_modal" subclass="operation" values="grouped">
                      <module class="predication_modal" subclass="set" values="conjunctive">
                       <wording class="path" subclass="±1">
@@ -11199,7 +11199,7 @@
                          <wording class="cluster" status="satellite" subclass="Instantiator">
                           <module class="entity" subclass="activation" values="grouped">
                            <module class="entity" subclass="set" values="∅">
-                            <wording class="path" subclass="Instantiator">
+                            <wording class="path" subclass="^1">
                              <module class="entity" subclass="option" values="∅">
                               <module class="entity" subclass="specification" values="gendered">
                                <module class="definition" subclass="activation" values="∅">
@@ -11218,7 +11218,7 @@
                               </module>
                              </module>
                             </wording>
-                            <wording class="path" subclass="Instantiator">
+                            <wording class="path" subclass="^2">
                              <module class="entity" subclass="option" values="disjunctive_marker">
                               <wording class="word" status="junctive">
                                <token n="628" gloss_berean="or" id="SBL.Jas.2.15.3">ἢ</token>
@@ -11282,7 +11282,7 @@
                         </module>
                        </module>
                       </wording>
-                      <wording class="path" subclass="±1">
+                      <wording class="path" subclass="±2">
                        <module class="predication_modal" subclass="operation" values="addition_marker">
                         <wording class="word" status="junctive">
                          <token n="632" gloss_berean="and" id="SBL.Jas.2.15.7">καὶ</token>
@@ -11354,11 +11354,11 @@
                      </module>
                     </module>
                    </wording>
-                   <wording class="path" subclass="Circumstance">
+                   <wording class="path" subclass="±2">
                     <module class="predication_modal" subclass="operation" values="addition_marker&#xA;progressive">
                      <module xml:id="d19e6587" next="d19e6587_2" class="predication_modal" subclass="operation" values="grouped">
                       <module xml:id="d17e6565" next="d17e6565_2" class="predication_modal" subclass="set" values="conjunctive">
-                       <wording xml:id="d15e6539" next="d15e6539_2" class="path" subclass="±2">
+                       <wording xml:id="d15e6539" next="d15e6539_2" class="path" subclass="±1">
                         <module xml:id="d13e6512" next="d13e6512_2" class="predication_modal" subclass="operation" values="∅">
                          <module xml:id="d11e6480" next="d11e6480_2" class="predication_modal" subclass="specification" values="construed_instantiator&#xA;contemplative">
                           <module xml:id="d9e6442" next="d9e6442_2" class="abstraction" subclass="activation" values="∅">
@@ -11384,7 +11384,7 @@
                      </wording>
                      <module prev="d19e6587" xml:id="d19e6587_2" class="predication_modal" subclass="operation" values="grouped">
                       <module prev="d17e6565" xml:id="d17e6565_2" class="predication_modal" subclass="set" values="conjunctive">
-                       <wording prev="d15e6539" xml:id="d15e6539_2" class="path" subclass="±2">
+                       <wording prev="d15e6539" xml:id="d15e6539_2" class="path" subclass="±1">
                         <module prev="d13e6512" xml:id="d13e6512_2" class="predication_modal" subclass="operation" values="∅">
                          <module prev="d11e6480" xml:id="d11e6480_2" class="predication_modal" subclass="specification" values="construed_instantiator&#xA;contemplative">
                           <wording xml:id="d11e6489" next="d11e6489_2" class="cluster" status="satellite" subclass="Instantiator">
@@ -11484,7 +11484,7 @@
                                         <module class="speech_act" subclass="specification" values="∅">
                                          <module class="predication_active" subclass="activation" values="grouped">
                                           <module class="predication_active" subclass="set" values="conjunctive">
-                                           <wording class="path" subclass="Move">
+                                           <wording class="path" subclass="±1">
                                             <module class="predication_active" subclass="operation" values="∅">
                                              <module class="predication_active" subclass="specification" values="directive&#xA;interactant">
                                               <module class="abstraction" subclass="activation" values="∅">
@@ -11529,10 +11529,10 @@
                                              </module>
                                             </module>
                                            </wording>
-                                           <wording class="path" subclass="Move">
+                                           <wording class="path" subclass="±2">
                                             <module class="predication_active" subclass="operation" values="grouped">
                                              <module class="predication_active" subclass="set" values="conjunctive">
-                                              <wording class="path" subclass="±2">
+                                              <wording class="path" subclass="±1">
                                                <module class="predication_active" subclass="operation" values="∅">
                                                 <module class="predication_active" subclass="specification" values="directive&#xA;interactant">
                                                  <module class="abstraction" subclass="activation" values="∅">
@@ -12033,7 +12033,7 @@
                           <module class="speech_act" subclass="specification" values="∅">
                            <module class="predication_active" subclass="activation" values="grouped">
                             <module class="predication_active" subclass="set" values="conjunctive">
-                             <wording class="path" subclass="Move">
+                             <wording class="path" subclass="±1">
                               <module class="predication_active" subclass="operation" values="∅">
                                <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;interactant">
                                 <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -12088,7 +12088,7 @@
                                </module>
                               </module>
                              </wording>
-                             <wording class="path" subclass="Move">
+                             <wording class="path" subclass="±2">
                               <module class="predication_active" subclass="operation" values="∅">
                                <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;interactant&#xA;non-speaker">
                                 <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -12176,7 +12176,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="directive&#xA;interactant">
                <module class="abstraction" subclass="activation" values="∅">
@@ -12304,7 +12304,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;interactant&#xA;non-speaker">
                <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -12634,7 +12634,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
                <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -12692,7 +12692,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="710" gloss_berean="and" id="SBL.Jas.2.19.14">καὶ</token>
@@ -12981,7 +12981,7 @@
           <module class="speech_act" subclass="specification" values="introducing">
            <module class="entity" subclass="activation" values="re-construed">
             <module class="entity" subclass="re-construal" values="∅">
-             <wording class="path" subclass="Augmentation">
+             <wording class="path" subclass="=1">
               <module class="entity" subclass="specification" values="gendered">
                <module class="definition" subclass="activation" values="∅">
                 <module class="definition" subclass="specification" values="∅">
@@ -12998,7 +12998,7 @@
                </module>
               </module>
              </wording>
-             <wording class="path" subclass="Augmentation">
+             <wording class="path" subclass="=2">
               <module class="entity" subclass="specification" values="gendered">
                <module class="definition" subclass="activation" values="∅">
                 <module class="definition" subclass="specification" values="∅">
@@ -13111,7 +13111,7 @@
                        <wording class="cluster" status="satellite" subclass="Obj_Part">
                         <module class="entity" subclass="activation" values="re-construed">
                          <module class="entity" subclass="re-construal" values="∅">
-                          <wording class="path" subclass="Obj_Part">
+                          <wording class="path" subclass="=1">
                            <module class="entity" subclass="specification" values="gendered">
                             <module class="definition" subclass="activation" values="∅">
                              <module class="definition" subclass="specification" values="∅">
@@ -13128,7 +13128,7 @@
                             </module>
                            </module>
                           </wording>
-                          <wording class="path" subclass="Obj_Part">
+                          <wording class="path" subclass="=2">
                            <module class="entity" subclass="specification" values="gendered">
                             <module class="definition" subclass="activation" values="∅">
                              <module class="definition" subclass="specification" values="∅">
@@ -13265,7 +13265,7 @@
                    </wording>
                    <module class="predication_modal" subclass="activation" values="grouped">
                     <module class="predication_modal" subclass="set" values="conjunctive">
-                     <wording class="path" subclass="Obj_Part">
+                     <wording class="path" subclass="±1">
                       <module class="predication_modal" subclass="operation" values="grouped">
                        <module class="predication_modal" subclass="set" values="conjunctive">
                         <wording class="path" subclass="±1">
@@ -13376,7 +13376,7 @@
                           </module>
                          </module>
                         </wording>
-                        <wording class="path" subclass="±1">
+                        <wording class="path" subclass="±2">
                          <module class="predication_modal" subclass="operation" values="addition_marker">
                           <wording class="word" status="junctive">
                            <token n="750" gloss_berean="and" id="SBL.Jas.2.22.9">καὶ</token>
@@ -13474,14 +13474,14 @@
                        </module>
                       </module>
                      </wording>
-                     <wording class="path" subclass="Obj_Part">
+                     <wording class="path" subclass="±2">
                       <module class="predication_modal" subclass="operation" values="addition_marker">
                        <wording class="word" status="junctive">
                         <token n="757" gloss_berean="And" id="SBL.Jas.2.23.1">καὶ</token>
                        </wording>
                        <module class="predication_modal" subclass="operation" values="grouped">
                         <module class="predication_modal" subclass="set" values="conjunctive">
-                         <wording class="path" subclass="±2">
+                         <wording class="path" subclass="±1">
                           <module class="predication_modal" subclass="operation" values="∅">
                            <module class="predication_modal" subclass="specification" values="construed_instantiator&#xA;internal_orientation">
                             <module class="abstraction" subclass="activation" values="∅">
@@ -13500,7 +13500,7 @@
                             <wording class="cluster" status="satellite" subclass="Instantiator">
                              <module class="entity" subclass="activation" values="re-construed">
                               <module class="entity" subclass="re-construal" values="∅">
-                               <wording class="path" subclass="Instantiator">
+                               <wording class="path" subclass="=1">
                                 <module class="entity" subclass="specification" values="gendered&#xA;feminine">
                                  <module class="definition" subclass="activation" values="∅">
                                   <module class="definition" subclass="specification" values="∅">
@@ -13528,7 +13528,7 @@
                                  </module>
                                 </module>
                                </wording>
-                               <wording class="path" subclass="Instantiator">
+                               <wording class="path" subclass="=2">
                                 <module class="entity" subclass="specification" values="gendered&#xA;feminine">
                                  <module class="definition" subclass="activation" values="∅">
                                   <module class="definition" subclass="specification" values="∅">
@@ -13561,7 +13561,7 @@
                                                      <module class="speech_act" subclass="specification" values="∅">
                                                       <module class="predication_active" subclass="activation" values="grouped">
                                                        <module class="predication_active" subclass="set" values="conjunctive">
-                                                        <wording class="path" subclass="Move">
+                                                        <wording class="path" subclass="±1">
                                                          <module class="predication_active" subclass="operation" values="addition_marker&#xA;progressive">
                                                           <module xml:id="d13e7801" next="d13e7801_2" class="predication_active" subclass="operation" values="∅">
                                                            <module xml:id="d11e7763" next="d11e7763_2" class="predication_active" subclass="specification" values="construed_instantiator">
@@ -13646,7 +13646,7 @@
                                                           </module>
                                                          </module>
                                                         </wording>
-                                                        <wording class="path" subclass="Move">
+                                                        <wording class="path" subclass="±2">
                                                          <module class="predication_active" subclass="operation" values="addition_marker">
                                                           <wording class="word" status="junctive">
                                                            <token n="768" gloss_berean="and" id="SBL.Jas.2.23.12">καὶ</token>
@@ -13869,7 +13869,7 @@
                        <wording xml:id="d7e7823" next="d7e7823_2" class="cluster" status="satellite" subclass="Circumstance">
                         <module xml:id="d5e7766" next="d5e7766_2" class="circumstance" subclass="activation" values="grouped">
                          <module xml:id="d3e7710" next="d3e7710_2" class="circumstance" subclass="set" values="conjunctive">
-                          <wording class="path" subclass="Circumstance">
+                          <wording class="path" subclass="±1">
                            <module class="circumstance" subclass="operation" values="∅">
                             <module class="circumstance" subclass="specification" values="#positional_association&#xA;$ἐκ&#xA;genitive_association">
                              <wording class="word" status="translative">
@@ -13933,7 +13933,7 @@
                        <wording prev="d7e7823" xml:id="d7e7823_2" class="cluster" status="satellite" subclass="Circumstance">
                         <module prev="d5e7766" xml:id="d5e7766_2" class="circumstance" subclass="activation" values="grouped">
                          <module prev="d3e7710" xml:id="d3e7710_2" class="circumstance" subclass="set" values="conjunctive">
-                          <wording class="path" subclass="Circumstance">
+                          <wording class="path" subclass="±2">
                            <module class="circumstance" subclass="operation" values="addition_marker">
                             <wording class="word" status="junctive">
                              <token n="783" gloss_berean="and" id="SBL.Jas.2.24.7">καὶ</token>
@@ -14133,7 +14133,7 @@
                   <module class="circumstance" subclass="specification" values="#characterization">
                    <module class="abstraction" subclass="activation" values="grouped">
                     <module class="abstraction" subclass="set" values="conjunctive">
-                     <wording class="path" subclass="Circumstance">
+                     <wording class="path" subclass="±1">
                       <module class="abstraction" subclass="operation" values="∅">
                        <module class="abstraction" subclass="specification" values="gendered&#xA;feminine">
                         <module class="event" subclass="activation" values="∅">
@@ -14178,7 +14178,7 @@
                        </module>
                       </module>
                      </wording>
-                     <wording class="path" subclass="Circumstance">
+                     <wording class="path" subclass="±2">
                       <module class="abstraction" subclass="operation" values="addition_marker">
                        <wording class="word" status="junctive">
                         <token n="801" gloss_berean="and" id="SBL.Jas.2.25.14">καὶ</token>
@@ -15425,7 +15425,7 @@
                 <module class="circumstance" subclass="specification" values="#characterization">
                  <module class="abstraction" subclass="activation" values="grouped">
                   <module class="abstraction" subclass="set" values="conjunctive">
-                   <wording class="path" subclass="Circumstance">
+                   <wording class="path" subclass="±1">
                     <module class="abstraction" subclass="operation" values="∅">
                      <module class="abstraction" subclass="specification" values="plural">
                       <module class="event" subclass="activation" values="∅">
@@ -15463,7 +15463,7 @@
                      </module>
                     </module>
                    </wording>
-                   <wording class="path" subclass="Circumstance">
+                   <wording class="path" subclass="±2">
                     <module class="abstraction" subclass="operation" values="addition_marker">
                      <wording class="word" status="junctive">
                       <token n="878" gloss_berean="and" id="SBL.Jas.3.4.7">καὶ</token>
@@ -15727,7 +15727,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
                <module xml:id="d5e8824" next="d5e8824_2" class="abstraction" subclass="activation" values="∅">
@@ -15838,7 +15838,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="900" gloss_berean="and" id="SBL.Jas.3.5.8">καὶ</token>
@@ -16006,7 +16006,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
                <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -16059,7 +16059,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="∅">
                <module class="abstraction" subclass="activation" values="∅">
@@ -16147,7 +16147,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
                <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -16258,7 +16258,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="∅">
                <module class="abstraction" subclass="activation" values="∅">
@@ -16272,7 +16272,7 @@
                      </wording>
                      <module class="definition" subclass="activation" values="grouped">
                       <module class="definition" subclass="set" values="conjunctive">
-                       <wording class="path" subclass="Subst">
+                       <wording class="path" subclass="±1">
                         <module class="definition" subclass="operation" values="∅">
                          <module class="definition" subclass="specification" values="∅">
                           <module class="trait" subclass="activation" values="∅">
@@ -16330,7 +16330,7 @@
                          </module>
                         </module>
                        </wording>
-                       <wording class="path" subclass="Subst">
+                       <wording class="path" subclass="±2">
                         <module class="definition" subclass="operation" values="addition_marker">
                          <wording class="word" status="junctive">
                           <token n="929" gloss_berean="and" id="SBL.Jas.3.6.21">καὶ</token>
@@ -16422,7 +16422,7 @@
                          </module>
                         </module>
                        </wording>
-                       <wording class="path" subclass="Subst">
+                       <wording class="path" subclass="±3">
                         <module class="definition" subclass="operation" values="addition_marker">
                          <wording class="word" status="junctive">
                           <token n="935" gloss_berean="and [itself]" id="SBL.Jas.3.6.27">καὶ</token>
@@ -16561,7 +16561,7 @@
                      <module class="circumstance" subclass="specification" values="#oblique_association&#xA;accusative_association">
                       <module class="entity" subclass="activation" values="grouped">
                        <module class="entity" subclass="set" values="conjunctive">
-                        <wording class="path" subclass="Elaboration">
+                        <wording class="path" subclass="±1">
                          <module class="entity" subclass="operation" values="addition_marker&#xA;enclitic_addition">
                           <module class="entity" subclass="operation" values="∅">
                            <module class="entity" subclass="specification" values="plural">
@@ -16585,7 +16585,7 @@
                           </wording>
                          </module>
                         </wording>
-                        <wording class="path" subclass="Elaboration">
+                        <wording class="path" subclass="±2">
                          <module class="entity" subclass="operation" values="addition_marker">
                           <wording class="word" status="junctive">
                            <token n="945" gloss_berean="and" id="SBL.Jas.3.7.6">καὶ</token>
@@ -16613,7 +16613,7 @@
                           </module>
                          </module>
                         </wording>
-                        <wording class="path" subclass="Elaboration">
+                        <wording class="path" subclass="±3">
                          <module class="entity" subclass="operation" values="addition_marker&#xA;enclitic_addition">
                           <module class="entity" subclass="operation" values="∅">
                            <module class="entity" subclass="specification" values="plural">
@@ -16637,7 +16637,7 @@
                           </wording>
                          </module>
                         </wording>
-                        <wording class="path" subclass="Elaboration">
+                        <wording class="path" subclass="±4">
                          <module class="entity" subclass="operation" values="addition_marker">
                           <wording class="word" status="junctive">
                            <token n="949" gloss_berean="and" id="SBL.Jas.3.7.10">καὶ</token>
@@ -16681,7 +16681,7 @@
              <module class="abstraction" subclass="specification" values="∅">
               <module class="event" subclass="activation" values="grouped">
                <module class="event" subclass="set" values="conjunctive">
-                <wording class="path" subclass="Abstr">
+                <wording class="path" subclass="±1">
                  <module class="event" subclass="operation" values="∅">
                   <module class="event" subclass="specification" values="informational_environment&#xA;objectifying&#xA;cropped&#xA;circumscribed">
                    <wording class="word" status="core">
@@ -16692,7 +16692,7 @@
                   </module>
                  </module>
                 </wording>
-                <wording class="path" subclass="Abstr">
+                <wording class="path" subclass="±2">
                  <module class="event" subclass="operation" values="addition_marker">
                   <wording class="word" status="junctive">
                    <token n="952" gloss_berean="and" id="SBL.Jas.3.7.13">καὶ</token>
@@ -16995,7 +16995,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="∅">
                <module class="abstraction" subclass="activation" values="∅">
@@ -17022,7 +17022,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="∅">
                <module class="abstraction" subclass="activation" values="∅">
@@ -17049,7 +17049,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±3">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="∅">
                <module class="abstraction" subclass="activation" values="∅">
@@ -17130,7 +17130,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="interactant&#xA;non-speaker">
                <module class="abstraction" subclass="activation" values="∅">
@@ -17178,7 +17178,7 @@
                           </wording>
                           <module class="definition" subclass="activation" values="grouped">
                            <module class="definition" subclass="set" values="conjunctive">
-                            <wording class="path" subclass="Subst">
+                            <wording class="path" subclass="±1">
                              <module class="definition" subclass="operation" values="∅">
                               <module class="definition" subclass="specification" values="∅">
                                <module class="trait" subclass="activation" values="∅">
@@ -17193,7 +17193,7 @@
                               </module>
                              </module>
                             </wording>
-                            <wording class="path" subclass="Subst">
+                            <wording class="path" subclass="±2">
                              <module class="definition" subclass="operation" values="addition_marker">
                               <wording class="word" status="junctive">
                                <token n="975" gloss_berean="and" id="SBL.Jas.3.9.6">καὶ</token>
@@ -17229,7 +17229,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="977" gloss_berean="and" id="SBL.Jas.3.9.8">καὶ</token>
@@ -17272,7 +17272,7 @@
                     <wording class="cluster" status="satellite" subclass="Obj_Part">
                      <module class="entity" subclass="activation" values="re-construed">
                       <module class="entity" subclass="re-construal" values="∅">
-                       <wording class="path" subclass="Obj_Part">
+                       <wording class="path" subclass="=1">
                         <module class="entity" subclass="specification" values="gendered&#xA;plural">
                          <module class="definition" subclass="activation" values="∅">
                           <module class="definition" subclass="specification" values="∅">
@@ -17300,7 +17300,7 @@
                          </module>
                         </module>
                        </wording>
-                       <wording class="path" subclass="Obj_Part">
+                       <wording class="path" subclass="=2">
                         <module class="entity" subclass="specification" values="gendered&#xA;plural">
                          <module class="definition" subclass="activation" values="∅">
                           <module class="definition" subclass="specification" values="∅">
@@ -17474,7 +17474,7 @@
             <wording class="cluster" status="satellite" subclass="Instantiator">
              <module class="entity" subclass="activation" values="grouped">
               <module class="entity" subclass="set" values="conjunctive">
-               <wording class="path" subclass="Instantiator">
+               <wording class="path" subclass="±1">
                 <module class="entity" subclass="operation" values="∅">
                  <module class="entity" subclass="specification" values="gendered&#xA;feminine">
                   <module class="definition" subclass="activation" values="∅">
@@ -17493,7 +17493,7 @@
                  </module>
                 </module>
                </wording>
-               <wording class="path" subclass="Instantiator">
+               <wording class="path" subclass="±2">
                 <module class="entity" subclass="operation" values="addition_marker">
                  <wording class="word" status="junctive">
                   <token n="994" gloss_berean="and" id="SBL.Jas.3.10.7">καὶ</token>
@@ -17774,7 +17774,7 @@
                 <wording class="cluster" status="satellite" subclass="Obj_Part">
                  <module class="entity" subclass="activation" values="grouped">
                   <module class="entity" subclass="set" values="conjunctive">
-                   <wording class="path" subclass="Obj_Part">
+                   <wording class="path" subclass="±1">
                     <module class="entity" subclass="operation" values="∅">
                      <module class="entity" subclass="specification" values="∅">
                       <module class="definition" subclass="activation" values="∅">
@@ -17808,7 +17808,7 @@
                      </module>
                     </module>
                    </wording>
-                   <wording class="path" subclass="Obj_Part">
+                   <wording class="path" subclass="±2">
                     <module class="entity" subclass="operation" values="addition_marker">
                      <wording class="word" status="junctive">
                       <token n="1013" gloss_berean="and" id="SBL.Jas.3.11.11">καὶ</token>
@@ -17873,7 +17873,7 @@
             <wording class="word" status="satellite">
              <token n="1016" gloss_berean="Not" id="SBL.Jas.3.12.1">μὴ</token>
             </wording>
-            <wording xml:id="d15e10309" next="d15e10309_2" class="path" subclass="Move">
+            <wording xml:id="d15e10309" next="d15e10309_2" class="path" subclass="^1">
              <module xml:id="d13e10269" next="d13e10269_2" class="predication_active" subclass="option" values="∅">
               <module xml:id="d11e10220" next="d11e10220_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;interrogative&#xA;confirmation_request&#xA;negative_bias">
                <module xml:id="d9e10164" next="d9e10164_2" class="abstraction" subclass="activation" values="∅">
@@ -17940,7 +17940,7 @@
          <module prev="d21e10395" xml:id="d21e10395_2" class="speech_act" subclass="specification" values="∅">
           <module prev="d19e10371" xml:id="d19e10371_2" class="predication_active" subclass="activation" values="grouped">
            <module prev="d17e10341" xml:id="d17e10341_2" class="predication_active" subclass="set" values="∅">
-            <wording prev="d15e10309" xml:id="d15e10309_2" class="path" subclass="Move">
+            <wording prev="d15e10309" xml:id="d15e10309_2" class="path" subclass="^1">
              <module prev="d13e10269" xml:id="d13e10269_2" class="predication_active" subclass="option" values="∅">
               <module prev="d11e10220" xml:id="d11e10220_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;interrogative&#xA;confirmation_request&#xA;negative_bias">
                <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -18011,7 +18011,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="^2">
              <module class="predication_active" subclass="option" values="disjunctive_marker">
               <wording class="word" status="junctive">
                <token n="1023" gloss_berean="Or" id="SBL.Jas.3.12.8">ἢ</token>
@@ -18203,7 +18203,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;circumscribed">
                <module class="abstraction" subclass="activation" values="∅">
@@ -18230,7 +18230,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1033" gloss_berean="and" id="SBL.Jas.3.13.3">καὶ</token>
@@ -18523,7 +18523,7 @@
                      <wording xml:id="d7e10462" next="d7e10462_2" class="cluster" status="satellite" subclass="Obj_Part">
                       <module xml:id="d5e10388" next="d5e10388_2" class="entity" subclass="activation" values="grouped">
                        <module xml:id="d3e10315" next="d3e10315_2" class="entity" subclass="set" values="conjunctive">
-                        <wording class="path" subclass="Obj_Part">
+                        <wording class="path" subclass="±1">
                          <module class="entity" subclass="operation" values="∅">
                           <module class="entity" subclass="specification" values="gendered">
                            <module class="definition" subclass="activation" values="∅">
@@ -18568,7 +18568,7 @@
                      <wording prev="d7e10462" xml:id="d7e10462_2" class="cluster" status="satellite" subclass="Obj_Part">
                       <module prev="d5e10388" xml:id="d5e10388_2" class="entity" subclass="activation" values="grouped">
                        <module prev="d3e10315" xml:id="d3e10315_2" class="entity" subclass="set" values="conjunctive">
-                        <wording class="path" subclass="Obj_Part">
+                        <wording class="path" subclass="±2">
                          <module class="entity" subclass="operation" values="addition_marker">
                           <wording class="word" status="junctive">
                            <token n="1053" gloss_berean="and" id="SBL.Jas.3.14.6">καὶ</token>
@@ -18691,7 +18691,7 @@
                  </module>
                 </module>
                </wording>
-               <wording class="path" subclass="±1">
+               <wording class="path" subclass="±2">
                 <module class="predication_active" subclass="operation" values="addition_marker">
                  <wording class="word" status="junctive">
                   <token n="1061" gloss_berean="and" id="SBL.Jas.3.14.14">καὶ</token>
@@ -18771,7 +18771,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="negative&#xA;negated_factuality">
               <wording class="word" status="junctive">
                <token n="1066" gloss_berean="Not" id="SBL.Jas.3.15.1">οὐκ</token>
@@ -18872,7 +18872,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker&#xA;corrective">
               <wording class="word" status="junctive">
                <token n="1073" gloss_berean="but" id="SBL.Jas.3.15.8">ἀλλὰ</token>
@@ -18885,7 +18885,7 @@
                    <wording class="cluster" status="satellite" subclass="Comp_Prop">
                     <module class="abstraction" subclass="activation" values="grouped">
                      <module class="abstraction" subclass="set" values="conjunctive">
-                      <wording class="path" subclass="Comp_Prop">
+                      <wording class="path" subclass="±1">
                        <module class="abstraction" subclass="operation" values="∅">
                         <module class="abstraction" subclass="specification" values="complementary_abstraction&#xA;intrinsic&#xA;gendered&#xA;feminine&#xA;preparatory">
                          <module class="definition" subclass="activation" values="∅">
@@ -18908,7 +18908,7 @@
                         </module>
                        </module>
                       </wording>
-                      <wording class="path" subclass="Comp_Prop">
+                      <wording class="path" subclass="±2">
                        <module class="abstraction" subclass="operation" values="∅">
                         <module class="abstraction" subclass="specification" values="complementary_abstraction&#xA;intrinsic&#xA;gendered&#xA;feminine&#xA;preparatory">
                          <module class="definition" subclass="activation" values="∅">
@@ -18931,7 +18931,7 @@
                         </module>
                        </module>
                       </wording>
-                      <wording class="path" subclass="Comp_Prop">
+                      <wording class="path" subclass="±3">
                        <module class="abstraction" subclass="operation" values="∅">
                         <module class="abstraction" subclass="specification" values="complementary_abstraction&#xA;intrinsic&#xA;gendered&#xA;feminine&#xA;preparatory">
                          <module class="definition" subclass="activation" values="∅">
@@ -19012,7 +19012,7 @@
             <wording class="cluster" status="satellite" subclass="Instantiator">
              <module class="entity" subclass="activation" values="grouped">
               <module class="entity" subclass="set" values="conjunctive">
-               <wording class="path" subclass="Instantiator">
+               <wording class="path" subclass="±1">
                 <module class="entity" subclass="operation" values="∅">
                  <module class="entity" subclass="specification" values="gendered">
                   <module class="definition" subclass="activation" values="∅">
@@ -19031,7 +19031,7 @@
                  </module>
                 </module>
                </wording>
-               <wording class="path" subclass="Instantiator">
+               <wording class="path" subclass="±2">
                 <module class="entity" subclass="operation" values="addition_marker">
                  <wording class="word" status="junctive">
                   <token n="1080" gloss_berean="and" id="SBL.Jas.3.16.4">καὶ</token>
@@ -19094,7 +19094,7 @@
             <wording class="cluster" status="satellite" subclass="Instantiator">
              <module class="entity" subclass="activation" values="grouped">
               <module class="entity" subclass="set" values="conjunctive">
-               <wording class="path" subclass="Instantiator">
+               <wording class="path" subclass="±1">
                 <module class="entity" subclass="operation" values="∅">
                  <module class="entity" subclass="specification" values="gendered&#xA;feminine">
                   <module class="definition" subclass="activation" values="∅">
@@ -19113,7 +19113,7 @@
                  </module>
                 </module>
                </wording>
-               <wording class="path" subclass="Instantiator">
+               <wording class="path" subclass="±2">
                 <module class="entity" subclass="operation" values="addition_marker">
                  <wording class="word" status="junctive">
                   <token n="1084" gloss_berean="and" id="SBL.Jas.3.16.8">καὶ</token>
@@ -19371,7 +19371,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="circumscribed&#xA;preparatory">
                <module class="abstraction" subclass="activation" values="∅">
@@ -19398,7 +19398,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="circumscribed&#xA;preparatory">
                <module class="abstraction" subclass="activation" values="∅">
@@ -19425,7 +19425,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±3">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="circumscribed&#xA;preparatory">
                <module class="abstraction" subclass="activation" values="∅">
@@ -19452,7 +19452,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±4">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="circumscribed&#xA;preparatory">
                <module class="abstraction" subclass="activation" values="∅">
@@ -19473,7 +19473,7 @@
                          <module class="circumstance" subclass="specification" values="#oblique_association&#xA;accusative_association">
                           <module class="entity" subclass="activation" values="grouped">
                            <module class="entity" subclass="set" values="conjunctive">
-                            <wording class="path" subclass="Intensifier">
+                            <wording class="path" subclass="±1">
                              <module class="entity" subclass="operation" values="∅">
                               <module class="entity" subclass="specification" values="∅">
                                <module class="definition" subclass="activation" values="∅">
@@ -19492,7 +19492,7 @@
                               </module>
                              </module>
                             </wording>
-                            <wording class="path" subclass="Intensifier">
+                            <wording class="path" subclass="±2">
                              <module class="entity" subclass="operation" values="addition_marker">
                               <wording class="word" status="junctive">
                                <token n="1102" gloss_berean="and" id="SBL.Jas.3.17.15">καὶ</token>
@@ -19547,7 +19547,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±5">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="circumscribed&#xA;preparatory">
                <module class="abstraction" subclass="activation" values="∅">
@@ -19574,7 +19574,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±6">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="circumscribed&#xA;preparatory">
                <module class="abstraction" subclass="activation" values="∅">
@@ -19798,7 +19798,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator">
                <module class="abstraction" subclass="activation" values="∅">
@@ -19840,7 +19840,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1118" gloss_berean="and" id="SBL.Jas.4.1.3">καὶ</token>
@@ -19954,7 +19954,7 @@
                         </wording>
                         <module class="entity" subclass="activation" values="re-construed">
                          <module class="entity" subclass="re-construal" values="∅">
-                          <wording class="path" subclass="Subst">
+                          <wording class="path" subclass="=1">
                            <module class="entity" subclass="specification" values="gendered&#xA;feminine&#xA;plural">
                             <module class="definition" subclass="activation" values="∅">
                              <module class="definition" subclass="specification" values="∅">
@@ -20007,7 +20007,7 @@
                             </module>
                            </module>
                           </wording>
-                          <wording class="path" subclass="Subst">
+                          <wording class="path" subclass="=2">
                            <module class="entity" subclass="specification" values="gendered&#xA;feminine&#xA;plural">
                             <module class="definition" subclass="activation" values="∅">
                              <module class="definition" subclass="specification" values="∅">
@@ -20131,7 +20131,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="interactant">
                <module class="abstraction" subclass="activation" values="∅">
@@ -20150,7 +20150,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1136" gloss_berean="and" id="SBL.Jas.4.2.2">καὶ</token>
@@ -20199,7 +20199,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="grouped">
               <module class="predication_active" subclass="set" values="conjunctive">
                <wording class="path" subclass="±1">
@@ -20221,7 +20221,7 @@
                  </module>
                 </module>
                </wording>
-               <wording class="path" subclass="±1">
+               <wording class="path" subclass="±2">
                 <module class="predication_active" subclass="operation" values="addition_marker">
                  <wording class="word" status="junctive">
                   <token n="1140" gloss_berean="and" id="SBL.Jas.4.2.6">καὶ</token>
@@ -20248,7 +20248,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1142" gloss_berean="and" id="SBL.Jas.4.2.8">καὶ</token>
@@ -20316,7 +20316,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="interactant">
                <module class="abstraction" subclass="activation" values="∅">
@@ -20335,7 +20335,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1147" gloss_berean="and" id="SBL.Jas.4.2.13">καὶ</token>
@@ -20468,7 +20468,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="interactant&#xA;circumscribed">
                <module class="abstraction" subclass="activation" values="∅">
@@ -20487,7 +20487,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1157" gloss_berean="and" id="SBL.Jas.4.3.2">καὶ</token>
@@ -21520,7 +21520,7 @@
                           <module class="speech_act" subclass="specification" values="∅">
                            <module class="predication_active" subclass="activation" values="grouped">
                             <module class="predication_active" subclass="set" values="conjunctive">
-                             <wording class="path" subclass="Move">
+                             <wording class="path" subclass="±1">
                               <module class="predication_active" subclass="operation" values="∅">
                                <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
                                 <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -21592,7 +21592,7 @@
                                </module>
                               </module>
                              </wording>
-                             <wording class="path" subclass="Move">
+                             <wording class="path" subclass="±2">
                               <module class="predication_active" subclass="operation" values="addition_marker&#xA;progressive">
                                <module xml:id="d13e12402" next="d13e12402_2" class="predication_active" subclass="operation" values="∅">
                                 <module xml:id="d11e12345" next="d11e12345_2" class="predication_active" subclass="specification" values="∅">
@@ -21919,7 +21919,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="directive&#xA;interactant">
                <module class="abstraction" subclass="activation" values="∅">
@@ -21972,7 +21972,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1238" gloss_berean="and" id="SBL.Jas.4.8.4">καὶ</token>
@@ -22174,7 +22174,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="directive&#xA;interactant">
                <module class="abstraction" subclass="activation" values="∅">
@@ -22193,7 +22193,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1249" gloss_berean="and" id="SBL.Jas.4.9.2">καὶ</token>
@@ -22217,7 +22217,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±3">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1251" gloss_berean="and" id="SBL.Jas.4.9.4">καὶ</token>
@@ -22257,7 +22257,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;directive">
                <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -22357,7 +22357,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1259" gloss_berean="and" id="SBL.Jas.4.9.12">καὶ</token>
@@ -22447,7 +22447,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="directive&#xA;interactant">
                <module class="abstraction" subclass="activation" values="∅">
@@ -22492,7 +22492,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1267" gloss_berean="and" id="SBL.Jas.4.10.4">καὶ</token>
@@ -22621,7 +22621,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
                <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -22636,7 +22636,7 @@
                       </wording>
                       <module class="definition" subclass="activation" values="grouped">
                        <module class="definition" subclass="set" values="∅">
-                        <wording class="path" subclass="Subst">
+                        <wording class="path" subclass="^1">
                          <module class="definition" subclass="option" values="∅">
                           <module class="definition" subclass="specification" values="∅">
                            <module class="trait" subclass="activation" values="∅">
@@ -22674,7 +22674,7 @@
                           </module>
                          </module>
                         </wording>
-                        <wording class="path" subclass="Subst">
+                        <wording class="path" subclass="^2">
                          <module class="definition" subclass="option" values="disjunctive_marker">
                           <wording class="word" status="junctive">
                            <token n="1277" gloss_berean="or" id="SBL.Jas.4.11.8">ἢ</token>
@@ -22795,7 +22795,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1284" gloss_berean="and" id="SBL.Jas.4.11.15">καὶ</token>
@@ -22927,7 +22927,7 @@
                 <wording xml:id="d11e13093" next="d11e13093_2" class="cluster" status="satellite" subclass="Comp_Prop">
                  <module xml:id="d9e13023" next="d9e13023_2" class="abstraction" subclass="activation" values="grouped">
                   <module xml:id="d7e12951" next="d7e12951_2" class="abstraction" subclass="set" values="conjunctive">
-                   <wording xml:id="d5e12862" next="d5e12862_2" class="path" subclass="Comp_Prop">
+                   <wording xml:id="d5e12862" next="d5e12862_2" class="path" subclass="±1">
                     <module xml:id="d3e12774" next="d3e12774_2" class="abstraction" subclass="operation" values="negative&#xA;negated_factuality">
                      <wording class="word" status="junctive">
                       <token n="1291" gloss_berean="not" id="SBL.Jas.4.11.22">οὐκ</token>
@@ -22945,7 +22945,7 @@
                 <wording prev="d11e13093" xml:id="d11e13093_2" class="cluster" status="satellite" subclass="Comp_Prop">
                  <module prev="d9e13023" xml:id="d9e13023_2" class="abstraction" subclass="activation" values="grouped">
                   <module prev="d7e12951" xml:id="d7e12951_2" class="abstraction" subclass="set" values="conjunctive">
-                   <wording prev="d5e12862" xml:id="d5e12862_2" class="path" subclass="Comp_Prop">
+                   <wording prev="d5e12862" xml:id="d5e12862_2" class="path" subclass="±1">
                     <module prev="d3e12774" xml:id="d3e12774_2" class="abstraction" subclass="operation" values="negative&#xA;negated_factuality">
                      <module class="abstraction" subclass="operation" values="∅">
                       <module class="abstraction" subclass="specification" values="intrinsic&#xA;gendered">
@@ -22993,7 +22993,7 @@
                      </module>
                     </module>
                    </wording>
-                   <wording class="path" subclass="Comp_Prop">
+                   <wording class="path" subclass="±2">
                     <module class="abstraction" subclass="operation" values="addition_marker&#xA;corrective">
                      <wording class="word" status="junctive">
                       <token n="1295" gloss_berean="but" id="SBL.Jas.4.11.26">ἀλλὰ</token>
@@ -23079,9 +23079,9 @@
             <wording class="cluster" status="satellite" subclass="Instantiator">
              <module class="entity" subclass="activation" values="re-construed">
               <module class="entity" subclass="re-construal" values="grouped">
-               <wording class="path" subclass="Instantiator">
+               <wording class="path" subclass="=1">
                 <module class="entity" subclass="set" values="conjunctive">
-                 <wording class="path" subclass="=1">
+                 <wording class="path" subclass="±1">
                   <module class="entity" subclass="operation" values="∅">
                    <module class="entity" subclass="specification" values="gendered">
                     <module class="definition" subclass="activation" values="∅">
@@ -23100,7 +23100,7 @@
                    </module>
                   </module>
                  </wording>
-                 <wording class="path" subclass="=1">
+                 <wording class="path" subclass="±2">
                   <module class="entity" subclass="operation" values="addition_marker">
                    <wording class="word" status="junctive">
                     <token n="1300" gloss_berean="and" id="SBL.Jas.4.12.4">καὶ</token>
@@ -23126,7 +23126,7 @@
                  </wording>
                 </module>
                </wording>
-               <wording class="path" subclass="Instantiator">
+               <wording class="path" subclass="=2">
                 <module class="entity" subclass="specification" values="gendered">
                  <module class="definition" subclass="activation" values="∅">
                   <module class="definition" subclass="specification" values="∅">
@@ -23151,7 +23151,7 @@
                              <module class="entity" subclass="specification" values="#scenario">
                               <module class="scenario" subclass="activation" values="grouped">
                                <module class="scenario" subclass="set" values="conjunctive">
-                                <wording class="path" subclass="Obj_Part">
+                                <wording class="path" subclass="±1">
                                  <module class="scenario" subclass="operation" values="∅">
                                   <module class="scenario" subclass="specification" values="∅">
                                    <module class="event" subclass="activation" values="∅">
@@ -23166,7 +23166,7 @@
                                   </module>
                                  </module>
                                 </wording>
-                                <wording class="path" subclass="Obj_Part">
+                                <wording class="path" subclass="±2">
                                  <module class="scenario" subclass="operation" values="addition_marker">
                                   <wording class="word" status="junctive">
                                    <token n="1305" gloss_berean="and" id="SBL.Jas.4.12.9">καὶ</token>
@@ -23430,7 +23430,7 @@
                                <module class="speech_act" subclass="specification" values="∅">
                                 <module class="predication_active" subclass="activation" values="grouped">
                                  <module class="predication_active" subclass="set" values="conjunctive">
-                                  <wording class="path" subclass="Move">
+                                  <wording class="path" subclass="±1">
                                    <module class="predication_active" subclass="operation" values="∅">
                                     <module class="predication_active" subclass="specification" values="interactant&#xA;non-speaker">
                                      <module class="abstraction" subclass="activation" values="∅">
@@ -23438,7 +23438,7 @@
                                        <wording class="cluster" status="satellite" subclass="Circumstance">
                                         <module class="circumstance" subclass="activation" values="grouped">
                                          <module class="circumstance" subclass="set" values="∅">
-                                          <wording class="path" subclass="Circumstance">
+                                          <wording class="path" subclass="^1">
                                            <module class="circumstance" subclass="option" values="∅">
                                             <module class="circumstance" subclass="specification" values="∅">
                                              <module class="extrinsic_collation" subclass="activation" values="∅">
@@ -23453,7 +23453,7 @@
                                             </module>
                                            </module>
                                           </wording>
-                                          <wording class="path" subclass="Circumstance">
+                                          <wording class="path" subclass="^2">
                                            <module class="circumstance" subclass="option" values="disjunctive_marker">
                                             <wording class="word" status="junctive">
                                              <token n="1320" gloss_berean="or" id="SBL.Jas.4.13.6">ἢ</token>
@@ -23534,14 +23534,14 @@
                                     </module>
                                    </module>
                                   </wording>
-                                  <wording class="path" subclass="Move">
+                                  <wording class="path" subclass="±2">
                                    <module class="predication_active" subclass="operation" values="addition_marker">
                                     <wording class="word" status="junctive">
                                      <token n="1327" gloss_berean="and" id="SBL.Jas.4.13.13">καὶ</token>
                                     </wording>
                                     <module class="predication_active" subclass="operation" values="grouped">
                                      <module class="predication_active" subclass="set" values="conjunctive">
-                                      <wording class="path" subclass="±2">
+                                      <wording class="path" subclass="±1">
                                        <module class="predication_active" subclass="operation" values="∅">
                                         <module class="predication_active" subclass="specification" values="interactant&#xA;non-speaker">
                                          <module class="abstraction" subclass="activation" values="∅">
@@ -23622,7 +23622,7 @@
                                         </module>
                                        </module>
                                       </wording>
-                                      <wording class="path" subclass="±2">
+                                      <wording class="path" subclass="±3">
                                        <module class="predication_active" subclass="operation" values="addition_marker">
                                         <wording class="word" status="junctive">
                                          <token n="1333" gloss_berean="and" id="SBL.Jas.4.13.19">καὶ</token>
@@ -23901,7 +23901,7 @@
                 <wording xml:id="d7e13515" next="d7e13515_2" class="cluster" status="satellite" subclass="Comp_Prop">
                  <module xml:id="d5e13424" next="d5e13424_2" class="abstraction" subclass="activation" values="re-construed">
                   <module xml:id="d3e13334" next="d3e13334_2" class="abstraction" subclass="re-construal" values="∅">
-                   <wording class="path" subclass="Comp_Prop">
+                   <wording class="path" subclass="=1">
                     <module class="abstraction" subclass="specification" values="intrinsic&#xA;gendered&#xA;feminine">
                      <module class="definition" subclass="activation" values="∅">
                       <module class="definition" subclass="specification" values="∅">
@@ -23948,7 +23948,7 @@
                 <wording prev="d7e13515" xml:id="d7e13515_2" class="cluster" status="satellite" subclass="Comp_Prop">
                  <module prev="d5e13424" xml:id="d5e13424_2" class="abstraction" subclass="activation" values="re-construed">
                   <module prev="d3e13334" xml:id="d3e13334_2" class="abstraction" subclass="re-construal" values="∅">
-                   <wording class="path" subclass="Comp_Prop">
+                   <wording class="path" subclass="=2">
                     <module class="abstraction" subclass="specification" values="intrinsic&#xA;gendered&#xA;feminine">
                      <module class="definition" subclass="activation" values="∅">
                       <module class="definition" subclass="specification" values="∅">
@@ -23959,7 +23959,7 @@
                          </wording>
                          <module class="definition" subclass="activation" values="grouped">
                           <module class="definition" subclass="set" values="conjunctive">
-                           <wording class="path" subclass="Subst">
+                           <wording class="path" subclass="±1">
                             <module class="definition" subclass="operation" values="∅">
                              <module class="definition" subclass="specification" values="∅">
                               <module class="trait" subclass="activation" values="∅">
@@ -24008,7 +24008,7 @@
                              </module>
                             </module>
                            </wording>
-                           <wording class="path" subclass="Subst">
+                           <wording class="path" subclass="±2">
                             <module class="definition" subclass="operation" values="∅">
                              <module class="definition" subclass="specification" values="∅">
                               <module class="trait" subclass="activation" values="∅">
@@ -24195,7 +24195,7 @@
                                        </module>
                                       </module>
                                      </wording>
-                                     <wording class="path" subclass="Move">
+                                     <wording class="path" subclass="±1">
                                       <module class="predication_active" subclass="operation" values="addition_marker">
                                        <wording class="word" status="junctive">
                                         <token n="1363" gloss_berean="both" id="SBL.Jas.4.15.9">καὶ</token>
@@ -24219,7 +24219,7 @@
                                        </module>
                                       </module>
                                      </wording>
-                                     <wording class="path" subclass="Move">
+                                     <wording class="path" subclass="±2">
                                       <module class="predication_active" subclass="operation" values="addition_marker">
                                        <wording class="word" status="junctive">
                                         <token n="1365" gloss_berean="and" id="SBL.Jas.4.15.11">καὶ</token>
@@ -24238,7 +24238,7 @@
                                              <wording class="cluster" status="satellite" subclass="Obj_Part">
                                               <module class="entity" subclass="activation" values="grouped">
                                                <module class="entity" subclass="set" values="∅">
-                                                <wording class="path" subclass="Obj_Part">
+                                                <wording class="path" subclass="^1">
                                                  <module class="entity" subclass="option" values="∅">
                                                   <module class="entity" subclass="specification" values="∅">
                                                    <module class="definition" subclass="activation" values="∅">
@@ -24255,7 +24255,7 @@
                                                   </module>
                                                  </module>
                                                 </wording>
-                                                <wording class="path" subclass="Obj_Part">
+                                                <wording class="path" subclass="^2">
                                                  <module class="entity" subclass="option" values="disjunctive_marker">
                                                   <wording class="word" status="junctive">
                                                    <token n="1368" gloss_berean="or" id="SBL.Jas.4.15.14">ἢ</token>
@@ -24549,7 +24549,7 @@
               <wording xml:id="d29e14324" next="d29e14324_2" class="cluster" status="satellite" subclass="Circumstance">
                <module xml:id="d27e14318" next="d27e14318_2" class="circumstance" subclass="activation" values="grouped">
                 <module xml:id="d25e14311" next="d25e14311_2" class="circumstance" subclass="set" values="conjunctive">
-                 <wording xml:id="d23e14294" next="d23e14294_2" class="path" subclass="Circumstance">
+                 <wording xml:id="d23e14294" next="d23e14294_2" class="path" subclass="±1">
                   <module xml:id="d21e14274" next="d21e14274_2" class="circumstance" subclass="operation" values="∅">
                    <module xml:id="d19e14242" next="d19e14242_2" class="circumstance" subclass="specification" values="#oblique_association&#xA;dative_association">
                     <module xml:id="d17e14203" next="d17e14203_2" class="entity" subclass="activation" values="∅">
@@ -24597,7 +24597,7 @@
               <wording prev="d29e14324" xml:id="d29e14324_2" class="cluster" status="satellite" subclass="Circumstance">
                <module prev="d27e14318" xml:id="d27e14318_2" class="circumstance" subclass="activation" values="grouped">
                 <module prev="d25e14311" xml:id="d25e14311_2" class="circumstance" subclass="set" values="conjunctive">
-                 <wording prev="d23e14294" xml:id="d23e14294_2" class="path" subclass="Circumstance">
+                 <wording prev="d23e14294" xml:id="d23e14294_2" class="path" subclass="±1">
                   <module prev="d21e14274" xml:id="d21e14274_2" class="circumstance" subclass="operation" values="∅">
                    <module prev="d19e14242" xml:id="d19e14242_2" class="circumstance" subclass="specification" values="#oblique_association&#xA;dative_association">
                     <module prev="d17e14203" xml:id="d17e14203_2" class="entity" subclass="activation" values="∅">
@@ -24661,7 +24661,7 @@
                    </module>
                   </module>
                  </wording>
-                 <wording class="path" subclass="Circumstance">
+                 <wording class="path" subclass="±2">
                   <module class="circumstance" subclass="operation" values="addition_marker">
                    <wording class="word" status="junctive">
                     <token n="1386" gloss_berean="and" id="SBL.Jas.4.17.5">καὶ</token>
@@ -24883,7 +24883,7 @@
                           </wording>
                           <module class="entity" subclass="activation" values="re-construed">
                            <module class="entity" subclass="re-construal" values="∅">
-                            <wording class="path" subclass="Circumstance">
+                            <wording class="path" subclass="=1">
                              <module class="entity" subclass="specification" values="gendered&#xA;feminine&#xA;plural">
                               <module class="definition" subclass="activation" values="∅">
                                <module class="definition" subclass="specification" values="∅">
@@ -24936,7 +24936,7 @@
                               </module>
                              </module>
                             </wording>
-                            <wording class="path" subclass="Circumstance">
+                            <wording class="path" subclass="=2">
                              <module class="entity" subclass="specification" values="gendered&#xA;feminine&#xA;plural">
                               <module class="definition" subclass="activation" values="∅">
                                <module class="definition" subclass="specification" values="∅">
@@ -25000,7 +25000,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
                <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -25074,7 +25074,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1408" gloss_berean="and" id="SBL.Jas.5.2.5">καὶ</token>
@@ -25192,13 +25192,13 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
                <wording class="cluster" status="satellite" subclass="Instantiator">
                 <module class="entity" subclass="activation" values="grouped">
                  <module class="entity" subclass="set" values="conjunctive">
-                  <wording class="path" subclass="Instantiator">
+                  <wording class="path" subclass="±1">
                    <module class="entity" subclass="operation" values="∅">
                     <module class="entity" subclass="specification" values="gendered">
                      <module class="definition" subclass="activation" values="∅">
@@ -25253,7 +25253,7 @@
                     </module>
                    </module>
                   </wording>
-                  <wording class="path" subclass="Instantiator">
+                  <wording class="path" subclass="±2">
                    <module class="entity" subclass="operation" values="addition_marker">
                     <wording class="word" status="junctive">
                      <token n="1417" gloss_berean="and" id="SBL.Jas.5.3.4">καὶ</token>
@@ -25307,14 +25307,14 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1421" gloss_berean="and" id="SBL.Jas.5.3.8">καὶ</token>
               </wording>
               <module class="predication_active" subclass="operation" values="grouped">
                <module class="predication_active" subclass="set" values="conjunctive">
-                <wording class="path" subclass="±2">
+                <wording class="path" subclass="±1">
                  <module class="predication_active" subclass="operation" values="∅">
                   <module class="predication_active" subclass="specification" values="construed_instantiator">
                    <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -25651,13 +25651,13 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
                <wording class="cluster" status="satellite" subclass="Instantiator">
                 <module class="entity" subclass="activation" values="re-construed">
                  <module class="entity" subclass="re-construal" values="∅">
-                  <wording class="path" subclass="Instantiator">
+                  <wording class="path" subclass="=1">
                    <module class="entity" subclass="specification" values="gendered">
                     <module class="definition" subclass="activation" values="∅">
                      <module class="definition" subclass="specification" values="∅">
@@ -25684,7 +25684,7 @@
                               <module class="circumstance" subclass="specification" values="#oblique_association&#xA;accusative_association">
                                <module class="entity" subclass="activation" values="re-construed">
                                 <module class="entity" subclass="re-construal" values="∅">
-                                 <wording class="path" subclass="Elaboration">
+                                 <wording class="path" subclass="=1">
                                   <module class="entity" subclass="specification" values="gendered&#xA;plural">
                                    <module class="definition" subclass="activation" values="∅">
                                     <module class="definition" subclass="specification" values="∅">
@@ -25712,7 +25712,7 @@
                                    </module>
                                   </module>
                                  </wording>
-                                 <wording class="path" subclass="Elaboration">
+                                 <wording class="path" subclass="=2">
                                   <module class="entity" subclass="specification" values="gendered&#xA;plural">
                                    <module class="definition" subclass="activation" values="∅">
                                     <module class="definition" subclass="specification" values="∅">
@@ -25814,7 +25814,7 @@
                     </module>
                    </module>
                   </wording>
-                  <wording class="path" subclass="Instantiator">
+                  <wording class="path" subclass="=2">
                    <module class="entity" subclass="specification" values="gendered">
                     <module class="definition" subclass="activation" values="∅">
                      <module class="definition" subclass="specification" values="∅">
@@ -25889,7 +25889,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1455" gloss_berean="and" id="SBL.Jas.5.4.16">καὶ</token>
@@ -26092,7 +26092,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="interactant">
                <module class="abstraction" subclass="activation" values="∅">
@@ -26148,7 +26148,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1470" gloss_berean="and" id="SBL.Jas.5.5.5">καὶ</token>
@@ -26329,7 +26329,7 @@
              <module class="abstraction" subclass="specification" values="∅">
               <module class="event" subclass="activation" values="grouped">
                <module class="event" subclass="set" values="conjunctive">
-                <wording class="path" subclass="Abstr">
+                <wording class="path" subclass="±1">
                  <module class="event" subclass="operation" values="∅">
                   <module class="event" subclass="specification" values="complete_duration&#xA;objectifying">
                    <wording class="word" status="core">
@@ -26340,7 +26340,7 @@
                   </module>
                  </module>
                 </wording>
-                <wording class="path" subclass="Abstr">
+                <wording class="path" subclass="±2">
                  <module class="event" subclass="operation" values="∅">
                   <module class="event" subclass="specification" values="complete_duration&#xA;objectifying">
                    <wording class="word" status="core">
@@ -26792,7 +26792,7 @@
                        <wording class="cluster" status="satellite" subclass="Obj_Part">
                         <module class="entity" subclass="activation" values="grouped">
                          <module class="entity" subclass="set" values="conjunctive">
-                          <wording class="path" subclass="Obj_Part">
+                          <wording class="path" subclass="±1">
                            <module class="entity" subclass="operation" values="∅">
                             <module class="entity" subclass="specification" values="gendered">
                              <module class="definition" subclass="activation" values="∅">
@@ -26815,7 +26815,7 @@
                             </module>
                            </module>
                           </wording>
-                          <wording class="path" subclass="Obj_Part">
+                          <wording class="path" subclass="±2">
                            <module class="entity" subclass="operation" values="addition_marker">
                             <wording class="word" status="junctive">
                              <token n="1509" gloss_berean="and" id="SBL.Jas.5.7.24">καὶ</token>
@@ -26873,7 +26873,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;directive&#xA;interactant&#xA;circumscribed">
                <module class="abstraction" subclass="activation" values="∅">
@@ -26918,7 +26918,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="directive&#xA;interactant&#xA;circumscribed">
                <module class="abstraction" subclass="activation" values="∅">
@@ -27408,7 +27408,7 @@
                          <module class="circumstance" subclass="specification" values="#oblique_association&#xA;accusative_association">
                           <module class="entity" subclass="activation" values="grouped">
                            <module class="entity" subclass="set" values="conjunctive">
-                            <wording class="path" subclass="Elaboration">
+                            <wording class="path" subclass="±1">
                              <module class="entity" subclass="operation" values="∅">
                               <module class="entity" subclass="specification" values="gendered&#xA;feminine">
                                <module class="definition" subclass="activation" values="∅">
@@ -27438,7 +27438,7 @@
                               </module>
                              </module>
                             </wording>
-                            <wording class="path" subclass="Elaboration">
+                            <wording class="path" subclass="±2">
                              <module class="entity" subclass="operation" values="addition_marker">
                               <wording class="word" status="junctive">
                                <token n="1544" gloss_berean="and" id="SBL.Jas.5.10.6">καὶ</token>
@@ -27707,7 +27707,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="interactant">
                <module class="abstraction" subclass="activation" values="∅">
@@ -27783,7 +27783,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1563" gloss_berean="and" id="SBL.Jas.5.11.9">καὶ</token>
@@ -27797,7 +27797,7 @@
                     <wording xml:id="d7e15738" next="d7e15738_2" class="cluster" status="satellite" subclass="Obj_Part">
                      <module xml:id="d5e15640" next="d5e15640_2" class="entity" subclass="activation" values="re-construed">
                       <module xml:id="d3e15543" next="d3e15543_2" class="entity" subclass="re-construal" values="∅">
-                       <wording class="path" subclass="Obj_Part">
+                       <wording class="path" subclass="=1">
                         <module class="entity" subclass="specification" values="∅">
                          <module class="definition" subclass="activation" values="∅">
                           <module class="definition" subclass="specification" values="∅">
@@ -27863,7 +27863,7 @@
                     <wording prev="d7e15738" xml:id="d7e15738_2" class="cluster" status="satellite" subclass="Obj_Part">
                      <module prev="d5e15640" xml:id="d5e15640_2" class="entity" subclass="activation" values="re-construed">
                       <module prev="d3e15543" xml:id="d3e15543_2" class="entity" subclass="re-construal" values="∅">
-                       <wording class="path" subclass="Obj_Part">
+                       <wording class="path" subclass="=2">
                         <module class="entity" subclass="specification" values="#proposition&#xA;proposition_marker&#xA;$ὅτι">
                          <wording class="word" status="translative">
                           <token n="1568" gloss_berean="that" id="SBL.Jas.5.11.14">ὅτι</token>
@@ -27877,7 +27877,7 @@
                                <wording xml:id="d7e15786" next="d7e15786_2" class="cluster" status="satellite" subclass="Comp_Prop">
                                 <module xml:id="d5e15687" next="d5e15687_2" class="abstraction" subclass="activation" values="grouped">
                                  <module xml:id="d3e15589" next="d3e15589_2" class="abstraction" subclass="set" values="conjunctive">
-                                  <wording class="path" subclass="Comp_Prop">
+                                  <wording class="path" subclass="±1">
                                    <module class="abstraction" subclass="operation" values="∅">
                                     <module class="abstraction" subclass="specification" values="intrinsic&#xA;gendered">
                                      <module class="definition" subclass="activation" values="∅">
@@ -27949,7 +27949,7 @@
                                <wording prev="d7e15786" xml:id="d7e15786_2" class="cluster" status="satellite" subclass="Comp_Prop">
                                 <module prev="d5e15687" xml:id="d5e15687_2" class="abstraction" subclass="activation" values="grouped">
                                  <module prev="d3e15589" xml:id="d3e15589_2" class="abstraction" subclass="set" values="conjunctive">
-                                  <wording class="path" subclass="Comp_Prop">
+                                  <wording class="path" subclass="±2">
                                    <module class="abstraction" subclass="operation" values="addition_marker">
                                     <wording class="word" status="junctive">
                                      <token n="1573" gloss_berean="and" id="SBL.Jas.5.11.19">καὶ</token>
@@ -28114,7 +28114,7 @@
                    <wording class="cluster" status="satellite" subclass="Circumstance">
                     <module class="circumstance" subclass="activation" values="grouped">
                      <module class="circumstance" subclass="set" values="conjunctive">
-                      <wording class="path" subclass="Circumstance">
+                      <wording class="path" subclass="±1">
                        <module class="circumstance" subclass="operation" values="negative">
                         <wording class="word" status="junctive">
                          <token n="1582" gloss_berean="neither [by]" id="SBL.Jas.5.12.8">μήτε</token>
@@ -28153,7 +28153,7 @@
                         </module>
                        </module>
                       </wording>
-                      <wording class="path" subclass="Circumstance">
+                      <wording class="path" subclass="±2">
                        <module class="circumstance" subclass="operation" values="negative">
                         <wording class="word" status="junctive">
                          <token n="1585" gloss_berean="nor" id="SBL.Jas.5.12.11">μήτε</token>
@@ -28192,7 +28192,7 @@
                         </module>
                        </module>
                       </wording>
-                      <wording class="path" subclass="Circumstance">
+                      <wording class="path" subclass="±3">
                        <module class="circumstance" subclass="operation" values="negative">
                         <wording class="word" status="junctive">
                          <token n="1588" gloss_berean="nor" id="SBL.Jas.5.12.14">μήτε</token>
@@ -28272,7 +28272,7 @@
          <module xml:id="d21e16428" next="d21e16428_2" class="speech_act" subclass="specification" values="∅">
           <module xml:id="d19e16393" next="d19e16393_2" class="predication_active" subclass="activation" values="grouped">
            <module xml:id="d17e16350" next="d17e16350_2" class="predication_active" subclass="set" values="conjunctive">
-            <wording xml:id="d15e16300" next="d15e16300_2" class="path" subclass="Move">
+            <wording xml:id="d15e16300" next="d15e16300_2" class="path" subclass="±1">
              <module xml:id="d13e16242" next="d13e16242_2" class="predication_active" subclass="operation" values="∅">
               <module xml:id="d11e16172" next="d11e16172_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;directive&#xA;circumscribed">
                <module xml:id="d9e16092" next="d9e16092_2" class="abstraction" subclass="activation" values="∅">
@@ -28302,7 +28302,7 @@
          <module prev="d21e16428" xml:id="d21e16428_2" class="speech_act" subclass="specification" values="∅">
           <module prev="d19e16393" xml:id="d19e16393_2" class="predication_active" subclass="activation" values="grouped">
            <module prev="d17e16350" xml:id="d17e16350_2" class="predication_active" subclass="set" values="conjunctive">
-            <wording prev="d15e16300" xml:id="d15e16300_2" class="path" subclass="Move">
+            <wording prev="d15e16300" xml:id="d15e16300_2" class="path" subclass="±1">
              <module prev="d13e16242" xml:id="d13e16242_2" class="predication_active" subclass="operation" values="∅">
               <module prev="d11e16172" xml:id="d11e16172_2" class="predication_active" subclass="specification" values="construed_instantiator&#xA;directive&#xA;circumscribed">
                <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -28382,7 +28382,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1598" gloss_berean="and" id="SBL.Jas.5.12.24">καὶ</token>
@@ -28761,7 +28761,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="directive">
                <module class="abstraction" subclass="activation" values="∅">
@@ -28852,7 +28852,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1624" gloss_berean="and" id="SBL.Jas.5.14.10">καὶ</token>
@@ -29369,7 +29369,7 @@
          <module xml:id="d21e17070" next="d21e17070_2" class="speech_act" subclass="specification" values="∅">
           <module xml:id="d19e17034" next="d19e17034_2" class="predication_active" subclass="activation" values="grouped">
            <module xml:id="d17e16990" next="d17e16990_2" class="predication_active" subclass="set" values="conjunctive">
-            <wording xml:id="d15e16939" next="d15e16939_2" class="path" subclass="Move">
+            <wording xml:id="d15e16939" next="d15e16939_2" class="path" subclass="±1">
              <module xml:id="d13e16880" next="d13e16880_2" class="predication_active" subclass="operation" values="∅">
               <module xml:id="d11e16809" next="d11e16809_2" class="predication_active" subclass="specification" values="directive&#xA;interactant&#xA;circumscribed">
                <module xml:id="d9e16728" next="d9e16728_2" class="abstraction" subclass="activation" values="∅">
@@ -29399,7 +29399,7 @@
          <module prev="d21e17070" xml:id="d21e17070_2" class="speech_act" subclass="specification" values="∅">
           <module prev="d19e17034" xml:id="d19e17034_2" class="predication_active" subclass="activation" values="grouped">
            <module prev="d17e16990" xml:id="d17e16990_2" class="predication_active" subclass="set" values="conjunctive">
-            <wording prev="d15e16939" xml:id="d15e16939_2" class="path" subclass="Move">
+            <wording prev="d15e16939" xml:id="d15e16939_2" class="path" subclass="±1">
              <module prev="d13e16880" xml:id="d13e16880_2" class="predication_active" subclass="operation" values="∅">
               <module prev="d11e16809" xml:id="d11e16809_2" class="predication_active" subclass="specification" values="directive&#xA;interactant&#xA;circumscribed">
                <module prev="d9e16728" xml:id="d9e16728_2" class="abstraction" subclass="activation" values="∅">
@@ -29460,7 +29460,7 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1660" gloss_berean="and" id="SBL.Jas.5.16.6">καὶ</token>
@@ -29683,7 +29683,7 @@
          <module class="speech_act" subclass="specification" values="∅">
           <module class="predication_active" subclass="activation" values="grouped">
            <module class="predication_active" subclass="set" values="conjunctive">
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±1">
              <module class="predication_active" subclass="operation" values="∅">
               <module class="predication_active" subclass="specification" values="construed_instantiator&#xA;preparatory">
                <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -29786,14 +29786,14 @@
               </module>
              </module>
             </wording>
-            <wording class="path" subclass="Move">
+            <wording class="path" subclass="±2">
              <module class="predication_active" subclass="operation" values="addition_marker">
               <wording class="word" status="junctive">
                <token n="1676" gloss_berean="and" id="SBL.Jas.5.17.6">καὶ</token>
               </wording>
               <module class="predication_active" subclass="operation" values="grouped">
                <module class="predication_active" subclass="set" values="conjunctive">
-                <wording class="path" subclass="±2">
+                <wording class="path" subclass="±1">
                  <module class="predication_active" subclass="operation" values="∅">
                   <module class="predication_active" subclass="specification" values="∅">
                    <module class="abstraction" subclass="activation" values="∅">
@@ -29932,7 +29932,7 @@
                            <wording class="cluster" status="satellite" subclass="Circumstance">
                             <module class="circumstance" subclass="activation" values="grouped">
                              <module class="circumstance" subclass="set" values="conjunctive">
-                              <wording class="path" subclass="Circumstance">
+                              <wording class="path" subclass="±1">
                                <module class="circumstance" subclass="operation" values="∅">
                                 <module class="circumstance" subclass="specification" values="#oblique_association&#xA;accusative_association">
                                  <module class="entity" subclass="activation" values="∅">
@@ -29970,7 +29970,7 @@
                                 </module>
                                </module>
                               </wording>
-                              <wording class="path" subclass="Circumstance">
+                              <wording class="path" subclass="±2">
                                <module class="circumstance" subclass="operation" values="addition_marker">
                                 <wording class="word" status="junctive">
                                  <token n="1690" gloss_berean="and" id="SBL.Jas.5.17.20">καὶ</token>
@@ -30344,7 +30344,7 @@
                  </wording>
                  <module class="predication_modal" subclass="activation" values="grouped">
                   <module class="predication_modal" subclass="set" values="conjunctive">
-                   <wording class="path" subclass="Circumstance">
+                   <wording class="path" subclass="±1">
                     <module class="predication_modal" subclass="operation" values="∅">
                      <module class="predication_modal" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;contemplative">
                       <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -30445,7 +30445,7 @@
                      </module>
                     </module>
                    </wording>
-                   <wording class="path" subclass="Circumstance">
+                   <wording class="path" subclass="±2">
                     <module class="predication_modal" subclass="operation" values="addition_marker">
                      <wording class="word" status="junctive">
                       <token n="1718" gloss_berean="and" id="SBL.Jas.5.19.11">καὶ</token>
@@ -30531,7 +30531,7 @@
                    </wording>
                    <module class="predication_modal" subclass="activation" values="grouped">
                     <module class="predication_modal" subclass="set" values="conjunctive">
-                     <wording class="path" subclass="Obj_Part">
+                     <wording class="path" subclass="±1">
                       <module class="predication_modal" subclass="operation" values="∅">
                        <module class="predication_modal" subclass="specification" values="construed_instantiator&#xA;preparatory&#xA;internal_orientation">
                         <wording class="cluster" status="satellite" subclass="Instantiator">
@@ -30755,7 +30755,7 @@
                        </module>
                       </module>
                      </wording>
-                     <wording class="path" subclass="Obj_Part">
+                     <wording class="path" subclass="±2">
                       <module class="predication_modal" subclass="operation" values="addition_marker">
                        <wording class="word" status="junctive">
                         <token n="1736" gloss_berean="and" id="SBL.Jas.5.20.15">καὶ</token>
