@@ -1,0 +1,43 @@
+/******************
+ * Other Elements *
+ ******************/
+
+wording, module, error, ellipsis, token {        
+    justify-self: center;
+    min-width: 125px;
+    margin-top: 16px;
+    padding: 0px 2px;
+}
+
+/**********
+ * Values *
+ **********/
+
+v, v2 {
+    position: relative;
+    align-items: flex-start;
+    justify-self: center;    
+    min-width: 125px;
+    margin-top: 16px;
+    padding: 0px 2px;
+}
+
+v:before, v2:before {
+    /* positioning */
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    height: 12px;
+    min-width: calc(100% - 14px);
+    bottom: 100%;
+    /* basic styles */
+    padding-left: 7px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: var(--color);
+    content: attr(name);
+    text-align: center;
+    font-size: smaller;
+    color: black;
+}

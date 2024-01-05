@@ -1,18 +1,18 @@
 :root {
-    --speech-color: orange;
-    --act-color: pink;
-    --pred_act-color: #ffee33;
-    --abstr-color: #cce6ff;
-    --event-color: #d1e39c;
-    --def-color: #b89c81;
-    --trait-color: #e7ded5;
-    --icoll-color: #e6ccff;
-    --ecoll-color: #e6ccff;
-    --circ-color: #d8605a; /*cf3830 ffcccc*/
-    --ent-color: #895b2d; /*ac7339*/
-    --pred_mod-color: #ffee33;
+    --utter-color: pink;
+    --act-color: orange; /* pink */
     --pred-color: #ffee33;
-    --scen-color: #ffee33;
+    --prop-color: #ffee33; /* cce6ff */
+    --absol-color: #ffee33;
+    --scen-color: #ffee33;    
+    --event-color: #cce6ff; /* d1e39c */
+    --def-color: #895b2d; /* b89c81 d8605a */
+    --def_part-color: #b89c81; /* e7ded5 */
+    --coll_d-color: #e6ccff;    
+    --assoc-color: #d8605a; /* #d8605a cf3830 ffcccc*/
+    --coll_a-color: #e6ccff;
+    --ent-color: #667049; /* d1e39c ac7339*/
+    --abstr-color: #d1e39c; /* 895b2d cce6ff */
 }
 
 
@@ -24,20 +24,28 @@ context {
     --color: var(--context-color);
 }
 
-[class = "speech"] {
-    --color: var(--speech-color);
+[class = "utterance"] {
+    --color: var(--utter-color);
 }
 
 [class = "speech_act"] {
     --color: var(--act-color);
 }
 
-[class = "predication_active"] {
-    --color: var(--pred_act-color);
+[class = "predication"] {
+    --color: var(--pred-color);
 }
 
-[class = "abstraction"] {
-    --color: var(--abstr-color);
+[class = "proposition"] {
+    --color: var(--prop-color);
+}
+
+[class = "absolute"] {
+    --color: var(--absol-color);
+}
+
+[class = "scenario"] {
+    --color: var(--scen-color);
 }
 
 [class = "event"] {
@@ -48,36 +56,28 @@ context {
     --color: var(--def-color);
 }
 
-[class = "trait"] {
-    --color: var(--trait-color);
+[class = "definition_part"] {
+    --color: var(--def_part-color);
 }
 
-[class = "intrinsic_collation"] {
-    --color: var(--icoll-color);
+[class = "descriptive_collation"] {
+    --color: var(--coll_d-color);
 }
 
-[class = "circumstance"] {
-    --color: var(--circ-color);
+[class = "association"] {
+    --color: var(--assoc-color);
 }
 
-[class = "extrinsic_collation"] {
-    --color: var(--ecoll-color);
+[class = "associative_collation"] {
+    --color: var(--coll_a-color);
 }
 
 [class = "entity"] {
     --color: var(--ent-color);
 }
 
-[class = "predication_modal"] {
-    --color: var(--pred_mod-color);
-}
-
-[class = "predication"] {
-    --color: var(--pred-color);
-}
-
-[class = "scenario"] {
-    --color: var(--scen-color);
+[class = "abstraction"] {
+    --color: var(--abstr-color);
 }
 
 
@@ -89,7 +89,7 @@ module {
     position: relative;
     display: flex;
     flex-direction: row;
-    /* align-items: flex-start; */
+    align-items: flex-start;
 }
 
 module:not(:first-child) {
@@ -100,33 +100,34 @@ wording > module {
     margin: 0px 10px;
 }
 
-/* To eliminate borders for lexical classes, so users can focus on syntactic wordings. */
-module[pos] {
-    border: none !important;
-    margin: 0px !important;
-}
-
 module[subclass = "activation"] {
     padding-top: 12px;
-    border-top: 3px dashed var(--color);
+    border-top: 2px dashed var(--color);
 }
 
 module[subclass = "re-construal"],
 module[subclass = "set"] {
     padding-top: 12px;
-    border-top: 3px dotted var(--color);
+    border-top: 4px double var(--color);
 }
 
 module[subclass = "connection"],
 module[subclass = "operation"],
 module[subclass = "option"] {
     padding-top: 12px;
-    border-top: 3px dotted var(--color);
+    border-top: 4px dotted var(--color);
 }
 
 module[subclass = "specification"] {
     padding-top: 12px;
-    border-top: 10px solid var(--color);
+    border-top: 8px solid var(--color);
+}
+
+/* To eliminate borders for lexical classes, so users can focus on syntactic wordings. */
+module[subclass = "lexicalization"] {
+    border: none !important;
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
 /*************
@@ -134,10 +135,10 @@ module[subclass = "specification"] {
  *************/
 
 function {
-    align-self: stretch;
+    /*align-self: stretch;*/
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     margin: 7px 0px 7px 7px;
 }
 
@@ -146,7 +147,7 @@ function:last-child {
 }
 
 function::before {
-    margin-bottom: auto;
+    /*margin-bottom: auto;*/
     height: 20px;
     display: flex;
     flex-grow: 0;
@@ -162,7 +163,7 @@ function::before {
 
 /* This keeps the text vertically centered and hence in line. */
 function::after {
-    margin-top: auto;
+    /*margin-top: auto;*/
     height: 20px;
     display: flex;
     padding: 2px 5px;
@@ -195,7 +196,7 @@ module[values]:active::before {
     content: attr(values);
     text-align: center;
     text-wrap: nowrap;
-    font-size:smaller;
+    font-size: smaller;
     color: black;
 }
 
@@ -208,7 +209,7 @@ module[next] {
     flex-grow: 1;
 }
 
-function[next]::before {     
+function[next]::before {
     content: attr(label) ' …';
 }
 
@@ -216,11 +217,11 @@ module[prev] {
     flex-grow: 1;
 }
 
-function[prev]::before {      
+function[prev]::before {
     content: '… ' attr(label);
 }
 
-function[prev][next]::before {   
+function[prev][next]::before {
     content: '… ' attr(label) ' …';
 }
 

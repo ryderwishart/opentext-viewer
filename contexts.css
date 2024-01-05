@@ -1,0 +1,68 @@
+/*************************
+ * Main Context Layout *
+ ************************/
+
+:root {
+    --context-color: #D3D3D3;
+}
+
+context {
+    display: flex;
+    padding: 15px;
+}
+
+context {
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+context[class = "situation"] {
+    margin: 15px;
+    border: 12px solid var(--context-color);
+}
+
+context[class = "stage"] {
+    margin-bottom: 15px;
+    border: 8px solid var(--context-color);    
+}
+
+context[class = "stage"][title]::before {
+    align-self: flex-start;
+    width: 200px;
+    content: attr(title);
+    margin: 10px;
+    padding: 10px;
+    border: 4px solid var(--context-color);
+    background: white;
+    color: var(--context-color);
+}
+
+context[class = "move"] {
+    margin-bottom: 15px;
+    border: 4px solid var(--context-color);    
+}
+
+context[class = "move"]::before {
+    align-self: flex-start;
+    width: 200px;
+    content: attr(id);
+    margin: 10px;
+    padding: 10px;
+    border: 4px solid var(--context-color);
+    background: white;
+    color: var(--context-color);
+}
+
+context[class = "action"] {
+    flex-direction: row;
+}
+
+context[class = "action"][id]::before { 
+    width: 200px;
+    margin-right: 15px;
+    content: attr(id);
+    padding: 7px;
+    background: white;
+    color: var(--context-color);
+    text-align: center;
+}

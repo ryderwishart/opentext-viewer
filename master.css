@@ -5,13 +5,9 @@
     font-style: normal;
 }
 
-:root {
-    --context-color: #D3D3D3;
-}
-
-/*************************
- * Main (Con)text Layout *
- ************************/
+/***************
+ * Main Layout *
+ ***************/
 
 OpenText {
     background-color: #ffffff;
@@ -27,81 +23,24 @@ text {
     display: flex;
 }
 
-context {
-    display: flex;
-    padding: 15px;
-}
 
-context[class = "situation"],
-context [class = "stage"],
-context [class = "action"] {
-    flex-direction: column;
-    align-items: flex-start !important;
-}
-
-context[class = "situation"] {
-    margin: 15px;
-    border: 12px solid var(--context-color);
-}
-
-context[class = "stage"] {
-    margin-bottom: 15px;
-    border: 8px solid var(--context-color);    
-}
-
-context[class = "stage"][title]::before {
-    align-self: flex-start;
-    width: 200px;
-    content: attr(title);
-    margin: 10px;
-    padding: 10px;
-    border: 4px solid var(--context-color);
-    background: white;
-    color: var(--context-color);
-    text-align: center;
-}
-/*
-context[class = "action"] {   
-    margin: 25px 0px !important;
-    border: 4px solid var(--context-color);
-}*/
-
-context[class = "action"][id]::before { 
-    width: 200px;
-    margin-right: 15px;
-    content: attr(id);
-    padding: 10px;/*
-    border: 2px solid var(--context-color);*/
-    background: white;
-    color: var(--context-color);
-    text-align: center;
-}
-
-/****************************
- * Layout for Misc Elements *
- ****************************/
+/***********************
+ * Layout for Analysis *
+ ***********************/
 
 v,
 v2,
-ellipsis,
 error {
     display: flex;
     flex-direction: row;
-    align-items: center;
-}
-
-ellipsis {
-    border: 2px dotted black;
-    border-radius: 35px;
-    min-height: 20px;
-    min-width: 40px;
 }
 
 error {
     position: relative;
     padding: 10px;
     border: 4px solid red;
-    border-radius: 35px;
+    border-radius: 35px;    
+    align-items: center;
 }
 
 /**********
@@ -128,18 +67,35 @@ token::after {
     content: attr(after);
 }
 
-token[gloss_berean] {
+token[gloss_berean]:hover {
+    visibility: hidden;
+    position: relative;
+}
+
+token[gloss_berean]:hover::before {
     display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 25px;
-    justify-content: center;
-}
-
-token[gloss_berean]::before {
-    content: none;
-}
-
-token[gloss_berean]::after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
     content: attr(gloss_berean);
+}
+
+token[gloss_berean]:hover::after {
+    display: none;
+}
+
+
+/************
+ * Ellipsis *
+ ************/
+
+ellipsis {
+    display: flex;
+    flex-direction: row;
+    border: 2px dotted black;
+    border-radius: 35px;
+    min-height: 20px;
+    min-width: 40px;    
+    align-items: center;
 }

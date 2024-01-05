@@ -18,9 +18,8 @@ error:last-child {
 }
 
 wording[class = "cluster"] {
-    position: relative;
-    /* So that function labels appear at the top of a word cluster */
-    flex-direction: column;
+    position: relative;    
+    flex-direction: row;
     border: 2px solid #cccccc;
     border-radius: 20px;   
 }
@@ -80,7 +79,7 @@ wording[subclass]:hover {
     padding: 15px 0px;
 }
 
-wording[subclass]:hover::before {
+wording[subclass]:hover:not(:active)::before {
     position: absolute;
     /* horizontally center */
     transform: translateY(100%);
