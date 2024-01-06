@@ -48,11 +48,11 @@
        <wording class="word" status="core">
         <token n="6822" gloss_berean="He saw" id="SBL.John.9.1.3">εἶδεν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated">
+       <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated">
         <wording class="word" status="core">
          <token n="6823" gloss_berean="a man" id="SBL.John.9.1.4">ἄνθρωπον</token>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Elaboration" values="differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$τυφλός&#xA;specific_range&#xA;circumscribed_collation">
+        <wording class="cluster" status="satellite" subclass="Attr" values="differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$τυφλός&#xA;specific_range&#xA;circumscribed_collation">
          <wording class="word" status="core">
           <token n="6824" gloss_berean="blind" id="SBL.John.9.1.5">τυφλὸν</token>
          </wording>
@@ -78,12 +78,12 @@
        <wording class="word" status="core">
         <token n="6828" gloss_berean="asked" id="SBL.John.9.2.2">ἠρώτησαν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration">
+       <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration">
         <wording class="word" status="core">
          <token n="6829" gloss_berean="Him" id="SBL.John.9.2.3">αὐτὸν</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$μαθητής&#xA;circumscribed_definition">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$μαθητής&#xA;circumscribed_definition">
         <wording class="word" status="translative">
          <token n="6830" gloss_berean="the" id="SBL.John.9.2.4">οἱ</token>
         </wording>
@@ -100,18 +100,18 @@
         <wording class="word" status="core">
          <token n="6833" gloss_berean="saying" id="SBL.John.9.2.7" after="·">λέγοντες</token>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+        <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
          <context class="situation" id="situation.SBL.John.9.2.8-18" subclass="2">
           <context class="stage" id="stage.SBL.John.9.2.8-18">
            <context class="move" id="move.SBL.John.9.2.8-18">
             <context class="action" id="action.SBL.John.9.2.8-18">
              <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$ἁμαρτάνω&#xA;construed_instantiator&#xA;circumscribed_predication&#xA;declarative&#xA;supplemented">
-              <wording class="cluster" status="satellite" subclass="Supplement" values="addressing&#xA;recognizability&#xA;category&#xA;$ῥαββί&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Extra" values="addressing&#xA;recognizability&#xA;category&#xA;$ῥαββί&#xA;preparatory">
                <wording class="word" status="core">
                 <token n="6834" gloss_berean="Rabbi" id="SBL.John.9.2.8" after=",">Ῥαββί</token>
                </wording>
               </wording>
-              <wording xml:id="d3e69" next="d3e69_2" class="cluster" status="satellite" subclass="Instantiator" values="re-construed&#xA;preparatory">
+              <wording xml:id="d3e69" next="d3e69_2" class="cluster" status="satellite" subclass="Subj" values="re-construed&#xA;preparatory">
                <wording class="path" subclass="=1" values="instance&#xA;definition&#xA;differentiation&#xA;individuation">
                 <wording class="word" status="core">
                  <token n="6835" gloss_berean="who" id="SBL.John.9.2.9" pin="interrogative">τίς</token>
@@ -121,7 +121,7 @@
               <wording class="word" status="core">
                <token n="6836" gloss_berean="sinned" id="SBL.John.9.2.10" after=",">ἥμαρτεν</token>
               </wording>
-              <wording prev="d3e69" xml:id="d3e69_2" class="cluster" status="satellite" subclass="Instantiator" values="re-construed&#xA;preparatory">
+              <wording prev="d3e69" xml:id="d3e69_2" class="cluster" status="satellite" subclass="Subj" values="re-construed&#xA;preparatory">
                <wording class="path" subclass="=2" values="grouped">
                 <wording class="path" subclass="∨1" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant">
                  <wording class="word" status="core">
@@ -175,12 +175,12 @@
        <wording class="word" status="core">
         <token n="6845" gloss_berean="Answered" id="SBL.John.9.3.1">ἀπεκρίθη</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Ἰησοῦς">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Ἰησοῦς">
         <wording class="word" status="core">
          <token n="6846" gloss_berean="Jesus" id="SBL.John.9.3.2" after="·">Ἰησοῦς</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.3.3-5.9" subclass="2">
          <context class="stage" id="stage.SBL.John.9.3.3-5.9">
           <context class="move" id="move.SBL.John.9.3.3-18">
@@ -190,7 +190,7 @@
               <wording class="word" status="junctive">
                <token n="6847" gloss_berean="Neither" id="SBL.John.9.3.3">Οὔτε</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
                <wording class="word" status="core">
                 <token n="6848" gloss_berean="this [man]" id="SBL.John.9.3.4">οὗτος</token>
                </wording>
@@ -203,7 +203,7 @@
               <wording class="word" status="junctive">
                <token n="6850" gloss_berean="nor" id="SBL.John.9.3.6">οὔτε</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$γονεύς&#xA;circumscribed_definition">
+              <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$γονεύς&#xA;circumscribed_definition">
                <wording class="word" status="translative">
                 <token n="6851" gloss_berean="the" id="SBL.John.9.3.7">οἱ</token>
                </wording>
@@ -231,7 +231,7 @@
              <wording class="word" status="core">
               <token n="6856" gloss_berean="should be displayed" id="SBL.John.9.3.12">φανερωθῇ</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἔργον&#xA;circumscribed_definition">
+             <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἔργον&#xA;circumscribed_definition">
               <wording class="word" status="translative">
                <token n="6857" gloss_berean="the" id="SBL.John.9.3.13">τὰ</token>
               </wording>
@@ -261,8 +261,8 @@
           <context class="move" id="move.SBL.John.9.4">
            <context class="action" id="action.SBL.John.9.4.1-11">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$δέω&#xA;construed_instantiator&#xA;circumscribed_predication&#xA;declarative">
-             <wording xml:id="d3e185" next="d3e185_2" class="cluster" status="satellite" subclass="Instantiator" values="scenario&#xA;affected&#xA;$ἐργάζομαι&#xA;objectifying&#xA;construed_instantiator">
-              <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
+             <wording xml:id="d3e185" next="d3e185_2" class="cluster" status="satellite" subclass="Subj" values="scenario&#xA;affected&#xA;$ἐργάζομαι&#xA;objectifying&#xA;construed_instantiator">
+              <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
                <wording class="word" status="core">
                 <token n="6863" gloss_berean="Us" id="SBL.John.9.4.1">ἡμᾶς</token>
                </wording>
@@ -271,11 +271,11 @@
              <wording class="word" status="core">
               <token n="6864" gloss_berean="it behooves" id="SBL.John.9.4.2">δεῖ</token>
              </wording>
-             <wording prev="d3e185" xml:id="d3e185_2" class="cluster" status="satellite" subclass="Instantiator" values="scenario&#xA;affected&#xA;$ἐργάζομαι&#xA;objectifying&#xA;construed_instantiator">
+             <wording prev="d3e185" xml:id="d3e185_2" class="cluster" status="satellite" subclass="Subj" values="scenario&#xA;affected&#xA;$ἐργάζομαι&#xA;objectifying&#xA;construed_instantiator">
               <wording class="word" status="core">
                <token n="6865" gloss_berean="to work" id="SBL.John.9.4.3">ἐργάζεσθαι</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἔργον&#xA;circumscribed_definition">
+              <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἔργον&#xA;circumscribed_definition">
                <wording class="word" status="translative">
                 <token n="6866" gloss_berean="the" id="SBL.John.9.4.4">τὰ</token>
                </wording>
@@ -289,7 +289,7 @@
                 <wording class="word" status="core">
                  <token n="6869" gloss_berean="having sent" id="SBL.John.9.4.7">πέμψαντός</token>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
+                <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
                  <wording class="word" status="core">
                   <token n="6870" gloss_berean="Me" id="SBL.John.9.4.8">με</token>
                  </wording>
@@ -301,7 +301,7 @@
               <wording class="word" status="translative">
                <token n="6871" gloss_berean="while" id="SBL.John.9.4.9">ἕως</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἡμέρα&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἡμέρα&#xA;preparatory">
                <wording class="word" status="core">
                 <token n="6872" gloss_berean="day" id="SBL.John.9.4.10">ἡμέρα</token>
                </wording>
@@ -317,7 +317,7 @@
              <wording class="word" status="core">
               <token n="6874" gloss_berean="is coming" id="SBL.John.9.4.12">ἔρχεται</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$νύξ">
+             <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$νύξ">
               <wording class="word" status="core">
                <token n="6875" gloss_berean="night" id="SBL.John.9.4.13">νὺξ</token>
               </wording>
@@ -326,7 +326,7 @@
               <wording class="word" status="translative">
                <token n="6876" gloss_berean="when" id="SBL.John.9.4.14" pin="relative">ὅτε</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$οὐδείς&#xA;specific_range&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$οὐδείς&#xA;specific_range&#xA;preparatory">
                <wording class="word" status="core">
                 <token n="6877" gloss_berean="no one" id="SBL.John.9.4.15">οὐδεὶς</token>
                </wording>
@@ -334,7 +334,7 @@
               <wording class="word" status="core">
                <token n="6878" gloss_berean="is able" id="SBL.John.9.4.16">δύναται</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Obj_Part" values="scenario&#xA;affected&#xA;$ἐργάζομαι">
+              <wording class="cluster" status="satellite" subclass="Obj" values="scenario&#xA;affected&#xA;$ἐργάζομαι">
                <wording class="word" status="core">
                 <token n="6879" gloss_berean="to work" id="SBL.John.9.4.17" after=".">ἐργάζεσθαι</token>
                </wording>
@@ -350,7 +350,7 @@
               <wording class="word" status="translative">
                <token n="6880" gloss_berean="While" id="SBL.John.9.5.1" pin="relative">ὅταν</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Comp_Prop" values="association&#xA;associated_entity&#xA;positional_association&#xA;$ἐν&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$κόσμος&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Comp" values="association&#xA;associated_entity&#xA;positional_association&#xA;$ἐν&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$κόσμος&#xA;preparatory">
                <wording class="word" status="translative">
                 <token n="6881" gloss_berean="in" id="SBL.John.9.5.2">ἐν</token>
                </wording>
@@ -365,7 +365,7 @@
                <token n="6884" gloss_berean="I shall be" id="SBL.John.9.5.5" after=",">ὦ</token>
               </wording>
              </wording>
-             <wording xml:id="d3e269" next="d3e269_2" class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;category&#xA;$φῶς&#xA;circumscribed_definition">
+             <wording xml:id="d3e269" next="d3e269_2" class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;category&#xA;$φῶς&#xA;circumscribed_definition">
               <wording class="word" status="core">
                <token n="6885" gloss_berean="[the] light" id="SBL.John.9.5.6">φῶς</token>
               </wording>
@@ -373,7 +373,7 @@
              <wording class="word" status="core">
               <token n="6886" gloss_berean="I am" id="SBL.John.9.5.7">εἰμι</token>
              </wording>
-             <wording prev="d3e269" xml:id="d3e269_2" class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;category&#xA;$φῶς&#xA;circumscribed_definition">
+             <wording prev="d3e269" xml:id="d3e269_2" class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;category&#xA;$φῶς&#xA;circumscribed_definition">
               <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;oblique_association&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$κόσμος">
                <wording class="word" status="translative">
                 <token n="6887" gloss_berean="of the" id="SBL.John.9.5.8">τοῦ</token>
@@ -396,7 +396,7 @@
      <context class="action" id="action.SBL.John.9.6.1-7.13">
       <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;grouped&#xA;conjunctive&#xA;circumscribed_predication">
        <wording class="cluster" status="satellite" subclass="Circ_Pred" values="associated_abstraction&#xA;definition&#xA;differentiation&#xA;participation&#xA;$λέγω&#xA;objectifying&#xA;preparatory">
-        <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
+        <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
          <wording class="word" status="core">
           <token n="6889" gloss_berean="These things" id="SBL.John.9.6.1">ταῦτα</token>
          </wording>
@@ -422,7 +422,7 @@
         <wording class="word" status="core">
          <token n="6894" gloss_berean="made" id="SBL.John.9.6.6">ἐποίησεν</token>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$πηλός">
+        <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$πηλός">
          <wording class="word" status="core">
           <token n="6895" gloss_berean="clay" id="SBL.John.9.6.7">πηλὸν</token>
          </wording>
@@ -446,7 +446,7 @@
         <wording class="word" status="core">
          <token n="6900" gloss_berean="" id="SBL.John.9.6.12">ἐπέχρισεν</token>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$πηλός&#xA;circumscribed_definition">
+        <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$πηλός&#xA;circumscribed_definition">
          <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;oblique_association&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;preparatory">
           <wording class="word" status="core">
            <token n="6901" gloss_berean="to him" id="SBL.John.9.6.13">αὐτοῦ</token>
@@ -478,12 +478,12 @@
         <wording class="word" status="core">
          <token n="6908" gloss_berean="He said" id="SBL.John.9.7.2">εἶπεν</token>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
+        <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
          <wording class="word" status="core">
           <token n="6909" gloss_berean="to him" id="SBL.John.9.7.3" after="·">αὐτῷ</token>
          </wording>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+        <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
          <context class="situation" id="situation.SBL.John.9.7.4-10" subclass="2">
           <context class="stage" id="stage.SBL.John.9.7.4-10">
            <context class="move" id="move.SBL.John.9.7.4-10">
@@ -525,7 +525,7 @@
          </context>
         </wording>
         <wording class="cluster" status="satellite" subclass="Circ_Pred" values="associated_abstraction&#xA;definition&#xA;differentiation&#xA;relative_differentiation&#xA;modal_predicate&#xA;subjective_participation_tbd&#xA;$ἑρμηνεύω&#xA;objectifying&#xA;complementary_abstraction&#xA;construed_instantiator">
-         <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;preparatory">
+         <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;preparatory">
           <wording class="word" status="core">
            <token n="6917" gloss_berean="which" id="SBL.John.9.7.11" pin="relative" before="(">ὃ</token>
           </wording>
@@ -533,7 +533,7 @@
          <wording class="word" status="core">
           <token n="6918" gloss_berean="means" id="SBL.John.9.7.12">ἑρμηνεύεται</token>
          </wording>
-         <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;participation&#xA;subjective_participation_tbd&#xA;$ἀποστέλλω&#xA;objectifying">
+         <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;participation&#xA;subjective_participation_tbd&#xA;$ἀποστέλλω&#xA;objectifying">
           <wording class="word" status="core">
            <token n="6919" gloss_berean="Sent" id="SBL.John.9.7.13" after=").">Ἀπεσταλμένος</token>
           </wording>
@@ -583,7 +583,7 @@
     <context class="move" id="move.SBL.John.9.8">
      <context class="action" id="action.SBL.John.9.8">
       <wording class="cluster" status="independent" values="connection_marker&#xA;advancing&#xA;linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$λέγω&#xA;objectifying&#xA;construed_instantiator&#xA;declarative">
-       <wording xml:id="d5e440" next="d5e440_2" class="cluster" status="satellite" subclass="Instantiator" values="grouped&#xA;conjunctive&#xA;preparatory">
+       <wording xml:id="d5e440" next="d5e440_2" class="cluster" status="satellite" subclass="Subj" values="grouped&#xA;conjunctive&#xA;preparatory">
         <wording xml:id="d3e438" next="d3e438_2" class="path" subclass="±1" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$γείτων">
          <wording class="word" status="translative">
           <token n="6927" gloss_berean="The" id="SBL.John.9.8.1">οἱ</token>
@@ -593,7 +593,7 @@
        <wording class="word" status="junctive">
         <token n="6928" gloss_berean="therefore" id="SBL.John.9.8.2">οὖν</token>
        </wording>
-       <wording prev="d5e440" xml:id="d5e440_2" class="cluster" status="satellite" subclass="Instantiator" values="grouped&#xA;conjunctive&#xA;preparatory">
+       <wording prev="d5e440" xml:id="d5e440_2" class="cluster" status="satellite" subclass="Subj" values="grouped&#xA;conjunctive&#xA;preparatory">
         <wording prev="d3e438" xml:id="d3e438_2" class="path" subclass="±1" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$γείτων">
          <wording class="word" status="core">
           <token n="6929" gloss_berean="neighbors" id="SBL.John.9.8.3">γείτονες</token>
@@ -609,7 +609,7 @@
          <wording class="word" status="core">
           <token n="6932" gloss_berean="having seen" id="SBL.John.9.8.6">θεωροῦντες</token>
          </wording>
-         <wording xml:id="d3e455" next="d3e455_2" class="cluster" status="satellite" subclass="Obj_Part" values="re-construed">
+         <wording xml:id="d3e455" next="d3e455_2" class="cluster" status="satellite" subclass="Obj" values="re-construed">
           <wording class="path" subclass="=1" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration">
            <wording class="word" status="core">
             <token n="6933" gloss_berean="him" id="SBL.John.9.8.7">αὐτὸν</token>
@@ -624,12 +624,12 @@
            <token n="6935" gloss_berean="before" id="SBL.John.9.8.9">πρότερον</token>
           </wording>
          </wording>
-         <wording prev="d3e455" xml:id="d3e455_2" class="cluster" status="satellite" subclass="Obj_Part" values="re-construed">
+         <wording prev="d3e455" xml:id="d3e455_2" class="cluster" status="satellite" subclass="Obj" values="re-construed">
           <wording class="path" subclass="=2" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction">
            <wording class="word" status="translative">
             <token n="6936" gloss_berean="that" id="SBL.John.9.8.10">ὅτι</token>
            </wording>
-           <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;category&#xA;$προσαίτης">
+           <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;category&#xA;$προσαίτης">
             <wording class="word" status="core">
              <token n="6937" gloss_berean="a beggar" id="SBL.John.9.8.11">προσαίτης</token>
             </wording>
@@ -644,7 +644,7 @@
        <wording class="word" status="core">
         <token n="6939" gloss_berean="were saying" id="SBL.John.9.8.13" after="·">ἔλεγον</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.8.14-20" subclass="2">
          <context class="stage" id="stage.SBL.John.9.8.14-20">
           <context class="move" id="move.SBL.John.9.8.14-20">
@@ -653,7 +653,7 @@
              <wording class="word" status="satellite">
               <token n="6940" gloss_berean="Not" id="SBL.John.9.8.14">Οὐχ</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
               <wording class="word" status="core">
                <token n="6941" gloss_berean="this" id="SBL.John.9.8.15">οὗτός</token>
               </wording>
@@ -661,7 +661,7 @@
              <wording class="word" status="core">
               <token n="6942" gloss_berean="is" id="SBL.John.9.8.16">ἐστιν</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;grouped&#xA;conjunctive">
+             <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;grouped&#xA;conjunctive">
               <wording class="word" status="translative">
                <token n="6943" gloss_berean="he who" id="SBL.John.9.8.17">ὁ</token>
               </wording>
@@ -691,7 +691,7 @@
     <context class="move" id="move.SBL.John.9.9.1-12">
      <context class="action" id="action.SBL.John.9.9.1-5">
       <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$λέγω&#xA;objectifying&#xA;construed_instantiator&#xA;declarative">
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;juxtaposition&#xA;difference&#xA;preparatory">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;juxtaposition&#xA;difference&#xA;preparatory">
         <wording class="word" status="core">
          <token n="6947" gloss_berean="Some" id="SBL.John.9.9.1">ἄλλοι</token>
         </wording>
@@ -699,7 +699,7 @@
        <wording class="word" status="core">
         <token n="6948" gloss_berean="were saying" id="SBL.John.9.9.2">ἔλεγον</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation&#xA;quotation_marker&#xA;$ὅτι">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation&#xA;quotation_marker&#xA;$ὅτι">
         <wording class="word" status="translative">
          <token n="6949" gloss_berean="-" id="SBL.John.9.9.3">ὅτι</token>
         </wording>
@@ -708,7 +708,7 @@
           <context class="move" id="move.SBL.John.9.9.4-5">
            <context class="action" id="action.SBL.John.9.9.4-5">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;declarative">
-             <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
               <wording class="word" status="core">
                <token n="6950" gloss_berean="He" id="SBL.John.9.9.4">Οὗτός</token>
               </wording>
@@ -726,7 +726,7 @@
      </context>
      <context class="action" id="action.SBL.John.9.9.6-12">
       <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$λέγω&#xA;objectifying&#xA;construed_instantiator&#xA;declarative">
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;juxtaposition&#xA;difference&#xA;preparatory">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;juxtaposition&#xA;difference&#xA;preparatory">
         <wording class="word" status="core">
          <token n="6952" gloss_berean="but others" id="SBL.John.9.9.6">ἄλλοι</token>
         </wording>
@@ -734,7 +734,7 @@
        <wording class="word" status="core">
         <token n="6953" gloss_berean="were saying" id="SBL.John.9.9.7" after="·">ἔλεγον</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.9.8-12" subclass="2">
          <context class="stage" id="stage.SBL.John.9.9.8-12">
           <context class="move" id="move.SBL.John.9.9.8-12">
@@ -752,7 +752,7 @@
               <wording class="word" status="junctive">
                <token n="6955" gloss_berean="but" id="SBL.John.9.9.9">ἀλλὰ</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$ὅμοιος&#xA;specific_range&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$ὅμοιος&#xA;specific_range&#xA;preparatory">
                <wording class="word" status="core">
                 <token n="6956" gloss_berean="like" id="SBL.John.9.9.10">ὅμοιος</token>
                </wording>
@@ -778,7 +778,7 @@
     <context class="move" id="move.SBL.John.9.9.13-17">
      <context class="action" id="action.SBL.John.9.9.13-17">
       <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$λέγω&#xA;objectifying&#xA;construed_instantiator&#xA;declarative">
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;far&#xA;preparatory">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;far&#xA;preparatory">
         <wording class="word" status="core">
          <token n="6959" gloss_berean="He" id="SBL.John.9.9.13">ἐκεῖνος</token>
         </wording>
@@ -786,7 +786,7 @@
        <wording class="word" status="core">
         <token n="6960" gloss_berean="kept saying" id="SBL.John.9.9.14">ἔλεγεν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation&#xA;quotation_marker&#xA;$ὅτι">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation&#xA;quotation_marker&#xA;$ὅτι">
         <wording class="word" status="translative">
          <token n="6961" gloss_berean="-" id="SBL.John.9.9.15">ὅτι</token>
         </wording>
@@ -795,7 +795,7 @@
           <context class="move" id="move.SBL.John.9.9.16-17">
            <context class="action" id="action.SBL.John.9.9.16-17">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$εἰμί&#xA;construed_instantiator&#xA;declarative">
-             <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
               <wording class="word" status="core">
                <token n="6962" gloss_berean="I" id="SBL.John.9.9.16">Ἐγώ</token>
               </wording>
@@ -821,12 +821,12 @@
        <wording class="word" status="junctive">
         <token n="6965" gloss_berean="therefore" id="SBL.John.9.10.2">οὖν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
+       <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
         <wording class="word" status="core">
          <token n="6966" gloss_berean="to him" id="SBL.John.9.10.3" after="·">αὐτῷ</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.10.4-8" subclass="2">
          <context class="stage" id="stage.SBL.John.9.10.4-8">
           <context class="move" id="move.SBL.John.9.10.4-8">
@@ -840,7 +840,7 @@
              <wording class="word" status="core">
               <token n="6968" gloss_berean="were opened" id="SBL.John.9.10.5">ἠνεῴχθησάν</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
+             <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
               <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;oblique_association&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
                <wording class="word" status="core">
                 <token n="6969" gloss_berean="of you" id="SBL.John.9.10.6">σου</token>
@@ -868,32 +868,32 @@
        <wording class="word" status="core">
         <token n="6972" gloss_berean="Answered" id="SBL.John.9.11.1">ἀπεκρίθη</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;far">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;far">
         <wording class="word" status="core">
          <token n="6973" gloss_berean="He" id="SBL.John.9.11.2" after="·">ἐκεῖνος</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.11.3-29" subclass="2">
          <context class="stage" id="stage.SBL.John.9.11.3-29">
           <context class="move" id="move.SBL.John.9.11.3-29">
            <context class="action" id="action.SBL.John.9.11.3-24">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;grouped&#xA;conjunctive&#xA;construed_instantiator&#xA;declarative">
-             <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated&#xA;preparatory">
               <wording class="word" status="translative">
                <token n="6974" gloss_berean="The" id="SBL.John.9.11.3">Ὁ</token>
               </wording>
               <wording class="word" status="core">
                <token n="6975" gloss_berean="man" id="SBL.John.9.11.4">ἄνθρωπος</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Elaboration" values="differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;participation&#xA;subjective_participation_tbd&#xA;$λέγω&#xA;objectifying&#xA;complementary_abstraction">
+              <wording class="cluster" status="satellite" subclass="Attr" values="differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;participation&#xA;subjective_participation_tbd&#xA;$λέγω&#xA;objectifying&#xA;complementary_abstraction">
                <wording class="word" status="translative">
                 <token n="6976" gloss_berean="-" id="SBL.John.9.11.5">ὁ</token>
                </wording>
                <wording class="word" status="core">
                 <token n="6977" gloss_berean="called" id="SBL.John.9.11.6">λεγόμενος</token>
                </wording>
-               <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Ἰησοῦς">
+               <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Ἰησοῦς">
                 <wording class="word" status="core">
                  <token n="6978" gloss_berean="Jesus" id="SBL.John.9.11.7">Ἰησοῦς</token>
                 </wording>
@@ -901,7 +901,7 @@
               </wording>
              </wording>
              <wording class="path" subclass="±1" values="$ποιέω&#xA;objectifying">
-              <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$πηλός&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$πηλός&#xA;preparatory">
                <wording class="word" status="core">
                 <token n="6979" gloss_berean="clay" id="SBL.John.9.11.8">πηλὸν</token>
                </wording>
@@ -917,7 +917,7 @@
               <wording class="word" status="core">
                <token n="6982" gloss_berean="anointed" id="SBL.John.9.11.11">ἐπέχρισέν</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
+              <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
                <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;oblique_association&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
                 <wording class="word" status="core">
                  <token n="6983" gloss_berean="of me" id="SBL.John.9.11.12">μου</token>
@@ -938,12 +938,12 @@
               <wording class="word" status="core">
                <token n="6987" gloss_berean="He said" id="SBL.John.9.11.16">εἶπέν</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;part-whole">
+              <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;part-whole">
                <wording class="word" status="core">
                 <token n="6988" gloss_berean="to me" id="SBL.John.9.11.17">μοι</token>
                </wording>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation&#xA;quotation_marker&#xA;$ὅτι">
+              <wording class="cluster" status="satellite" subclass="Obj" values="quotation&#xA;quotation_marker&#xA;$ὅτι">
                <wording class="word" status="translative">
                 <token n="6989" gloss_berean="-" id="SBL.John.9.11.18">ὅτι</token>
                </wording>
@@ -1028,18 +1028,18 @@
        <wording class="word" status="core">
         <token n="7002" gloss_berean="they said" id="SBL.John.9.12.2">εἶπαν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
+       <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
         <wording class="word" status="core">
          <token n="7003" gloss_berean="to him" id="SBL.John.9.12.3" after="·">αὐτῷ</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.12.4-6" subclass="2">
          <context class="stage" id="stage.SBL.John.9.12.4-6">
           <context class="move" id="move.SBL.John.9.12.4-6">
            <context class="action" id="action.SBL.John.9.12.4-6">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;construed_instantiator&#xA;interrogative&#xA;differentiation_request">
-             <wording class="cluster" status="satellite" subclass="Comp_Prop" values="association&#xA;associative_collation&#xA;associative_domain_tbd&#xA;$ποῦ&#xA;specific_range&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Comp" values="association&#xA;associative_collation&#xA;associative_domain_tbd&#xA;$ποῦ&#xA;specific_range&#xA;preparatory">
               <wording class="word" status="core">
                <token n="7004" gloss_berean="Where" id="SBL.John.9.12.4" pin="interrogative">Ποῦ</token>
               </wording>
@@ -1047,7 +1047,7 @@
              <wording class="word" status="core">
               <token n="7005" gloss_berean="is" id="SBL.John.9.12.5">ἐστιν</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;far">
+             <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;far">
               <wording class="word" status="core">
                <token n="7006" gloss_berean="He" id="SBL.John.9.12.6" after=";">ἐκεῖνος</token>
               </wording>
@@ -1067,7 +1067,7 @@
        <wording class="word" status="core">
         <token n="7007" gloss_berean="He says" id="SBL.John.9.12.7" after="·">λέγει</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.12.8-9" subclass="2">
          <context class="stage" id="stage.SBL.John.9.12.8-9">
           <context class="move" id="move.SBL.John.9.12.8-9">
@@ -1096,7 +1096,7 @@
        <wording class="word" status="core">
         <token n="7010" gloss_berean="They bring" id="SBL.John.9.13.1">Ἄγουσιν</token>
        </wording>
-       <wording xml:id="d3e817" next="d3e817_2" class="cluster" status="satellite" subclass="Obj_Part" values="re-construed">
+       <wording xml:id="d3e817" next="d3e817_2" class="cluster" status="satellite" subclass="Obj" values="re-construed">
         <wording class="path" subclass="=1" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration">
          <wording class="word" status="core">
           <token n="7011" gloss_berean="him" id="SBL.John.9.13.2">αὐτὸν</token>
@@ -1114,7 +1114,7 @@
          <token n="7014" gloss_berean="Pharisees" id="SBL.John.9.13.5">Φαρισαίους</token>
         </wording>
        </wording>
-       <wording prev="d3e817" xml:id="d3e817_2" class="cluster" status="satellite" subclass="Obj_Part" values="re-construed">
+       <wording prev="d3e817" xml:id="d3e817_2" class="cluster" status="satellite" subclass="Obj" values="re-construed">
         <wording class="path" subclass="=2" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$τυφλός&#xA;specific_range&#xA;circumscribed_definition">
          <wording class="word" status="translative">
           <token n="7015" gloss_berean="who" id="SBL.John.9.13.6">τόν</token>
@@ -1141,12 +1141,12 @@
        <wording class="word" status="junctive">
         <token n="7019" gloss_berean="now" id="SBL.John.9.14.2">δὲ</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;category&#xA;$σάββατον">
+       <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;category&#xA;$σάββατον">
         <wording class="word" status="core">
          <token n="7020" gloss_berean="Sabbath" id="SBL.John.9.14.3">σάββατον</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;relative_differentiation&#xA;modal_predicate&#xA;grouped&#xA;conjunctive&#xA;construed_instantiator&#xA;circumscribed_proposition">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;relative_differentiation&#xA;modal_predicate&#xA;grouped&#xA;conjunctive&#xA;construed_instantiator&#xA;circumscribed_proposition">
         <wording class="cluster" status="satellite" subclass="Circ_Prop" values="associated_entity&#xA;positional_association&#xA;$ἐν&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἡμέρα&#xA;preparatory">
          <wording class="word" status="translative">
           <token n="7021" gloss_berean="in" id="SBL.John.9.14.4">ἐν</token>
@@ -1159,7 +1159,7 @@
          </wording>
         </wording>
         <wording class="path" subclass="±1" values="$ποιέω&#xA;objectifying">
-         <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$πηλός&#xA;preparatory">
+         <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$πηλός&#xA;preparatory">
           <wording class="word" status="translative">
            <token n="7024" gloss_berean="the" id="SBL.John.9.14.7">τὸν</token>
           </wording>
@@ -1171,7 +1171,7 @@
           <token n="7026" gloss_berean="had made" id="SBL.John.9.14.9">ἐποίησεν</token>
          </wording>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Ἰησοῦς">
+        <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Ἰησοῦς">
          <wording class="word" status="translative">
           <token n="7027" gloss_berean="-" id="SBL.John.9.14.10">ὁ</token>
          </wording>
@@ -1186,7 +1186,7 @@
          <wording class="word" status="core">
           <token n="7030" gloss_berean="opened" id="SBL.John.9.14.13">ἀνέῳξεν</token>
          </wording>
-         <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
+         <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
           <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;oblique_association&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;preparatory">
            <wording class="word" status="core">
             <token n="7031" gloss_berean="of him" id="SBL.John.9.14.14">αὐτοῦ</token>
@@ -1218,12 +1218,12 @@
        <wording class="word" status="core">
         <token n="7036" gloss_berean="were asking" id="SBL.John.9.15.3">ἠρώτων</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="reception&#xA;instance&#xA;definition&#xA;differentiation&#xA;reiteration">
+       <wording class="cluster" status="satellite" subclass="Obj2" values="reception&#xA;instance&#xA;definition&#xA;differentiation&#xA;reiteration">
         <wording class="word" status="core">
          <token n="7037" gloss_berean="him" id="SBL.John.9.15.4">αὐτὸν</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="grouped&#xA;conjunctive">
+       <wording class="cluster" status="satellite" subclass="Subj" values="grouped&#xA;conjunctive">
         <wording class="path" subclass="±1" values="addition_marker&#xA;simple_addition&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Φαρισαῖος">
          <wording class="word" status="junctive">
           <token n="7038" gloss_berean="also" id="SBL.John.9.15.5">καὶ</token>
@@ -1236,7 +1236,7 @@
          </wording>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="interrogation&#xA;modal_predicate&#xA;$ἀναβλέπω&#xA;circumscribed_proposition">
+       <wording class="cluster" status="satellite" subclass="Obj" values="interrogation&#xA;modal_predicate&#xA;$ἀναβλέπω&#xA;circumscribed_proposition">
         <wording class="cluster" status="satellite" subclass="Circ_Prop" values="mannerism&#xA;individuation&#xA;preparatory">
          <wording class="word" status="core">
           <token n="7041" gloss_berean="how" id="SBL.John.9.15.8" pin="interrogative">πῶς</token>
@@ -1252,7 +1252,7 @@
     <context class="move" id="move.SBL.John.9.15.10-23">
      <context class="action" id="action.SBL.John.9.15.10-23">
       <wording class="cluster" status="independent" values="connection_marker&#xA;extending&#xA;progressive&#xA;linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$λέγω&#xA;objectifying&#xA;extra_participant&#xA;construed_instantiator&#xA;declarative">
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
         <wording class="word" status="core">
          <token n="7043" gloss_berean="-" id="SBL.John.9.15.10">ὁ</token>
         </wording>
@@ -1263,18 +1263,18 @@
        <wording class="word" status="core">
         <token n="7045" gloss_berean="he said" id="SBL.John.9.15.12">εἶπεν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
+       <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
         <wording class="word" status="core">
          <token n="7046" gloss_berean="to them" id="SBL.John.9.15.13" after="·">αὐτοῖς</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.15.14-23" subclass="2">
          <context class="stage" id="stage.SBL.John.9.15.14-23">
           <context class="move" id="move.SBL.John.9.15.14-23">
            <context class="action" id="action.SBL.John.9.15.14-19">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$ἐπιτίθημι&#xA;objectifying&#xA;circumscribed_event&#xA;declarative">
-             <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$πηλός&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$πηλός&#xA;preparatory">
               <wording class="word" status="core">
                <token n="7047" gloss_berean="Clay" id="SBL.John.9.15.14">Πηλὸν</token>
               </wording>
@@ -1336,7 +1336,7 @@
        <wording class="word" status="junctive">
         <token n="7058" gloss_berean="therefore" id="SBL.John.9.16.2">οὖν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;individuation&#xA;circumscribed_definition">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;individuation&#xA;circumscribed_definition">
         <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;positional_association&#xA;$ἐκ&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Φαρισαῖος">
          <wording class="word" status="translative">
           <token n="7059" gloss_berean="of" id="SBL.John.9.16.3">ἐκ</token>
@@ -1352,7 +1352,7 @@
          <token n="7062" gloss_berean="some" id="SBL.John.9.16.6" after="·">τινές</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.16.7-18" subclass="2">
          <context class="stage" id="stage.SBL.John.9.16.7-18">
           <context class="move" id="move.SBL.John.9.16.7-18">
@@ -1365,14 +1365,14 @@
               <wording class="word" status="core">
                <token n="7064" gloss_berean="is" id="SBL.John.9.16.8">ἔστιν</token>
               </wording>
-              <wording xml:id="d3e1035" next="d3e1035_2" class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated">
-               <wording class="cluster" status="satellite" subclass="Elaboration" values="differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
+              <wording xml:id="d3e1035" next="d3e1035_2" class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated">
+               <wording class="cluster" status="satellite" subclass="Attr" values="differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
                 <wording class="word" status="core">
                  <token n="7065" gloss_berean="this" id="SBL.John.9.16.9">οὗτος</token>
                 </wording>
                </wording>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Comp_Prop" values="association&#xA;associated_entity&#xA;positional_association&#xA;$παρά&#xA;accusative_association&#xA;instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$θεός">
+              <wording class="cluster" status="satellite" subclass="Comp" values="association&#xA;associated_entity&#xA;positional_association&#xA;$παρά&#xA;accusative_association&#xA;instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$θεός">
                <wording class="word" status="translative">
                 <token n="7066" gloss_berean="from" id="SBL.John.9.16.10">παρὰ</token>
                </wording>
@@ -1380,7 +1380,7 @@
                 <token n="7067" gloss_berean="God" id="SBL.John.9.16.11">θεοῦ</token>
                </wording>
               </wording>
-              <wording prev="d3e1035" xml:id="d3e1035_2" class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated">
+              <wording prev="d3e1035" xml:id="d3e1035_2" class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated">
                <wording class="word" status="translative">
                 <token n="7068" gloss_berean="the" id="SBL.John.9.16.12">ὁ</token>
                </wording>
@@ -1394,7 +1394,7 @@
                <token n="7070" gloss_berean="for" id="SBL.John.9.16.14">ὅτι</token>
               </wording>
               <wording class="path" subclass="±1" values="negative&#xA;negated_factuality&#xA;$τηρέω&#xA;objectifying">
-               <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$σάββατον&#xA;preparatory">
+               <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$σάββατον&#xA;preparatory">
                 <wording class="word" status="translative">
                  <token n="7071" gloss_berean="the" id="SBL.John.9.16.15">τὸ</token>
                 </wording>
@@ -1422,7 +1422,7 @@
     <context class="move" id="move.SBL.John.9.16.19-27">
      <context class="action" id="action.SBL.John.9.16.19-27">
       <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$λέγω&#xA;objectifying&#xA;construed_instantiator&#xA;declarative">
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;juxtaposition&#xA;difference&#xA;preparatory">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;juxtaposition&#xA;difference&#xA;preparatory">
         <wording class="word" status="core">
          <token n="7075" gloss_berean="Others" id="SBL.John.9.16.19">ἄλλοι</token>
         </wording>
@@ -1430,7 +1430,7 @@
        <wording class="word" status="core">
         <token n="7076" gloss_berean="were saying" id="SBL.John.9.16.20" after="·">ἔλεγον</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.16.21-27" subclass="2">
          <context class="stage" id="stage.SBL.John.9.16.21-27">
           <context class="move" id="move.SBL.John.9.16.21-27">
@@ -1444,19 +1444,19 @@
              <wording class="word" status="core">
               <token n="7078" gloss_berean="is able" id="SBL.John.9.16.22">δύναται</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated">
+             <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated">
               <wording class="word" status="core">
                <token n="7079" gloss_berean="a man" id="SBL.John.9.16.23">ἄνθρωπος</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Elaboration" values="differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$ἁμαρτωλός&#xA;specific_range">
+              <wording class="cluster" status="satellite" subclass="Attr" values="differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$ἁμαρτωλός&#xA;specific_range">
                <wording class="word" status="core">
                 <token n="7080" gloss_berean="sinful" id="SBL.John.9.16.24">ἁμαρτωλὸς</token>
                </wording>
               </wording>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Obj_Part" values="scenario&#xA;$ποιέω&#xA;objectifying">
-              <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$σημεῖον&#xA;elaborated&#xA;preparatory">
-               <wording class="cluster" status="satellite" subclass="Elaboration" values="differentiation&#xA;descriptive_collation&#xA;variation&#xA;$τοιοῦτος&#xA;indicated_quality&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Obj" values="scenario&#xA;$ποιέω&#xA;objectifying">
+              <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$σημεῖον&#xA;elaborated&#xA;preparatory">
+               <wording class="cluster" status="satellite" subclass="Attr" values="differentiation&#xA;descriptive_collation&#xA;variation&#xA;$τοιοῦτος&#xA;indicated_quality&#xA;preparatory">
                 <wording class="word" status="core">
                  <token n="7081" gloss_berean="such" id="SBL.John.9.16.25">τοιαῦτα</token>
                 </wording>
@@ -1484,7 +1484,7 @@
        <wording class="word" status="junctive">
         <token n="7084" gloss_berean="And" id="SBL.John.9.16.28">καὶ</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$σχίσμα&#xA;preparatory">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$σχίσμα&#xA;preparatory">
         <wording class="word" status="core">
          <token n="7085" gloss_berean="division" id="SBL.John.9.16.29">σχίσμα</token>
         </wording>
@@ -1492,7 +1492,7 @@
        <wording class="word" status="core">
         <token n="7086" gloss_berean="there was" id="SBL.John.9.16.30">ἦν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Comp_Prop" values="association&#xA;associated_entity&#xA;positional_association&#xA;$ἐν&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;reiteration">
+       <wording class="cluster" status="satellite" subclass="Comp" values="association&#xA;associated_entity&#xA;positional_association&#xA;$ἐν&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;reiteration">
         <wording class="word" status="translative">
          <token n="7087" gloss_berean="among" id="SBL.John.9.16.31">ἐν</token>
         </wording>
@@ -1512,7 +1512,7 @@
        <wording class="word" status="junctive">
         <token n="7090" gloss_berean="therefore" id="SBL.John.9.17.2">οὖν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$τυφλός&#xA;specific_range&#xA;part-whole">
+       <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$τυφλός&#xA;specific_range&#xA;part-whole">
         <wording class="word" status="translative">
          <token n="7091" gloss_berean="to the" id="SBL.John.9.17.3">τῷ</token>
         </wording>
@@ -1525,18 +1525,18 @@
          <token n="7093" gloss_berean="again" id="SBL.John.9.17.5" after="·">πάλιν</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.17.6-15" subclass="2">
          <context class="stage" id="stage.SBL.John.9.17.6-15">
           <context class="move" id="move.SBL.John.9.17.6-15">
            <context class="action" id="action.SBL.John.9.17.6-15">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$λέγω&#xA;objectifying&#xA;circumscribed_event&#xA;construed_instantiator&#xA;circumscribed_predication&#xA;declarative">
-             <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;individuation&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;individuation&#xA;preparatory">
               <wording class="word" status="core">
                <token n="7094" gloss_berean="What" id="SBL.John.9.17.6" pin="interrogative">Τί</token>
               </wording>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
               <wording class="word" status="core">
                <token n="7095" gloss_berean="you" id="SBL.John.9.17.7">σὺ</token>
               </wording>
@@ -1559,7 +1559,7 @@
               <wording class="word" status="core">
                <token n="7100" gloss_berean="He opened" id="SBL.John.9.17.12">ἠνέῳξέν</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
+              <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
                <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;oblique_association&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
                 <wording class="word" status="core">
                  <token n="7101" gloss_berean="of you" id="SBL.John.9.17.13">σου</token>
@@ -1585,7 +1585,7 @@
     <context class="move" id="move.SBL.John.9.17.16-21">
      <context class="action" id="action.SBL.John.9.17.16-21">
       <wording class="cluster" status="independent" values="connection_marker&#xA;extending&#xA;progressive&#xA;linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$λέγω&#xA;objectifying&#xA;construed_instantiator&#xA;declarative">
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
         <wording class="word" status="core">
          <token n="7104" gloss_berean="-" id="SBL.John.9.17.16">ὁ</token>
         </wording>
@@ -1596,7 +1596,7 @@
        <wording class="word" status="core">
         <token n="7106" gloss_berean="he said" id="SBL.John.9.17.18">εἶπεν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation&#xA;quotation_marker&#xA;$ὅτι">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation&#xA;quotation_marker&#xA;$ὅτι">
         <wording class="word" status="translative">
          <token n="7107" gloss_berean="-" id="SBL.John.9.17.19">ὅτι</token>
         </wording>
@@ -1605,7 +1605,7 @@
           <context class="move" id="move.SBL.John.9.17.20-21">
            <context class="action" id="action.SBL.John.9.17.20-21">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;declarative">
-             <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;category&#xA;$προφήτης&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;category&#xA;$προφήτης&#xA;preparatory">
               <wording class="word" status="core">
                <token n="7108" gloss_berean="A prophet" id="SBL.John.9.17.20">Προφήτης</token>
               </wording>
@@ -1637,7 +1637,7 @@
         <token n="7112" gloss_berean="then" id="SBL.John.9.18.3">οὖν</token>
        </wording>
        <wording prev="d3e1228" xml:id="d3e1228_2" class="path" subclass="±1" values="negative&#xA;negated_factuality&#xA;modal_predicate&#xA;$πιστεύω&#xA;objectifying&#xA;circumscribed_event&#xA;circumscribed_event&#xA;construed_instantiator&#xA;declarative">
-        <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$Ἰουδαῖος&#xA;specific_range">
+        <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$Ἰουδαῖος&#xA;specific_range">
          <wording class="word" status="translative">
           <token n="7113" gloss_berean="the" id="SBL.John.9.18.4">οἱ</token>
          </wording>
@@ -1653,7 +1653,7 @@
           <token n="7116" gloss_berean="him" id="SBL.John.9.18.7">αὐτοῦ</token>
          </wording>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;grouped&#xA;conjunctive">
+        <wording class="cluster" status="satellite" subclass="Obj" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;grouped&#xA;conjunctive">
          <wording class="word" status="translative">
           <token n="7117" gloss_berean="that" id="SBL.John.9.18.8">ὅτι</token>
          </wording>
@@ -1661,7 +1661,7 @@
           <wording class="word" status="core">
            <token n="7118" gloss_berean="he had been" id="SBL.John.9.18.9">ἦν</token>
           </wording>
-          <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$τυφλός&#xA;specific_range">
+          <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$τυφλός&#xA;specific_range">
            <wording class="word" status="core">
             <token n="7119" gloss_berean="blind" id="SBL.John.9.18.10">τυφλὸς</token>
            </wording>
@@ -1689,7 +1689,7 @@
           <wording class="word" status="core">
            <token n="7124" gloss_berean="they called" id="SBL.John.9.18.15">ἐφώνησαν</token>
           </wording>
-          <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$γονεύς&#xA;circumscribed_definition">
+          <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$γονεύς&#xA;circumscribed_definition">
            <wording class="word" status="translative">
             <token n="7125" gloss_berean="the" id="SBL.John.9.18.16">τοὺς</token>
            </wording>
@@ -1720,7 +1720,7 @@
           <wording class="word" status="core">
            <token n="7131" gloss_berean="they asked" id="SBL.John.9.19.2">ἠρώτησαν</token>
           </wording>
-          <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
+          <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
            <wording class="word" status="core">
             <token n="7132" gloss_berean="them" id="SBL.John.9.19.3">αὐτοὺς</token>
            </wording>
@@ -1729,13 +1729,13 @@
            <wording class="word" status="core">
             <token n="7133" gloss_berean="saying" id="SBL.John.9.19.4" after="·">λέγοντες</token>
            </wording>
-           <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+           <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
             <context class="situation" id="situation.SBL.John.9.19.5-19" subclass="2">
              <context class="stage" id="stage.SBL.John.9.19.5-19">
               <context class="move" id="move.SBL.John.9.19.5-15">
                <context class="action" id="action.SBL.John.9.19.5-15">
                 <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;construed_instantiator&#xA;declarative">
-                 <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
+                 <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
                   <wording class="word" status="core">
                    <token n="7134" gloss_berean="This" id="SBL.John.9.19.5">Οὗτός</token>
                   </wording>
@@ -1743,7 +1743,7 @@
                  <wording class="word" status="core">
                   <token n="7135" gloss_berean="is" id="SBL.John.9.19.6">ἐστιν</token>
                  </wording>
-                 <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$υἱός&#xA;circumscribed_definition&#xA;elaborated">
+                 <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$υἱός&#xA;circumscribed_definition&#xA;elaborated">
                   <wording class="word" status="translative">
                    <token n="7136" gloss_berean="the" id="SBL.John.9.19.7">ὁ</token>
                   </wording>
@@ -1755,15 +1755,15 @@
                     <token n="7138" gloss_berean="of you" id="SBL.John.9.19.9" after=",">ὑμῶν</token>
                    </wording>
                   </wording>
-                  <wording class="cluster" status="satellite" subclass="Elaboration" values="differentiation&#xA;relative_differentiation&#xA;modal_predicate&#xA;$λέγω&#xA;objectifying&#xA;construed_instantiator">
-                   <wording xml:id="d3e1339" next="d3e1339_2" class="cluster" status="satellite" subclass="Obj_Part" values="re-construed">
+                  <wording class="cluster" status="satellite" subclass="Attr" values="differentiation&#xA;relative_differentiation&#xA;modal_predicate&#xA;$λέγω&#xA;objectifying&#xA;construed_instantiator">
+                   <wording xml:id="d3e1339" next="d3e1339_2" class="cluster" status="satellite" subclass="Obj" values="re-construed">
                     <wording class="path" subclass="=1" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative">
                      <wording class="word" status="core">
                       <token n="7139" gloss_berean="of whom" id="SBL.John.9.19.10" pin="relative">ὃν</token>
                      </wording>
                     </wording>
                    </wording>
-                   <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
+                   <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
                     <wording class="word" status="core">
                      <token n="7140" gloss_berean="you" id="SBL.John.9.19.11">ὑμεῖς</token>
                     </wording>
@@ -1771,7 +1771,7 @@
                    <wording class="word" status="core">
                     <token n="7141" gloss_berean="say" id="SBL.John.9.19.12">λέγετε</token>
                    </wording>
-                   <wording prev="d3e1339" xml:id="d3e1339_2" class="cluster" status="satellite" subclass="Obj_Part" values="re-construed">
+                   <wording prev="d3e1339" xml:id="d3e1339_2" class="cluster" status="satellite" subclass="Obj" values="re-construed">
                     <wording class="path" subclass="=2" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;modal_predicate&#xA;subjective_participation_tbd&#xA;$γεννάω&#xA;objectifying&#xA;circumscribed_proposition">
                      <wording class="word" status="translative">
                       <token n="7142" gloss_berean="that" id="SBL.John.9.19.13">ὅτι</token>
@@ -1834,7 +1834,7 @@
        <wording class="word" status="junctive">
         <token n="7150" gloss_berean="therefore" id="SBL.John.9.20.2">οὖν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$γονεύς&#xA;circumscribed_definition">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$γονεύς&#xA;circumscribed_definition">
         <wording class="word" status="translative">
          <token n="7151" gloss_berean="the" id="SBL.John.9.20.3">οἱ</token>
         </wording>
@@ -1854,7 +1854,7 @@
         <wording class="word" status="core">
          <token n="7155" gloss_berean="said" id="SBL.John.9.20.7" after="·">εἶπαν</token>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+        <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
          <context class="situation" id="situation.SBL.John.9.20.8-21.23" subclass="2">
           <context class="stage" id="stage.SBL.John.9.20.8-21.23">
            <context class="move" id="move.SBL.John.9.20.8-21.23">
@@ -1863,12 +1863,12 @@
               <wording class="word" status="core">
                <token n="7156" gloss_berean="We know" id="SBL.John.9.20.8">Οἴδαμεν</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Obj_Part" values="grouped&#xA;conjunctive">
+              <wording class="cluster" status="satellite" subclass="Obj" values="grouped&#xA;conjunctive">
                <wording class="path" subclass="±1" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;construed_instantiator">
                 <wording class="word" status="translative">
                  <token n="7157" gloss_berean="that" id="SBL.John.9.20.9">ὅτι</token>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
+                <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
                  <wording class="word" status="core">
                   <token n="7158" gloss_berean="this" id="SBL.John.9.20.10">οὗτός</token>
                  </wording>
@@ -1876,7 +1876,7 @@
                 <wording class="word" status="core">
                  <token n="7159" gloss_berean="is" id="SBL.John.9.20.11">ἐστιν</token>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$υἱός&#xA;circumscribed_definition">
+                <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$υἱός&#xA;circumscribed_definition">
                  <wording class="word" status="translative">
                   <token n="7160" gloss_berean="the" id="SBL.John.9.20.12">ὁ</token>
                  </wording>
@@ -1912,7 +1912,7 @@
             <context class="action" id="action.SBL.John.9.21.1-6">
              <wording class="cluster" status="independent" values="connection_marker&#xA;extending&#xA;progressive&#xA;linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;grouped&#xA;conjunctive&#xA;declarative">
               <wording xml:id="d5e1469" next="d5e1469_2" class="path" subclass="±1" values="negative&#xA;negated_factuality&#xA;$οἶδα&#xA;objectifying">
-               <wording xml:id="d3e1460" next="d3e1460_2" class="cluster" status="satellite" subclass="Obj_Part" values="interrogation&#xA;modal_predicate&#xA;$βλέπω&#xA;circumscribed_proposition&#xA;circumscribed_proposition&#xA;preparatory">
+               <wording xml:id="d3e1460" next="d3e1460_2" class="cluster" status="satellite" subclass="Obj" values="interrogation&#xA;modal_predicate&#xA;$βλέπω&#xA;circumscribed_proposition&#xA;circumscribed_proposition&#xA;preparatory">
                 <wording class="cluster" status="satellite" subclass="Circ_Prop" values="mannerism&#xA;individuation&#xA;preparatory">
                  <wording class="word" status="core">
                   <token n="7167" gloss_berean="How" id="SBL.John.9.21.1" pin="interrogative">πῶς</token>
@@ -1924,7 +1924,7 @@
                <token n="7168" gloss_berean="however" id="SBL.John.9.21.2">δὲ</token>
               </wording>
               <wording prev="d5e1469" xml:id="d5e1469_2" class="path" subclass="±1" values="negative&#xA;negated_factuality&#xA;$οἶδα&#xA;objectifying">
-               <wording prev="d3e1460" xml:id="d3e1460_2" class="cluster" status="satellite" subclass="Obj_Part" values="interrogation&#xA;modal_predicate&#xA;$βλέπω&#xA;circumscribed_proposition&#xA;circumscribed_proposition&#xA;preparatory">
+               <wording prev="d3e1460" xml:id="d3e1460_2" class="cluster" status="satellite" subclass="Obj" values="interrogation&#xA;modal_predicate&#xA;$βλέπω&#xA;circumscribed_proposition&#xA;circumscribed_proposition&#xA;preparatory">
                 <wording class="cluster" status="satellite" subclass="Circ_Prop" values="associative_collation&#xA;associative_domain_tbd&#xA;$νῦν&#xA;specific_range&#xA;preparatory">
                  <wording class="word" status="core">
                   <token n="7169" gloss_berean="presently" id="SBL.John.9.21.3">νῦν</token>
@@ -1949,8 +1949,8 @@
                <token n="7173" gloss_berean="or" id="SBL.John.9.21.7">ἢ</token>
               </wording>
               <wording xml:id="d3e1486" next="d3e1486_2" class="path" subclass="±1" values="negative&#xA;negated_factuality&#xA;$οἶδα&#xA;objectifying">
-               <wording class="cluster" status="satellite" subclass="Obj_Part" values="interrogation&#xA;modal_predicate&#xA;$ἀνοίγω&#xA;objectifying&#xA;construed_instantiator&#xA;preparatory">
-                <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;individuation&#xA;preparatory">
+               <wording class="cluster" status="satellite" subclass="Obj" values="interrogation&#xA;modal_predicate&#xA;$ἀνοίγω&#xA;objectifying&#xA;construed_instantiator&#xA;preparatory">
+                <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;individuation&#xA;preparatory">
                  <wording class="word" status="core">
                   <token n="7174" gloss_berean="who" id="SBL.John.9.21.8" pin="interrogative">τίς</token>
                  </wording>
@@ -1958,7 +1958,7 @@
                 <wording class="word" status="core">
                  <token n="7175" gloss_berean="opened" id="SBL.John.9.21.9">ἤνοιξεν</token>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
+                <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
                  <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;oblique_association&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;preparatory">
                   <wording class="word" status="core">
                    <token n="7176" gloss_berean="of him" id="SBL.John.9.21.10">αὐτοῦ</token>
@@ -1973,7 +1973,7 @@
                 </wording>
                </wording>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
                <wording class="word" status="core">
                 <token n="7179" gloss_berean="we" id="SBL.John.9.21.13">ἡμεῖς</token>
                </wording>
@@ -1990,7 +1990,7 @@
             </context>
             <context class="action" id="action.SBL.John.9.21.16-17">
              <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$ἐρωτάω&#xA;objectifying&#xA;declarative">
-              <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;preparatory">
                <wording class="word" status="core">
                 <token n="7182" gloss_berean="him" id="SBL.John.9.21.16">αὐτὸν</token>
                </wording>
@@ -2002,7 +2002,7 @@
             </context>
             <context class="action" id="action.SBL.John.9.21.18-19">
              <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$ἔχω&#xA;objectifying&#xA;declarative">
-              <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἡλικία">
+              <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἡλικία">
                <wording class="word" status="core">
                 <token n="7184" gloss_berean="age" id="SBL.John.9.21.18">ἡλικίαν</token>
                </wording>
@@ -2014,7 +2014,7 @@
             </context>
             <context class="action" id="action.SBL.John.9.21.20-23">
              <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$λαλέω&#xA;construed_instantiator&#xA;circumscribed_predication&#xA;declarative">
-              <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration">
+              <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration">
                <wording class="word" status="core">
                 <token n="7186" gloss_berean="He" id="SBL.John.9.21.20">αὐτὸς</token>
                </wording>
@@ -2043,7 +2043,7 @@
     <context class="move" id="move.SBL.John.9.22">
      <context class="action" id="action.SBL.John.9.22.1-9">
       <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$λέγω&#xA;objectifying&#xA;construed_instantiator&#xA;circumscribed_predication&#xA;declarative">
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
+       <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
         <wording class="word" status="core">
          <token n="7190" gloss_berean="These things" id="SBL.John.9.22.1">ταῦτα</token>
         </wording>
@@ -2051,7 +2051,7 @@
        <wording class="word" status="core">
         <token n="7191" gloss_berean="said" id="SBL.John.9.22.2">εἶπαν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$γονεύς&#xA;circumscribed_definition">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$γονεύς&#xA;circumscribed_definition">
         <wording class="word" status="translative">
          <token n="7192" gloss_berean="the" id="SBL.John.9.22.3">οἱ</token>
         </wording>
@@ -2071,7 +2071,7 @@
         <wording class="word" status="core">
          <token n="7196" gloss_berean="they were afraid" id="SBL.John.9.22.7">ἐφοβοῦντο</token>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$Ἰουδαῖος&#xA;specific_range">
+        <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$Ἰουδαῖος&#xA;specific_range">
          <wording class="word" status="translative">
           <token n="7197" gloss_berean="of the" id="SBL.John.9.22.8">τοὺς</token>
          </wording>
@@ -2095,7 +2095,7 @@
        <wording class="word" status="core">
         <token n="7201" gloss_berean="had agreed together" id="SBL.John.9.22.12">συνετέθειντο</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$Ἰουδαῖος&#xA;specific_range">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$Ἰουδαῖος&#xA;specific_range">
         <wording class="word" status="translative">
          <token n="7202" gloss_berean="the" id="SBL.John.9.22.13">οἱ</token>
         </wording>
@@ -2103,7 +2103,7 @@
          <token n="7203" gloss_berean="Jews" id="SBL.John.9.22.14">Ἰουδαῖοι</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="proposition&#xA;proposition_marker&#xA;$ἵνα&#xA;modal_predicate&#xA;affected&#xA;$γίνομαι&#xA;complementary_abstraction&#xA;circumscribed_proposition">
+       <wording class="cluster" status="satellite" subclass="Obj" values="proposition&#xA;proposition_marker&#xA;$ἵνα&#xA;modal_predicate&#xA;affected&#xA;$γίνομαι&#xA;complementary_abstraction&#xA;circumscribed_proposition">
         <wording class="word" status="translative">
          <token n="7204" gloss_berean="that" id="SBL.John.9.22.15">ἵνα</token>
         </wording>
@@ -2111,12 +2111,12 @@
          <wording class="word" status="translative">
           <token n="7205" gloss_berean="if" id="SBL.John.9.22.16">ἐάν</token>
          </wording>
-         <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;individuation&#xA;preparatory">
+         <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;individuation&#xA;preparatory">
           <wording class="word" status="core">
            <token n="7206" gloss_berean="anyone" id="SBL.John.9.22.17">τις</token>
           </wording>
          </wording>
-         <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;preparatory">
+         <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;preparatory">
           <wording class="word" status="core">
            <token n="7207" gloss_berean="Him" id="SBL.John.9.22.18">αὐτὸν</token>
           </wording>
@@ -2124,13 +2124,13 @@
          <wording class="word" status="core">
           <token n="7208" gloss_berean="should confess" id="SBL.John.9.22.19">ὁμολογήσῃ</token>
          </wording>
-         <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Χριστός">
+         <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Χριστός">
           <wording class="word" status="core">
            <token n="7209" gloss_berean="Christ" id="SBL.John.9.22.20" after=",">χριστόν</token>
           </wording>
          </wording>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$ἀποσυνάγωγος&#xA;specific_range&#xA;preparatory">
+        <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$ἀποσυνάγωγος&#xA;specific_range&#xA;preparatory">
          <wording class="word" status="core">
           <token n="7210" gloss_berean="expelled from the synagogue" id="SBL.John.9.22.21">ἀποσυνάγωγος</token>
          </wording>
@@ -2153,7 +2153,7 @@
          <token n="7213" gloss_berean="this" id="SBL.John.9.23.2">τοῦτο</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$γονεύς&#xA;circumscribed_definition&#xA;preparatory">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$γονεύς&#xA;circumscribed_definition&#xA;preparatory">
         <wording class="word" status="translative">
          <token n="7214" gloss_berean="the" id="SBL.John.9.23.3">οἱ</token>
         </wording>
@@ -2169,7 +2169,7 @@
        <wording class="word" status="core">
         <token n="7217" gloss_berean="said" id="SBL.John.9.23.6">εἶπαν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation&#xA;quotation_marker&#xA;$ὅτι">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation&#xA;quotation_marker&#xA;$ὅτι">
         <wording class="word" status="translative">
          <token n="7218" gloss_berean="-" id="SBL.John.9.23.7">ὅτι</token>
         </wording>
@@ -2178,7 +2178,7 @@
           <context class="move" id="move.SBL.John.9.23.8-11">
            <context class="action" id="action.SBL.John.9.23.8-9">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$ἔχω&#xA;complementary_abstraction&#xA;declarative">
-             <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;category&#xA;$ἡλικία&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;category&#xA;$ἡλικία&#xA;preparatory">
               <wording class="word" status="core">
                <token n="7219" gloss_berean="Age" id="SBL.John.9.23.8">Ἡλικίαν</token>
               </wording>
@@ -2190,7 +2190,7 @@
            </context>
            <context class="action" id="action.SBL.John.9.23.10-11">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$ἐπερωτάω&#xA;objectifying&#xA;declarative">
-             <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration">
+             <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration">
               <wording class="word" status="core">
                <token n="7221" gloss_berean="him" id="SBL.John.9.23.10">αὐτὸν</token>
               </wording>
@@ -2216,7 +2216,7 @@
        <wording class="word" status="junctive">
         <token n="7224" gloss_berean="therefore" id="SBL.John.9.24.2">οὖν</token>
        </wording>
-       <wording xml:id="d3e1692" next="d3e1692_2" class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated">
+       <wording xml:id="d3e1692" next="d3e1692_2" class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated">
         <wording class="word" status="translative">
          <token n="7225" gloss_berean="the" id="SBL.John.9.24.3">τὸν</token>
         </wording>
@@ -2232,9 +2232,9 @@
          <token n="7228" gloss_berean="a second time" id="SBL.John.9.24.6">δευτέρου</token>
         </wording>
        </wording>
-       <wording prev="d3e1692" xml:id="d3e1692_2" class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated">
-        <wording class="cluster" status="satellite" subclass="Elaboration" values="differentiation&#xA;relative_differentiation&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;construed_instantiator">
-         <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;preparatory">
+       <wording prev="d3e1692" xml:id="d3e1692_2" class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated">
+        <wording class="cluster" status="satellite" subclass="Attr" values="differentiation&#xA;relative_differentiation&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;construed_instantiator">
+         <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;preparatory">
           <wording class="word" status="core">
            <token n="7229" gloss_berean="who" id="SBL.John.9.24.7" pin="relative">ὃς</token>
           </wording>
@@ -2242,7 +2242,7 @@
          <wording class="word" status="core">
           <token n="7230" gloss_berean="had been" id="SBL.John.9.24.8">ἦν</token>
          </wording>
-         <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$τυφλός&#xA;specific_range">
+         <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$τυφλός&#xA;specific_range">
           <wording class="word" status="core">
            <token n="7231" gloss_berean="blind" id="SBL.John.9.24.9">τυφλὸς</token>
           </wording>
@@ -2259,12 +2259,12 @@
        <wording class="word" status="core">
         <token n="7233" gloss_berean="said" id="SBL.John.9.24.11">εἶπαν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
+       <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
         <wording class="word" status="core">
          <token n="7234" gloss_berean="to him" id="SBL.John.9.24.12" after="·">αὐτῷ</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.24.13-24" subclass="2">
          <context class="stage" id="stage.SBL.John.9.24.13-24">
           <context class="move" id="move.SBL.John.9.24.13-24">
@@ -2273,12 +2273,12 @@
              <wording class="word" status="core">
               <token n="7235" gloss_berean="Give" id="SBL.John.9.24.13">Δὸς</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$δόξα">
+             <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$δόξα">
               <wording class="word" status="core">
                <token n="7236" gloss_berean="glory" id="SBL.John.9.24.14">δόξαν</token>
               </wording>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$θεός&#xA;part-whole">
+             <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$θεός&#xA;part-whole">
               <wording class="word" status="translative">
                <token n="7237" gloss_berean="-" id="SBL.John.9.24.15">τῷ</token>
               </wording>
@@ -2290,7 +2290,7 @@
            </context>
            <context class="action" id="action.SBL.John.9.24.17-24">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$οἶδα&#xA;objectifying&#xA;construed_instantiator&#xA;declarative">
-             <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
               <wording class="word" status="core">
                <token n="7239" gloss_berean="We" id="SBL.John.9.24.17">ἡμεῖς</token>
               </wording>
@@ -2298,12 +2298,12 @@
              <wording class="word" status="core">
               <token n="7240" gloss_berean="know" id="SBL.John.9.24.18">οἴδαμεν</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Obj_Part" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;construed_instantiator">
+             <wording class="cluster" status="satellite" subclass="Obj" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;construed_instantiator">
               <wording class="word" status="translative">
                <token n="7241" gloss_berean="that" id="SBL.John.9.24.19">ὅτι</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated&#xA;preparatory">
-               <wording class="cluster" status="satellite" subclass="Elaboration" values="differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος&#xA;elaborated&#xA;preparatory">
+               <wording class="cluster" status="satellite" subclass="Attr" values="differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
                 <wording class="word" status="core">
                  <token n="7242" gloss_berean="this" id="SBL.John.9.24.20">οὗτος</token>
                 </wording>
@@ -2315,7 +2315,7 @@
                 <token n="7244" gloss_berean="man" id="SBL.John.9.24.22">ἄνθρωπος</token>
                </wording>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$ἁμαρτωλός&#xA;specific_range&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$ἁμαρτωλός&#xA;specific_range&#xA;preparatory">
                <wording class="word" status="core">
                 <token n="7245" gloss_berean="a sinner" id="SBL.John.9.24.23">ἁμαρτωλός</token>
                </wording>
@@ -2342,23 +2342,23 @@
        <wording class="word" status="junctive">
         <token n="7248" gloss_berean="then" id="SBL.John.9.25.2">οὖν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;far">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;far">
         <wording class="word" status="core">
          <token n="7249" gloss_berean="he" id="SBL.John.9.25.3" after="·">ἐκεῖνος</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.25.4-15" subclass="2">
          <context class="stage" id="stage.SBL.John.9.25.4-15">
           <context class="move" id="move.SBL.John.9.25.4-15">
            <context class="action" id="action.SBL.John.9.25.4-8">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;grouped&#xA;conjunctive&#xA;declarative">
              <wording class="path" subclass="±1" values="negative&#xA;negated_factuality&#xA;$οἶδα&#xA;objectifying">
-              <wording class="cluster" status="satellite" subclass="Obj_Part" values="proposition&#xA;proposition_marker&#xA;$εἰ&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Obj" values="proposition&#xA;proposition_marker&#xA;$εἰ&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;preparatory">
                <wording class="word" status="translative">
                 <token n="7250" gloss_berean="Whether" id="SBL.John.9.25.4">Εἰ</token>
                </wording>
-               <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$ἁμαρτωλός&#xA;specific_range&#xA;preparatory">
+               <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$ἁμαρτωλός&#xA;specific_range&#xA;preparatory">
                 <wording class="word" status="core">
                  <token n="7251" gloss_berean="a sinner" id="SBL.John.9.25.5">ἁμαρτωλός</token>
                 </wording>
@@ -2378,7 +2378,7 @@
            </context>
            <context class="action" id="action.SBL.John.9.25.9-15">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$οἶδα&#xA;objectifying&#xA;declarative">
-             <wording xml:id="d3e1820" next="d3e1820_2" class="cluster" status="satellite" subclass="Obj_Part" values="re-construed">
+             <wording xml:id="d3e1820" next="d3e1820_2" class="cluster" status="satellite" subclass="Obj" values="re-construed">
               <wording class="path" subclass="=1" values="instance&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$εἷς&#xA;specific_range">
                <wording class="word" status="core">
                 <token n="7255" gloss_berean="One [thing]" id="SBL.John.9.25.9">ἓν</token>
@@ -2388,13 +2388,13 @@
              <wording class="word" status="core">
               <token n="7256" gloss_berean="I do know" id="SBL.John.9.25.10">οἶδα</token>
              </wording>
-             <wording prev="d3e1820" xml:id="d3e1820_2" class="cluster" status="satellite" subclass="Obj_Part" values="re-construed">
+             <wording prev="d3e1820" xml:id="d3e1820_2" class="cluster" status="satellite" subclass="Obj" values="re-construed">
               <wording class="path" subclass="=2" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;modal_predicate&#xA;$βλέπω&#xA;circumscribed_proposition&#xA;circumscribed_proposition">
                <wording class="word" status="translative">
                 <token n="7257" gloss_berean="that" id="SBL.John.9.25.11">ὅτι</token>
                </wording>
                <wording class="cluster" status="satellite" subclass="Circ_Prop" values="associated_abstraction&#xA;definition&#xA;differentiation&#xA;participation&#xA;$εἰμί&#xA;complementary_abstraction">
-                <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$τυφλός&#xA;specific_range&#xA;preparatory">
+                <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$τυφλός&#xA;specific_range&#xA;preparatory">
                  <wording class="word" status="core">
                   <token n="7258" gloss_berean="blind" id="SBL.John.9.25.12">τυφλὸς</token>
                  </wording>
@@ -2431,18 +2431,18 @@
        <wording class="word" status="junctive">
         <token n="7263" gloss_berean="therefore" id="SBL.John.9.26.2">οὖν</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
+       <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
         <wording class="word" status="core">
          <token n="7264" gloss_berean="to him" id="SBL.John.9.26.3" after="·">αὐτῷ</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.26.4-11" subclass="2">
          <context class="stage" id="stage.SBL.John.9.26.4-11">
           <context class="move" id="move.SBL.John.9.26.4-6">
            <context class="action" id="action.SBL.John.9.26.4-6">
             <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$ποιέω&#xA;objectifying&#xA;extra_participant&#xA;interrogative&#xA;differentiation_request">
-             <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;individuation&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;individuation&#xA;preparatory">
               <wording class="word" status="core">
                <token n="7265" gloss_berean="What" id="SBL.John.9.26.4" pin="interrogative">Τί</token>
               </wording>
@@ -2450,7 +2450,7 @@
              <wording class="word" status="core">
               <token n="7266" gloss_berean="did He" id="SBL.John.9.26.5">ἐποίησέν</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;part-whole">
+             <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;part-whole">
               <wording class="word" status="core">
                <token n="7267" gloss_berean="to you" id="SBL.John.9.26.6" after=";">σοι</token>
               </wording>
@@ -2469,7 +2469,7 @@
              <wording class="word" status="core">
               <token n="7269" gloss_berean="opened He" id="SBL.John.9.26.8">ἤνοιξέν</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
+             <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
               <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;oblique_association&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
                <wording class="word" status="core">
                 <token n="7270" gloss_berean="of you" id="SBL.John.9.26.9">σου</token>
@@ -2497,12 +2497,12 @@
        <wording class="word" status="core">
         <token n="7273" gloss_berean="He answered" id="SBL.John.9.27.1">ἀπεκρίθη</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
+       <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
         <wording class="word" status="core">
          <token n="7274" gloss_berean="them" id="SBL.John.9.27.2" after="·">αὐτοῖς</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="quotation">
+       <wording class="cluster" status="satellite" subclass="Subj" values="quotation">
         <context class="situation" id="situation.SBL.John.9.27.3-19" subclass="2">
          <context class="stage" id="stage.SBL.John.9.27.3-19">
           <context class="move" id="move.SBL.John.9.27.3-12">
@@ -2512,7 +2512,7 @@
               <wording class="word" status="core">
                <token n="7275" gloss_berean="I told" id="SBL.John.9.27.3">Εἶπον</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
+              <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
                <wording class="word" status="core">
                 <token n="7276" gloss_berean="you" id="SBL.John.9.27.4">ὑμῖν</token>
                </wording>
@@ -2553,7 +2553,7 @@
              <wording class="word" status="core">
               <token n="7283" gloss_berean="do you wish" id="SBL.John.9.27.11">θέλετε</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Obj_Part" values="scenario&#xA;$ἀκούω">
+             <wording class="cluster" status="satellite" subclass="Obj" values="scenario&#xA;$ἀκούω">
               <wording class="word" status="core">
                <token n="7284" gloss_berean="to hear" id="SBL.John.9.27.12" after=";">ἀκούειν</token>
               </wording>
@@ -2567,7 +2567,7 @@
              <wording class="word" status="satellite">
               <token n="7285" gloss_berean="Not" id="SBL.John.9.27.13">μὴ</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Instantiator" values="grouped&#xA;conjunctive&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Subj" values="grouped&#xA;conjunctive&#xA;preparatory">
               <wording class="path" subclass="±1" values="addition_marker&#xA;simple_addition&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
                <wording class="word" status="junctive">
                 <token n="7286" gloss_berean="also" id="SBL.John.9.27.14">καὶ</token>
@@ -2580,8 +2580,8 @@
              <wording class="word" status="core">
               <token n="7288" gloss_berean="do wish" id="SBL.John.9.27.16">θέλετε</token>
              </wording>
-             <wording class="cluster" status="satellite" subclass="Obj_Part" values="scenario&#xA;affected&#xA;$γίνομαι&#xA;complementary_abstraction">
-              <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;category&#xA;$μαθητής&#xA;circumscribed_definition&#xA;preparatory">
+             <wording class="cluster" status="satellite" subclass="Obj" values="scenario&#xA;affected&#xA;$γίνομαι&#xA;complementary_abstraction">
+              <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;category&#xA;$μαθητής&#xA;circumscribed_definition&#xA;preparatory">
                <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;oblique_association&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;preparatory">
                 <wording class="word" status="core">
                  <token n="7289" gloss_berean="His" id="SBL.John.9.27.17">αὐτοῦ</token>
@@ -2611,7 +2611,7 @@
         <wording class="word" status="core">
          <token n="7292" gloss_berean="they railed at" id="SBL.John.9.28.1">ἐλοιδόρησαν</token>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration">
+        <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration">
          <wording class="word" status="core">
           <token n="7293" gloss_berean="him" id="SBL.John.9.28.2">αὐτὸν</token>
          </wording>
@@ -2624,19 +2624,19 @@
         <wording class="word" status="core">
          <token n="7295" gloss_berean="said" id="SBL.John.9.28.4" after="·">εἶπον</token>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+        <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
          <context class="situation" id="situation.SBL.John.9.28.5-29.13" subclass="2">
           <context class="stage" id="stage.SBL.John.9.28.5-29.13">
            <context class="move" id="move.SBL.John.9.28.5-29.13">
             <context class="action" id="action.SBL.John.9.28.5-14">
              <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;grouped&#xA;conjunctive">
               <wording class="path" subclass="±1" values="modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;construed_instantiator&#xA;declarative">
-               <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
+               <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
                 <wording class="word" status="core">
                  <token n="7296" gloss_berean="You" id="SBL.John.9.28.5">Σὺ</token>
                 </wording>
                </wording>
-               <wording xml:id="d3e2012" next="d3e2012_2" class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;category&#xA;$μαθητής&#xA;circumscribed_definition&#xA;preparatory">
+               <wording xml:id="d3e2012" next="d3e2012_2" class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;category&#xA;$μαθητής&#xA;circumscribed_definition&#xA;preparatory">
                 <wording class="word" status="core">
                  <token n="7297" gloss_berean="a disciple" id="SBL.John.9.28.6">μαθητὴς</token>
                 </wording>
@@ -2644,7 +2644,7 @@
                <wording class="word" status="core">
                 <token n="7298" gloss_berean="are" id="SBL.John.9.28.7">εἶ</token>
                </wording>
-               <wording prev="d3e2012" xml:id="d3e2012_2" class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;category&#xA;$μαθητής&#xA;circumscribed_definition&#xA;preparatory">
+               <wording prev="d3e2012" xml:id="d3e2012_2" class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;category&#xA;$μαθητής&#xA;circumscribed_definition&#xA;preparatory">
                 <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;oblique_association&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;far">
                  <wording class="word" status="core">
                   <token n="7299" gloss_berean="of that One" id="SBL.John.9.28.8" after=",">ἐκείνου</token>
@@ -2653,7 +2653,7 @@
                </wording>
               </wording>
               <wording class="path" subclass="±2" values="addition_marker&#xA;progressive&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;construed_instantiator&#xA;declarative">
-               <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
+               <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
                 <wording class="word" status="core">
                  <token n="7300" gloss_berean="we" id="SBL.John.9.28.9">ἡμεῖς</token>
                 </wording>
@@ -2661,7 +2661,7 @@
                <wording class="word" status="junctive">
                 <token n="7301" gloss_berean="however" id="SBL.John.9.28.10">δὲ</token>
                </wording>
-               <wording xml:id="d3e2031" next="d3e2031_2" class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;category&#xA;$μαθητής&#xA;circumscribed_definition">
+               <wording xml:id="d3e2031" next="d3e2031_2" class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;category&#xA;$μαθητής&#xA;circumscribed_definition">
                 <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;oblique_association&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Μωϋσῆς&#xA;preparatory">
                  <wording class="word" status="translative">
                   <token n="7302" gloss_berean="-" id="SBL.John.9.28.11">τοῦ</token>
@@ -2674,7 +2674,7 @@
                <wording class="word" status="core">
                 <token n="7304" gloss_berean="are" id="SBL.John.9.28.13">ἐσμὲν</token>
                </wording>
-               <wording prev="d3e2031" xml:id="d3e2031_2" class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;recognizability&#xA;category&#xA;$μαθητής&#xA;circumscribed_definition">
+               <wording prev="d3e2031" xml:id="d3e2031_2" class="cluster" status="satellite" subclass="Comp" values="definition&#xA;recognizability&#xA;category&#xA;$μαθητής&#xA;circumscribed_definition">
                 <wording class="word" status="core">
                  <token n="7305" gloss_berean="disciples" id="SBL.John.9.28.14" after="·">μαθηταί</token>
                 </wording>
@@ -2685,7 +2685,7 @@
             <context class="action" id="action.SBL.John.9.29">
              <wording class="cluster" status="independent" values="linguistic_action&#xA;predicating&#xA;grouped&#xA;conjunctive">
               <wording class="path" subclass="±1" values="modal_predicate&#xA;$οἶδα&#xA;objectifying&#xA;construed_instantiator&#xA;declarative">
-               <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
+               <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
                 <wording class="word" status="core">
                  <token n="7306" gloss_berean="We" id="SBL.John.9.29.1">ἡμεῖς</token>
                 </wording>
@@ -2693,11 +2693,11 @@
                <wording class="word" status="core">
                 <token n="7307" gloss_berean="know" id="SBL.John.9.29.2">οἴδαμεν</token>
                </wording>
-               <wording class="cluster" status="satellite" subclass="Obj_Part" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;modal_predicate&#xA;$λαλέω&#xA;objectifying&#xA;construed_instantiator">
+               <wording class="cluster" status="satellite" subclass="Obj" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;modal_predicate&#xA;$λαλέω&#xA;objectifying&#xA;construed_instantiator">
                 <wording class="word" status="translative">
                  <token n="7308" gloss_berean="that" id="SBL.John.9.29.3">ὅτι</token>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Μωϋσῆς&#xA;preparatory">
+                <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;recognizability&#xA;name&#xA;personal_name&#xA;$Μωϋσῆς&#xA;preparatory">
                  <wording class="word" status="core">
                   <token n="7309" gloss_berean="to Moses" id="SBL.John.9.29.4">Μωϋσεῖ</token>
                  </wording>
@@ -2705,7 +2705,7 @@
                 <wording class="word" status="core">
                  <token n="7310" gloss_berean="has spoken" id="SBL.John.9.29.5">λελάληκεν</token>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$θεός">
+                <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$θεός">
                  <wording class="word" status="translative">
                   <token n="7311" gloss_berean="-" id="SBL.John.9.29.6">ὁ</token>
                  </wording>
@@ -2717,7 +2717,7 @@
               </wording>
               <wording class="path" subclass="±2" values="addition_marker&#xA;progressive&#xA;modal_predicate&#xA;grouped&#xA;conjunctive&#xA;declarative">
                <wording xml:id="d5e2090" next="d5e2090_2" class="path" subclass="±1" values="negative&#xA;negated_factuality&#xA;$οἶδα&#xA;objectifying">
-                <wording xml:id="d3e2075" next="d3e2075_2" class="cluster" status="satellite" subclass="Obj_Part" values="re-construed">
+                <wording xml:id="d3e2075" next="d3e2075_2" class="cluster" status="satellite" subclass="Obj" values="re-construed">
                  <wording class="path" subclass="=1" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant">
                   <wording class="word" status="core">
                    <token n="7313" gloss_berean="this [man]" id="SBL.John.9.29.8">τοῦτον</token>
@@ -2735,9 +2735,9 @@
                 <wording class="word" status="core">
                  <token n="7316" gloss_berean="we know" id="SBL.John.9.29.11">οἴδαμεν</token>
                 </wording>
-                <wording prev="d3e2075" xml:id="d3e2075_2" class="cluster" status="satellite" subclass="Obj_Part" values="re-construed">
+                <wording prev="d3e2075" xml:id="d3e2075_2" class="cluster" status="satellite" subclass="Obj" values="re-construed">
                  <wording class="path" subclass="=2" values="instance&#xA;definition&#xA;differentiation&#xA;relative_differentiation&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction">
-                  <wording class="cluster" status="satellite" subclass="Comp_Prop" values="association&#xA;associative_collation&#xA;associative_domain_tbd&#xA;$πόθεν&#xA;specific_range">
+                  <wording class="cluster" status="satellite" subclass="Comp" values="association&#xA;associative_collation&#xA;associative_domain_tbd&#xA;$πόθεν&#xA;specific_range">
                    <wording class="word" status="core">
                     <token n="7317" gloss_berean="from where" id="SBL.John.9.29.12">πόθεν</token>
                    </wording>
@@ -2767,7 +2767,7 @@
          <token n="7319" gloss_berean="Answered" id="SBL.John.9.30.1">ἀπεκρίθη</token>
         </wording>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος">
+       <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ἄνθρωπος">
         <wording class="word" status="translative">
          <token n="7320" gloss_berean="the" id="SBL.John.9.30.2">ὁ</token>
         </wording>
@@ -2782,18 +2782,18 @@
         <wording class="word" status="core">
          <token n="7323" gloss_berean="said" id="SBL.John.9.30.5">εἶπεν</token>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
+        <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
          <wording class="word" status="core">
           <token n="7324" gloss_berean="to them" id="SBL.John.9.30.6" after="·">αὐτοῖς</token>
          </wording>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+        <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
          <context class="situation" id="situation.SBL.John.9.30.7-33.10" subclass="2">
           <context class="stage" id="stage.SBL.John.9.30.7-33.10">
            <context class="move" id="move.SBL.John.9.30.7-23">
             <context class="action" id="action.SBL.John.9.30.7-23">
              <wording class="cluster" status="independent" values="connection_marker&#xA;supporting&#xA;linguistic_action&#xA;predicating&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;construed_instantiator&#xA;declarative&#xA;supplemented">
-              <wording class="cluster" status="satellite" subclass="Comp_Prop" values="association&#xA;associated_entity&#xA;positional_association&#xA;$ἐν&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Comp" values="association&#xA;associated_entity&#xA;positional_association&#xA;$ἐν&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant&#xA;preparatory">
                <wording class="word" status="translative">
                 <token n="7325" gloss_berean="In" id="SBL.John.9.30.7">Ἐν</token>
                </wording>
@@ -2804,7 +2804,7 @@
               <wording class="word" status="junctive">
                <token n="7327" gloss_berean="for" id="SBL.John.9.30.9">γὰρ</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$θαυμαστός&#xA;specific_range&#xA;preparatory">
+              <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$θαυμαστός&#xA;specific_range&#xA;preparatory">
                <wording class="word" status="translative">
                 <token n="7328" gloss_berean="-" id="SBL.John.9.30.10">τὸ</token>
                </wording>
@@ -2815,12 +2815,12 @@
               <wording class="word" status="core">
                <token n="7330" gloss_berean="is" id="SBL.John.9.30.12">ἐστιν</token>
               </wording>
-              <wording class="cluster" status="satellite" subclass="Supplement" values="introducing&#xA;proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;grouped&#xA;conjunctive">
+              <wording class="cluster" status="satellite" subclass="Extra" values="introducing&#xA;proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;grouped&#xA;conjunctive">
                <wording class="word" status="translative">
                 <token n="7331" gloss_berean="that" id="SBL.John.9.30.13">ὅτι</token>
                </wording>
                <wording class="path" subclass="±1" values="modal_predicate&#xA;grouped&#xA;conjunctive&#xA;construed_instantiator">
-                <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
+                <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
                  <wording class="word" status="core">
                   <token n="7332" gloss_berean="you" id="SBL.John.9.30.14">ὑμεῖς</token>
                  </wording>
@@ -2832,8 +2832,8 @@
                  <wording class="word" status="core">
                   <token n="7334" gloss_berean="know" id="SBL.John.9.30.16">οἴδατε</token>
                  </wording>
-                 <wording class="cluster" status="satellite" subclass="Obj_Part" values="interrogation&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction">
-                  <wording class="cluster" status="satellite" subclass="Comp_Prop" values="association&#xA;associative_collation&#xA;associative_domain_tbd&#xA;$πόθεν&#xA;specific_range">
+                 <wording class="cluster" status="satellite" subclass="Obj" values="interrogation&#xA;modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction">
+                  <wording class="cluster" status="satellite" subclass="Comp" values="association&#xA;associative_collation&#xA;associative_domain_tbd&#xA;$πόθεν&#xA;specific_range">
                    <wording class="word" status="core">
                     <token n="7335" gloss_berean="from where" id="SBL.John.9.30.17">πόθεν</token>
                    </wording>
@@ -2851,7 +2851,7 @@
                 <wording class="word" status="core">
                  <token n="7338" gloss_berean="He opened" id="SBL.John.9.30.20">ἤνοιξέν</token>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
+                <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
                  <wording class="cluster" status="satellite" subclass="Circ_Def" values="associated_entity&#xA;oblique_association&#xA;accusative_association&#xA;instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
                   <wording class="word" status="core">
                    <token n="7339" gloss_berean="my" id="SBL.John.9.30.21">μου</token>
@@ -2876,18 +2876,18 @@
                <wording class="word" status="core">
                 <token n="7342" gloss_berean="We know" id="SBL.John.9.31.1">οἴδαμεν</token>
                </wording>
-               <wording class="cluster" status="satellite" subclass="Obj_Part" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;modal_predicate&#xA;grouped&#xA;conjunctive&#xA;construed_instantiator">
+               <wording class="cluster" status="satellite" subclass="Obj" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;modal_predicate&#xA;grouped&#xA;conjunctive&#xA;construed_instantiator">
                 <wording class="word" status="translative">
                  <token n="7343" gloss_berean="that" id="SBL.John.9.31.2">ὅτι</token>
                 </wording>
                 <wording xml:id="d3e2201" next="d3e2201_2" class="path" subclass="±1" values="negative&#xA;negated_factuality&#xA;$ἀκούω&#xA;objectifying">
-                 <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$ἁμαρτωλός&#xA;specific_range&#xA;preparatory">
+                 <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$ἁμαρτωλός&#xA;specific_range&#xA;preparatory">
                   <wording class="word" status="core">
                    <token n="7344" gloss_berean="sinners" id="SBL.John.9.31.3">ἁμαρτωλῶν</token>
                   </wording>
                  </wording>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$θεός&#xA;preparatory">
+                <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$θεός&#xA;preparatory">
                  <wording class="word" status="translative">
                   <token n="7345" gloss_berean="-" id="SBL.John.9.31.4">ὁ</token>
                  </wording>
@@ -2914,12 +2914,12 @@
                  <token n="7350" gloss_berean="if" id="SBL.John.9.31.9">ἐάν</token>
                 </wording>
                 <wording class="path" subclass="±1" values="modal_predicate&#xA;$εἰμί&#xA;complementary_abstraction&#xA;construed_instantiator">
-                 <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;individuation&#xA;preparatory">
+                 <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;individuation&#xA;preparatory">
                   <wording class="word" status="core">
                    <token n="7351" gloss_berean="anyone" id="SBL.John.9.31.10">τις</token>
                   </wording>
                  </wording>
-                 <wording class="cluster" status="satellite" subclass="Comp_Prop" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$θεοσεβής&#xA;specific_range&#xA;preparatory">
+                 <wording class="cluster" status="satellite" subclass="Comp" values="definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$θεοσεβής&#xA;specific_range&#xA;preparatory">
                   <wording class="word" status="core">
                    <token n="7352" gloss_berean="God-fearing" id="SBL.John.9.31.11">θεοσεβὴς</token>
                   </wording>
@@ -2932,7 +2932,7 @@
                  <wording class="word" status="junctive">
                   <token n="7354" gloss_berean="and" id="SBL.John.9.31.13">καὶ</token>
                  </wording>
-                 <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$θέλημα&#xA;circumscribed_definition">
+                 <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;articular&#xA;definition&#xA;recognizability&#xA;category&#xA;$θέλημα&#xA;circumscribed_definition">
                   <wording class="word" status="translative">
                    <token n="7355" gloss_berean="the" id="SBL.John.9.31.14">τὸ</token>
                   </wording>
@@ -2950,7 +2950,7 @@
                  </wording>
                 </wording>
                </wording>
-               <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant">
+               <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant">
                 <wording class="word" status="core">
                  <token n="7359" gloss_berean="him" id="SBL.John.9.31.18">τούτου</token>
                 </wording>
@@ -2983,19 +2983,19 @@
                <wording class="word" status="core">
                 <token n="7365" gloss_berean="it has been heard" id="SBL.John.9.32.5">ἠκούσθη</token>
                </wording>
-               <wording class="cluster" status="satellite" subclass="Instantiator" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;modal_predicate&#xA;$ἀνοίγω&#xA;objectifying&#xA;construed_instantiator">
+               <wording class="cluster" status="satellite" subclass="Subj" values="proposition&#xA;proposition_marker&#xA;$ὅτι&#xA;modal_predicate&#xA;$ἀνοίγω&#xA;objectifying&#xA;construed_instantiator">
                 <wording class="word" status="translative">
                  <token n="7366" gloss_berean="that" id="SBL.John.9.32.6">ὅτι</token>
                 </wording>
                 <wording class="word" status="core">
                  <token n="7367" gloss_berean="opened" id="SBL.John.9.32.7">ἠνέῳξέν</token>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;individuation">
+                <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;individuation">
                  <wording class="word" status="core">
                   <token n="7368" gloss_berean="anyone" id="SBL.John.9.32.8">τις</token>
                  </wording>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
+                <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$ὀφθαλμός&#xA;circumscribed_definition">
                  <wording class="word" status="core">
                   <token n="7369" gloss_berean="[the] eyes" id="SBL.John.9.32.9">ὀφθαλμοὺς</token>
                  </wording>
@@ -3003,7 +3003,7 @@
                   <wording class="word" status="core">
                    <token n="7370" gloss_berean="of [one] blind" id="SBL.John.9.32.10">τυφλοῦ</token>
                   </wording>
-                  <wording class="cluster" status="satellite" subclass="Elaboration" values="differentiation&#xA;participation&#xA;subjective_participation_tbd&#xA;$γεννάω&#xA;objectifying">
+                  <wording class="cluster" status="satellite" subclass="Attr" values="differentiation&#xA;participation&#xA;subjective_participation_tbd&#xA;$γεννάω&#xA;objectifying">
                    <wording class="word" status="core">
                     <token n="7371" gloss_berean="having been born" id="SBL.John.9.32.11" after="·">γεγεννημένου</token>
                    </wording>
@@ -3027,12 +3027,12 @@
                 <wording class="word" status="core">
                  <token n="7374" gloss_berean="were" id="SBL.John.9.33.3">ἦν</token>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant">
+                <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;demonstrative&#xA;distant">
                  <wording class="word" status="core">
                   <token n="7375" gloss_berean="this [man]" id="SBL.John.9.33.4">οὗτος</token>
                  </wording>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Comp_Prop" values="association&#xA;associated_entity&#xA;positional_association&#xA;$παρά&#xA;accusative_association&#xA;instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$θεός">
+                <wording class="cluster" status="satellite" subclass="Comp" values="association&#xA;associated_entity&#xA;positional_association&#xA;$παρά&#xA;accusative_association&#xA;instance&#xA;definition&#xA;recognizability&#xA;category&#xA;$θεός">
                  <wording class="word" status="translative">
                   <token n="7376" gloss_berean="from" id="SBL.John.9.33.5">παρὰ</token>
                  </wording>
@@ -3049,11 +3049,11 @@
                <wording class="word" status="core">
                 <token n="7379" gloss_berean="He could" id="SBL.John.9.33.8">ἠδύνατο</token>
                </wording>
-               <wording class="cluster" status="satellite" subclass="Obj_Part" values="scenario&#xA;$ποιέω&#xA;objectifying">
+               <wording class="cluster" status="satellite" subclass="Obj" values="scenario&#xA;$ποιέω&#xA;objectifying">
                 <wording class="word" status="core">
                  <token n="7380" gloss_berean="do" id="SBL.John.9.33.9">ποιεῖν</token>
                 </wording>
-                <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$οὐδείς&#xA;specific_range">
+                <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;descriptive_collation&#xA;descriptive_domain_tbd&#xA;$οὐδείς&#xA;specific_range">
                  <wording class="word" status="core">
                   <token n="7381" gloss_berean="nothing" id="SBL.John.9.33.10" after=".">οὐδέν</token>
                  </wording>
@@ -3085,12 +3085,12 @@
         <wording class="word" status="core">
          <token n="7384" gloss_berean="said" id="SBL.John.9.34.3">εἶπαν</token>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part_2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
+        <wording class="cluster" status="satellite" subclass="Obj2" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration&#xA;part-whole">
          <wording class="word" status="core">
           <token n="7385" gloss_berean="to him" id="SBL.John.9.34.4" after="·">αὐτῷ</token>
          </wording>
         </wording>
-        <wording class="cluster" status="satellite" subclass="Obj_Part" values="quotation">
+        <wording class="cluster" status="satellite" subclass="Obj" values="quotation">
          <context class="situation" id="situation.SBL.John.9.34.5-13" subclass="2">
           <context class="stage" id="stage.SBL.John.9.34.5-13">
            <context class="move" id="move.SBL.John.9.34.5-13">
@@ -3105,7 +3105,7 @@
                  <token n="7387" gloss_berean="sins" id="SBL.John.9.34.6">ἁμαρτίαις</token>
                 </wording>
                </wording>
-               <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
+               <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal&#xA;preparatory">
                 <wording class="word" status="core">
                  <token n="7388" gloss_berean="you" id="SBL.John.9.34.7">σὺ</token>
                 </wording>
@@ -3123,7 +3123,7 @@
                <wording class="word" status="junctive">
                 <token n="7391" gloss_berean="and" id="SBL.John.9.34.10">καὶ</token>
                </wording>
-               <wording class="cluster" status="satellite" subclass="Instantiator" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
+               <wording class="cluster" status="satellite" subclass="Subj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
                 <wording class="word" status="core">
                  <token n="7392" gloss_berean="you" id="SBL.John.9.34.11">σὺ</token>
                 </wording>
@@ -3131,7 +3131,7 @@
                <wording class="word" status="core">
                 <token n="7393" gloss_berean="teach" id="SBL.John.9.34.12">διδάσκεις</token>
                </wording>
-               <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
+               <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;indication&#xA;personal">
                 <wording class="word" status="core">
                  <token n="7394" gloss_berean="us" id="SBL.John.9.34.13" after=";">ἡμᾶς</token>
                 </wording>
@@ -3156,7 +3156,7 @@
        <wording class="word" status="core">
         <token n="7396" gloss_berean="they cast" id="SBL.John.9.34.15">ἐξέβαλον</token>
        </wording>
-       <wording class="cluster" status="satellite" subclass="Obj_Part" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration">
+       <wording class="cluster" status="satellite" subclass="Obj" values="instance&#xA;definition&#xA;differentiation&#xA;reiteration">
         <wording class="word" status="core">
          <token n="7397" gloss_berean="him" id="SBL.John.9.34.16">αὐτὸν</token>
         </wording>
