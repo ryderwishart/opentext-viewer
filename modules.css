@@ -214,6 +214,7 @@ module[next] {
 }
 
 function[next]::before {
+    border-radius: 15px 0px 0px 0px;
     content: attr(label) ' …';
 }
 
@@ -222,10 +223,12 @@ module[prev] {
 }
 
 function[prev]::before {
+    border-radius: 0px 15px 0px 0px;
     content: '… ' attr(label);
 }
 
 function[prev][next]::before {
+    border-radius: 0px;
     content: '… ' attr(label) ' …';
 }
 
