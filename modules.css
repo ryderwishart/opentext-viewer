@@ -1,18 +1,18 @@
 :root {
-    --utter-color: pink;
-    --act-color: orange; /* pink */
-    --pred-color: #ffee33;
-    --prop-color: #ffee33; /* cce6ff */
-    --absol-color: #ffee33;
-    --scen-color: #ffee33;    
-    --event-color: #cce6ff; /* d1e39c */
-    --def-color: #895b2d; /* b89c81 d8605a */
-    --def_part-color: #b89c81; /* e7ded5 */
+    --utter-color: orange; /* orange */    
+    --pred-color: #cce6ff;
+    --prop-color: #cce6ff;
+    --absol-color: #cce6ff;
+    --scen-color: #cce6ff;    
+    --event-color: #d1e39c; /* d1e39c */
+    --abstr-color: #D3D3D3; /* #667049 895b2d cce6ff */
+    --def-color: #b89c81; /* b89c81 d8605a */
+    --sel-color: #b89c81; /* e7ded5 */
     --coll_d-color: #e6ccff;    
     --assoc-color: #d8605a; /* #d8605a cf3830 ffcccc*/
     --coll_a-color: #e6ccff;
-    --ent-color: #667049; /* d1e39c ac7339*/
-    --abstr-color: #d1e39c; /* 895b2d cce6ff */
+    --ent-color: #895b2d; /* d1e39c ac7339*/
+    --circ-color: #ffee33; /* #667049 */
 }
 
 
@@ -52,12 +52,16 @@ context {
     --color: var(--event-color);
 }
 
+[class = "abstraction"] {
+    --color: var(--abstr-color);
+}
+
 [class = "definition"] {
     --color: var(--def-color);
 }
 
-[class = "definition_part"] {
-    --color: var(--def_part-color);
+[class = "selection"] {
+    --color: var(--sel-color);
 }
 
 [class = "descriptive_collation"] {
@@ -76,8 +80,8 @@ context {
     --color: var(--ent-color);
 }
 
-[class = "abstraction"] {
-    --color: var(--abstr-color);
+[class = "circumstance"] {
+    --color: var(--circ-color);
 }
 
 
