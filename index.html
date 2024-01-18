@@ -154,6 +154,13 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
     #xml-display [depth='2'] [data-hide-subclass='true'] {
       flex-direction: row;
     }
+    
+    #xml-display function[data-hide-tag='true'],
+    #xml-display function[data-hide-class='true'],
+    #xml-display function[data-hide-subclass='true']
+    {      
+      margin: 0px !important;           
+    }
 
     #xml-display [data-hide-tag='true']:before,
     #xml-display [data-hide-tag='true']:after,
