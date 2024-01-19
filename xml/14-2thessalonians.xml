@@ -39,7 +39,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -318,7 +318,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function xml:id="d7e175" next="d7e175_2" class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -538,7 +538,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function xml:id="d23e299" next="d23e299_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d23e299" next="d23e299_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d21e300" next="d21e300_2" class="predication" subclass="activation">
            <module xml:id="d19e301" next="d19e301_2" class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -667,7 +667,7 @@
            </module>
           </module>
          </function>
-         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Sentential" altLabel="Extra">
+         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Act" altLabel="Extra">
           <module class="abstraction" subclass="activation">
            <module class="abstraction" subclass="specification">
             <function class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
@@ -682,7 +682,7 @@
            </module>
           </module>
          </function>
-         <function prev="d23e299" xml:id="d23e299_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d23e299" xml:id="d23e299_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d21e300" xml:id="d21e300_2" class="predication" subclass="activation">
            <module prev="d19e301" xml:id="d19e301_2" class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="adjunct" label="Instantiation_Adjunct" altLabel="Adj_I">
@@ -1343,7 +1343,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -3063,7 +3063,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="adjunct" label="Instantiation_Adjunct" altLabel="Adj_I">
@@ -3831,7 +3831,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d15e2247" next="d15e2247_2" class="utterance" subclass="specification">
-         <function xml:id="d13e2246" next="d13e2246_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d13e2246" next="d13e2246_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d11e2245" next="d11e2245_2" class="predication" subclass="activation">
            <module xml:id="d9e2244" next="d9e2244_2" class="predication" subclass="specification">
             <function xml:id="d7e2237" next="d7e2237_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -3851,7 +3851,7 @@
         </module>
         <token n="236" id="SBL.2Thess.2.1.2">δὲ</token>
         <module prev="d15e2247" xml:id="d15e2247_2" class="utterance" subclass="specification">
-         <function xml:id="d13e2246_2" next="d13e2246_2_2" prev="d13e2246" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d13e2246_2" next="d13e2246_2_2" prev="d13e2246" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d11e2245_2" next="d11e2245_2_2" prev="d11e2245" class="predication" subclass="activation">
            <module xml:id="d9e2244_2" next="d9e2244_2_2" prev="d9e2244" class="predication" subclass="specification">
             <function xml:id="d7e2237_2" next="d7e2237_2_2" prev="d7e2237" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -3880,7 +3880,7 @@
            </module>
           </module>
          </function>
-         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Sentential" altLabel="Extra">
+         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Act" altLabel="Extra">
           <module class="abstraction" subclass="activation">
            <module class="abstraction" subclass="specification">
             <function class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
@@ -3895,7 +3895,7 @@
            </module>
           </module>
          </function>
-         <function prev="d13e2246" xml:id="d13e2246_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d13e2246" xml:id="d13e2246_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d11e2245" xml:id="d11e2245_2" class="predication" subclass="activation">
            <module prev="d9e2244" xml:id="d9e2244_2" class="predication" subclass="specification">
             <function prev="d7e2237" xml:id="d7e2237_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -4503,7 +4503,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="set">
             <function class="predication" subclass="set" name="conjunctive" label="±1">
@@ -5239,7 +5239,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -5404,7 +5404,7 @@
        <module class="utterance" subclass="connection">
         <token n="339" id="SBL.2Thess.2.6.1">καὶ</token>
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="adjunct" label="Instantiation_Adjunct" altLabel="Adj_I">
@@ -5598,7 +5598,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d25e3316" next="d25e3316_2" class="utterance" subclass="specification">
-         <function xml:id="d23e3316" next="d23e3316_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d23e3316" next="d23e3316_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d21e3315" next="d21e3315_2" class="predication" subclass="activation">
            <module xml:id="d19e3314" next="d19e3314_2" class="predication" subclass="specification">
             <function xml:id="d17e3313" next="d17e3313_2" class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -5624,7 +5624,7 @@
         </module>
         <token n="353" id="SBL.2Thess.2.7.2">γὰρ</token>
         <module prev="d25e3316" xml:id="d25e3316_2" class="utterance" subclass="specification">
-         <function prev="d23e3316" xml:id="d23e3316_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d23e3316" xml:id="d23e3316_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d21e3315" xml:id="d21e3315_2" class="predication" subclass="activation">
            <module prev="d19e3314" xml:id="d19e3314_2" class="predication" subclass="specification">
             <function xml:id="d17e3313_2" next="d17e3313_2_2" prev="d17e3313" class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -5751,7 +5751,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function xml:id="d11e3374" next="d11e3374_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -5909,7 +5909,7 @@
        <module class="utterance" subclass="connection">
         <token n="367" id="SBL.2Thess.2.8.1">καὶ</token>
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="adjunct" label="Instantiation_Adjunct" altLabel="Adj_I">
@@ -6850,7 +6850,7 @@
        <module class="utterance" subclass="connection">
         <token n="424" id="SBL.2Thess.2.11.1">καὶ</token>
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="adjunct" label="Instantiation_Adjunct" altLabel="Adj_I">
@@ -7256,7 +7256,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d9e4251" next="d9e4251_2" class="utterance" subclass="specification">
-         <function xml:id="d7e4230" next="d7e4230_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d7e4230" next="d7e4230_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d5e4208" next="d5e4208_2" class="predication" subclass="activation">
            <module xml:id="d3e4187" next="d3e4187_2" class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -7282,7 +7282,7 @@
         </module>
         <token n="452" id="SBL.2Thess.2.13.2">δὲ</token>
         <module prev="d9e4251" xml:id="d9e4251_2" class="utterance" subclass="specification">
-         <function xml:id="d7e4230_2" next="d7e4230_2_2" prev="d7e4230" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d7e4230_2" next="d7e4230_2_2" prev="d7e4230" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d5e4208_2" next="d5e4208_2_2" prev="d5e4208" class="predication" subclass="activation">
            <module xml:id="d3e4187_2" next="d3e4187_2_2" prev="d3e4187" class="predication" subclass="specification">
             <function xml:id="d13e4287" next="d13e4287_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -7399,7 +7399,7 @@
            </module>
           </module>
          </function>
-         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Sentential" altLabel="Extra">
+         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Act" altLabel="Extra">
           <module class="abstraction" subclass="activation">
            <module class="abstraction" subclass="specification">
             <function class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
@@ -7457,7 +7457,7 @@
            </module>
           </module>
          </function>
-         <function prev="d7e4230" xml:id="d7e4230_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d7e4230" xml:id="d7e4230_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d5e4208" xml:id="d5e4208_2" class="predication" subclass="activation">
            <module prev="d3e4187" xml:id="d3e4187_2" class="predication" subclass="specification">
             <function prev="d13e4287" xml:id="d13e4287_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -7985,7 +7985,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d9e4673" next="d9e4673_2" class="utterance" subclass="specification">
-         <function xml:id="d7e4649" next="d7e4649_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d7e4649" next="d7e4649_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d5e4624" next="d5e4624_2" class="predication" subclass="activation">
            <module xml:id="d3e4600" next="d3e4600_2" class="predication" subclass="set">
             <token n="494" id="SBL.2Thess.2.15.1">ἄρα</token>
@@ -7995,7 +7995,7 @@
         </module>
         <token n="495" id="SBL.2Thess.2.15.2" after=",">οὖν</token>
         <module prev="d9e4673" xml:id="d9e4673_2" class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Sentential" altLabel="Extra">
+         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Act" altLabel="Extra">
           <module class="abstraction" subclass="activation">
            <module class="abstraction" subclass="specification">
             <function class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
@@ -8010,7 +8010,7 @@
            </module>
           </module>
          </function>
-         <function prev="d7e4649" xml:id="d7e4649_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d7e4649" xml:id="d7e4649_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d5e4624" xml:id="d5e4624_2" class="predication" subclass="activation">
            <module prev="d3e4600" xml:id="d3e4600_2" class="predication" subclass="set">
             <function class="predication" subclass="set" name="conjunctive" label="±1">
@@ -8220,7 +8220,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d25e4865" next="d25e4865_2" class="utterance" subclass="specification">
-         <function xml:id="d23e4864" next="d23e4864_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d23e4864" next="d23e4864_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d21e4861" next="d21e4861_2" class="predication" subclass="activation">
            <module xml:id="d19e4857" next="d19e4857_2" class="predication" subclass="specification">
             <function xml:id="d17e4853" next="d17e4853_2" class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -8252,7 +8252,7 @@
         </module>
         <token n="512" id="SBL.2Thess.2.16.2">δὲ</token>
         <module prev="d25e4865" xml:id="d25e4865_2" class="utterance" subclass="specification">
-         <function prev="d23e4864" xml:id="d23e4864_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d23e4864" xml:id="d23e4864_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d21e4861" xml:id="d21e4861_2" class="predication" subclass="activation">
            <module prev="d19e4857" xml:id="d19e4857_2" class="predication" subclass="specification">
             <function prev="d17e4853" xml:id="d17e4853_2" class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -8685,7 +8685,7 @@
        <module class="utterance" subclass="connection">
         <token n="539" id="SBL.2Thess.2.17.5">καὶ</token>
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -8788,7 +8788,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function xml:id="d13e5167" next="d13e5167_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d13e5167" next="d13e5167_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d11e5158" next="d11e5158_2" class="predication" subclass="activation">
            <module xml:id="d9e5147" next="d9e5147_2" class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="adjunct" label="Instantiation_Adjunct" altLabel="Adj_I">
@@ -8849,7 +8849,7 @@
            </module>
           </module>
          </function>
-         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Sentential" altLabel="Extra">
+         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Act" altLabel="Extra">
           <module class="abstraction" subclass="activation">
            <module class="abstraction" subclass="specification">
             <function class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
@@ -8864,7 +8864,7 @@
            </module>
           </module>
          </function>
-         <function prev="d13e5167" xml:id="d13e5167_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d13e5167" xml:id="d13e5167_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d11e5158" xml:id="d11e5158_2" class="predication" subclass="activation">
            <module prev="d9e5147" xml:id="d9e5147_2" class="predication" subclass="specification">
             <function prev="d7e5146" xml:id="d7e5146_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -9188,7 +9188,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d13e5406" next="d13e5406_2" class="utterance" subclass="specification">
-         <function xml:id="d11e5396" next="d11e5396_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d11e5396" next="d11e5396_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d9e5384" next="d9e5384_2" class="predication" subclass="activation">
            <module xml:id="d7e5357" next="d7e5357_2" class="predication" subclass="set">
             <function xml:id="d5e5329" next="d5e5329_2" class="predication" subclass="set" name="conjunctive" label="±1">
@@ -9202,7 +9202,7 @@
         </module>
         <token n="575" id="SBL.2Thess.3.2.11">γὰρ</token>
         <module prev="d13e5406" xml:id="d13e5406_2" class="utterance" subclass="specification">
-         <function prev="d11e5396" xml:id="d11e5396_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d11e5396" xml:id="d11e5396_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d9e5384" xml:id="d9e5384_2" class="predication" subclass="activation">
            <module prev="d7e5357" xml:id="d7e5357_2" class="predication" subclass="set">
             <function prev="d5e5329" xml:id="d5e5329_2" class="predication" subclass="set" name="conjunctive" label="±1">
@@ -9269,7 +9269,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d15e5463" next="d15e5463_2" class="utterance" subclass="specification">
-         <function xml:id="d13e5454" next="d13e5454_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d13e5454" next="d13e5454_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d11e5443" next="d11e5443_2" class="predication" subclass="activation">
            <module xml:id="d9e5430" next="d9e5430_2" class="predication" subclass="specification">
             <function xml:id="d7e5402" next="d7e5402_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -9305,7 +9305,7 @@
         </module>
         <token n="580" id="SBL.2Thess.3.3.2">δέ</token>
         <module prev="d15e5463" xml:id="d15e5463_2" class="utterance" subclass="specification">
-         <function prev="d13e5454" xml:id="d13e5454_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d13e5454" xml:id="d13e5454_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d11e5443" xml:id="d11e5443_2" class="predication" subclass="activation">
            <module prev="d9e5430" xml:id="d9e5430_2" class="predication" subclass="specification">
             <function prev="d7e5402" xml:id="d7e5402_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -9488,7 +9488,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d15e5591" next="d15e5591_2" class="utterance" subclass="specification">
-         <function xml:id="d13e5581" next="d13e5581_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d13e5581" next="d13e5581_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d11e5569" next="d11e5569_2" class="predication" subclass="activation">
            <module xml:id="d9e5555" next="d9e5555_2" class="predication" subclass="specification">
             <function xml:id="d7e5526" next="d7e5526_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -9508,7 +9508,7 @@
         </module>
         <token n="593" id="SBL.2Thess.3.4.2">δὲ</token>
         <module prev="d15e5591" xml:id="d15e5591_2" class="utterance" subclass="specification">
-         <function prev="d13e5581" xml:id="d13e5581_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d13e5581" xml:id="d13e5581_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d11e5569" xml:id="d11e5569_2" class="predication" subclass="activation">
            <module prev="d9e5555" xml:id="d9e5555_2" class="predication" subclass="specification">
             <function prev="d7e5526" xml:id="d7e5526_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -9677,7 +9677,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d25e5734" next="d25e5734_2" class="utterance" subclass="specification">
-         <function xml:id="d23e5732" next="d23e5732_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d23e5732" next="d23e5732_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d21e5728" next="d21e5728_2" class="predication" subclass="activation">
            <module xml:id="d19e5723" next="d19e5723_2" class="predication" subclass="specification">
             <function xml:id="d17e5718" next="d17e5718_2" class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -9703,7 +9703,7 @@
         </module>
         <token n="606" id="SBL.2Thess.3.5.2">δὲ</token>
         <module prev="d25e5734" xml:id="d25e5734_2" class="utterance" subclass="specification">
-         <function prev="d23e5732" xml:id="d23e5732_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d23e5732" xml:id="d23e5732_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d21e5728" xml:id="d21e5728_2" class="predication" subclass="activation">
            <module prev="d19e5723" xml:id="d19e5723_2" class="predication" subclass="specification">
             <function prev="d17e5718" xml:id="d17e5718_2" class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -9965,7 +9965,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d15e5869" next="d15e5869_2" class="utterance" subclass="specification">
-         <function xml:id="d13e5857" next="d13e5857_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d13e5857" next="d13e5857_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d11e5843" next="d11e5843_2" class="predication" subclass="activation">
            <module xml:id="d9e5827" next="d9e5827_2" class="predication" subclass="specification">
             <function xml:id="d7e5796" next="d7e5796_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -9985,7 +9985,7 @@
         </module>
         <token n="624" id="SBL.2Thess.3.6.2">δὲ</token>
         <module prev="d15e5869" xml:id="d15e5869_2" class="utterance" subclass="specification">
-         <function xml:id="d13e5857_2" next="d13e5857_2_2" prev="d13e5857" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d13e5857_2" next="d13e5857_2_2" prev="d13e5857" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d11e5843_2" next="d11e5843_2_2" prev="d11e5843" class="predication" subclass="activation">
            <module xml:id="d9e5827_2" next="d9e5827_2_2" prev="d9e5827" class="predication" subclass="specification">
             <function xml:id="d7e5796_2" next="d7e5796_2_2" prev="d7e5796" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -10014,7 +10014,7 @@
            </module>
           </module>
          </function>
-         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Sentential" altLabel="Extra">
+         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Act" altLabel="Extra">
           <module class="abstraction" subclass="activation">
            <module class="abstraction" subclass="specification">
             <function class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
@@ -10029,7 +10029,7 @@
            </module>
           </module>
          </function>
-         <function prev="d13e5857" xml:id="d13e5857_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d13e5857" xml:id="d13e5857_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d11e5843" xml:id="d11e5843_2" class="predication" subclass="activation">
            <module prev="d9e5827" xml:id="d9e5827_2" class="predication" subclass="specification">
             <function prev="d7e5796" xml:id="d7e5796_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -10421,7 +10421,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d15e6136" next="d15e6136_2" class="utterance" subclass="specification">
-         <function xml:id="d13e6122" next="d13e6122_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d13e6122" next="d13e6122_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d11e6106" next="d11e6106_2" class="predication" subclass="activation">
            <module xml:id="d9e6088" next="d9e6088_2" class="predication" subclass="set">
             <function xml:id="d7e6054" next="d7e6054_2" class="predication" subclass="set" name="conjunctive" label="±1">
@@ -10453,7 +10453,7 @@
         </module>
         <token n="651" id="SBL.2Thess.3.7.2">γὰρ</token>
         <module prev="d15e6136" xml:id="d15e6136_2" class="utterance" subclass="specification">
-         <function prev="d13e6122" xml:id="d13e6122_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d13e6122" xml:id="d13e6122_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d11e6106" xml:id="d11e6106_2" class="predication" subclass="activation">
            <module prev="d9e6088" xml:id="d9e6088_2" class="predication" subclass="set">
             <function prev="d7e6054" xml:id="d7e6054_2" class="predication" subclass="set" name="conjunctive" label="±1">
@@ -10918,7 +10918,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="set">
             <function class="predication" subclass="set" name="conjunctive" label="±1">
@@ -11131,7 +11131,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d13e6547" next="d13e6547_2" class="utterance" subclass="specification">
-         <function xml:id="d11e6530" next="d11e6530_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d11e6530" next="d11e6530_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d9e6511" next="d9e6511_2" class="predication" subclass="activation">
            <module xml:id="d7e6476" next="d7e6476_2" class="predication" subclass="set">
             <function xml:id="d5e6440" next="d5e6440_2" class="predication" subclass="set" name="conjunctive" label="±1">
@@ -11145,7 +11145,7 @@
         </module>
         <token n="699" id="SBL.2Thess.3.10.2">γὰρ</token>
         <module prev="d13e6547" xml:id="d13e6547_2" class="utterance" subclass="specification">
-         <function prev="d11e6530" xml:id="d11e6530_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d11e6530" xml:id="d11e6530_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d9e6511" xml:id="d9e6511_2" class="predication" subclass="activation">
            <module prev="d7e6476" xml:id="d7e6476_2" class="predication" subclass="set">
             <function prev="d5e6440" xml:id="d5e6440_2" class="predication" subclass="set" name="conjunctive" label="±1">
@@ -11265,7 +11265,7 @@
            </module>
           </module>
          </function>
-         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Sentential" altLabel="Extra">
+         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Act" altLabel="Extra">
           <module class="entity" subclass="activation">
            <module class="entity" subclass="specification">
             <token n="707" id="SBL.2Thess.3.10.10">ὅτι</token>
@@ -11379,7 +11379,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d15e6713" next="d15e6713_2" class="utterance" subclass="specification">
-         <function xml:id="d13e6697" next="d13e6697_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d13e6697" next="d13e6697_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d11e6679" next="d11e6679_2" class="predication" subclass="activation">
            <module xml:id="d9e6659" next="d9e6659_2" class="predication" subclass="specification">
             <function xml:id="d7e6623" next="d7e6623_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -11399,7 +11399,7 @@
         </module>
         <token n="716" id="SBL.2Thess.3.11.2">γάρ</token>
         <module prev="d15e6713" xml:id="d15e6713_2" class="utterance" subclass="specification">
-         <function prev="d13e6697" xml:id="d13e6697_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d13e6697" xml:id="d13e6697_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d11e6679" xml:id="d11e6679_2" class="predication" subclass="activation">
            <module prev="d9e6659" xml:id="d9e6659_2" class="predication" subclass="specification">
             <function prev="d7e6623" xml:id="d7e6623_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -11582,7 +11582,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d31e6872" next="d31e6872_2" class="utterance" subclass="specification">
-         <function xml:id="d29e6873" next="d29e6873_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d29e6873" next="d29e6873_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d27e6874" next="d27e6874_2" class="predication" subclass="activation">
            <module xml:id="d25e6872" next="d25e6872_2" class="predication" subclass="specification">
             <function xml:id="d23e6869" next="d23e6869_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -11614,7 +11614,7 @@
         </module>
         <token n="727" id="SBL.2Thess.3.12.2">δὲ</token>
         <module prev="d31e6872" xml:id="d31e6872_2" class="utterance" subclass="specification">
-         <function prev="d29e6873" xml:id="d29e6873_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d29e6873" xml:id="d29e6873_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d27e6874" xml:id="d27e6874_2" class="predication" subclass="activation">
            <module prev="d25e6872" xml:id="d25e6872_2" class="predication" subclass="specification">
             <function prev="d23e6869" xml:id="d23e6869_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -11892,7 +11892,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d9e6940" next="d9e6940_2" class="utterance" subclass="specification">
-         <function xml:id="d7e6902" next="d7e6902_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d7e6902" next="d7e6902_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d5e6863" next="d5e6863_2" class="predication" subclass="activation">
            <module xml:id="d3e6826" next="d3e6826_2" class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -11918,7 +11918,7 @@
         </module>
         <token n="745" id="SBL.2Thess.3.13.2" after=",">δέ</token>
         <module prev="d9e6940" xml:id="d9e6940_2" class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Sentential" altLabel="Extra">
+         <function class="utterance" subclass="specification" name="supplemental_speech_act" label="Extra-Act" altLabel="Extra">
           <module class="abstraction" subclass="activation">
            <module class="abstraction" subclass="specification">
             <function class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
@@ -11933,7 +11933,7 @@
            </module>
           </module>
          </function>
-         <function prev="d7e6902" xml:id="d7e6902_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d7e6902" xml:id="d7e6902_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d5e6863" xml:id="d5e6863_2" class="predication" subclass="activation">
            <module prev="d3e6826" xml:id="d3e6826_2" class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -11994,7 +11994,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d19e7087" next="d19e7087_2" class="utterance" subclass="specification">
-         <function xml:id="d17e7080" next="d17e7080_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d17e7080" next="d17e7080_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d15e7065" next="d15e7065_2" class="predication" subclass="activation">
            <module xml:id="d13e7047" next="d13e7047_2" class="predication" subclass="specification">
             <function xml:id="d11e7027" next="d11e7027_2" class="predication" subclass="specification" name="adjunct" label="Instantiation_Adjunct" altLabel="Adj_I">
@@ -12014,7 +12014,7 @@
         </module>
         <token n="751" id="SBL.2Thess.3.14.2">δέ</token>
         <module prev="d19e7087" xml:id="d19e7087_2" class="utterance" subclass="specification">
-         <function prev="d17e7080" xml:id="d17e7080_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d17e7080" xml:id="d17e7080_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d15e7065" xml:id="d15e7065_2" class="predication" subclass="activation">
            <module prev="d13e7047" xml:id="d13e7047_2" class="predication" subclass="specification">
             <function prev="d11e7027" xml:id="d11e7027_2" class="predication" subclass="specification" name="adjunct" label="Instantiation_Adjunct" altLabel="Adj_I">
@@ -12283,7 +12283,7 @@
        <module class="utterance" subclass="connection">
         <token n="768" id="SBL.2Thess.3.15.1">καὶ</token>
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="set">
             <function class="predication" subclass="set" name="conjunctive" label="±1">
@@ -12365,7 +12365,7 @@
        <module class="utterance" subclass="connection">
         <token n="773" id="SBL.2Thess.3.15.6">ἀλλὰ</token>
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
@@ -12433,7 +12433,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module xml:id="d19e7347" next="d19e7347_2" class="utterance" subclass="specification">
-         <function xml:id="d17e7339" next="d17e7339_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function xml:id="d17e7339" next="d17e7339_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module xml:id="d15e7323" next="d15e7323_2" class="predication" subclass="activation">
            <module xml:id="d13e7304" next="d13e7304_2" class="predication" subclass="specification">
             <function xml:id="d11e7283" next="d11e7283_2" class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -12459,7 +12459,7 @@
         </module>
         <token n="778" id="SBL.2Thess.3.16.2">δὲ</token>
         <module prev="d19e7347" xml:id="d19e7347_2" class="utterance" subclass="specification">
-         <function prev="d17e7339" xml:id="d17e7339_2" class="utterance" subclass="specification" name="act" label="Act">
+         <function prev="d17e7339" xml:id="d17e7339_2" class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module prev="d15e7323" xml:id="d15e7323_2" class="predication" subclass="activation">
            <module prev="d13e7304" xml:id="d13e7304_2" class="predication" subclass="specification">
             <function prev="d11e7283" xml:id="d11e7283_2" class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -12658,7 +12658,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -12739,7 +12739,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
@@ -12964,7 +12964,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="adjunct" label="Instantiation_Adjunct" altLabel="Adj_I">
@@ -13010,7 +13010,7 @@
       <module class="utterance" subclass="activation">
        <module class="utterance" subclass="connection">
         <module class="utterance" subclass="specification">
-         <function class="utterance" subclass="specification" name="act" label="Act">
+         <function class="utterance" subclass="specification" name="main_speech_act" label="Main_Act" altLabel="Main">
           <module class="predication" subclass="activation">
            <module class="predication" subclass="specification">
             <function class="predication" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
