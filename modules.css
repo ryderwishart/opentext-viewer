@@ -166,7 +166,7 @@ function::before {
     color: #505050;
 }
 
-function[class = 'entity']::before {
+function[class = 'utterance']::before {
     color: white;
 }
 
