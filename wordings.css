@@ -54,7 +54,7 @@ wording[class = "word"][status = "junctive"] {
 wording[class = "path"] {
     position: relative;
     align-self: stretch;
-    border: 1px solid black;
+    border: 1px solid #B8B8B8;
     border-radius: 10px;
     border-right: none;
     border-left: none;

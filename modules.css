@@ -1,18 +1,18 @@
 :root {
-    --utter-color: pink; /* orange */    
-    --pred-color: #cce6ff;
-    --prop-color: #cce6ff;
-    --absol-color: #cce6ff;
-    --scen-color: #cce6ff;    
+    --utter-color: #696969; /* orange */    
+    --pred-color: pink;
+    --prop-color: pink;
+    --absol-color: pink;
+    --scen-color: pink;    
     --event-color: #d1e39c; /* d1e39c */
-    --abstr-color: #D3D3D3; /* #667049 895b2d cce6ff */
-    --def-color: #895b2d; /* b89c81 d8605a */
-    --sel-color: #b89c81; /* e7ded5 */
+    --abstr-color: #d3d3d3; /* #895b2d #D3D3D3 #667049 895b2d cce6ff */
+    --def-color: #d8605a; /* b89c81 d8605a */
+    --sel-color: orange; /* e7ded5 #b89c81 */ 
     --coll_d-color: #e6ccff;    
-    --assoc-color: #d8605a; /* #d8605a cf3830 ffcccc*/
+    --assoc-color: #ffee33; /* #d8605a cf3830 ffcccc*/
     --coll_a-color: #e6ccff;
-    --ent-color: #808080; /* d1e39c ac7339*/
-    --circ-color: #ffee33; /* #667049 */
+    --ent-color: #b89c81; /* #895b2d #808080 d1e39c ac7339 #696969 */
+    --circ-color: #cce6ff; /* #667049 */
 }
 
 
@@ -164,6 +164,10 @@ function::before {
     content: attr(label);
     white-space: nowrap;
     color: #505050;
+}
+
+function[class = 'entity']::before {
+    color: white;
 }
 
 /* This keeps the text vertically centered and hence in line. */
