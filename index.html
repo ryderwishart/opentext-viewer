@@ -97,10 +97,16 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
     }
 
     #xml-display [data-hide-tag='true'] {
+      flex-direction: row;      
       margin: 0px;
       border: none;
       padding: 0px;
       background: none;
+    }
+
+    #xml-display module[data-hide-tag='true'] function[data-hide-tag='true'] [data-hide-tag='true'] {
+      align-items: center;
+      justify-content: center;
     }
 
     #xml-display context[data-hide-subclass='true'] * {      
@@ -123,18 +129,20 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
       display: none;    
     }
  
-    #xml-display module[data-hide-tag='true'] wording {      
+    #xml-display module wording,
+    #xml-display function wording {      
       align-items: center !important;
       align-self: center !important;
     }
 
-    #xml-display *[data-hide-tag='true'] > token {
-      margin: 7px 0px 7px 7px;
-    }
-
-    #xml-display module:not([data-hide-tag='true']) wording {      
+    #xml-display module:not([data-hide-tag='true']) wording,
+    #xml-display function:not([data-hide-tag='true']) wording {      
       align-items: flex-start !important;
       align-self: flex-start !important;
+    }
+
+    #xml-display *[data-hide-tag='true'] > token {
+      margin: 7px 0px 7px 7px;
     }
 
     #xml-display module[data-hide-class='true'] {      
