@@ -146,7 +146,7 @@ module[subclass = "lexicalization"] {
 function {
     display: flex;
     flex-direction: column;
-    margin: 7px 0px 7px 7px;
+    margin-left: 7px;
 }
 
 function:last-child {
@@ -154,7 +154,7 @@ function:last-child {
 }
 
 function::before {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     height: 20px;
     display: flex;
     flex-grow: 0;

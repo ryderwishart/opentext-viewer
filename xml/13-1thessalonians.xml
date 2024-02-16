@@ -10235,9 +10235,9 @@
                                                               <module class="entity" subclass="specification" values="∅">
                                                                <module class="phenomenon" subclass="activation" values="∅">
                                                                 <module class="phenomenon" subclass="specification" values="instantiation">
-                                                                 <module class="absolute" subclass="activation" values="∅">
-                                                                  <module class="absolute" subclass="specification" values="∅">
-                                                                   <function class="absolute" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+                                                                 <module class="instantiation" subclass="activation" values="∅">
+                                                                  <module class="instantiation" subclass="specification" values="∅">
+                                                                   <function class="instantiation" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                                                                     <module class="abstraction" subclass="activation" values="∅">
                                                                      <module class="abstraction" subclass="specification" values="selection">
                                                                       <function class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
@@ -13845,9 +13845,9 @@
                         <module xml:id="d27e7946" next="d27e7946_2" class="entity" subclass="specification" values="∅">
                          <module xml:id="d25e7944" next="d25e7944_2" class="phenomenon" subclass="activation" values="∅">
                           <module xml:id="d23e7939" next="d23e7939_2" class="phenomenon" subclass="specification" values="instantiation">
-                           <module xml:id="d21e7932" next="d21e7932_2" class="absolute" subclass="activation" values="∅">
-                            <module xml:id="d19e7924" next="d19e7924_2" class="absolute" subclass="specification" values="construed_instantiator">
-                             <function xml:id="d17e7913" next="d17e7913_2" class="absolute" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+                           <module xml:id="d21e7932" next="d21e7932_2" class="instantiation" subclass="activation" values="∅">
+                            <module xml:id="d19e7924" next="d19e7924_2" class="instantiation" subclass="specification" values="construed_instantiator">
+                             <function xml:id="d17e7913" next="d17e7913_2" class="instantiation" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                               <module xml:id="d15e7897" next="d15e7897_2" class="abstraction" subclass="activation" values="∅">
                                <module xml:id="d13e7880" next="d13e7880_2" class="abstraction" subclass="specification" values="selection">
                                 <function xml:id="d11e7863" next="d11e7863_2" class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
@@ -13925,9 +13925,9 @@
                         <module prev="d27e7946" xml:id="d27e7946_2" class="entity" subclass="specification" values="∅">
                          <module prev="d25e7944" xml:id="d25e7944_2" class="phenomenon" subclass="activation" values="∅">
                           <module prev="d23e7939" xml:id="d23e7939_2" class="phenomenon" subclass="specification" values="instantiation">
-                           <module prev="d21e7932" xml:id="d21e7932_2" class="absolute" subclass="activation" values="∅">
-                            <module prev="d19e7924" xml:id="d19e7924_2" class="absolute" subclass="specification" values="construed_instantiator">
-                             <function xml:id="d17e7913_2" next="d17e7913_2_2" prev="d17e7913" class="absolute" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+                           <module prev="d21e7932" xml:id="d21e7932_2" class="instantiation" subclass="activation" values="∅">
+                            <module prev="d19e7924" xml:id="d19e7924_2" class="instantiation" subclass="specification" values="construed_instantiator">
+                             <function xml:id="d17e7913_2" next="d17e7913_2_2" prev="d17e7913" class="instantiation" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                               <module xml:id="d15e7897_2" next="d15e7897_2_2" prev="d15e7897" class="abstraction" subclass="activation" values="∅">
                                <module xml:id="d13e7880_2" next="d13e7880_2_2" prev="d13e7880" class="abstraction" subclass="specification" values="selection">
                                 <function xml:id="d11e7863_2" next="d11e7863_2_2" prev="d11e7863" class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
@@ -13948,7 +13948,7 @@
                                </module>
                               </module>
                              </function>
-                             <function class="absolute" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
+                             <function class="instantiation" subclass="specification" name="construed_instantiator" label="Subject" altLabel="Subj">
                               <wording class="cluster" status="satellite" subclass="subj">
                                <module class="entity" subclass="activation" values="∅">
                                 <module class="entity" subclass="specification" values="∅">
@@ -13973,7 +13973,7 @@
                                </module>
                               </wording>
                              </function>
-                             <function prev="d17e7913" xml:id="d17e7913_2" class="absolute" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+                             <function prev="d17e7913" xml:id="d17e7913_2" class="instantiation" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                               <module prev="d15e7897" xml:id="d15e7897_2" class="abstraction" subclass="activation" values="∅">
                                <module prev="d13e7880" xml:id="d13e7880_2" class="abstraction" subclass="specification" values="selection">
                                 <function prev="d11e7863" xml:id="d11e7863_2" class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
@@ -14087,9 +14087,9 @@
                          <module class="entity" subclass="specification" values="∅">
                           <module class="phenomenon" subclass="activation" values="∅">
                            <module class="phenomenon" subclass="specification" values="instantiation">
-                            <module class="absolute" subclass="activation" values="∅">
-                             <module class="absolute" subclass="specification" values="∅">
-                              <function class="absolute" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+                            <module class="instantiation" subclass="activation" values="∅">
+                             <module class="instantiation" subclass="specification" values="∅">
+                              <function class="instantiation" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                                <module class="abstraction" subclass="activation" values="∅">
                                 <module class="abstraction" subclass="specification" values="selection">
                                  <function class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
