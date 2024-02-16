@@ -111,13 +111,13 @@ wording > module {
 
 module[subclass = "activation"] {
     padding-top: 12px;
-    border-top: 2px dashed var(--color);
+    border-top: 5px double var(--color);
 }
 
 module[subclass = "re-construal"],
 module[subclass = "set"] {
     padding-top: 12px;
-    border-top: 4px double var(--color);
+    border-top: 5px dashed var(--color);
 }
 
 module[subclass = "connection"],
@@ -129,7 +129,7 @@ module[subclass = "option"] {
 
 module[subclass = "specification"] {
     padding-top: 12px;
-    border-top: 8px solid var(--color);
+    border-top: 6px solid var(--color);
 }
 
 /* To eliminate borders for lexical classes, so users can focus on syntactic wordings. */
@@ -154,6 +154,7 @@ function:last-child {
 }
 
 function::before {
+    margin-bottom: 5px;
     height: 20px;
     display: flex;
     flex-grow: 0;
@@ -168,7 +169,7 @@ function::before {
     color: #505050;
 }
 
-function[class = 'utterance']:not([subclass = 'specification'])::before,
+function[class = 'utterance']::before,
 function[class = 'phenomenon']:not([subclass = 'specification'])::before {
     color: white;
 }
