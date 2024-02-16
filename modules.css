@@ -144,10 +144,8 @@ module[subclass = "lexicalization"] {
  *************/
 
 function {
-    /*align-self: stretch;*/
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
     margin: 7px 0px 7px 7px;
 }
 
@@ -156,33 +154,28 @@ function:last-child {
 }
 
 function::before {
-    /*margin-bottom: auto;*/
     height: 20px;
     display: flex;
     flex-grow: 0;
     flex-direction: row;
     padding: 2px 5px;
-    border-radius: 15px 15px 0px 0px;
-    background: var(--color);
+    border-radius: 15px 15px 0px 0px;    
+    border: 2px solid var(--color);
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
     content: attr(label);
     white-space: nowrap;
     color: #505050;
 }
 
-function[class = 'utterance']::before,
-function[class = 'phenomenon']::before {
+function[class = 'utterance']:not([subclass = 'specification'])::before,
+function[class = 'phenomenon']:not([subclass = 'specification'])::before {
     color: white;
 }
 
-/* This keeps the text vertically centered and hence in line. */
-function::after {
-    /*margin-top: auto;*/
-    height: 20px;
-    display: flex;
-    padding: 2px 5px;
-    content: attr(none);
+function[subclass = 'specification']::before {
+    border: none;
+    background: var(--color);
 }
 
 
