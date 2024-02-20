@@ -188,7 +188,7 @@ module[values]:active::before {
     position: absolute;
     display: flex;
     align-items: center;
-    height: 12px;
+    height: 16px;
     min-width: 100%;
     /* horizontally center */
     bottom: 100%;
