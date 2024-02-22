@@ -140,7 +140,7 @@
              <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
               <module class="event" subclass="activation" values="∅">
                <module class="event" subclass="specification" values="objectifying: peripheral: medial-final">
-                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
@@ -421,7 +421,7 @@
              <function xml:id="d7e245" next="d7e245_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
               <module xml:id="d5e245" next="d5e245_2" class="event" subclass="activation" values="∅">
                <module xml:id="d3e245" next="d3e245_2" class="event" subclass="specification" values="objectifying: peripheral: medial-final; event_circumstance">
-                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
@@ -658,7 +658,7 @@
              <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
               <module class="event" subclass="activation" values="∅">
                <module class="event" subclass="specification" values="$ὀφείλω; informational_environment; objectifying: preparatory">
-                <function xml:id="d23e362" next="d23e362_2" class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function xml:id="d23e362" next="d23e362_2" class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording xml:id="d21e363" next="d21e363_2" class="cluster" status="satellite" subclass="obj">
                   <module xml:id="d19e364" next="d19e364_2" class="entity" subclass="activation" values="∅">
                    <module xml:id="d17e365" next="d17e365_2" class="entity" subclass="specification" values="∅">
@@ -690,7 +690,7 @@
                   <token n="29" gloss_berean="we ought" id="SBL.2Thess.1.3.2">ὀφείλομεν</token>
                  </wording>
                 </function>
-                <function prev="d23e362" xml:id="d23e362_2" class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function prev="d23e362" xml:id="d23e362_2" class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording prev="d21e363" xml:id="d21e363_2" class="cluster" status="satellite" subclass="obj">
                   <module prev="d19e364" xml:id="d19e364_2" class="entity" subclass="activation" values="∅">
                    <module prev="d17e365" xml:id="d17e365_2" class="entity" subclass="specification" values="∅">
@@ -701,7 +701,7 @@
                         <function prev="d7e367" xml:id="d7e367_2" class="scenario" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                          <module prev="d5e366" xml:id="d5e366_2" class="event" subclass="activation" values="∅">
                           <module prev="d3e365" xml:id="d3e365_2" class="event" subclass="specification" values="$εὐχαριστέω; informational_environment; objectifying: peripheral: medial-final; event_circumstance; event_circumstance">
-                           <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                           <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                             <wording class="cluster" status="satellite" subclass="obj">
                              <module class="entity" subclass="activation" values="∅">
                               <module class="entity" subclass="specification" values="∅">
@@ -2032,7 +2032,7 @@
                                       <token n="103" gloss_berean="to repay" id="SBL.2Thess.1.6.5">ἀνταποδοῦναι</token>
                                      </wording>
                                     </function>
-                                    <function class="event" subclass="specification" name="extra_objective_participant" label="Extra Objective Participant" altLabel="Obj2">
+                                    <function class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
                                      <wording class="cluster" status="satellite" subclass="obj2">
                                       <module class="entity" subclass="activation" values="∅">
                                        <module class="entity" subclass="specification" values="∅">
@@ -2058,7 +2058,7 @@
                                                         <token n="105" gloss_berean="oppressing" id="SBL.2Thess.1.6.7">θλίβουσιν</token>
                                                        </wording>
                                                       </function>
-                                                      <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                                      <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                                        <wording class="cluster" status="satellite" subclass="obj">
                                                         <module class="entity" subclass="activation" values="∅">
                                                          <module class="entity" subclass="specification" values="∅">
@@ -2101,7 +2101,7 @@
                                       </module>
                                      </wording>
                                     </function>
-                                    <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                    <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                      <wording class="cluster" status="satellite" subclass="obj">
                                       <module class="entity" subclass="activation" values="∅">
                                        <module class="entity" subclass="specification" values="∅">
@@ -2149,7 +2149,7 @@
                                <module class="phenomenon" subclass="specification" values="scenario">
                                 <module class="scenario" subclass="activation" values="∅">
                                  <module class="scenario" subclass="specification" values="objectifying: extra_participant: part-whole; event_circumstance; event_circumstance; event_circumstance">
-                                  <function class="scenario" subclass="specification" name="extra_objective_participant" label="Extra Objective Participant" altLabel="Obj2">
+                                  <function class="scenario" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
                                    <wording class="cluster" status="satellite" subclass="obj2">
                                     <module class="entity" subclass="activation" values="re-construed">
                                      <module class="entity" subclass="re-construal" values="∅">
@@ -2222,7 +2222,7 @@
                                     </module>
                                    </wording>
                                   </function>
-                                  <function class="scenario" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                  <function class="scenario" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                    <wording class="cluster" status="satellite" subclass="obj">
                                     <module class="entity" subclass="activation" values="∅">
                                      <module class="entity" subclass="specification" values="∅">
@@ -2562,7 +2562,7 @@
                                                <token n="130" gloss_berean="inflicting" id="SBL.2Thess.1.8.4">διδόντος</token>
                                               </wording>
                                              </function>
-                                             <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                             <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                               <wording class="cluster" status="satellite" subclass="obj">
                                                <module class="entity" subclass="activation" values="∅">
                                                 <module class="entity" subclass="specification" values="∅">
@@ -2587,7 +2587,7 @@
                                                </module>
                                               </wording>
                                              </function>
-                                             <function class="event" subclass="specification" name="extra_objective_participant" label="Extra Objective Participant" altLabel="Obj2">
+                                             <function class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
                                               <wording class="cluster" status="satellite" subclass="obj2">
                                                <module class="entity" subclass="activation" values="∅">
                                                 <module class="entity" subclass="specification" values="∅">
@@ -2625,7 +2625,7 @@
                                                                           <token n="134" gloss_berean="knowing" id="SBL.2Thess.1.8.8">εἰδόσι</token>
                                                                          </wording>
                                                                         </function>
-                                                                        <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                                                        <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                                                          <wording class="cluster" status="satellite" subclass="obj">
                                                                           <module class="entity" subclass="activation" values="∅">
                                                                            <module class="entity" subclass="specification" values="∅">
@@ -2703,7 +2703,7 @@
                                                                            <token n="139" gloss_berean="obeying" id="SBL.2Thess.1.8.13">ὑπακούουσιν</token>
                                                                           </wording>
                                                                          </function>
-                                                                         <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                                                         <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                                                           <wording class="cluster" status="satellite" subclass="obj">
                                                                            <module class="entity" subclass="activation" values="∅">
                                                                             <module class="entity" subclass="specification" values="∅">
@@ -2883,7 +2883,7 @@
                                                            <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                                                             <module class="event" subclass="activation" values="∅">
                                                              <module class="event" subclass="specification" values="$τίνω; informational_environment; expected; objectifying: preparatory; event_circumstance">
-                                                              <function xml:id="d9e1664" next="d9e1664_2" class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                                              <function xml:id="d9e1664" next="d9e1664_2" class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                                                <wording xml:id="d7e1661" next="d7e1661_2" class="cluster" status="satellite" subclass="obj">
                                                                 <module xml:id="d5e1658" next="d5e1658_2" class="entity" subclass="activation" values="re-construed">
                                                                  <module xml:id="d3e1655" next="d3e1655_2" class="entity" subclass="re-construal" values="∅">
@@ -2919,7 +2919,7 @@
                                                                 <token n="148" gloss_berean="will suffer" id="SBL.2Thess.1.9.3">τίσουσιν</token>
                                                                </wording>
                                                               </function>
-                                                              <function prev="d9e1664" xml:id="d9e1664_2" class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                                              <function prev="d9e1664" xml:id="d9e1664_2" class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                                                <wording prev="d7e1661" xml:id="d7e1661_2" class="cluster" status="satellite" subclass="obj">
                                                                 <module prev="d5e1658" xml:id="d5e1658_2" class="entity" subclass="activation" values="re-construed">
                                                                  <module prev="d3e1655" xml:id="d3e1655_2" class="entity" subclass="re-construal" values="∅">
@@ -3779,7 +3779,7 @@
                        </module>
                       </wording>
                      </function>
-                     <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                     <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                       <wording class="cluster" status="satellite" subclass="obj">
                        <module class="entity" subclass="activation" values="∅">
                         <module class="entity" subclass="specification" values="semiosis: proposition: proposition_marker: $ἵνα">
@@ -3795,7 +3795,7 @@
                                <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                                 <module class="event" subclass="activation" values="∅">
                                  <module class="event" subclass="specification" values="$ἀξιόω; complete_duration; objectifying: preparatory; event_circumstance">
-                                  <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                  <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                    <wording class="cluster" status="satellite" subclass="obj">
                                     <module class="entity" subclass="activation" values="∅">
                                      <module class="entity" subclass="specification" values="∅">
@@ -3953,7 +3953,7 @@
                                      <token n="202" gloss_berean="He may fulfill" id="SBL.2Thess.1.11.17">πληρώσῃ</token>
                                     </wording>
                                    </function>
-                                   <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                   <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                     <wording class="cluster" status="satellite" subclass="obj">
                                      <module class="entity" subclass="activation" values="∅">
                                       <module class="entity" subclass="specification" values="∅">
@@ -4627,7 +4627,7 @@
              <function xml:id="d7e2615_2" next="d7e2615_2_2" prev="d7e2615" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
               <module xml:id="d5e2608_2" next="d5e2608_2_2" prev="d5e2608" class="event" subclass="activation" values="∅">
                <module xml:id="d3e2601_2" next="d3e2601_2_2" prev="d3e2601" class="event" subclass="specification" values="$ἐρωτάω; informational_environment; objectifying; event_circumstance">
-                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
@@ -4986,7 +4986,7 @@
                                      <token n="256" gloss_berean="to be shaken" id="SBL.2Thess.2.2.5">σαλευθῆναι</token>
                                     </wording>
                                    </function>
-                                   <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                   <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                     <wording class="cluster" status="satellite" subclass="obj">
                                      <module class="entity" subclass="activation" values="∅">
                                       <module class="entity" subclass="specification" values="∅">
@@ -5440,7 +5440,7 @@
                   <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                    <module class="event" subclass="activation" values="∅">
                     <module class="event" subclass="specification" values="$ἐξαπατάω; complete_duration; objectifying: preparatory; event_circumstance">
-                     <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                     <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                       <wording class="cluster" status="satellite" subclass="obj">
                        <module class="entity" subclass="activation" values="∅">
                         <module class="entity" subclass="specification" values="∅">
@@ -5915,7 +5915,7 @@
                                                                              <token n="312" gloss_berean="so-called" id="SBL.2Thess.2.4.7">λεγόμενον</token>
                                                                             </wording>
                                                                            </function>
-                                                                           <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                                                           <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                                                             <wording class="cluster" status="satellite" subclass="obj">
                                                                              <module class="entity" subclass="activation" values="grouped">
                                                                               <module class="entity" subclass="set" values="∅">
@@ -6158,7 +6158,7 @@
                                                                   <token n="324" gloss_berean="setting forth" id="SBL.2Thess.2.4.19">ἀποδεικνύντα</token>
                                                                  </wording>
                                                                 </function>
-                                                                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                                                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                                                  <wording class="cluster" status="satellite" subclass="obj">
                                                                   <module class="entity" subclass="activation" values="re-construed">
                                                                    <module class="entity" subclass="re-construal" values="∅">
@@ -6316,7 +6316,7 @@
                        <token n="330" gloss_berean="do you remember" id="SBL.2Thess.2.5.2">μνημονεύετε</token>
                       </wording>
                      </function>
-                     <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                     <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                       <wording class="cluster" status="satellite" subclass="obj">
                        <module class="entity" subclass="activation" values="∅">
                         <module class="entity" subclass="specification" values="semiosis: proposition: proposition_marker: $ὅτι">
@@ -6410,7 +6410,7 @@
                            <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                             <module class="event" subclass="activation" values="∅">
                              <module class="event" subclass="specification" values="$λέγω; informational_environment; objectifying: extra_participant: medial-final; preparatory">
-                              <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                              <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                <wording class="cluster" status="satellite" subclass="obj">
                                 <module class="entity" subclass="activation" values="∅">
                                  <module class="entity" subclass="specification" values="∅">
@@ -6440,7 +6440,7 @@
                                 <token n="337" gloss_berean="I was saying" id="SBL.2Thess.2.5.9">ἔλεγον</token>
                                </wording>
                               </function>
-                              <function class="event" subclass="specification" name="extra_objective_participant" label="Extra Objective Participant" altLabel="Obj2">
+                              <function class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
                                <wording class="cluster" status="satellite" subclass="obj2">
                                 <module class="entity" subclass="activation" values="∅">
                                  <module class="entity" subclass="specification" values="∅">
@@ -6527,7 +6527,7 @@
              <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
               <module class="event" subclass="activation" values="∅">
                <module class="event" subclass="specification" values="$οἶδα; complete_duration; informational_environment; objectifying: preparatory">
-                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
@@ -7183,7 +7183,7 @@
                                <function xml:id="d7e4079" next="d7e4079_2" class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                                 <module xml:id="d5e4064" next="d5e4064_2" class="event" subclass="activation" values="∅">
                                  <module xml:id="d3e4050" next="d3e4050_2" class="event" subclass="specification" values="$ἀναιρέω; informational_environment; expected; objectifying: preparatory; event_circumstance">
-                                  <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                  <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                    <wording class="cluster" status="satellite" subclass="obj">
                                     <module class="entity" subclass="activation" values="∅">
                                      <module class="entity" subclass="specification" values="∅">
@@ -8011,7 +8011,7 @@
                                                <module class="event" subclass="operation" values="negative: negated_factuality">
                                                 <module xml:id="d5e4538" next="d5e4538_2" class="event" subclass="operation" values="∅">
                                                  <module xml:id="d3e4521" next="d3e4521_2" class="event" subclass="specification" values="affected: $δέχομαι; objectifying: preparatory; event_circumstance">
-                                                  <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                                  <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                                    <wording class="cluster" status="satellite" subclass="obj">
                                                     <module class="entity" subclass="activation" values="∅">
                                                      <module class="entity" subclass="specification" values="∅">
@@ -8257,7 +8257,7 @@
                   <token n="427" gloss_berean="will send" id="SBL.2Thess.2.11.4">πέμπει</token>
                  </wording>
                 </function>
-                <function class="event" subclass="specification" name="extra_objective_participant" label="Extra Objective Participant" altLabel="Obj2">
+                <function class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
                  <wording class="cluster" status="satellite" subclass="obj2">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
@@ -8326,7 +8326,7 @@
              <function prev="d7e4679" xml:id="d7e4679_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
               <module prev="d5e4660" xml:id="d5e4660_2" class="event" subclass="activation" values="∅">
                <module prev="d3e4642" xml:id="d3e4642_2" class="event" subclass="specification" values="$πέμπω; informational_environment; objectifying: extra_participant: medial-final; event_circumstance">
-                <function xml:id="d9e4744" next="d9e4744_2" class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function xml:id="d9e4744" next="d9e4744_2" class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording xml:id="d7e4703" next="d7e4703_2" class="cluster" status="satellite" subclass="obj">
                   <module xml:id="d5e4683" next="d5e4683_2" class="entity" subclass="activation" values="re-construed">
                    <module xml:id="d3e4664" next="d3e4664_2" class="entity" subclass="re-construal" values="∅">
@@ -8437,7 +8437,7 @@
                           <function prev="d7e4869" xml:id="d7e4869_2" class="scenario" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                            <module prev="d5e4848" xml:id="d5e4848_2" class="event" subclass="activation" values="∅">
                             <module prev="d3e4828" xml:id="d3e4828_2" class="event" subclass="specification" values="$πιστεύω; complete_duration; objectifying: peripheral: medial-final">
-                             <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                             <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                               <wording class="cluster" status="satellite" subclass="obj">
                                <module class="entity" subclass="activation" values="∅">
                                 <module class="entity" subclass="specification" values="∅">
@@ -8488,7 +8488,7 @@
                   </module>
                  </wording>
                 </function>
-                <function prev="d9e4744" xml:id="d9e4744_2" class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function prev="d9e4744" xml:id="d9e4744_2" class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording prev="d7e4703" xml:id="d7e4703_2" class="cluster" status="satellite" subclass="obj">
                   <module prev="d5e4683" xml:id="d5e4683_2" class="entity" subclass="activation" values="re-construed">
                    <module prev="d3e4664" xml:id="d3e4664_2" class="entity" subclass="re-construal" values="∅">
@@ -8556,7 +8556,7 @@
                                                   <token n="444" gloss_berean="having believed" id="SBL.2Thess.2.12.6" frame="{A0:00000000000 A1:53002012008}">πιστεύσαντες</token>
                                                  </wording>
                                                 </function>
-                                                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                                  <wording class="cluster" status="satellite" subclass="obj">
                                                   <module class="entity" subclass="activation" values="∅">
                                                    <module class="entity" subclass="specification" values="∅">
@@ -8761,7 +8761,7 @@
                   <token n="453" gloss_berean="ought" id="SBL.2Thess.2.13.3">ὀφείλομεν</token>
                  </wording>
                 </function>
-                <function xml:id="d9e4991" next="d9e4991_2" class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function xml:id="d9e4991" next="d9e4991_2" class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording xml:id="d7e4969" next="d7e4969_2" class="cluster" status="satellite" subclass="obj">
                   <module xml:id="d5e4946" next="d5e4946_2" class="entity" subclass="activation" values="re-construed">
                    <module xml:id="d3e4924" next="d3e4924_2" class="entity" subclass="re-construal" values="∅">
@@ -8780,7 +8780,7 @@
                                 <token n="454" gloss_berean="to give thanks" id="SBL.2Thess.2.13.4" frame="{A0:53001001001;53001001003;53001001005 A1:53002013006}">εὐχαριστεῖν</token>
                                </wording>
                               </function>
-                              <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                              <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                <wording class="cluster" status="satellite" subclass="obj">
                                 <module class="entity" subclass="activation" values="∅">
                                  <module class="entity" subclass="specification" values="∅">
@@ -8963,7 +8963,7 @@
              <function prev="d15e5015" xml:id="d15e5015_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
               <module prev="d13e5008" xml:id="d13e5008_2" class="event" subclass="activation" values="∅">
                <module prev="d11e5001" xml:id="d11e5001_2" class="event" subclass="specification" values="$ὀφείλω; informational_environment; objectifying">
-                <function prev="d9e4991" xml:id="d9e4991_2" class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function prev="d9e4991" xml:id="d9e4991_2" class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording prev="d7e4969" xml:id="d7e4969_2" class="cluster" status="satellite" subclass="obj">
                   <module prev="d5e4946" xml:id="d5e4946_2" class="entity" subclass="activation" values="re-construed">
                    <module prev="d3e4924" xml:id="d3e4924_2" class="entity" subclass="re-construal" values="∅">
@@ -8983,7 +8983,7 @@
                               <token n="465" gloss_berean="has chosen" id="SBL.2Thess.2.13.15">εἵλατο</token>
                              </wording>
                             </function>
-                            <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                            <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                              <wording class="cluster" status="satellite" subclass="obj">
                               <module class="entity" subclass="activation" values="∅">
                                <module class="entity" subclass="specification" values="∅">
@@ -9271,7 +9271,7 @@
                                          <token n="480" gloss_berean="He called" id="SBL.2Thess.2.14.3">ἐκάλεσεν</token>
                                         </wording>
                                        </function>
-                                       <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                       <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                         <wording class="cluster" status="satellite" subclass="obj">
                                          <module class="entity" subclass="activation" values="∅">
                                           <module class="entity" subclass="specification" values="∅">
@@ -9646,7 +9646,7 @@
                        <token n="499" gloss_berean="hold fast" id="SBL.2Thess.2.15.6">κρατεῖτε</token>
                       </wording>
                      </function>
-                     <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                     <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                       <wording class="cluster" status="satellite" subclass="obj">
                        <module class="entity" subclass="activation" values="∅">
                         <module class="entity" subclass="specification" values="∅">
@@ -9685,7 +9685,7 @@
                                    <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                                     <module class="event" subclass="activation" values="∅">
                                      <module class="event" subclass="specification" values="subjective_participation_tbd: $διδάσκω; complete_duration; objectifying: extra_participant: reception: cropped; preparatory; event_circumstance">
-                                      <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                      <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                        <wording class="cluster" status="satellite" subclass="obj">
                                         <module class="entity" subclass="activation" values="∅">
                                          <module class="entity" subclass="specification" values="∅">
@@ -10147,7 +10147,7 @@
                                              <token n="524" gloss_berean="having loved" id="SBL.2Thess.2.16.14">ἀγαπήσας</token>
                                             </wording>
                                            </function>
-                                           <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                           <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                             <wording class="cluster" status="satellite" subclass="obj">
                                              <module class="entity" subclass="activation" values="∅">
                                               <module class="entity" subclass="specification" values="∅">
@@ -10199,7 +10199,7 @@
                                               <token n="527" gloss_berean="having given [us]" id="SBL.2Thess.2.16.17">δοὺς</token>
                                              </wording>
                                             </function>
-                                            <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                            <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                              <wording class="cluster" status="satellite" subclass="obj">
                                               <module class="entity" subclass="activation" values="grouped">
                                                <module class="entity" subclass="set" values="conjunctive">
@@ -10367,7 +10367,7 @@
                   <token n="535" gloss_berean="may He encourage" id="SBL.2Thess.2.17.1">παρακαλέσαι</token>
                  </wording>
                 </function>
-                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
@@ -10690,7 +10690,7 @@
                   </module>
                  </wording>
                 </function>
-                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="grouped">
                    <module class="entity" subclass="set" values="conjunctive">
@@ -11270,7 +11270,7 @@
                                     <token n="585" gloss_berean="will strengthen" id="SBL.2Thess.3.3.7">στηρίξει</token>
                                    </wording>
                                   </function>
-                                  <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                  <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                    <wording class="cluster" status="satellite" subclass="obj">
                                     <module class="entity" subclass="activation" values="∅">
                                      <module class="entity" subclass="specification" values="∅">
@@ -11498,7 +11498,7 @@
                   </module>
                  </wording>
                 </function>
-                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="semiosis: proposition: proposition_marker: $ὅτι">
@@ -11510,7 +11510,7 @@
                       <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                        <module class="event" subclass="activation" values="grouped">
                         <module class="event" subclass="set" values="conjunctive">
-                         <function class="event" subclass="set" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                         <function class="event" subclass="set" name="object_participant" label="Object Participant" altLabel="Obj">
                           <wording class="cluster" status="satellite" subclass="obj">
                            <module class="entity" subclass="activation" values="∅">
                             <module class="entity" subclass="specification" values="objectifying: centrality_tbd; preparatory">
@@ -11526,7 +11526,7 @@
                                       <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                                        <module class="event" subclass="activation" values="∅">
                                         <module class="event" subclass="specification" values="$παραγγέλλω; informational_environment; objectifying: preparatory">
-                                         <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                         <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                           <wording class="cluster" status="satellite" subclass="obj">
                                            <module class="entity" subclass="activation" values="∅">
                                             <module class="entity" subclass="specification" values="∅">
@@ -11717,7 +11717,7 @@
                   <token n="608" gloss_berean="may direct" id="SBL.2Thess.3.5.4">κατευθύναι</token>
                  </wording>
                 </function>
-                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
@@ -12005,7 +12005,7 @@
              <function xml:id="d7e6776_2" next="d7e6776_2_2" prev="d7e6776" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
               <module xml:id="d5e6744_2" next="d5e6744_2_2" prev="d5e6744" class="event" subclass="activation" values="∅">
                <module xml:id="d3e6713_2" next="d3e6713_2_2" prev="d3e6713" class="event" subclass="specification" values="$παραγγέλλω; informational_environment; objectifying: extra_participant: medial-final; event_circumstance">
-                <function class="event" subclass="specification" name="extra_objective_participant" label="Extra Objective Participant" altLabel="Obj2">
+                <function class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
                  <wording class="cluster" status="satellite" subclass="obj2">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
@@ -12204,7 +12204,7 @@
                   </module>
                  </wording>
                 </function>
-                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
@@ -12388,7 +12388,7 @@
                                                                      <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                                                                       <module class="event" subclass="activation" values="∅">
                                                                        <module class="event" subclass="specification" values="$παραλαμβάνω; complete_duration; objectifying: preparatory; event_circumstance">
-                                                                        <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                                                        <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                                                          <wording class="cluster" status="satellite" subclass="obj">
                                                                           <module class="entity" subclass="activation" values="∅">
                                                                            <module class="entity" subclass="specification" values="∅">
@@ -12637,7 +12637,7 @@
                               <token n="655" gloss_berean="to imitate" id="SBL.2Thess.3.7.6">μιμεῖσθαι</token>
                              </wording>
                             </function>
-                            <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                            <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                              <wording class="cluster" status="satellite" subclass="obj">
                               <module class="entity" subclass="activation" values="∅">
                                <module class="entity" subclass="specification" values="∅">
@@ -12779,7 +12779,7 @@
                                <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                                 <module class="event" subclass="activation" values="∅">
                                  <module class="event" subclass="specification" values="$ἐσθίω; complete_duration; objectifying; event_circumstance">
-                                  <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                  <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                    <wording class="cluster" status="satellite" subclass="obj">
                                     <module class="entity" subclass="activation" values="∅">
                                      <module class="entity" subclass="specification" values="∅">
@@ -13039,7 +13039,7 @@
                                                  <token n="680" gloss_berean="to be burdensome to" id="SBL.2Thess.3.8.19">ἐπιβαρῆσαί</token>
                                                 </wording>
                                                </function>
-                                               <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                               <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                                 <wording class="cluster" status="satellite" subclass="obj">
                                                  <module class="entity" subclass="activation" values="∅">
                                                   <module class="entity" subclass="specification" values="∅">
@@ -13174,7 +13174,7 @@
                                     <token n="686" gloss_berean="we have" id="SBL.2Thess.3.9.4">ἔχομεν</token>
                                    </wording>
                                   </function>
-                                  <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                  <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                    <wording class="cluster" status="satellite" subclass="obj">
                                     <module class="entity" subclass="activation" values="∅">
                                      <module class="entity" subclass="specification" values="∅">
@@ -13243,7 +13243,7 @@
                           <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                            <module class="event" subclass="activation" values="∅">
                             <module class="event" subclass="specification" values="$δίδωμι; complete_duration; objectifying: extra_participant: medial-final; preparatory; complementary_abstraction: preparatory; event_circumstance">
-                             <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                             <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                               <wording class="cluster" status="satellite" subclass="obj">
                                <module class="entity" subclass="activation" values="∅">
                                 <module class="entity" subclass="specification" values="∅">
@@ -13290,7 +13290,7 @@
                                <token n="692" gloss_berean="we may offer" id="SBL.2Thess.3.9.10">δῶμεν</token>
                               </wording>
                              </function>
-                             <function class="event" subclass="specification" name="extra_objective_participant" label="Extra Objective Participant" altLabel="Obj2">
+                             <function class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
                               <wording class="cluster" status="satellite" subclass="obj2">
                                <module class="entity" subclass="activation" values="∅">
                                 <module class="entity" subclass="specification" values="∅">
@@ -13339,7 +13339,7 @@
                                             <token n="696" gloss_berean="you to imitate" id="SBL.2Thess.3.9.14">μιμεῖσθαι</token>
                                            </wording>
                                           </function>
-                                          <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                          <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                            <wording class="cluster" status="satellite" subclass="obj">
                                             <module class="entity" subclass="activation" values="∅">
                                              <module class="entity" subclass="specification" values="∅">
@@ -13514,7 +13514,7 @@
                  <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                   <module class="event" subclass="activation" values="∅">
                    <module class="event" subclass="specification" values="$παραγγέλλω; informational_environment; objectifying: extra_participant: medial-final; preparatory">
-                    <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                    <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                      <wording class="cluster" status="satellite" subclass="obj">
                       <module class="entity" subclass="activation" values="∅">
                        <module class="entity" subclass="specification" values="∅">
@@ -13544,7 +13544,7 @@
                       <token n="705" gloss_berean="we were commanding" id="SBL.2Thess.3.10.8">παρηγγέλλομεν</token>
                      </wording>
                     </function>
-                    <function class="event" subclass="specification" name="extra_objective_participant" label="Extra Objective Participant" altLabel="Obj2">
+                    <function class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
                      <wording class="cluster" status="satellite" subclass="obj2">
                       <module class="entity" subclass="activation" values="∅">
                        <module class="entity" subclass="specification" values="∅">
@@ -13640,7 +13640,7 @@
                                   <token n="711" gloss_berean="is willing" id="SBL.2Thess.3.10.14">θέλει</token>
                                  </wording>
                                 </function>
-                                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                  <wording class="cluster" status="satellite" subclass="obj">
                                   <module class="entity" subclass="activation" values="∅">
                                    <module class="entity" subclass="specification" values="∅">
@@ -13753,7 +13753,7 @@
              <function prev="d7e7768" xml:id="d7e7768_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
               <module prev="d5e7731" xml:id="d5e7731_2" class="event" subclass="activation" values="∅">
                <module prev="d3e7696" xml:id="d3e7696_2" class="event" subclass="specification" values="$ἀκούω; informational_environment; objectifying: complementary_abstraction">
-                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
@@ -13860,7 +13860,7 @@
                                      <module class="selection" subclass="specification" values="differentiating: participatory">
                                       <module class="event" subclass="activation" values="∅">
                                        <module class="event" subclass="specification" values="affected: $ἐργάζομαι; informational_environment; objectifying">
-                                        <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                                        <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                          <wording class="cluster" status="satellite" subclass="obj">
                                           <module class="entity" subclass="activation" values="∅">
                                            <module class="entity" subclass="specification" values="∅">
@@ -13970,7 +13970,7 @@
              <function xml:id="d29e8059" next="d29e8059_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
               <module xml:id="d27e8055" next="d27e8055_2" class="event" subclass="activation" values="grouped">
                <module xml:id="d25e8051" next="d25e8051_2" class="event" subclass="set" values="conjunctive">
-                <function xml:id="d23e8046" next="d23e8046_2" class="event" subclass="set" name="extra_objective_participant" label="Extra Objective Participant" altLabel="Obj2">
+                <function xml:id="d23e8046" next="d23e8046_2" class="event" subclass="set" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
                  <wording xml:id="d21e8040" next="d21e8040_2" class="cluster" status="satellite" subclass="obj2">
                   <module xml:id="d19e8034" next="d19e8034_2" class="entity" subclass="activation" values="∅">
                    <module xml:id="d17e8026" next="d17e8026_2" class="entity" subclass="specification" values="objectifying: extra_participant: medial-final; preparatory; event_circumstance">
@@ -14012,7 +14012,7 @@
              <function prev="d29e8059" xml:id="d29e8059_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
               <module prev="d27e8055" xml:id="d27e8055_2" class="event" subclass="activation" values="grouped">
                <module prev="d25e8051" xml:id="d25e8051_2" class="event" subclass="set" values="conjunctive">
-                <function prev="d23e8046" xml:id="d23e8046_2" class="event" subclass="set" name="extra_objective_participant" label="Extra Objective Participant" altLabel="Obj2">
+                <function prev="d23e8046" xml:id="d23e8046_2" class="event" subclass="set" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
                  <wording prev="d21e8040" xml:id="d21e8040_2" class="cluster" status="satellite" subclass="obj2">
                   <module prev="d19e8034" xml:id="d19e8034_2" class="entity" subclass="activation" values="∅">
                    <module prev="d17e8026" xml:id="d17e8026_2" class="entity" subclass="specification" values="objectifying: extra_participant: medial-final; preparatory; event_circumstance">
@@ -14166,7 +14166,7 @@
                   </module>
                  </wording>
                 </function>
-                <function class="event" subclass="set" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="set" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="objectifying: extra_participant: medial-final; preparatory; event_circumstance">
@@ -14237,7 +14237,7 @@
                       <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                        <module class="event" subclass="activation" values="∅">
                         <module class="event" subclass="specification" values="$ἐσθίω; informational_environment; objectifying: preparatory">
-                         <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                         <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                           <wording class="cluster" status="satellite" subclass="obj">
                            <module class="entity" subclass="activation" values="∅">
                             <module class="entity" subclass="specification" values="∅">
@@ -14404,7 +14404,7 @@
                        <token n="748" gloss_berean="shall grow weary" id="SBL.2Thess.3.13.5">ἐγκακήσητε</token>
                       </wording>
                      </function>
-                     <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                     <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                       <wording class="cluster" status="satellite" subclass="obj">
                        <module class="entity" subclass="activation" values="∅">
                         <module class="entity" subclass="specification" values="∅">
@@ -14536,7 +14536,7 @@
                                <token n="754" gloss_berean="obey" id="SBL.2Thess.3.14.5">ὑπακούει</token>
                               </wording>
                              </function>
-                             <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                             <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                               <wording class="cluster" status="satellite" subclass="obj">
                                <module class="entity" subclass="activation" values="∅">
                                 <module class="entity" subclass="specification" values="∅">
@@ -14659,7 +14659,7 @@
              <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
               <module class="event" subclass="activation" values="∅">
                <module class="event" subclass="specification" values="affected: $σημειόομαι; informational_environment; objectifying: preparatory">
-                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
@@ -14836,7 +14836,7 @@
                           <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                            <module class="event" subclass="activation" values="∅">
                             <module class="event" subclass="specification" values="objectifying">
-                             <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                             <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                               <wording class="cluster" status="satellite" subclass="obj">
                                <module class="entity" subclass="activation" values="∅">
                                 <module class="entity" subclass="specification" values="∅">
@@ -14939,7 +14939,7 @@
                      <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                       <module class="event" subclass="activation" values="∅">
                        <module class="event" subclass="specification" values="objectifying">
-                        <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                        <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                          <wording class="cluster" status="satellite" subclass="obj">
                           <module class="entity" subclass="activation" values="∅">
                            <module class="entity" subclass="specification" values="∅">
@@ -15116,7 +15116,7 @@
                   <token n="783" gloss_berean="may give" id="SBL.2Thess.3.16.7">δῴη</token>
                  </wording>
                 </function>
-                <function class="event" subclass="specification" name="extra_objective_participant" label="Extra Objective Participant" altLabel="Obj2">
+                <function class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
                  <wording class="cluster" status="satellite" subclass="obj2">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
@@ -15141,7 +15141,7 @@
                   </module>
                  </wording>
                 </function>
-                <function class="event" subclass="specification" name="objective_participant" label="Objective Participant" altLabel="Obj">
+                <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
                    <module class="entity" subclass="specification" values="∅">
