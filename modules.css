@@ -169,8 +169,7 @@ function::before {
     color: #505050;
 }
 
-function[class = 'utterance']::before,
-function[class = 'phenomenon']:not([subclass = 'specification'])::before {
+function[class = 'utterance']::before {
     color: white;
 }
 

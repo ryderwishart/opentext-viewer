@@ -34359,14 +34359,14 @@
              </function>
              <function class="predication" subclass="set" name="conjunctive" label="±2">
               <wording class="path" subclass="±2">
-               <module class="predication" subclass="operation" values="re-construed">
-                <module class="predication" subclass="re-construal" values="∅">
-                 <function class="predication" subclass="re-construal" name="appositive" label="=1">
-                  <wording class="path" subclass="=1">
-                   <module class="predication" subclass="specification" values="non-modal_predicate; declarative">
-                    <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
-                     <module class="abstraction" subclass="activation" values="∅">
-                      <module class="abstraction" subclass="specification" values="definition; gendered">
+               <module class="predication" subclass="operation" values="∅">
+                <module class="predication" subclass="specification" values="non-modal_predicate; declarative">
+                 <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+                  <module class="abstraction" subclass="activation" values="re-construed">
+                   <module class="abstraction" subclass="re-construal" values="∅">
+                    <function class="abstraction" subclass="re-construal" name="appositive" label="=1">
+                     <wording class="path" subclass="=1">
+                      <module class="abstraction" subclass="specification" values="definition">
                        <function class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
                         <module class="definition" subclass="activation" values="∅">
                          <module class="definition" subclass="specification" values="name: personal_name: $Ἰησοῦς">
@@ -34377,17 +34377,11 @@
                         </module>
                        </function>
                       </module>
-                     </module>
+                     </wording>
                     </function>
-                   </module>
-                  </wording>
-                 </function>
-                 <function class="predication" subclass="re-construal" name="appositive" label="=2">
-                  <wording class="path" subclass="=2">
-                   <module class="predication" subclass="specification" values="non-modal_predicate; declarative">
-                    <function class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
-                     <module class="abstraction" subclass="activation" values="∅">
-                      <module class="abstraction" subclass="specification" values="definition; gendered">
+                    <function class="abstraction" subclass="re-construal" name="appositive" label="=2">
+                     <wording class="path" subclass="=2">
+                      <module class="abstraction" subclass="specification" values="definition">
                        <function class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
                         <module class="definition" subclass="activation" values="∅">
                          <module class="definition" subclass="specification" values="name: personal_name: $Χριστός">
@@ -34398,10 +34392,10 @@
                         </module>
                        </function>
                       </module>
-                     </module>
+                     </wording>
                     </function>
                    </module>
-                  </wording>
+                  </module>
                  </function>
                 </module>
                </module>
@@ -36116,9 +36110,9 @@
                                           <module class="selection" subclass="specification" values="differentiating: relativizing">
                                            <module class="proposition" subclass="activation" values="∅">
                                             <module class="proposition" subclass="specification" values="modal_predicate; construed_instantiator">
-                                             <function xml:id="d7e20726" next="d7e20726_2" class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
-                                              <module xml:id="d5e20673" next="d5e20673_2" class="event" subclass="activation" values="∅">
-                                               <module xml:id="d3e20619" next="d3e20619_2" class="event" subclass="specification" values="$μαρτυρέω; complete_duration; informational_environment; objectifying: preparatory; event_circumstance">
+                                             <function xml:id="d7e20723" next="d7e20723_2" class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+                                              <module xml:id="d5e20670" next="d5e20670_2" class="event" subclass="activation" values="∅">
+                                               <module xml:id="d3e20616" next="d3e20616_2" class="event" subclass="specification" values="$μαρτυρέω; complete_duration; informational_environment; objectifying: preparatory; event_circumstance">
                                                 <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                                                  <wording class="cluster" status="satellite" subclass="obj">
                                                   <module class="entity" subclass="activation" values="∅">
@@ -36190,9 +36184,9 @@
                                                </module>
                                               </wording>
                                              </function>
-                                             <function prev="d7e20726" xml:id="d7e20726_2" class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
-                                              <module prev="d5e20673" xml:id="d5e20673_2" class="event" subclass="activation" values="∅">
-                                               <module prev="d3e20619" xml:id="d3e20619_2" class="event" subclass="specification" values="$μαρτυρέω; complete_duration; informational_environment; objectifying: preparatory; event_circumstance">
+                                             <function prev="d7e20723" xml:id="d7e20723_2" class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+                                              <module prev="d5e20670" xml:id="d5e20670_2" class="event" subclass="activation" values="∅">
+                                               <module prev="d3e20616" xml:id="d3e20616_2" class="event" subclass="specification" values="$μαρτυρέω; complete_duration; informational_environment; objectifying: preparatory; event_circumstance">
                                                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
                                                  <wording class="cluster" status="satellite" subclass="adj:vp">
                                                   <module class="circumstance" subclass="activation" values="∅">
@@ -36401,9 +36395,9 @@
                  <wording class="path" subclass="±1">
                   <module class="proposition" subclass="operation" values="∅">
                    <module class="proposition" subclass="specification" values="modal_predicate; construed_instantiator">
-                    <function xml:id="d7e20876" next="d7e20876_2" class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
-                     <module xml:id="d5e20822" next="d5e20822_2" class="event" subclass="activation" values="∅">
-                      <module xml:id="d3e20767" next="d3e20767_2" class="event" subclass="specification" values="$δίδωμι; complete_duration; objectifying: extra_participant: medial-final; preparatory">
+                    <function xml:id="d7e20873" next="d7e20873_2" class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+                     <module xml:id="d5e20819" next="d5e20819_2" class="event" subclass="activation" values="∅">
+                      <module xml:id="d3e20764" next="d3e20764_2" class="event" subclass="specification" values="$δίδωμι; complete_duration; objectifying: extra_participant: medial-final; preparatory">
                        <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                         <wording class="cluster" status="satellite" subclass="obj">
                          <module class="entity" subclass="activation" values="∅">
@@ -36492,9 +36486,9 @@
                       </module>
                      </wording>
                     </function>
-                    <function prev="d7e20876" xml:id="d7e20876_2" class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
-                     <module prev="d5e20822" xml:id="d5e20822_2" class="event" subclass="activation" values="∅">
-                      <module prev="d3e20767" xml:id="d3e20767_2" class="event" subclass="specification" values="$δίδωμι; complete_duration; objectifying: extra_participant: medial-final; preparatory">
+                    <function prev="d7e20873" xml:id="d7e20873_2" class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+                     <module prev="d5e20819" xml:id="d5e20819_2" class="event" subclass="activation" values="∅">
+                      <module prev="d3e20764" xml:id="d3e20764_2" class="event" subclass="specification" values="$δίδωμι; complete_duration; objectifying: extra_participant: medial-final; preparatory">
                        <function class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
                         <wording class="cluster" status="satellite" subclass="obj2">
                          <module class="entity" subclass="activation" values="∅">
@@ -36979,8 +36973,8 @@
                 <function class="event" subclass="set" name="conjunctive" label="±1">
                  <wording class="path" subclass="±1">
                   <module class="event" subclass="operation" values="negative: negated_factuality">
-                   <module xml:id="d5e21151" next="d5e21151_2" class="event" subclass="operation" values="∅">
-                    <module xml:id="d3e21095" next="d3e21095_2" class="event" subclass="specification" values="$ἔχω; objectifying: preparatory">
+                   <module xml:id="d5e21148" next="d5e21148_2" class="event" subclass="operation" values="∅">
+                    <module xml:id="d3e21092" next="d3e21092_2" class="event" subclass="specification" values="$ἔχω; objectifying: preparatory">
                      <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                       <wording class="cluster" status="satellite" subclass="obj">
                        <module class="entity" subclass="activation" values="∅">
@@ -37024,8 +37018,8 @@
                    <wording class="word" status="junctive">
                     <token n="1961" gloss_berean="not" id="SBL.1John.5.12.17">οὐκ</token>
                    </wording>
-                   <module prev="d5e21151" xml:id="d5e21151_2" class="event" subclass="operation" values="∅">
-                    <module prev="d3e21095" xml:id="d3e21095_2" class="event" subclass="specification" values="$ἔχω; objectifying: preparatory">
+                   <module prev="d5e21148" xml:id="d5e21148_2" class="event" subclass="operation" values="∅">
+                    <module prev="d3e21092" xml:id="d3e21092_2" class="event" subclass="specification" values="$ἔχω; objectifying: preparatory">
                      <function class="event" subclass="specification" name="process" label="Process" altLabel="Proc">
                       <wording class="word" status="core">
                        <token n="1962" gloss_berean="has" id="SBL.1John.5.12.18" after=".">ἔχει</token>
@@ -37059,9 +37053,9 @@
           <function class="utterance" subclass="specification" name="main_speech_act" label="Main Act" altLabel="Main">
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="modal_predicate: interactant: non-speaker; declarative; instantiation_circumstance">
-             <function xml:id="d15e21358" next="d15e21358_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
-              <module xml:id="d13e21340" next="d13e21340_2" class="event" subclass="activation" values="∅">
-               <module xml:id="d11e21322" next="d11e21322_2" class="event" subclass="specification" values="$γράφω; complete_duration; objectifying: extra_participant: part-whole; preparatory">
+             <function xml:id="d15e21355" next="d15e21355_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+              <module xml:id="d13e21337" next="d13e21337_2" class="event" subclass="activation" values="∅">
+               <module xml:id="d11e21319" next="d11e21319_2" class="event" subclass="specification" values="$γράφω; complete_duration; objectifying: extra_participant: part-whole; preparatory">
                 <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
@@ -37092,10 +37086,10 @@
                   <token n="1964" gloss_berean="have I written" id="SBL.1John.5.13.2">ἔγραψα</token>
                  </wording>
                 </function>
-                <function xml:id="d9e21317" next="d9e21317_2" class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
-                 <wording xml:id="d7e21272" next="d7e21272_2" class="cluster" status="satellite" subclass="obj2">
-                  <module xml:id="d5e21216" next="d5e21216_2" class="entity" subclass="activation" values="re-construed">
-                   <module xml:id="d3e21159" next="d3e21159_2" class="entity" subclass="re-construal" values="∅">
+                <function xml:id="d9e21314" next="d9e21314_2" class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
+                 <wording xml:id="d7e21269" next="d7e21269_2" class="cluster" status="satellite" subclass="obj2">
+                  <module xml:id="d5e21213" next="d5e21213_2" class="entity" subclass="activation" values="re-construed">
+                   <module xml:id="d3e21156" next="d3e21156_2" class="entity" subclass="re-construal" values="∅">
                     <function class="entity" subclass="re-construal" name="appositive" label="=1">
                      <wording class="path" subclass="=1">
                       <module class="entity" subclass="specification" values="∅">
@@ -37157,14 +37151,14 @@
                               <function class="proposition" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
                                <module class="event" subclass="activation" values="∅">
                                 <module class="event" subclass="specification" values="$ἔχω; informational_environment; objectifying: preparatory">
-                                 <function xml:id="d17e21445" next="d17e21445_2" class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
-                                  <wording xml:id="d15e21528" next="d15e21528_2" class="cluster" status="satellite" subclass="obj">
-                                   <module xml:id="d13e21509" next="d13e21509_2" class="entity" subclass="activation" values="∅">
-                                    <module xml:id="d11e21490" next="d11e21490_2" class="entity" subclass="specification" values="∅">
-                                     <module xml:id="d9e21466" next="d9e21466_2" class="phenomenon" subclass="activation" values="∅">
-                                      <module xml:id="d7e21420" next="d7e21420_2" class="phenomenon" subclass="specification" values="instance">
-                                       <module xml:id="d5e21363" next="d5e21363_2" class="abstraction" subclass="activation" values="∅">
-                                        <module xml:id="d3e21305" next="d3e21305_2" class="abstraction" subclass="specification" values="definition; gendered: feminine; elaborated: selection">
+                                 <function xml:id="d17e21442" next="d17e21442_2" class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
+                                  <wording xml:id="d15e21525" next="d15e21525_2" class="cluster" status="satellite" subclass="obj">
+                                   <module xml:id="d13e21506" next="d13e21506_2" class="entity" subclass="activation" values="∅">
+                                    <module xml:id="d11e21487" next="d11e21487_2" class="entity" subclass="specification" values="∅">
+                                     <module xml:id="d9e21463" next="d9e21463_2" class="phenomenon" subclass="activation" values="∅">
+                                      <module xml:id="d7e21417" next="d7e21417_2" class="phenomenon" subclass="specification" values="instance">
+                                       <module xml:id="d5e21360" next="d5e21360_2" class="abstraction" subclass="activation" values="∅">
+                                        <module xml:id="d3e21302" next="d3e21302_2" class="abstraction" subclass="specification" values="definition; gendered: feminine; elaborated: selection">
                                          <function class="abstraction" subclass="specification" name="substantive" label="Substantive" altLabel="Subst">
                                           <module class="definition" subclass="activation" values="∅">
                                            <module class="definition" subclass="specification" values="category: $ζωή">
@@ -37187,14 +37181,14 @@
                                    <token n="1970" gloss_berean="you have" id="SBL.1John.5.13.8">ἔχετε</token>
                                   </wording>
                                  </function>
-                                 <function prev="d17e21445" xml:id="d17e21445_2" class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
-                                  <wording prev="d15e21528" xml:id="d15e21528_2" class="cluster" status="satellite" subclass="obj">
-                                   <module prev="d13e21509" xml:id="d13e21509_2" class="entity" subclass="activation" values="∅">
-                                    <module prev="d11e21490" xml:id="d11e21490_2" class="entity" subclass="specification" values="∅">
-                                     <module prev="d9e21466" xml:id="d9e21466_2" class="phenomenon" subclass="activation" values="∅">
-                                      <module prev="d7e21420" xml:id="d7e21420_2" class="phenomenon" subclass="specification" values="instance">
-                                       <module prev="d5e21363" xml:id="d5e21363_2" class="abstraction" subclass="activation" values="∅">
-                                        <module prev="d3e21305" xml:id="d3e21305_2" class="abstraction" subclass="specification" values="definition; gendered: feminine; elaborated: selection">
+                                 <function prev="d17e21442" xml:id="d17e21442_2" class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
+                                  <wording prev="d15e21525" xml:id="d15e21525_2" class="cluster" status="satellite" subclass="obj">
+                                   <module prev="d13e21506" xml:id="d13e21506_2" class="entity" subclass="activation" values="∅">
+                                    <module prev="d11e21487" xml:id="d11e21487_2" class="entity" subclass="specification" values="∅">
+                                     <module prev="d9e21463" xml:id="d9e21463_2" class="phenomenon" subclass="activation" values="∅">
+                                      <module prev="d7e21417" xml:id="d7e21417_2" class="phenomenon" subclass="specification" values="instance">
+                                       <module prev="d5e21360" xml:id="d5e21360_2" class="abstraction" subclass="activation" values="∅">
+                                        <module prev="d3e21302" xml:id="d3e21302_2" class="abstraction" subclass="specification" values="definition; gendered: feminine; elaborated: selection">
                                          <function class="abstraction" subclass="specification" name="elaboration" label="Attributive" altLabel="Attr">
                                           <wording class="cluster" status="satellite" subclass="attr">
                                            <module class="selection" subclass="activation" values="∅">
@@ -37240,13 +37234,13 @@
                </module>
               </wording>
              </function>
-             <function prev="d15e21358" xml:id="d15e21358_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
-              <module prev="d13e21340" xml:id="d13e21340_2" class="event" subclass="activation" values="∅">
-               <module prev="d11e21322" xml:id="d11e21322_2" class="event" subclass="specification" values="$γράφω; complete_duration; objectifying: extra_participant: part-whole; preparatory">
-                <function prev="d9e21317" xml:id="d9e21317_2" class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
-                 <wording prev="d7e21272" xml:id="d7e21272_2" class="cluster" status="satellite" subclass="obj2">
-                  <module prev="d5e21216" xml:id="d5e21216_2" class="entity" subclass="activation" values="re-construed">
-                   <module prev="d3e21159" xml:id="d3e21159_2" class="entity" subclass="re-construal" values="∅">
+             <function prev="d15e21355" xml:id="d15e21355_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+              <module prev="d13e21337" xml:id="d13e21337_2" class="event" subclass="activation" values="∅">
+               <module prev="d11e21319" xml:id="d11e21319_2" class="event" subclass="specification" values="$γράφω; complete_duration; objectifying: extra_participant: part-whole; preparatory">
+                <function prev="d9e21314" xml:id="d9e21314_2" class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
+                 <wording prev="d7e21269" xml:id="d7e21269_2" class="cluster" status="satellite" subclass="obj2">
+                  <module prev="d5e21213" xml:id="d5e21213_2" class="entity" subclass="activation" values="re-construed">
+                   <module prev="d3e21156" xml:id="d3e21156_2" class="entity" subclass="re-construal" values="∅">
                     <function class="entity" subclass="re-construal" name="appositive" label="=2">
                      <wording class="path" subclass="=2">
                       <module class="entity" subclass="specification" values="∅">
@@ -38346,10 +38340,10 @@
                        <token n="2031" gloss_berean="He will give" id="SBL.1John.5.16.14">δώσει</token>
                       </wording>
                      </function>
-                     <function xml:id="d9e22038" next="d9e22038_2" class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
-                      <wording xml:id="d7e21991" next="d7e21991_2" class="cluster" status="satellite" subclass="obj2">
-                       <module xml:id="d5e21933" next="d5e21933_2" class="entity" subclass="activation" values="re-construed">
-                        <module xml:id="d3e21874" next="d3e21874_2" class="entity" subclass="re-construal" values="∅">
+                     <function xml:id="d9e22035" next="d9e22035_2" class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
+                      <wording xml:id="d7e21988" next="d7e21988_2" class="cluster" status="satellite" subclass="obj2">
+                       <module xml:id="d5e21930" next="d5e21930_2" class="entity" subclass="activation" values="re-construed">
+                        <module xml:id="d3e21871" next="d3e21871_2" class="entity" subclass="re-construal" values="∅">
                          <function class="entity" subclass="re-construal" name="appositive" label="=1">
                           <wording class="path" subclass="=1">
                            <module class="entity" subclass="specification" values="∅">
@@ -38402,10 +38396,10 @@
                        </module>
                       </wording>
                      </function>
-                     <function prev="d9e22038" xml:id="d9e22038_2" class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
-                      <wording prev="d7e21991" xml:id="d7e21991_2" class="cluster" status="satellite" subclass="obj2">
-                       <module prev="d5e21933" xml:id="d5e21933_2" class="entity" subclass="activation" values="re-construed">
-                        <module prev="d3e21874" xml:id="d3e21874_2" class="entity" subclass="re-construal" values="∅">
+                     <function prev="d9e22035" xml:id="d9e22035_2" class="event" subclass="specification" name="second_object_participant" label="Second Object Participant" altLabel="Obj2">
+                      <wording prev="d7e21988" xml:id="d7e21988_2" class="cluster" status="satellite" subclass="obj2">
+                       <module prev="d5e21930" xml:id="d5e21930_2" class="entity" subclass="activation" values="re-construed">
+                        <module prev="d3e21871" xml:id="d3e21871_2" class="entity" subclass="re-construal" values="∅">
                          <function class="entity" subclass="re-construal" name="appositive" label="=2">
                           <wording class="path" subclass="=2">
                            <module class="entity" subclass="specification" values="∅">
@@ -39551,13 +39545,13 @@
       <wording class="cluster" status="independent" subclass="root">
        <module class="utterance" subclass="activation" values="∅">
         <module class="utterance" subclass="connection" values="connection_marker: extending: progressive">
-         <module xml:id="d15e22800" next="d15e22800_2" class="utterance" subclass="specification" values="linguistic_action: predicating">
-          <function xml:id="d13e22780" next="d13e22780_2" class="utterance" subclass="specification" name="main_speech_act" label="Main Act" altLabel="Main">
-           <module xml:id="d11e22760" next="d11e22760_2" class="predication" subclass="activation" values="∅">
-            <module xml:id="d9e22734" next="d9e22734_2" class="predication" subclass="specification" values="modal_predicate: interactant: non-speaker; plural; declarative">
-             <function xml:id="d7e22686" next="d7e22686_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
-              <module xml:id="d5e22627" next="d5e22627_2" class="event" subclass="activation" values="∅">
-               <module xml:id="d3e22567" next="d3e22567_2" class="event" subclass="specification" values="$οἶδα; complete_duration; informational_environment; objectifying">
+         <module xml:id="d15e22797" next="d15e22797_2" class="utterance" subclass="specification" values="linguistic_action: predicating">
+          <function xml:id="d13e22777" next="d13e22777_2" class="utterance" subclass="specification" name="main_speech_act" label="Main Act" altLabel="Main">
+           <module xml:id="d11e22757" next="d11e22757_2" class="predication" subclass="activation" values="∅">
+            <module xml:id="d9e22731" next="d9e22731_2" class="predication" subclass="specification" values="modal_predicate: interactant: non-speaker; plural; declarative">
+             <function xml:id="d7e22683" next="d7e22683_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+              <module xml:id="d5e22624" next="d5e22624_2" class="event" subclass="activation" values="∅">
+               <module xml:id="d3e22564" next="d3e22564_2" class="event" subclass="specification" values="$οἶδα; complete_duration; informational_environment; objectifying">
                 <function class="event" subclass="specification" name="process" label="Process" altLabel="Proc">
                  <wording class="word" status="core">
                   <token n="2097" gloss_berean="We know" id="SBL.1John.5.20.1">οἴδαμεν</token>
@@ -39573,13 +39567,13 @@
          <wording class="word" status="junctive">
           <token n="2098" gloss_berean="now" id="SBL.1John.5.20.2">δὲ</token>
          </wording>
-         <module prev="d15e22800" xml:id="d15e22800_2" class="utterance" subclass="specification" values="linguistic_action: predicating">
-          <function prev="d13e22780" xml:id="d13e22780_2" class="utterance" subclass="specification" name="main_speech_act" label="Main Act" altLabel="Main">
-           <module prev="d11e22760" xml:id="d11e22760_2" class="predication" subclass="activation" values="∅">
-            <module prev="d9e22734" xml:id="d9e22734_2" class="predication" subclass="specification" values="modal_predicate: interactant: non-speaker; plural; declarative">
-             <function prev="d7e22686" xml:id="d7e22686_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
-              <module prev="d5e22627" xml:id="d5e22627_2" class="event" subclass="activation" values="∅">
-               <module prev="d3e22567" xml:id="d3e22567_2" class="event" subclass="specification" values="$οἶδα; complete_duration; informational_environment; objectifying">
+         <module prev="d15e22797" xml:id="d15e22797_2" class="utterance" subclass="specification" values="linguistic_action: predicating">
+          <function prev="d13e22777" xml:id="d13e22777_2" class="utterance" subclass="specification" name="main_speech_act" label="Main Act" altLabel="Main">
+           <module prev="d11e22757" xml:id="d11e22757_2" class="predication" subclass="activation" values="∅">
+            <module prev="d9e22731" xml:id="d9e22731_2" class="predication" subclass="specification" values="modal_predicate: interactant: non-speaker; plural; declarative">
+             <function prev="d7e22683" xml:id="d7e22683_2" class="predication" subclass="specification" name="predicate" label="Predicate" altLabel="Pred">
+              <module prev="d5e22624" xml:id="d5e22624_2" class="event" subclass="activation" values="∅">
+               <module prev="d3e22564" xml:id="d3e22564_2" class="event" subclass="specification" values="$οἶδα; complete_duration; informational_environment; objectifying">
                 <function class="event" subclass="specification" name="object_participant" label="Object Participant" altLabel="Obj">
                  <wording class="cluster" status="satellite" subclass="obj">
                   <module class="entity" subclass="activation" values="∅">
