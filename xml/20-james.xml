@@ -467,7 +467,7 @@
               <module prev="d5e198" xml:id="d5e198_2" class="event" subclass="activation" values="∅">
                <module prev="d3e199" xml:id="d3e199_2" class="event" subclass="specification" values="affected: $ἡγέομαι; complete_duration; objectifying: preparatory; event_circumstance">
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -478,7 +478,7 @@
                       <module class="proposition" subclass="activation" values="∅">
                        <module class="proposition" subclass="specification" values="modal_predicate: interactant; plural; instantiation_circumstance: preparatory">
                         <function xml:id="d21e266" next="d21e266_2" class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                         <wording xml:id="d19e267" next="d19e267_2" class="cluster" status="satellite" subclass="adj:cl">
+                         <wording xml:id="d19e267" next="d19e267_2" class="cluster" status="satellite" subclass="circ:i">
                           <module xml:id="d17e268" next="d17e268_2" class="circumstance" subclass="activation" values="∅">
                            <module xml:id="d15e269" next="d15e269_2" class="circumstance" subclass="specification" values="simple_circumstance">
                             <module xml:id="d13e245" next="d13e245_2" class="association" subclass="activation" values="∅">
@@ -518,7 +518,7 @@
                          </module>
                         </function>
                         <function prev="d21e266" xml:id="d21e266_2" class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                         <wording prev="d19e267" xml:id="d19e267_2" class="cluster" status="satellite" subclass="adj:cl">
+                         <wording prev="d19e267" xml:id="d19e267_2" class="cluster" status="satellite" subclass="circ:i">
                           <module prev="d17e268" xml:id="d17e268_2" class="circumstance" subclass="activation" values="∅">
                            <module prev="d15e269" xml:id="d15e269_2" class="circumstance" subclass="specification" values="simple_circumstance">
                             <module prev="d13e245" xml:id="d13e245_2" class="association" subclass="activation" values="∅">
@@ -566,7 +566,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="associated_abstraction">
                  <module class="abstraction" subclass="activation" values="∅">
@@ -885,7 +885,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -966,7 +966,7 @@
                       </module>
                      </function>
                      <function class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                      <wording class="cluster" status="satellite" subclass="adj:cl">
+                      <wording class="cluster" status="satellite" subclass="circ:i">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="associated_abstraction">
                          <module class="abstraction" subclass="activation" values="∅">
@@ -977,7 +977,7 @@
                               <module class="event" subclass="activation" values="∅">
                                <module class="event" subclass="specification" values="affected: $λείπω; informational_environment; event_circumstance: preparatory">
                                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                                 <wording class="cluster" status="satellite" subclass="circ:e">
                                   <module class="circumstance" subclass="activation" values="∅">
                                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                                     <module class="association" subclass="activation" values="∅">
@@ -1057,7 +1057,7 @@
            <module xml:id="d17e576" next="d17e576_2" class="predication" subclass="activation" values="grouped">
             <module xml:id="d15e575" next="d15e575_2" class="predication" subclass="set" values="conjunctive">
              <function xml:id="d13e573" next="d13e573_2" class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording xml:id="d11e571" next="d11e571_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording xml:id="d11e571" next="d11e571_2" class="cluster" status="satellite" subclass="circ:i">
                <module xml:id="d9e569" next="d9e569_2" class="circumstance" subclass="activation" values="∅">
                 <module xml:id="d7e567" next="d7e567_2" class="circumstance" subclass="specification" values="instantiation_circumstance: preparatory">
                  <module xml:id="d5e565" next="d5e565_2" class="association" subclass="activation" values="∅">
@@ -1083,7 +1083,7 @@
            <module prev="d17e576" xml:id="d17e576_2" class="predication" subclass="activation" values="grouped">
             <module prev="d15e575" xml:id="d15e575_2" class="predication" subclass="set" values="conjunctive">
              <function prev="d13e573" xml:id="d13e573_2" class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording prev="d11e571" xml:id="d11e571_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording prev="d11e571" xml:id="d11e571_2" class="cluster" status="satellite" subclass="circ:i">
                <module prev="d9e569" xml:id="d9e569_2" class="circumstance" subclass="activation" values="∅">
                 <module prev="d7e567" xml:id="d7e567_2" class="circumstance" subclass="specification" values="instantiation_circumstance: preparatory">
                  <module prev="d5e565" xml:id="d5e565_2" class="association" subclass="activation" values="∅">
@@ -1197,7 +1197,7 @@
                      </wording>
                     </function>
                     <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                     <wording class="cluster" status="satellite" subclass="adj:vp">
+                     <wording class="cluster" status="satellite" subclass="circ:e">
                       <module class="circumstance" subclass="activation" values="∅">
                        <module class="circumstance" subclass="specification" values="simple_circumstance">
                         <module class="association" subclass="activation" values="∅">
@@ -1287,7 +1287,7 @@
                                               </wording>
                                              </function>
                                              <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                              <wording class="cluster" status="satellite" subclass="adj:vp">
+                                              <wording class="cluster" status="satellite" subclass="circ:e">
                                                <module class="circumstance" subclass="activation" values="∅">
                                                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                  <module class="association" subclass="activation" values="∅">
@@ -1465,7 +1465,7 @@
               <module prev="d5e764" xml:id="d5e764_2" class="event" subclass="activation" values="∅">
                <module prev="d3e760" xml:id="d3e760_2" class="event" subclass="specification" values="$αἰτέω; informational_environment; event_circumstance">
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -1500,7 +1500,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="associated_abstraction">
                  <module class="abstraction" subclass="activation" values="∅">
@@ -1659,7 +1659,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -1909,7 +1909,7 @@
                                </wording>
                               </function>
                               <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                               <wording class="cluster" status="satellite" subclass="adj:vp">
+                               <wording class="cluster" status="satellite" subclass="circ:e">
                                 <module class="circumstance" subclass="activation" values="∅">
                                  <module class="circumstance" subclass="specification" values="simple_circumstance">
                                   <module class="association" subclass="activation" values="∅">
@@ -2050,7 +2050,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -2242,7 +2242,7 @@
               <module prev="d5e1143" xml:id="d5e1143_2" class="event" subclass="activation" values="∅">
                <module prev="d3e1135" xml:id="d3e1135_2" class="event" subclass="specification" values="affected: $καυχάομαι; informational_environment; event_circumstance">
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -2411,7 +2411,7 @@
               <module class="event" subclass="activation" values="∅">
                <module class="event" subclass="specification" values="event_circumstance">
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -2485,7 +2485,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -2496,7 +2496,7 @@
                    <module class="proposition" subclass="activation" values="∅">
                     <module class="proposition" subclass="specification" values="modal_predicate; instantiation_circumstance: preparatory">
                      <function class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                      <wording class="cluster" status="satellite" subclass="adj:cl">
+                      <wording class="cluster" status="satellite" subclass="circ:i">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -2684,7 +2684,7 @@
                   <module prev="d5e1391" xml:id="d5e1391_2" class="event" subclass="activation" values="∅">
                    <module prev="d3e1381" xml:id="d3e1381_2" class="event" subclass="specification" values="$ἀνατέλλω; complete_duration; event_circumstance">
                     <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                     <wording class="cluster" status="satellite" subclass="adj:vp">
+                     <wording class="cluster" status="satellite" subclass="circ:e">
                       <module class="circumstance" subclass="activation" values="∅">
                        <module class="circumstance" subclass="specification" values="simple_circumstance">
                         <module class="association" subclass="activation" values="∅">
@@ -3038,7 +3038,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="modal_predicate; declarative; construed_instantiator: preparatory; instantiation_circumstance: preparatory; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -3116,7 +3116,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -3334,7 +3334,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -3345,7 +3345,7 @@
                    <module class="proposition" subclass="activation" values="∅">
                     <module class="proposition" subclass="specification" values="modal_predicate; instantiation_circumstance: preparatory">
                      <function class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                      <wording class="cluster" status="satellite" subclass="adj:cl">
+                      <wording class="cluster" status="satellite" subclass="circ:i">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="associated_abstraction">
                          <module class="abstraction" subclass="activation" values="∅">
@@ -3656,7 +3656,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="associated_abstraction">
                  <module class="abstraction" subclass="activation" values="∅">
@@ -3709,7 +3709,7 @@
                              <module class="predication" subclass="activation" values="∅">
                               <module class="predication" subclass="specification" values="modal_predicate: interactant: non-speaker; declarative; instantiation_circumstance: preparatory">
                                <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                                <wording class="cluster" status="satellite" subclass="adj:cl">
+                                <wording class="cluster" status="satellite" subclass="circ:i">
                                  <module class="circumstance" subclass="activation" values="∅">
                                   <module class="circumstance" subclass="specification" values="simple_circumstance">
                                    <module class="association" subclass="activation" values="∅">
@@ -3888,7 +3888,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -4088,7 +4088,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="associated_abstraction">
                     <module class="abstraction" subclass="activation" values="∅">
@@ -4099,7 +4099,7 @@
                          <module class="event" subclass="activation" values="grouped">
                           <module class="event" subclass="set" values="conjunctive">
                            <function class="event" subclass="set" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                            <wording class="cluster" status="satellite" subclass="adj:vp">
+                            <wording class="cluster" status="satellite" subclass="circ:e">
                              <module class="circumstance" subclass="activation" values="∅">
                               <module class="circumstance" subclass="specification" values="event_circumstance: preparatory">
                                <module class="association" subclass="activation" values="∅">
@@ -4226,7 +4226,7 @@
                <module class="predication" subclass="operation" values="∅">
                 <module class="predication" subclass="specification" values="modal_predicate; declarative; construed_instantiator: preparatory; instantiation_circumstance: preparatory; instantiation_circumstance: preparatory">
                  <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                  <wording class="cluster" status="satellite" subclass="adj:cl">
+                  <wording class="cluster" status="satellite" subclass="circ:i">
                    <module class="circumstance" subclass="activation" values="∅">
                     <module class="circumstance" subclass="specification" values="simple_circumstance">
                      <module class="association" subclass="activation" values="∅">
@@ -4285,7 +4285,7 @@
                   </wording>
                  </function>
                  <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                  <wording class="cluster" status="satellite" subclass="adj:cl">
+                  <wording class="cluster" status="satellite" subclass="circ:i">
                    <module class="circumstance" subclass="activation" values="∅">
                     <module class="circumstance" subclass="specification" values="associated_abstraction">
                      <module class="abstraction" subclass="activation" values="∅">
@@ -4424,7 +4424,7 @@
                    </wording>
                   </function>
                   <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                   <wording class="cluster" status="satellite" subclass="adj:cl">
+                   <wording class="cluster" status="satellite" subclass="circ:i">
                     <module class="circumstance" subclass="activation" values="∅">
                      <module class="circumstance" subclass="specification" values="associated_abstraction">
                       <module class="abstraction" subclass="activation" values="∅">
@@ -4766,7 +4766,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="associated_abstraction">
                  <module class="abstraction" subclass="activation" values="∅">
@@ -4782,7 +4782,7 @@
                          </wording>
                         </function>
                         <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                         <wording class="cluster" status="satellite" subclass="adj:vp">
+                         <wording class="cluster" status="satellite" subclass="circ:e">
                           <module class="circumstance" subclass="activation" values="∅">
                            <module class="circumstance" subclass="specification" values="simple_circumstance">
                             <module class="association" subclass="activation" values="∅">
@@ -4861,7 +4861,7 @@
                                       <module class="proposition" subclass="activation" values="grouped">
                                        <module class="proposition" subclass="set" values="conjunctive">
                                         <function class="proposition" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                                         <wording class="cluster" status="satellite" subclass="adj:cl">
+                                         <wording class="cluster" status="satellite" subclass="circ:i">
                                           <module class="circumstance" subclass="activation" values="∅">
                                            <module class="circumstance" subclass="specification" values="instantiation_circumstance: preparatory">
                                             <module class="association" subclass="activation" values="∅">
@@ -5048,7 +5048,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="modal_predicate; declarative; instantiation_circumstance: preparatory; instantiation_circumstance">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="associated_abstraction">
                  <module class="abstraction" subclass="activation" values="∅">
@@ -5108,7 +5108,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -5165,7 +5165,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -5505,7 +5505,7 @@
                           </wording>
                          </function>
                          <function class="descriptive_collation" subclass="specification" name="adjunct" label="Collation Circumstance" altLabel="Circ:Coll">
-                          <wording class="cluster" status="satellite" subclass="adj:adp">
+                          <wording class="cluster" status="satellite" subclass="circ:c">
                            <module class="association" subclass="activation" values="∅">
                             <module class="association" subclass="specification" values="associated_phenomenon: positional_association: $εἰς; accusative_association">
                              <wording class="word" status="translative">
@@ -5579,7 +5579,7 @@
                       </wording>
                      </function>
                      <function class="descriptive_collation" subclass="specification" name="adjunct" label="Collation Circumstance" altLabel="Circ:Coll">
-                      <wording class="cluster" status="satellite" subclass="adj:adp">
+                      <wording class="cluster" status="satellite" subclass="circ:c">
                        <module class="association" subclass="activation" values="∅">
                         <module class="association" subclass="specification" values="associated_phenomenon: positional_association: $εἰς; accusative_association">
                          <wording class="word" status="translative">
@@ -5649,7 +5649,7 @@
                       </wording>
                      </function>
                      <function class="descriptive_collation" subclass="specification" name="adjunct" label="Collation Circumstance" altLabel="Circ:Coll">
-                      <wording class="cluster" status="satellite" subclass="adj:adp">
+                      <wording class="cluster" status="satellite" subclass="circ:c">
                        <module class="association" subclass="activation" values="∅">
                         <module class="association" subclass="specification" values="associated_phenomenon: positional_association: $εἰς; accusative_association">
                          <wording class="word" status="translative">
@@ -5877,7 +5877,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="modal_predicate: interactant; plural; declarative; instantiation_circumstance: preparatory; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="associated_abstraction">
                  <module class="abstraction" subclass="activation" values="∅">
@@ -5995,7 +5995,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -6384,7 +6384,7 @@
                     </module>
                    </function>
                    <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                    <wording class="cluster" status="satellite" subclass="adj:cl">
+                    <wording class="cluster" status="satellite" subclass="circ:i">
                      <module class="circumstance" subclass="activation" values="∅">
                       <module class="circumstance" subclass="specification" values="associated_abstraction">
                        <module class="abstraction" subclass="activation" values="∅">
@@ -6442,7 +6442,7 @@
               </wording>
              </function>
              <function class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="instantiation_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -6453,7 +6453,7 @@
                    <module class="proposition" subclass="activation" values="∅">
                     <module class="proposition" subclass="specification" values="modal_predicate; construed_instantiator: preparatory; instantiation_circumstance: preparatory">
                      <function class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                      <wording class="cluster" status="satellite" subclass="adj:cl">
+                      <wording class="cluster" status="satellite" subclass="circ:i">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -6641,7 +6641,7 @@
                          </wording>
                         </function>
                         <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                         <wording class="cluster" status="satellite" subclass="adj:vp">
+                         <wording class="cluster" status="satellite" subclass="circ:e">
                           <module class="circumstance" subclass="activation" values="∅">
                            <module class="circumstance" subclass="specification" values="simple_circumstance">
                             <module class="association" subclass="activation" values="∅">
@@ -6772,7 +6772,7 @@
                                          </wording>
                                         </function>
                                         <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                         <wording class="cluster" status="satellite" subclass="adj:vp">
+                                         <wording class="cluster" status="satellite" subclass="circ:e">
                                           <module class="circumstance" subclass="activation" values="∅">
                                            <module class="circumstance" subclass="specification" values="simple_circumstance">
                                             <module class="association" subclass="activation" values="∅">
@@ -6948,7 +6948,7 @@
                 <module class="predication" subclass="operation" values="∅">
                  <module class="predication" subclass="specification" values="modal_predicate; declarative; instantiation_circumstance">
                   <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                   <wording class="cluster" status="satellite" subclass="adj:cl">
+                   <wording class="cluster" status="satellite" subclass="circ:i">
                     <module class="circumstance" subclass="activation" values="∅">
                      <module class="circumstance" subclass="specification" values="simple_circumstance">
                       <module class="association" subclass="activation" values="∅">
@@ -7107,7 +7107,7 @@
                                  </wording>
                                 </function>
                                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                                 <wording class="cluster" status="satellite" subclass="circ:e">
                                   <module class="circumstance" subclass="activation" values="∅">
                                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                                     <module class="association" subclass="activation" values="∅">
@@ -7248,7 +7248,7 @@
                                   </wording>
                                  </function>
                                  <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                  <wording class="cluster" status="satellite" subclass="adj:vp">
+                                  <wording class="cluster" status="satellite" subclass="circ:e">
                                    <module class="circumstance" subclass="activation" values="∅">
                                     <module class="circumstance" subclass="specification" values="associated_abstraction">
                                      <module class="abstraction" subclass="activation" values="∅">
@@ -7462,7 +7462,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -7558,7 +7558,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="non-modal_predicate; declarative; construed_instantiator: preparatory; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -7652,7 +7652,7 @@
                          </wording>
                         </function>
                         <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                         <wording class="cluster" status="satellite" subclass="adj:vp">
+                         <wording class="cluster" status="satellite" subclass="circ:e">
                           <module class="circumstance" subclass="activation" values="∅">
                            <module class="circumstance" subclass="specification" values="associated_abstraction">
                             <module class="abstraction" subclass="activation" values="grouped">
@@ -8216,7 +8216,7 @@
                                     </wording>
                                    </function>
                                    <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                    <wording class="cluster" status="satellite" subclass="adj:vp">
+                                    <wording class="cluster" status="satellite" subclass="circ:e">
                                      <module class="circumstance" subclass="activation" values="∅">
                                       <module class="circumstance" subclass="specification" values="simple_circumstance">
                                        <module class="association" subclass="activation" values="∅">
@@ -8361,7 +8361,7 @@
                                     </wording>
                                    </function>
                                    <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                    <wording class="cluster" status="satellite" subclass="adj:vp">
+                                    <wording class="cluster" status="satellite" subclass="circ:e">
                                      <module class="circumstance" subclass="activation" values="∅">
                                       <module class="circumstance" subclass="specification" values="simple_circumstance">
                                        <module class="association" subclass="activation" values="∅">
@@ -8501,7 +8501,7 @@
                    <module class="event" subclass="operation" values="∅">
                     <module class="event" subclass="specification" values="$ἔχω; objectifying; event_circumstance: preparatory">
                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                      <wording class="cluster" status="satellite" subclass="circ:e">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -8742,7 +8742,7 @@
         <module class="utterance" subclass="connection" values="connection_marker: supporting">
          <module xml:id="d15e4903" next="d15e4903_2" class="utterance" subclass="specification" values="linguistic_action: predicating; utterance_circumstance: preparatory">
           <function xml:id="d13e4884" next="d13e4884_2" class="utterance" subclass="specification" name="adjunct" label="Action Circumstance" altLabel="Circ:Act">
-           <wording xml:id="d11e4865" next="d11e4865_2" class="cluster" status="satellite" subclass="adj:sn">
+           <wording xml:id="d11e4865" next="d11e4865_2" class="cluster" status="satellite" subclass="circ:u">
             <module xml:id="d9e4843" next="d9e4843_2" class="circumstance" subclass="activation" values="∅">
              <module xml:id="d7e4819" next="d7e4819_2" class="circumstance" subclass="specification" values="simple_circumstance">
               <module xml:id="d5e4794" next="d5e4794_2" class="association" subclass="activation" values="∅">
@@ -8762,7 +8762,7 @@
          </wording>
          <module prev="d15e4903" xml:id="d15e4903_2" class="utterance" subclass="specification" values="linguistic_action: predicating; utterance_circumstance: preparatory">
           <function prev="d13e4884" xml:id="d13e4884_2" class="utterance" subclass="specification" name="adjunct" label="Action Circumstance" altLabel="Circ:Act">
-           <wording prev="d11e4865" xml:id="d11e4865_2" class="cluster" status="satellite" subclass="adj:sn">
+           <wording prev="d11e4865" xml:id="d11e4865_2" class="cluster" status="satellite" subclass="circ:u">
             <module prev="d9e4843" xml:id="d9e4843_2" class="circumstance" subclass="activation" values="∅">
              <module prev="d7e4819" xml:id="d7e4819_2" class="circumstance" subclass="specification" values="simple_circumstance">
               <module prev="d5e4794" xml:id="d5e4794_2" class="association" subclass="activation" values="∅">
@@ -8786,7 +8786,7 @@
                               </wording>
                              </function>
                              <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                              <wording class="cluster" status="satellite" subclass="adj:vp">
+                              <wording class="cluster" status="satellite" subclass="circ:e">
                                <module class="circumstance" subclass="activation" values="∅">
                                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                                  <module class="association" subclass="activation" values="∅">
@@ -9108,7 +9108,7 @@
                                 <module prev="d5e4983" xml:id="d5e4983_2" class="event" subclass="activation" values="∅">
                                  <module prev="d3e4956" xml:id="d3e4956_2" class="event" subclass="specification" values="$ἐπιβλέπω; complete_duration; event_circumstance">
                                   <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                   <wording class="cluster" status="satellite" subclass="adj:vp">
+                                   <wording class="cluster" status="satellite" subclass="circ:e">
                                     <module class="circumstance" subclass="activation" values="∅">
                                      <module class="circumstance" subclass="specification" values="simple_circumstance">
                                       <module class="association" subclass="activation" values="∅">
@@ -9298,7 +9298,7 @@
                                                       </wording>
                                                      </function>
                                                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                                                      <wording class="cluster" status="satellite" subclass="circ:e">
                                                        <module class="circumstance" subclass="activation" values="∅">
                                                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                          <module class="association" subclass="activation" values="∅">
@@ -9319,7 +9319,7 @@
                                                       </wording>
                                                      </function>
                                                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                                                      <wording class="cluster" status="satellite" subclass="circ:e">
                                                        <module class="circumstance" subclass="activation" values="∅">
                                                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                          <module class="association" subclass="activation" values="∅">
@@ -9504,7 +9504,7 @@
                                                       </wording>
                                                      </function>
                                                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                                                      <wording class="cluster" status="satellite" subclass="circ:e">
                                                        <module class="circumstance" subclass="activation" values="∅">
                                                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                          <module class="association" subclass="activation" values="∅">
@@ -9525,7 +9525,7 @@
                                                       </wording>
                                                      </function>
                                                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                                                      <wording class="cluster" status="satellite" subclass="circ:e">
                                                        <module class="circumstance" subclass="activation" values="∅">
                                                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                          <module class="association" subclass="activation" values="∅">
@@ -9658,7 +9658,7 @@
                      </wording>
                     </function>
                     <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                     <wording class="cluster" status="satellite" subclass="adj:vp">
+                     <wording class="cluster" status="satellite" subclass="circ:e">
                       <module class="circumstance" subclass="activation" values="∅">
                        <module class="circumstance" subclass="specification" values="simple_circumstance">
                         <module class="association" subclass="activation" values="∅">
@@ -9963,7 +9963,7 @@
                                    </wording>
                                   </function>
                                   <function class="descriptive_collation" subclass="specification" name="adjunct" label="Collation Circumstance" altLabel="Circ:Coll">
-                                   <wording class="cluster" status="satellite" subclass="adj:adp">
+                                   <wording class="cluster" status="satellite" subclass="circ:c">
                                     <module class="association" subclass="activation" values="∅">
                                      <module class="association" subclass="specification" values="associated_phenomenon: oblique_association: accusative_association">
                                       <module class="phenomenon" subclass="activation" values="∅">
@@ -10544,7 +10544,7 @@
                       </wording>
                      </function>
                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                      <wording class="cluster" status="satellite" subclass="circ:e">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -10722,7 +10722,7 @@
                                       </wording>
                                      </function>
                                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                                      <wording class="cluster" status="satellite" subclass="circ:e">
                                        <module class="circumstance" subclass="activation" values="∅">
                                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                                          <module class="association" subclass="activation" values="∅">
@@ -10796,7 +10796,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="modal_predicate: interactant; plural; declarative; instantiation_circumstance: preparatory; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -10876,7 +10876,7 @@
                          </wording>
                         </function>
                         <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                         <wording class="cluster" status="satellite" subclass="adj:vp">
+                         <wording class="cluster" status="satellite" subclass="circ:e">
                           <module class="circumstance" subclass="activation" values="∅">
                            <module class="circumstance" subclass="specification" values="simple_circumstance">
                             <module class="association" subclass="activation" values="∅">
@@ -10960,7 +10960,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -11008,7 +11008,7 @@
            <module xml:id="d17e6230" next="d17e6230_2" class="predication" subclass="activation" values="∅">
             <module xml:id="d15e6209" next="d15e6209_2" class="predication" subclass="specification" values="modal_predicate: interactant; plural; declarative; instantiation_circumstance: preparatory; instantiation_circumstance">
              <function xml:id="d13e6187" next="d13e6187_2" class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording xml:id="d11e6165" next="d11e6165_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording xml:id="d11e6165" next="d11e6165_2" class="cluster" status="satellite" subclass="circ:i">
                <module xml:id="d9e6139" next="d9e6139_2" class="circumstance" subclass="activation" values="∅">
                 <module xml:id="d7e6111" next="d7e6111_2" class="circumstance" subclass="specification" values="simple_circumstance">
                  <module xml:id="d5e6081" next="d5e6081_2" class="association" subclass="activation" values="∅">
@@ -11034,7 +11034,7 @@
            <module prev="d17e6230" xml:id="d17e6230_2" class="predication" subclass="activation" values="∅">
             <module prev="d15e6209" xml:id="d15e6209_2" class="predication" subclass="specification" values="modal_predicate: interactant; plural; declarative; instantiation_circumstance: preparatory; instantiation_circumstance">
              <function prev="d13e6187" xml:id="d13e6187_2" class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording prev="d11e6165" xml:id="d11e6165_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording prev="d11e6165" xml:id="d11e6165_2" class="cluster" status="satellite" subclass="circ:i">
                <module prev="d9e6139" xml:id="d9e6139_2" class="circumstance" subclass="activation" values="∅">
                 <module prev="d7e6111" xml:id="d7e6111_2" class="circumstance" subclass="specification" values="simple_circumstance">
                  <module prev="d5e6081" xml:id="d5e6081_2" class="association" subclass="activation" values="∅">
@@ -11097,7 +11097,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="associated_abstraction">
                  <module class="abstraction" subclass="activation" values="∅">
@@ -11113,7 +11113,7 @@
                          </wording>
                         </function>
                         <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                         <wording class="cluster" status="satellite" subclass="adj:vp">
+                         <wording class="cluster" status="satellite" subclass="circ:e">
                           <module class="circumstance" subclass="activation" values="∅">
                            <module class="circumstance" subclass="specification" values="simple_circumstance">
                             <module class="association" subclass="activation" values="∅">
@@ -11172,7 +11172,7 @@
               <module prev="d5e6097" xml:id="d5e6097_2" class="event" subclass="activation" values="∅">
                <module prev="d3e6066" xml:id="d3e6066_2" class="event" subclass="specification" values="affected: $ἐργάζομαι; informational_environment; objectifying: preparatory; event_circumstance">
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -11421,7 +11421,7 @@
                                 <module prev="d5e6275" xml:id="d5e6275_2" class="event" subclass="activation" values="∅">
                                  <module prev="d3e6242" xml:id="d3e6242_2" class="event" subclass="specification" values="$πταίω; complete_duration; event_circumstance">
                                   <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                   <wording class="cluster" status="satellite" subclass="adj:vp">
+                                   <wording class="cluster" status="satellite" subclass="circ:e">
                                     <module class="circumstance" subclass="activation" values="∅">
                                      <module class="circumstance" subclass="specification" values="simple_circumstance">
                                       <module class="association" subclass="activation" values="∅">
@@ -11772,7 +11772,7 @@
            <module xml:id="d17e6637" next="d17e6637_2" class="predication" subclass="activation" values="∅">
             <module xml:id="d15e6613" next="d15e6613_2" class="predication" subclass="specification" values="modal_predicate: interactant; declarative; instantiation_circumstance: preparatory">
              <function xml:id="d13e6588" next="d13e6588_2" class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording xml:id="d11e6562" next="d11e6562_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording xml:id="d11e6562" next="d11e6562_2" class="cluster" status="satellite" subclass="circ:i">
                <module xml:id="d9e6532" next="d9e6532_2" class="circumstance" subclass="activation" values="∅">
                 <module xml:id="d7e6499" next="d7e6499_2" class="circumstance" subclass="specification" values="simple_circumstance">
                  <module xml:id="d5e6464" next="d5e6464_2" class="association" subclass="activation" values="∅">
@@ -11798,7 +11798,7 @@
            <module prev="d17e6637" xml:id="d17e6637_2" class="predication" subclass="activation" values="∅">
             <module prev="d15e6613" xml:id="d15e6613_2" class="predication" subclass="specification" values="modal_predicate: interactant; declarative; instantiation_circumstance: preparatory">
              <function prev="d13e6588" xml:id="d13e6588_2" class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording prev="d11e6562" xml:id="d11e6562_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording prev="d11e6562" xml:id="d11e6562_2" class="cluster" status="satellite" subclass="circ:i">
                <module prev="d9e6532" xml:id="d9e6532_2" class="circumstance" subclass="activation" values="∅">
                 <module prev="d7e6499" xml:id="d7e6499_2" class="circumstance" subclass="specification" values="simple_circumstance">
                  <module prev="d5e6464" xml:id="d5e6464_2" class="association" subclass="activation" values="∅">
@@ -11945,7 +11945,7 @@
                <module class="predication" subclass="operation" values="∅">
                 <module class="predication" subclass="specification" values="modal_predicate: interactant; plural; declarative; instantiation_circumstance: preparatory; instantiation_circumstance">
                  <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                  <wording class="cluster" status="satellite" subclass="adj:cl">
+                  <wording class="cluster" status="satellite" subclass="circ:i">
                    <module class="circumstance" subclass="activation" values="∅">
                     <module class="circumstance" subclass="specification" values="simple_circumstance">
                      <module class="association" subclass="activation" values="∅">
@@ -11989,7 +11989,7 @@
                 <module class="predication" subclass="operation" values="∅">
                  <module class="predication" subclass="specification" values="modal_predicate: interactant; plural; declarative; instantiation_circumstance; instantiation_circumstance">
                   <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                   <wording class="cluster" status="satellite" subclass="adj:cl">
+                   <wording class="cluster" status="satellite" subclass="circ:i">
                     <module class="circumstance" subclass="activation" values="∅">
                      <module class="circumstance" subclass="specification" values="simple_circumstance">
                       <module class="association" subclass="activation" values="∅">
@@ -12026,7 +12026,7 @@
               </wording>
              </function>
              <function class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="instantiation_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -12053,7 +12053,7 @@
                                    <module xml:id="d5e6624" next="d5e6624_2" class="event" subclass="activation" values="∅">
                                     <module xml:id="d3e6588" next="d3e6588_2" class="event" subclass="specification" values="subjective_participation_tbd: $κρίνω; informational_environment; objectifying: cropped; event_circumstance: preparatory">
                                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                                      <wording class="cluster" status="satellite" subclass="circ:e">
                                        <module class="circumstance" subclass="activation" values="∅">
                                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                                          <module class="association" subclass="activation" values="∅">
@@ -12276,7 +12276,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -12551,7 +12551,7 @@
            <module prev="d5e6816" xml:id="d5e6816_2" class="predication" subclass="activation" values="∅">
             <module prev="d3e6777" xml:id="d3e6777_2" class="predication" subclass="specification" values="non-modal_predicate; declarative; construed_instantiator; instantiation_circumstance">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -12924,7 +12924,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="non-modal_predicate; declarative; construed_instantiator; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -13290,7 +13290,7 @@
                                                         </wording>
                                                        </function>
                                                        <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                                        <wording class="cluster" status="satellite" subclass="adj:vp">
+                                                        <wording class="cluster" status="satellite" subclass="circ:e">
                                                          <module class="circumstance" subclass="activation" values="∅">
                                                           <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                            <module class="association" subclass="activation" values="∅">
@@ -13637,7 +13637,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="modal_predicate; declarative; construed_instantiator: preparatory; instantiation_circumstance: preparatory; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -13709,7 +13709,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -13808,7 +13808,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -14192,7 +14192,7 @@
                      </wording>
                     </function>
                     <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                     <wording class="cluster" status="satellite" subclass="adj:vp">
+                     <wording class="cluster" status="satellite" subclass="circ:e">
                       <module class="circumstance" subclass="activation" values="∅">
                        <module class="circumstance" subclass="specification" values="simple_circumstance">
                         <module class="association" subclass="activation" values="∅">
@@ -14306,7 +14306,7 @@
                      </wording>
                     </function>
                     <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                     <wording class="cluster" status="satellite" subclass="adj:vp">
+                     <wording class="cluster" status="satellite" subclass="circ:e">
                       <module class="circumstance" subclass="activation" values="∅">
                        <module class="circumstance" subclass="specification" values="simple_circumstance">
                         <module class="association" subclass="activation" values="∅">
@@ -14580,7 +14580,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="modal_predicate: interactant; declarative; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -14901,7 +14901,7 @@
                                   </wording>
                                  </function>
                                  <function class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                                  <wording class="cluster" status="satellite" subclass="adj:cl">
+                                  <wording class="cluster" status="satellite" subclass="circ:i">
                                    <module class="circumstance" subclass="activation" values="∅">
                                     <module class="circumstance" subclass="specification" values="simple_circumstance">
                                      <module class="association" subclass="activation" values="∅">
@@ -15115,7 +15115,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -15158,7 +15158,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="associated_abstraction">
                  <module class="abstraction" subclass="activation" values="∅">
@@ -15266,7 +15266,7 @@
                          </wording>
                         </function>
                         <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                         <wording class="cluster" status="satellite" subclass="adj:vp">
+                         <wording class="cluster" status="satellite" subclass="circ:e">
                           <module class="circumstance" subclass="activation" values="∅">
                            <module class="circumstance" subclass="specification" values="simple_circumstance">
                             <module class="association" subclass="activation" values="∅">
@@ -15411,7 +15411,7 @@
                                   </wording>
                                  </function>
                                  <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                  <wording class="cluster" status="satellite" subclass="adj:vp">
+                                  <wording class="cluster" status="satellite" subclass="circ:e">
                                    <module class="circumstance" subclass="activation" values="∅">
                                     <module class="circumstance" subclass="specification" values="simple_circumstance">
                                      <module class="association" subclass="activation" values="∅">
@@ -15493,7 +15493,7 @@
                              <module class="proposition" subclass="operation" values="∅">
                               <module class="proposition" subclass="specification" values="modal_predicate; construed_instantiator; instantiation_circumstance">
                                <function class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                                <wording class="cluster" status="satellite" subclass="adj:cl">
+                                <wording class="cluster" status="satellite" subclass="circ:i">
                                  <module class="circumstance" subclass="activation" values="∅">
                                   <module class="circumstance" subclass="specification" values="simple_circumstance">
                                    <module class="association" subclass="activation" values="∅">
@@ -15837,7 +15837,7 @@
                                                                             </wording>
                                                                            </function>
                                                                            <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                                                            <wording class="cluster" status="satellite" subclass="adj:vp">
+                                                                            <wording class="cluster" status="satellite" subclass="circ:e">
                                                                              <module class="circumstance" subclass="activation" values="∅">
                                                                               <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                                                <module class="association" subclass="activation" values="∅">
@@ -16038,7 +16038,7 @@
                     <module class="proposition" subclass="activation" values="∅">
                      <module class="proposition" subclass="specification" values="modal_predicate; construed_instantiator; instantiation_circumstance: preparatory">
                       <function xml:id="d9e8890" next="d9e8890_2" class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                       <wording xml:id="d7e8841" next="d7e8841_2" class="cluster" status="satellite" subclass="adj:cl">
+                       <wording xml:id="d7e8841" next="d7e8841_2" class="cluster" status="satellite" subclass="circ:i">
                         <module xml:id="d5e8790" next="d5e8790_2" class="circumstance" subclass="activation" values="grouped">
                          <module xml:id="d3e8740" next="d3e8740_2" class="circumstance" subclass="set" values="conjunctive">
                           <function class="circumstance" subclass="set" name="conjunctive" label="±1">
@@ -16114,7 +16114,7 @@
                        </wording>
                       </function>
                       <function prev="d9e8890" xml:id="d9e8890_2" class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                       <wording prev="d7e8841" xml:id="d7e8841_2" class="cluster" status="satellite" subclass="adj:cl">
+                       <wording prev="d7e8841" xml:id="d7e8841_2" class="cluster" status="satellite" subclass="circ:i">
                         <module prev="d5e8790" xml:id="d5e8790_2" class="circumstance" subclass="activation" values="grouped">
                          <module prev="d3e8740" xml:id="d3e8740_2" class="circumstance" subclass="set" values="conjunctive">
                           <function class="circumstance" subclass="set" name="conjunctive" label="±2">
@@ -16196,7 +16196,7 @@
            <module xml:id="d5e8871" next="d5e8871_2" class="predication" subclass="activation" values="∅">
             <module xml:id="d3e8820" next="d3e8820_2" class="predication" subclass="specification" values="modal_predicate; declarative; construed_instantiator: preparatory; instantiation_circumstance: preparatory; instantiation_circumstance: preparatory; instantiation_circumstance">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -16290,7 +16290,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="grouped">
                 <module class="circumstance" subclass="set" values="conjunctive">
                  <function class="circumstance" subclass="set" name="conjunctive" label="±1">
@@ -16346,7 +16346,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="associated_abstraction">
                  <module class="abstraction" subclass="activation" values="grouped">
@@ -16426,7 +16426,7 @@
                            <module class="event" subclass="activation" values="∅">
                             <module class="event" subclass="specification" values="$ἐκβάλλω; complete_duration; event_circumstance">
                              <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                              <wording class="cluster" status="satellite" subclass="adj:vp">
+                              <wording class="cluster" status="satellite" subclass="circ:e">
                                <module class="circumstance" subclass="activation" values="∅">
                                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                                  <module class="association" subclass="activation" values="∅">
@@ -16505,7 +16505,7 @@
            <module xml:id="d17e9308" next="d17e9308_2" class="predication" subclass="activation" values="grouped">
             <module xml:id="d15e9274" next="d15e9274_2" class="predication" subclass="set" values="conjunctive">
              <function xml:id="d13e9239" next="d13e9239_2" class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording xml:id="d11e9202" next="d11e9202_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording xml:id="d11e9202" next="d11e9202_2" class="cluster" status="satellite" subclass="circ:i">
                <module xml:id="d9e9158" next="d9e9158_2" class="circumstance" subclass="activation" values="∅">
                 <module xml:id="d7e9107" next="d7e9107_2" class="circumstance" subclass="specification" values="instantiation_circumstance: preparatory; instantiation_circumstance: preparatory">
                  <module xml:id="d5e9054" next="d5e9054_2" class="association" subclass="activation" values="∅">
@@ -16531,7 +16531,7 @@
            <module prev="d17e9308" xml:id="d17e9308_2" class="predication" subclass="activation" values="grouped">
             <module prev="d15e9274" xml:id="d15e9274_2" class="predication" subclass="set" values="conjunctive">
              <function prev="d13e9239" xml:id="d13e9239_2" class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording prev="d11e9202" xml:id="d11e9202_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording prev="d11e9202" xml:id="d11e9202_2" class="cluster" status="satellite" subclass="circ:i">
                <module prev="d9e9158" xml:id="d9e9158_2" class="circumstance" subclass="activation" values="∅">
                 <module prev="d7e9107" xml:id="d7e9107_2" class="circumstance" subclass="specification" values="instantiation_circumstance: preparatory; instantiation_circumstance: preparatory">
                  <module prev="d5e9054" xml:id="d5e9054_2" class="association" subclass="activation" values="∅">
@@ -16577,7 +16577,7 @@
                       </wording>
                      </function>
                      <function class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                      <wording class="cluster" status="satellite" subclass="adj:cl">
+                      <wording class="cluster" status="satellite" subclass="circ:i">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -16651,7 +16651,7 @@
               </wording>
              </function>
              <function class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="instantiation_circumstance: preparatory; instantiation_circumstance: preparatory">
                  <module class="association" subclass="activation" values="∅">
@@ -16718,7 +16718,7 @@
                    </wording>
                   </function>
                   <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                   <wording class="cluster" status="satellite" subclass="adj:cl">
+                   <wording class="cluster" status="satellite" subclass="circ:i">
                     <module class="circumstance" subclass="activation" values="∅">
                      <module class="circumstance" subclass="specification" values="simple_circumstance">
                       <module class="association" subclass="activation" values="∅">
@@ -16937,7 +16937,7 @@
                    <module prev="d5e9243" xml:id="d5e9243_2" class="event" subclass="activation" values="∅">
                     <module prev="d3e9190" xml:id="d3e9190_2" class="event" subclass="specification" values="affected: $γίνομαι; informational_environment; complementary_abstraction: preparatory; event_circumstance">
                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                      <wording class="cluster" status="satellite" subclass="circ:e">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="associated_abstraction">
                          <module class="abstraction" subclass="activation" values="∅">
@@ -17056,7 +17056,7 @@
            <module xml:id="d5e9345" next="d5e9345_2" class="predication" subclass="activation" values="∅">
             <module xml:id="d3e9291" next="d3e9291_2" class="predication" subclass="specification" values="modal_predicate: interactant: non-speaker; plural; declarative; construed_instantiator; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -17156,7 +17156,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="non-modal_predicate; declarative; construed_instantiator: preparatory; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -17192,7 +17192,7 @@
                       </wording>
                      </function>
                      <function class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                      <wording class="cluster" status="satellite" subclass="adj:cl">
+                      <wording class="cluster" status="satellite" subclass="circ:i">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -17437,7 +17437,7 @@
            <module xml:id="d17e9836" next="d17e9836_2" class="predication" subclass="activation" values="∅">
             <module xml:id="d15e9800" next="d15e9800_2" class="predication" subclass="specification" values="modal_predicate: interactant: non-speaker; plural; declarative; instantiation_circumstance: preparatory">
              <function xml:id="d13e9763" next="d13e9763_2" class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording xml:id="d11e9724" next="d11e9724_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording xml:id="d11e9724" next="d11e9724_2" class="cluster" status="satellite" subclass="circ:i">
                <module xml:id="d9e9677" next="d9e9677_2" class="circumstance" subclass="activation" values="∅">
                 <module xml:id="d7e9623" next="d7e9623_2" class="circumstance" subclass="specification" values="simple_circumstance">
                  <module xml:id="d5e9567" next="d5e9567_2" class="association" subclass="activation" values="∅">
@@ -17463,7 +17463,7 @@
            <module prev="d17e9836" xml:id="d17e9836_2" class="predication" subclass="activation" values="∅">
             <module prev="d15e9800" xml:id="d15e9800_2" class="predication" subclass="specification" values="modal_predicate: interactant: non-speaker; plural; declarative; instantiation_circumstance: preparatory">
              <function prev="d13e9763" xml:id="d13e9763_2" class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording prev="d11e9724" xml:id="d11e9724_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording prev="d11e9724" xml:id="d11e9724_2" class="cluster" status="satellite" subclass="circ:i">
                <module prev="d9e9677" xml:id="d9e9677_2" class="circumstance" subclass="activation" values="∅">
                 <module prev="d7e9623" xml:id="d7e9623_2" class="circumstance" subclass="specification" values="simple_circumstance">
                  <module prev="d5e9567" xml:id="d5e9567_2" class="association" subclass="activation" values="∅">
@@ -17550,7 +17550,7 @@
                          </wording>
                         </function>
                         <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                         <wording class="cluster" status="satellite" subclass="adj:vp">
+                         <wording class="cluster" status="satellite" subclass="circ:e">
                           <module class="circumstance" subclass="activation" values="∅">
                            <module class="circumstance" subclass="specification" values="simple_circumstance">
                             <module class="association" subclass="activation" values="∅">
@@ -17600,7 +17600,7 @@
                          </wording>
                         </function>
                         <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                         <wording class="cluster" status="satellite" subclass="adj:vp">
+                         <wording class="cluster" status="satellite" subclass="circ:e">
                           <module class="circumstance" subclass="activation" values="∅">
                            <module class="circumstance" subclass="specification" values="simple_circumstance">
                             <module class="association" subclass="activation" values="∅">
@@ -17876,7 +17876,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="associated_abstraction">
                  <module class="abstraction" subclass="activation" values="grouped">
@@ -17941,7 +17941,7 @@
                            <module class="event" subclass="activation" values="∅">
                             <module class="event" subclass="specification" values="subjective_participation_tbd: $ἐλαύνω; informational_environment; objectifying: cropped; event_circumstance">
                              <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                              <wording class="cluster" status="satellite" subclass="adj:vp">
+                              <wording class="cluster" status="satellite" subclass="circ:e">
                                <module class="circumstance" subclass="activation" values="∅">
                                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                                  <module class="association" subclass="activation" values="∅">
@@ -18019,7 +18019,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -18068,7 +18068,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -18083,7 +18083,7 @@
                              <module class="proposition" subclass="activation" values="∅">
                               <module class="proposition" subclass="specification" values="modal_predicate; construed_instantiator: preparatory; instantiation_circumstance: preparatory">
                                <function class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                                <wording class="cluster" status="satellite" subclass="adj:cl">
+                                <wording class="cluster" status="satellite" subclass="circ:i">
                                  <module class="circumstance" subclass="activation" values="∅">
                                   <module class="circumstance" subclass="specification" values="simple_circumstance">
                                    <module class="association" subclass="activation" values="∅">
@@ -18235,7 +18235,7 @@
                <module class="predication" subclass="operation" values="∅">
                 <module class="predication" subclass="specification" values="modal_predicate; declarative; construed_instantiator: preparatory; instantiation_circumstance: preparatory">
                  <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                  <wording class="cluster" status="satellite" subclass="adj:cl">
+                  <wording class="cluster" status="satellite" subclass="circ:i">
                    <module class="circumstance" subclass="activation" values="∅">
                     <module class="circumstance" subclass="specification" values="simple_circumstance">
                      <module class="association" subclass="activation" values="∅">
@@ -18749,7 +18749,7 @@
                      </wording>
                     </function>
                     <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                     <wording class="cluster" status="satellite" subclass="adj:vp">
+                     <wording class="cluster" status="satellite" subclass="circ:e">
                       <module class="circumstance" subclass="activation" values="∅">
                        <module class="circumstance" subclass="specification" values="simple_circumstance">
                         <module class="association" subclass="activation" values="∅">
@@ -19035,7 +19035,7 @@
                                     </wording>
                                    </function>
                                    <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                    <wording class="cluster" status="satellite" subclass="adj:vp">
+                                    <wording class="cluster" status="satellite" subclass="circ:e">
                                      <module class="circumstance" subclass="activation" values="∅">
                                       <module class="circumstance" subclass="specification" values="simple_circumstance">
                                        <module class="association" subclass="activation" values="∅">
@@ -19345,7 +19345,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="set" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="event_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -19840,7 +19840,7 @@
                <module class="predication" subclass="operation" values="∅">
                 <module class="predication" subclass="specification" values="modal_predicate: interactant: non-speaker; plural; declarative; instantiation_circumstance: preparatory">
                  <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                  <wording class="cluster" status="satellite" subclass="adj:cl">
+                  <wording class="cluster" status="satellite" subclass="circ:i">
                    <module class="circumstance" subclass="activation" values="∅">
                     <module class="circumstance" subclass="specification" values="simple_circumstance">
                      <module class="association" subclass="activation" values="∅">
@@ -19963,7 +19963,7 @@
                 <module class="predication" subclass="operation" values="∅">
                  <module class="predication" subclass="specification" values="modal_predicate: interactant: non-speaker; plural; declarative; instantiation_circumstance">
                   <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                   <wording class="cluster" status="satellite" subclass="adj:cl">
+                   <wording class="cluster" status="satellite" subclass="circ:i">
                     <module class="circumstance" subclass="activation" values="∅">
                      <module class="circumstance" subclass="specification" values="simple_circumstance">
                       <module class="association" subclass="activation" values="∅">
@@ -20063,7 +20063,7 @@
                                         <module class="event" subclass="activation" values="∅">
                                          <module class="event" subclass="specification" values="$γίνομαι; complete_duration; informational_environment; event_circumstance">
                                           <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                           <wording class="cluster" status="satellite" subclass="adj:vp">
+                                           <wording class="cluster" status="satellite" subclass="circ:e">
                                             <module class="circumstance" subclass="activation" values="∅">
                                              <module class="circumstance" subclass="specification" values="simple_circumstance">
                                               <module class="association" subclass="activation" values="∅">
@@ -20170,7 +20170,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="modal_predicate; declarative; construed_instantiator; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -20536,7 +20536,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -21190,7 +21190,7 @@
               </wording>
              </function>
              <function class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="construed_instantiator: preparatory; instantiation_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -21248,7 +21248,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -21373,7 +21373,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -21451,7 +21451,7 @@
            <module xml:id="d17e12090" next="d17e12090_2" class="predication" subclass="activation" values="grouped">
             <module xml:id="d15e12047" next="d15e12047_2" class="predication" subclass="set" values="conjunctive">
              <function xml:id="d13e12003" next="d13e12003_2" class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording xml:id="d11e11957" next="d11e11957_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording xml:id="d11e11957" next="d11e11957_2" class="cluster" status="satellite" subclass="circ:i">
                <module xml:id="d9e11903" next="d9e11903_2" class="circumstance" subclass="activation" values="∅">
                 <module xml:id="d7e11841" next="d7e11841_2" class="circumstance" subclass="specification" values="instantiation_circumstance: preparatory">
                  <module xml:id="d5e11777" next="d5e11777_2" class="association" subclass="activation" values="∅">
@@ -21477,7 +21477,7 @@
            <module prev="d17e12090" xml:id="d17e12090_2" class="predication" subclass="activation" values="grouped">
             <module prev="d15e12047" xml:id="d15e12047_2" class="predication" subclass="set" values="conjunctive">
              <function prev="d13e12003" xml:id="d13e12003_2" class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording prev="d11e11957" xml:id="d11e11957_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording prev="d11e11957" xml:id="d11e11957_2" class="cluster" status="satellite" subclass="circ:i">
                <module prev="d9e11903" xml:id="d9e11903_2" class="circumstance" subclass="activation" values="∅">
                 <module prev="d7e11841" xml:id="d7e11841_2" class="circumstance" subclass="specification" values="instantiation_circumstance: preparatory">
                  <module prev="d5e11777" xml:id="d5e11777_2" class="association" subclass="activation" values="∅">
@@ -21581,7 +21581,7 @@
                          </wording>
                         </function>
                         <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                         <wording class="cluster" status="satellite" subclass="adj:vp">
+                         <wording class="cluster" status="satellite" subclass="circ:e">
                           <module class="circumstance" subclass="activation" values="∅">
                            <module class="circumstance" subclass="specification" values="simple_circumstance">
                             <module class="association" subclass="activation" values="∅">
@@ -21705,7 +21705,7 @@
                            </wording>
                           </function>
                           <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                           <wording class="cluster" status="satellite" subclass="adj:vp">
+                           <wording class="cluster" status="satellite" subclass="circ:e">
                             <module class="circumstance" subclass="activation" values="∅">
                              <module class="circumstance" subclass="specification" values="simple_circumstance">
                               <module class="association" subclass="activation" values="∅">
@@ -21861,7 +21861,7 @@
                             <module class="event" subclass="activation" values="∅">
                              <module class="event" subclass="specification" values="affected: $κατέρχομαι; informational_environment; event_circumstance: preparatory">
                               <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                               <wording class="cluster" status="satellite" subclass="adj:vp">
+                               <wording class="cluster" status="satellite" subclass="circ:e">
                                 <module class="circumstance" subclass="activation" values="∅">
                                  <module class="circumstance" subclass="specification" values="simple_circumstance">
                                   <module class="association" subclass="activation" values="∅">
@@ -22361,7 +22361,7 @@
                    </wording>
                   </function>
                   <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                   <wording class="cluster" status="satellite" subclass="adj:cl">
+                   <wording class="cluster" status="satellite" subclass="circ:i">
                     <module class="circumstance" subclass="activation" values="∅">
                      <module class="circumstance" subclass="specification" values="simple_circumstance">
                       <module class="association" subclass="activation" values="∅">
@@ -22458,7 +22458,7 @@
            <module class="predication" subclass="activation" values="grouped">
             <module class="predication" subclass="set" values="conjunctive">
              <function class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="instantiation_circumstance: preparatory">
                  <module class="association" subclass="activation" values="∅">
@@ -22822,7 +22822,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -22862,7 +22862,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -23066,7 +23066,7 @@
                    </wording>
                   </function>
                   <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                   <wording class="cluster" status="satellite" subclass="adj:cl">
+                   <wording class="cluster" status="satellite" subclass="circ:i">
                     <module class="circumstance" subclass="activation" values="∅">
                      <module class="circumstance" subclass="specification" values="simple_circumstance">
                       <module class="association" subclass="activation" values="∅">
@@ -23227,7 +23227,7 @@
                                             </wording>
                                            </function>
                                            <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                            <wording class="cluster" status="satellite" subclass="adj:vp">
+                                            <wording class="cluster" status="satellite" subclass="circ:e">
                                              <module class="circumstance" subclass="activation" values="∅">
                                               <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                <module class="association" subclass="activation" values="∅">
@@ -23625,7 +23625,7 @@
                       </wording>
                      </function>
                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                      <wording class="cluster" status="satellite" subclass="circ:e">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -23780,7 +23780,7 @@
               </wording>
              </function>
              <function class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="instantiation_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -23791,7 +23791,7 @@
                    <module class="proposition" subclass="activation" values="∅">
                     <module class="proposition" subclass="specification" values="modal_predicate: interactant; plural; instantiation_circumstance: preparatory">
                      <function class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                      <wording class="cluster" status="satellite" subclass="adj:cl">
+                      <wording class="cluster" status="satellite" subclass="circ:i">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -23829,7 +23829,7 @@
                             <module class="proposition" subclass="activation" values="∅">
                              <module class="proposition" subclass="specification" values="modal_predicate: interactant; plural; instantiation_circumstance: preparatory">
                               <function class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                               <wording class="cluster" status="satellite" subclass="adj:cl">
+                               <wording class="cluster" status="satellite" subclass="circ:i">
                                 <module class="circumstance" subclass="activation" values="∅">
                                  <module class="circumstance" subclass="specification" values="simple_circumstance">
                                   <module class="association" subclass="activation" values="∅">
@@ -24481,7 +24481,7 @@
                     <module class="proposition" subclass="activation" values="∅">
                      <module class="proposition" subclass="specification" values="modal_predicate; construed_instantiator: preparatory; instantiation_circumstance: preparatory">
                       <function class="proposition" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                       <wording class="cluster" status="satellite" subclass="adj:cl">
+                       <wording class="cluster" status="satellite" subclass="circ:i">
                         <module class="circumstance" subclass="activation" values="∅">
                          <module class="circumstance" subclass="specification" values="simple_circumstance">
                           <module class="association" subclass="activation" values="∅">
@@ -24563,7 +24563,7 @@
                                       <module class="predication" subclass="activation" values="∅">
                                        <module class="predication" subclass="specification" values="modal_predicate; declarative; instantiation_circumstance: preparatory">
                                         <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                                         <wording class="cluster" status="satellite" subclass="adj:cl">
+                                         <wording class="cluster" status="satellite" subclass="circ:i">
                                           <module class="circumstance" subclass="activation" values="∅">
                                            <module class="circumstance" subclass="specification" values="simple_circumstance">
                                             <module class="association" subclass="activation" values="∅">
@@ -24672,7 +24672,7 @@
                                                              </wording>
                                                             </function>
                                                             <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                                             <wording class="cluster" status="satellite" subclass="adj:vp">
+                                                             <wording class="cluster" status="satellite" subclass="circ:e">
                                                               <module class="circumstance" subclass="activation" values="∅">
                                                                <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                                 <module class="association" subclass="activation" values="∅">
@@ -25292,7 +25292,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -25355,7 +25355,7 @@
                      </wording>
                     </function>
                     <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                     <wording class="cluster" status="satellite" subclass="adj:vp">
+                     <wording class="cluster" status="satellite" subclass="circ:e">
                       <module class="circumstance" subclass="activation" values="∅">
                        <module class="circumstance" subclass="specification" values="simple_circumstance">
                         <module class="association" subclass="activation" values="∅">
@@ -25420,7 +25420,7 @@
                       </wording>
                      </function>
                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                      <wording class="cluster" status="satellite" subclass="circ:e">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -25780,7 +25780,7 @@
                   </wording>
                  </function>
                  <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                  <wording class="cluster" status="satellite" subclass="adj:cl">
+                  <wording class="cluster" status="satellite" subclass="circ:i">
                    <module class="circumstance" subclass="activation" values="∅">
                     <module class="circumstance" subclass="specification" values="simple_circumstance">
                      <module class="association" subclass="activation" values="∅">
@@ -25876,7 +25876,7 @@
                    <module class="event" subclass="activation" values="∅">
                     <module class="event" subclass="specification" values="event_circumstance">
                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                      <wording class="cluster" status="satellite" subclass="circ:e">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -25945,7 +25945,7 @@
                      </wording>
                     </function>
                     <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                     <wording class="cluster" status="satellite" subclass="adj:vp">
+                     <wording class="cluster" status="satellite" subclass="circ:e">
                       <module class="circumstance" subclass="activation" values="∅">
                        <module class="circumstance" subclass="specification" values="simple_circumstance">
                         <module class="association" subclass="activation" values="∅">
@@ -26408,7 +26408,7 @@
            <module xml:id="d17e14885" next="d17e14885_2" class="predication" subclass="activation" values="∅">
             <module xml:id="d15e14835" next="d15e14835_2" class="predication" subclass="specification" values="modal_predicate: interactant; declarative; instantiation_circumstance: preparatory">
              <function xml:id="d13e14784" next="d13e14784_2" class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording xml:id="d11e14730" next="d11e14730_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording xml:id="d11e14730" next="d11e14730_2" class="cluster" status="satellite" subclass="circ:i">
                <module xml:id="d9e14665" next="d9e14665_2" class="circumstance" subclass="activation" values="∅">
                 <module xml:id="d7e14591" next="d7e14591_2" class="circumstance" subclass="specification" values="simple_circumstance">
                  <module xml:id="d5e14515" next="d5e14515_2" class="association" subclass="activation" values="∅">
@@ -26434,7 +26434,7 @@
            <module prev="d17e14885" xml:id="d17e14885_2" class="predication" subclass="activation" values="∅">
             <module prev="d15e14835" xml:id="d15e14835_2" class="predication" subclass="specification" values="modal_predicate: interactant; declarative; instantiation_circumstance: preparatory">
              <function prev="d13e14784" xml:id="d13e14784_2" class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording prev="d11e14730" xml:id="d11e14730_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording prev="d11e14730" xml:id="d11e14730_2" class="cluster" status="satellite" subclass="circ:i">
                <module prev="d9e14665" xml:id="d9e14665_2" class="circumstance" subclass="activation" values="∅">
                 <module prev="d7e14591" xml:id="d7e14591_2" class="circumstance" subclass="specification" values="simple_circumstance">
                  <module prev="d5e14515" xml:id="d5e14515_2" class="association" subclass="activation" values="∅">
@@ -26996,7 +26996,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -27064,7 +27064,7 @@
                                          <module class="predication" subclass="operation" values="∅">
                                           <module class="predication" subclass="specification" values="modal_predicate: interactant: non-speaker; plural; declarative; instantiation_circumstance: preparatory">
                                            <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                                            <wording class="cluster" status="satellite" subclass="adj:cl">
+                                            <wording class="cluster" status="satellite" subclass="circ:i">
                                              <module class="circumstance" subclass="activation" values="grouped">
                                               <module class="circumstance" subclass="set" values="∅">
                                                <function class="circumstance" subclass="set" name="disjunctive" label="∨1">
@@ -27125,7 +27125,7 @@
                                                </wording>
                                               </function>
                                               <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                               <wording class="cluster" status="satellite" subclass="adj:vp">
+                                               <wording class="cluster" status="satellite" subclass="circ:e">
                                                 <module class="circumstance" subclass="activation" values="∅">
                                                  <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                   <module class="association" subclass="activation" values="∅">
@@ -27208,7 +27208,7 @@
                                                     </wording>
                                                    </function>
                                                    <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                                    <wording class="cluster" status="satellite" subclass="adj:vp">
+                                                    <wording class="cluster" status="satellite" subclass="circ:e">
                                                      <module class="circumstance" subclass="activation" values="∅">
                                                       <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                        <module class="association" subclass="activation" values="∅">
@@ -27229,7 +27229,7 @@
                                                     </wording>
                                                    </function>
                                                    <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                                    <wording class="cluster" status="satellite" subclass="adj:vp">
+                                                    <wording class="cluster" status="satellite" subclass="circ:e">
                                                      <module class="circumstance" subclass="activation" values="∅">
                                                       <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                        <module class="association" subclass="activation" values="∅">
@@ -27664,7 +27664,7 @@
                                    <module class="event" subclass="activation" values="∅">
                                     <module class="event" subclass="specification" values="affected: $φαίνω; informational_environment; event_circumstance">
                                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                                      <wording class="cluster" status="satellite" subclass="circ:e">
                                        <module class="circumstance" subclass="activation" values="∅">
                                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                                          <module class="association" subclass="activation" values="∅">
@@ -27725,7 +27725,7 @@
                                    <module class="event" subclass="activation" values="∅">
                                     <module class="event" subclass="specification" values="subjective_participation_tbd: $ἀφανίζω; informational_environment; objectifying: cropped; event_circumstance">
                                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                                      <wording class="cluster" status="satellite" subclass="circ:e">
                                        <module class="circumstance" subclass="activation" values="grouped">
                                         <module class="circumstance" subclass="set" values="conjunctive">
                                          <function class="circumstance" subclass="set" name="conjunctive" label="±1">
@@ -27807,7 +27807,7 @@
               <module class="event" subclass="activation" values="∅">
                <module class="event" subclass="specification" values="event_circumstance">
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -27877,7 +27877,7 @@
                                           <module class="predication" subclass="activation" values="grouped">
                                            <module class="predication" subclass="set" values="conjunctive">
                                             <function class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                                             <wording class="cluster" status="satellite" subclass="adj:cl">
+                                             <wording class="cluster" status="satellite" subclass="circ:i">
                                               <module class="circumstance" subclass="activation" values="∅">
                                                <module class="circumstance" subclass="specification" values="instantiation_circumstance: preparatory">
                                                 <module class="association" subclass="activation" values="∅">
@@ -28104,7 +28104,7 @@
            <module xml:id="d5e15452" next="d5e15452_2" class="predication" subclass="activation" values="∅">
             <module xml:id="d3e15372" next="d3e15372_2" class="predication" subclass="specification" values="modal_predicate: interactant; plural; declarative; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -28144,7 +28144,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -28338,7 +28338,7 @@
            <module xml:id="d49e16228" next="d49e16228_2" class="predication" subclass="activation" values="∅">
             <module xml:id="d47e16227" next="d47e16227_2" class="predication" subclass="specification" values="modal_predicate; declarative; construed_instantiator: preparatory; instantiation_circumstance: preparatory; instantiation_circumstance: preparatory">
              <function xml:id="d45e16226" next="d45e16226_2" class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording xml:id="d43e16224" next="d43e16224_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording xml:id="d43e16224" next="d43e16224_2" class="cluster" status="satellite" subclass="circ:i">
                <module xml:id="d41e16220" next="d41e16220_2" class="circumstance" subclass="activation" values="grouped">
                 <module xml:id="d39e16216" next="d39e16216_2" class="circumstance" subclass="set" values="conjunctive">
                  <function xml:id="d37e16212" next="d37e16212_2" class="circumstance" subclass="set" name="conjunctive" label="±1">
@@ -28398,7 +28398,7 @@
            <module prev="d49e16228" xml:id="d49e16228_2" class="predication" subclass="activation" values="∅">
             <module prev="d47e16227" xml:id="d47e16227_2" class="predication" subclass="specification" values="modal_predicate; declarative; construed_instantiator: preparatory; instantiation_circumstance: preparatory; instantiation_circumstance: preparatory">
              <function prev="d45e16226" xml:id="d45e16226_2" class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording prev="d43e16224" xml:id="d43e16224_2" class="cluster" status="satellite" subclass="adj:cl">
+              <wording prev="d43e16224" xml:id="d43e16224_2" class="cluster" status="satellite" subclass="circ:i">
                <module prev="d41e16220" xml:id="d41e16220_2" class="circumstance" subclass="activation" values="grouped">
                 <module prev="d39e16216" xml:id="d39e16216_2" class="circumstance" subclass="set" values="conjunctive">
                  <function prev="d37e16212" xml:id="d37e16212_2" class="circumstance" subclass="set" name="conjunctive" label="±1">
@@ -28584,7 +28584,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -28652,7 +28652,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -28736,7 +28736,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="associated_abstraction">
                     <module class="abstraction" subclass="activation" values="∅">
@@ -28752,7 +28752,7 @@
                             </wording>
                            </function>
                            <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                            <wording class="cluster" status="satellite" subclass="adj:vp">
+                            <wording class="cluster" status="satellite" subclass="circ:e">
                              <module class="circumstance" subclass="activation" values="∅">
                               <module class="circumstance" subclass="specification" values="simple_circumstance">
                                <module class="association" subclass="activation" values="∅">
@@ -29351,7 +29351,7 @@
                           </wording>
                          </function>
                          <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                          <wording class="cluster" status="satellite" subclass="adj:vp">
+                          <wording class="cluster" status="satellite" subclass="circ:e">
                            <module class="circumstance" subclass="activation" values="∅">
                             <module class="circumstance" subclass="specification" values="simple_circumstance">
                              <module class="association" subclass="activation" values="∅">
@@ -29471,7 +29471,7 @@
                            </wording>
                           </function>
                           <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                           <wording class="cluster" status="satellite" subclass="adj:vp">
+                           <wording class="cluster" status="satellite" subclass="circ:e">
                             <module class="circumstance" subclass="activation" values="∅">
                              <module class="circumstance" subclass="specification" values="associated_abstraction">
                               <module class="abstraction" subclass="activation" values="∅">
@@ -29542,7 +29542,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -29831,7 +29831,7 @@
                                        </wording>
                                       </function>
                                       <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                       <wording class="cluster" status="satellite" subclass="adj:vp">
+                                       <wording class="cluster" status="satellite" subclass="circ:e">
                                         <module class="circumstance" subclass="activation" values="∅">
                                          <module class="circumstance" subclass="specification" values="simple_circumstance">
                                           <module class="association" subclass="activation" values="∅">
@@ -29989,7 +29989,7 @@
                    </wording>
                   </function>
                   <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                   <wording class="cluster" status="satellite" subclass="adj:cl">
+                   <wording class="cluster" status="satellite" subclass="circ:i">
                     <module class="circumstance" subclass="activation" values="∅">
                      <module class="circumstance" subclass="specification" values="simple_circumstance">
                       <module class="association" subclass="activation" values="∅">
@@ -30128,7 +30128,7 @@
                      </wording>
                     </function>
                     <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                     <wording class="cluster" status="satellite" subclass="adj:vp">
+                     <wording class="cluster" status="satellite" subclass="circ:e">
                       <module class="circumstance" subclass="activation" values="∅">
                        <module class="circumstance" subclass="specification" values="simple_circumstance">
                         <module class="association" subclass="activation" values="∅">
@@ -30291,7 +30291,7 @@
                  </wording>
                 </function>
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -30572,7 +30572,7 @@
               <module prev="d5e16814" xml:id="d5e16814_2" class="event" subclass="activation" values="∅">
                <module prev="d3e16732" xml:id="d3e16732_2" class="event" subclass="specification" values="$μακροθυμέω; complete_duration; event_circumstance">
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                     <module class="association" subclass="activation" values="∅">
@@ -30823,7 +30823,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="associated_abstraction">
                  <module class="abstraction" subclass="activation" values="∅">
@@ -30839,7 +30839,7 @@
                          </wording>
                         </function>
                         <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                         <wording class="cluster" status="satellite" subclass="adj:vp">
+                         <wording class="cluster" status="satellite" subclass="circ:e">
                           <module class="circumstance" subclass="activation" values="∅">
                            <module class="circumstance" subclass="specification" values="simple_circumstance">
                             <module class="association" subclass="activation" values="∅">
@@ -30882,7 +30882,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -31144,7 +31144,7 @@
               </wording>
              </function>
              <function class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="instantiation_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -31323,7 +31323,7 @@
                    <module prev="d5e17242" xml:id="d5e17242_2" class="event" subclass="operation" values="∅">
                     <module prev="d3e17159" xml:id="d3e17159_2" class="event" subclass="specification" values="$στενάζω; event_circumstance">
                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                      <wording class="cluster" status="satellite" subclass="circ:e">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -31363,7 +31363,7 @@
               </module>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -31465,7 +31465,7 @@
               </wording>
              </function>
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -31755,7 +31755,7 @@
                                   </wording>
                                  </function>
                                  <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                  <wording class="cluster" status="satellite" subclass="adj:vp">
+                                  <wording class="cluster" status="satellite" subclass="circ:e">
                                    <module class="circumstance" subclass="activation" values="∅">
                                     <module class="circumstance" subclass="specification" values="simple_circumstance">
                                      <module class="association" subclass="activation" values="∅">
@@ -32275,7 +32275,7 @@
            <module xml:id="d5e17784" next="d5e17784_2" class="predication" subclass="activation" values="∅">
             <module xml:id="d3e17697" next="d3e17697_2" class="predication" subclass="specification" values="modal_predicate; declarative; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -32376,7 +32376,7 @@
                       </wording>
                      </function>
                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                      <wording class="cluster" status="satellite" subclass="circ:e">
                        <module class="circumstance" subclass="activation" values="grouped">
                         <module class="circumstance" subclass="set" values="conjunctive">
                          <function class="circumstance" subclass="set" name="conjunctive" label="±1">
@@ -32754,7 +32754,7 @@
               </wording>
              </function>
              <function class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="instantiation_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -32776,7 +32776,7 @@
                            <module class="event" subclass="operation" values="∅">
                             <module class="event" subclass="specification" values="$πίπτω; event_circumstance: preparatory">
                              <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                              <wording class="cluster" status="satellite" subclass="adj:vp">
+                              <wording class="cluster" status="satellite" subclass="circ:e">
                                <module class="circumstance" subclass="activation" values="∅">
                                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                                  <module class="association" subclass="activation" values="∅">
@@ -33238,7 +33238,7 @@
                       </wording>
                      </function>
                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                      <wording class="cluster" status="satellite" subclass="circ:e">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -33270,7 +33270,7 @@
                       </wording>
                      </function>
                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                      <wording class="cluster" status="satellite" subclass="circ:e">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="associated_abstraction">
                          <module class="abstraction" subclass="activation" values="∅">
@@ -33311,7 +33311,7 @@
                                  </wording>
                                 </function>
                                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                                 <wording class="cluster" status="satellite" subclass="circ:e">
                                   <module class="circumstance" subclass="activation" values="∅">
                                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                                     <module class="association" subclass="activation" values="∅">
@@ -33340,7 +33340,7 @@
                                  </wording>
                                 </function>
                                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                                 <wording class="cluster" status="satellite" subclass="circ:e">
                                   <module class="circumstance" subclass="activation" values="∅">
                                    <module class="circumstance" subclass="specification" values="simple_circumstance">
                                     <module class="association" subclass="activation" values="∅">
@@ -33701,7 +33701,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="modal_predicate; declarative; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -33956,7 +33956,7 @@
                       </wording>
                      </function>
                      <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                      <wording class="cluster" status="satellite" subclass="adj:vp">
+                      <wording class="cluster" status="satellite" subclass="circ:e">
                        <module class="circumstance" subclass="activation" values="∅">
                         <module class="circumstance" subclass="specification" values="simple_circumstance">
                          <module class="association" subclass="activation" values="∅">
@@ -33996,7 +33996,7 @@
               </wording>
              </function>
              <function class="predication" subclass="set" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="instantiation_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -34044,7 +34044,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="modal_predicate; declarative; construed_instantiator; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -34149,7 +34149,7 @@
               <module prev="d5e18804" xml:id="d5e18804_2" class="event" subclass="activation" values="∅">
                <module prev="d3e18714" xml:id="d3e18714_2" class="event" subclass="specification" values="$ἰσχύω; informational_environment; event_circumstance">
                 <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                 <wording class="cluster" status="satellite" subclass="adj:vp">
+                 <wording class="cluster" status="satellite" subclass="circ:e">
                   <module class="circumstance" subclass="activation" values="∅">
                    <module class="circumstance" subclass="specification" values="associated_abstraction">
                     <module class="abstraction" subclass="activation" values="∅">
@@ -34266,7 +34266,7 @@
                                </wording>
                               </function>
                               <function class="descriptive_collation" subclass="specification" name="adjunct" label="Collation Circumstance" altLabel="Circ:Coll">
-                               <wording class="cluster" status="satellite" subclass="adj:adp">
+                               <wording class="cluster" status="satellite" subclass="circ:c">
                                 <module class="association" subclass="activation" values="∅">
                                  <module class="association" subclass="specification" values="associated_phenomenon: oblique_association: accusative_association">
                                   <module class="phenomenon" subclass="activation" values="∅">
@@ -34320,7 +34320,7 @@
                     <module class="predication" subclass="operation" values="∅">
                      <module class="predication" subclass="specification" values="modal_predicate; declarative; instantiation_circumstance">
                       <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-                       <wording class="cluster" status="satellite" subclass="adj:cl">
+                       <wording class="cluster" status="satellite" subclass="circ:i">
                         <module class="circumstance" subclass="activation" values="∅">
                          <module class="circumstance" subclass="specification" values="simple_circumstance">
                           <module class="association" subclass="activation" values="∅">
@@ -34357,7 +34357,7 @@
                           </wording>
                          </function>
                          <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                          <wording class="cluster" status="satellite" subclass="adj:vp">
+                          <wording class="cluster" status="satellite" subclass="circ:e">
                            <module class="circumstance" subclass="activation" values="∅">
                             <module class="circumstance" subclass="specification" values="simple_circumstance">
                              <module class="association" subclass="activation" values="∅">
@@ -34435,7 +34435,7 @@
                                 </wording>
                                </function>
                                <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                <wording class="cluster" status="satellite" subclass="adj:vp">
+                                <wording class="cluster" status="satellite" subclass="circ:e">
                                  <module class="circumstance" subclass="activation" values="∅">
                                   <module class="circumstance" subclass="specification" values="simple_circumstance">
                                    <module class="association" subclass="activation" values="∅">
@@ -34480,7 +34480,7 @@
                                 </wording>
                                </function>
                                <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                <wording class="cluster" status="satellite" subclass="adj:vp">
+                                <wording class="cluster" status="satellite" subclass="circ:e">
                                  <module class="circumstance" subclass="activation" values="grouped">
                                   <module class="circumstance" subclass="set" values="conjunctive">
                                    <function class="circumstance" subclass="set" name="conjunctive" label="±1">
@@ -34622,7 +34622,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="modal_predicate; declarative; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -34938,7 +34938,7 @@
            <module class="predication" subclass="activation" values="∅">
             <module class="predication" subclass="specification" values="modal_predicate; declarative; instantiation_circumstance: preparatory">
              <function class="predication" subclass="specification" name="adjunct" label="Instantiation Circumstance" altLabel="Circ:Inst">
-              <wording class="cluster" status="satellite" subclass="adj:cl">
+              <wording class="cluster" status="satellite" subclass="circ:i">
                <module class="circumstance" subclass="activation" values="∅">
                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                  <module class="association" subclass="activation" values="∅">
@@ -35014,7 +35014,7 @@
                              </wording>
                             </function>
                             <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                             <wording class="cluster" status="satellite" subclass="adj:vp">
+                             <wording class="cluster" status="satellite" subclass="circ:e">
                               <module class="circumstance" subclass="activation" values="∅">
                                <module class="circumstance" subclass="specification" values="simple_circumstance">
                                 <module class="association" subclass="activation" values="∅">
@@ -35232,7 +35232,7 @@
                                              </wording>
                                             </function>
                                             <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                                             <wording class="cluster" status="satellite" subclass="adj:vp">
+                                             <wording class="cluster" status="satellite" subclass="circ:e">
                                               <module class="circumstance" subclass="activation" values="∅">
                                                <module class="circumstance" subclass="specification" values="simple_circumstance">
                                                 <module class="association" subclass="activation" values="∅">
@@ -35390,7 +35390,7 @@
                               </wording>
                              </function>
                              <function class="event" subclass="specification" name="adjunct" label="Event Circumstance" altLabel="Circ:Event">
-                              <wording class="cluster" status="satellite" subclass="adj:vp">
+                              <wording class="cluster" status="satellite" subclass="circ:e">
                                <module class="circumstance" subclass="activation" values="∅">
                                 <module class="circumstance" subclass="specification" values="simple_circumstance">
                                  <module class="association" subclass="activation" values="∅">

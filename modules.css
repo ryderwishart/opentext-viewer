@@ -183,7 +183,7 @@ function[subclass = 'specification']::before {
  * Values *
  **********/
 
-module[values]:active::before {
+module[values]:hover::before {
     position: absolute;
     display: flex;
     align-items: center;
@@ -208,8 +208,8 @@ module[values]:active::before {
     color: black;
 }
 
-module[class = 'utterance'][values]:active::before,
-module[class = 'phenomenon'][values]:active::before {
+module[class = 'utterance'][values]:hover::before,
+module[class = 'phenomenon'][values]:hover::before {
     color: white;
 }
 

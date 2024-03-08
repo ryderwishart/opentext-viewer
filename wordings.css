@@ -79,7 +79,7 @@ wording[subclass]:hover {
     padding: 15px 0px;
 }
 
-wording[subclass]:hover:not(:active)::before {
+wording[subclass]:hover::before {
     position: absolute;
     /* horizontally center */
     transform: translateY(100%);
@@ -131,7 +131,7 @@ wording[values]:active::before {
     color: white;
 }
 
-error[note]:hover:not(:active)::before {
+error[note]:hover::before {
     position: absolute;
     /* horizontally center */
     top: 50%;

@@ -85,6 +85,24 @@ token[gloss_berean]:hover::after {
     display: none;
 }
 
+*:active token[n] {
+    visibility: hidden;
+    position: relative;
+}
+
+*:active token[n]::before {
+    display: inline-flex;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: attr(n);
+}
+
+*:active token[n]::after {
+    display: none;
+}
+
 
 /************
  * Ellipsis *
