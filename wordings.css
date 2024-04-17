@@ -79,7 +79,7 @@ wording[subclass]:hover {
     padding: 15px 0px;
 }
 
-wording[subclass]:hover::before {
+wording[subclass]:hover:not(:active)::before {
     position: absolute;
     /* horizontally center */
     transform: translateY(100%);
@@ -99,7 +99,8 @@ wording[subclass][prev]:hover::before {
     border-radius: 0px 20px 0px 0px;
 }
 
-wording[subclass][next]:hover::before {
+wording[subclass][next]:hover::before,
+wording[subclass][pinned]:hover::before {
     border-radius: 20px 0px 0px 0px;
 }
 
@@ -113,6 +114,7 @@ wording[subclass][prev][next]:hover::before {
 
 wording[values]:active::before {
     position: absolute;
+    max-width: 200px;
     /* horizontally center */
     top: 50%;
     transform: translateY(-50%);
