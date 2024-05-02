@@ -6,7 +6,7 @@
     --scen-color: pink;
     --event-color: #d1e39c; /* d1e39c */
     --abstr-color: #d3d3d3; /* #d3d3d3 #895b2d #D3D3D3 #667049 895b2d cce6ff */
-    --prop-color: #f2f2f2;
+    --prpty-color: #f2f2f2;
     --def-color: #d8605a; /* b89c81 d8605a */
     --sel-color: orange; /* e7ded5 #b89c81 */
     --coll_d-color: #e6ccff;
@@ -59,7 +59,7 @@ context {
 }
 
 [class = "property"] {
-    --color: var(--prop-color);
+    --color: var(--prpty-color);
 }
 
 [class = "definition"] {
