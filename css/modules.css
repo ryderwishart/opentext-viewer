@@ -99,12 +99,12 @@ context {
     --color: var(--circ-color);
 }
 
-[class = 'utterance']::before,
-[class = 'name']::before,
-[class = 'category']::before,
-[class = 'descriptive_quality']::before,
-[class = 'associative_quality']::before,
-[class = 'process']::before {
+[class2 = "specification"][class = 'utterance']::before,
+[class2 = "specification"][class = 'name']::before,
+[class2 = "specification"][class = 'category']::before,
+[class2 = "specification"][class = 'descriptive_quality']::before,
+[class2 = "specification"][class = 'associative_quality']::before,
+[class2 = "specification"][class = 'process']::before {
     color: white !important;
 }
 
