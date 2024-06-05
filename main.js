@@ -1,7 +1,7 @@
 const checkboxState = {
     tag: {},
     class: {},
-    subclass: {},
+    class2: {},
 };
 const tagColors = {};
 
@@ -58,7 +58,7 @@ function populateCheckboxes(xmlDoc) {
     const xmlNodes = Array.from(xmlDoc.querySelectorAll("*"));
     const tagNames = new Set();
     const tagClassMapping = {};
-    const tagSubclassMapping = {};
+    const tagClass2Mapping = {};
 
     xmlNodes.forEach((node) => {
         if (!node.closest("text")) return;
@@ -75,20 +75,20 @@ function populateCheckboxes(xmlDoc) {
         if (node.hasAttribute('class')) {
             tagClassMapping[tagName].add(node.getAttribute('class'));
         }
-        // If tagName does not yet have a mapping of subclass names, then create a new set
-        if (!tagSubclassMapping[tagName]) {
-            tagSubclassMapping[tagName] = new Set();
+        // If tagName does not yet have a mapping of class2 names, then create a new set
+        if (!tagClass2Mapping[tagName]) {
+            tagClass2Mapping[tagName] = new Set();
         }
-        // If node has @class, then add that to the set of class names
-        if (node.hasAttribute('subclass')) {
-            tagSubclassMapping[tagName].add(node.getAttribute('subclass'));
+        // If node has @class2, then add that to the set of class names
+        if (node.hasAttribute('class2')) {
+            tagClass2Mapping[tagName].add(node.getAttribute('class2'));
         }
     });
 
-    // FIXME: this now allows class names to be duplicates (e.g. same class or subclass name on different elements but with independent toggling), but it's a hack (it concatenates strings to produce unique values)
+    // FIXME: this now allows class names to be duplicates (e.g. same class or class2 name on different elements but with independent toggling), but it's a hack (it concatenates strings to produce unique values)
     checkboxState.tag = {};
     checkboxState.class = {};
-    checkboxState.subclass = {};
+    checkboxState.class2 = {};
 
     const createCheckbox = (tag, container, type, value, master) => {
         const label = document.createElement("label");
@@ -118,13 +118,13 @@ function populateCheckboxes(xmlDoc) {
                     elements.forEach((element) => {
                         element.setAttribute('data-hide-class', (!checkbox.checked).toString());
                     });
-                } else if (type === "subclass") {
-                    // If it's a subclass checkbox, hide all subclasses
+                } else if (type === "class2") {
+                    // If it's a class2 checkbox, hide all orthogonal classes
                     const tagName = checkbox.closest("div[data-tag-name]").dataset.tagName
                     console.log('checkboxTagName', tagName);
-                    const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[subclass]`);
+                    const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[class2]`);
                     elements.forEach((element) => {
-                        element.setAttribute('data-hide-subclass', (!checkbox.checked).toString());
+                        element.setAttribute('data-hide-class2', (!checkbox.checked).toString());
                     });
                 }
                 // Update subcheckboxes regardless of whether or not they occur within the same menu section
@@ -143,12 +143,12 @@ function populateCheckboxes(xmlDoc) {
                 elements.forEach((element) => {
                     element.setAttribute('data-hide-class', (!checkbox.checked).toString());
                 });
-            } else if (type === "subclass") {
+            } else if (type === "class2") {
                 const tagName = checkbox.closest("div[data-tag-name]").dataset.tagName
-                // If it's a subclass checkbox, hide the specific subclass
-                const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[subclass="${value}"]`);
+                // If it's a class2 checkbox, hide the specific orthogonal class
+                const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[class2="${value}"]`);
                 elements.forEach((element) => {
-                    element.setAttribute('data-hide-subclass', (!checkbox.checked).toString());
+                    element.setAttribute('data-hide-class2', (!checkbox.checked).toString());
                 });
             }
         });
@@ -168,7 +168,9 @@ function populateCheckboxes(xmlDoc) {
         // Skip creating checkboxes for OpenText and Text tagnames
         if (tagName.toLowerCase() === 'opentext'
             || tagName.toLowerCase() === 'text'
-            || tagName.toLowerCase() === 'path'
+            || tagName.toLowerCase() === 'extracted'
+            || tagName.toLowerCase() === 'extraction'
+            || tagName.toLowerCase() === 'elided'
             || tagName.toLowerCase() === 'ellipsis'
             || tagName.toLowerCase() === 'token'
             || tagName.toLowerCase() === 'greek'
@@ -191,21 +193,21 @@ function populateCheckboxes(xmlDoc) {
 
         createCheckbox(tagName, tagNameSection, "tag", tagName, true);
 
-        // Add sections as needed for classes and subclasses
+        // Add sections as needed for classes and orthogonal classes
         const tagElements = document.querySelectorAll(`#xml-display ${tagName}`);
         console.log('tagElements', { tagElements });
         const classList = new Set();
-        const subclassList = new Set();
+        const class2List = new Set();
 
-        // Populate lists of @classes and @subclasses for the current tagName
+        // Populate lists of @class and @class2 values for the current tagName
         tagElements.forEach((element) => {
             const classAttr = element.getAttribute('class');
-            const subclassAttr = element.getAttribute('subclass');
+            const class2Attr = element.getAttribute('class2');
             if (classAttr) {
                 classList.add(classAttr);
             }
-            if (subclassAttr) {
-                subclassList.add(subclassAttr);
+            if (class2Attr) {
+                class2List.add(class2Attr);
             }
         });
 
@@ -225,19 +227,19 @@ function populateCheckboxes(xmlDoc) {
             });
         }
 
-        // Create subclass checkboxes if more than one subclass occurs
-        console.log('tagNameSubclassList', subclassList);
-        if (subclassList.size > 1) {
-            const subclassNameSection = document.createElement("div");
-            // Add data attribute identifying div as a list of subclasses (used for toggle all functionality)
-            subclassNameSection.dataset.attributeName = "subclass";
-            const subclassNameSectionTitle = document.createElement('h4');
-            subclassNameSectionTitle.textContent = 'Sub-classes'
-            subclassNameSection.appendChild(subclassNameSectionTitle)
-            tagNameSection.appendChild(subclassNameSection);
-            createCheckbox(tagName, subclassNameSection, "subclass", "subclass", true);
-            Array.from(subclassList).sort().forEach((name) => {
-                createCheckbox(tagName, subclassNameSection, "subclass", name, false);
+        // Create class2 checkboxes if more than one class2 value occurs
+        console.log('tagNameClass2List', class2List);
+        if (class2List.size > 1) {
+            const class2NameSection = document.createElement("div");
+            // Add data attribute identifying div as a list of orthogonal classes (used for toggle all functionality)
+            class2NameSection.dataset.attributeName = "class2";
+            const class2NameSectionTitle = document.createElement('h4');
+            class2NameSectionTitle.textContent = 'Orthogonal Classes'
+            class2NameSection.appendChild(class2NameSectionTitle)
+            tagNameSection.appendChild(class2NameSection);
+            createCheckbox(tagName, class2NameSection, "class2", "class2", true);
+            Array.from(class2List).sort().forEach((name) => {
+                createCheckbox(tagName, class2NameSection, "class2", name, false);
             });
         }
     }
