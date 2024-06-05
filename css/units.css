@@ -145,6 +145,7 @@ component[type = "marker"][label]::before {
 
 component[type = "scope"] {
     align-self: stretch;
+    align-items: flex-start;  
 }
 
 component[type = "scope"]::before {

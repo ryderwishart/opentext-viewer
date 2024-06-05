@@ -136,6 +136,11 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
     #xml-display wording[data-hide-class2='true'] * {            
       display: none;    
     }
+
+    #xml-display unit[data-hide-class='true'],
+    #xml-display unit[data-hide-class='true'] > component {            
+      display: contents;    
+    }
  
     #xml-display module wording,
     #xml-display component wording {      
