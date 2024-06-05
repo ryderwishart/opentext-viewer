@@ -1,0 +1,78 @@
+/*************************
+ * Main Context Layout *
+ ************************/
+:root {
+    --context-color: #D3D3D3;
+}
+
+context {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+context[class = "situation"] {
+    margin: 15px;
+    border: 12px solid var(--context-color);
+}
+
+context[class = "stage"] {
+    border: 6px solid var(--context-color);
+    border-radius: 25px;
+}
+
+context[class = "move"] {
+    border-left: 4px solid var(--context-color);
+    border-radius: 25px;
+}
+
+context[class = "stage"]:not(:last-of-type),
+context[class = "move"]:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+
+context[class = "action"] {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+context[class = "situation"]:active::before,
+context[class = "stage"]:active::before {
+    align-self: flex-start;
+    content: attr(id);
+    margin-bottom: 10px;
+    background: white;
+    color: var(--context-color);
+    text-decoration: underline;
+}
+
+context[class = "situation"][title]:active::before,
+context[class = "stage"][title]:active::before {
+    align-self: flex-start;
+    content: attr(id) ' (' attr(title) ')';
+    margin-bottom: 10px;
+    background: white;
+    color: var(--context-color);
+    text-decoration: underline;
+}
+
+context[class = "move"]:active::before {
+    align-self: flex-start;
+    width: 200px;
+    content: attr(id);
+    margin-bottom: 10px;
+    background: white;
+    color: var(--context-color);
+    text-decoration: underline;
+}
+
+context[class = "move"]:active > [class = "action"]::before {
+    width: 200px;
+    margin-right: 15px;
+    content: attr(id);
+    padding: 7px;
+    background: white;
+    color: var(--context-color);
+    text-align: right;
+}

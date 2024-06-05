@@ -1,0 +1,234 @@
+:root {
+    --sn-color: #69696970; /*#696969*/
+    --cl-color: pink;
+    --vp-color: #d1e39c;
+    --np-color: #d3d3d3;
+    --adjp-color: #e6ccff;
+    --advp-color: #e6ccff;
+}
+/**********
+ * Colors *
+ **********/
+
+[label = "sn"] {
+    background-color: var(--sn-color);
+}
+
+[label = "cl"] {
+    background-color: var(--cl-color);
+}
+
+[label = "vp"] {
+    background-color: var(--vp-color);
+}
+
+[label = "np"] {
+    background-color: var(--np-color);
+}
+
+[label = "adjp"] {
+    background-color: var(--adjp-color);
+}
+
+[label = "advp"] {
+    background-color: var(--advp-color);
+}
+/*********
+ * Units *
+ *********/
+
+unit {
+    display: flex;
+    margin: 20px 0px 20px 20px;
+}
+
+unit:last-child {
+    margin-right: 20px;
+}
+
+unit[type = "constituency"] {
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+}
+
+unit[type = "coordination"] {
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+unit[type = "marking"] {
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+    border: 1px dotted gray;
+    border-radius: 5px;
+}
+
+unit[type = "morphology"] {
+    margin: 0px;
+}
+/*************
+ * Components *
+ *************/
+
+component {
+    display: flex;
+    flex-direction: row;
+}
+
+component[type = "constituent"] {
+    position: relative;
+    min-width: 50px;
+    align-self: stretch;
+    align-items: flex-start;    
+    justify-content: center;
+    border-right: 1px solid gray;
+    padding-top: 24px;
+}
+
+component[type = "constituent"]:last-child {
+    border-right: none;
+}
+
+component[type = "constituent"][label]::before {
+    content: attr(label);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    display: block;
+    text-align: center;
+    color: gray;
+}
+
+component[type = "conjunct"] {
+    position: relative;
+    min-width: 50px;
+    align-self: stretch;
+    border-bottom: 1px solid gray;
+    padding-left: 24px;
+}
+
+component[type = "conjunct"]:last-child {
+    border-bottom: none;
+}
+
+component[type = "conjunct"][label]::before {
+    content: attr(label);
+    position: absolute;
+    top: 50%;
+    transform: translate(-100%, -50%);
+    display: block;
+    text-align: center;
+    color: gray;
+}
+
+component[type = "marker"] {
+    position: relative;
+    min-width: 50px;
+    align-self: flex-start;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+component[type = "marker"][label]::before {
+    content: attr(label);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    display: block;
+    text-align: center;
+    color: gray;
+}
+
+component[type = "scope"] {
+    align-self: stretch;
+}
+
+component[type = "scope"]::before {
+    display: none !important ;
+}
+/***************
+ * Extractions *
+ ***************/
+
+extraction {
+    position: relative;
+    min-width: 50px;
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    border-right: 1px solid gray;
+    padding-top: 24px;
+}
+
+extraction:last-child {
+    border-right: none;
+}
+
+extraction::before {
+    content: "⇡";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    display: block;
+    text-align: center;
+    color: gray;
+}
+
+extracted {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    margin: 40px;
+    box-shadow: 0px 0px 20px 10px gray;
+}
+
+extracted::before {
+    content: "⇣";
+    display: block;
+    text-align: center;
+    color: gray;
+}
+/*****************
+ * Discontinuity *
+ ****************/
+
+unit[type = "constituency"][prev] {    
+    align-self: stretch;
+    border-left-style: dashed;
+}
+
+unit[type = "constituency"][next] {
+    align-self: stretch;
+    border-right-style: dashed;
+}
+
+unit[type = "marking"][prev] {
+    align-self: stretch;
+    border-radius: 0px 15px 15px 0px;
+}
+
+unit[type = "marking"][next] {
+    align-self: stretch;
+    border-radius: 15px 0px 0px 15px;
+}
+
+unit[type = "marking"][prev][next] {
+    border-radius: 0px;
+}
+
+component[prev]::before {
+    content: attr(label) '… ';
+}
+
+component[next]::before {
+    content: attr(label) ' …';
+}
+
+component[prev][next]::before {    
+    content: '… ' attr(label) ' …';
+}

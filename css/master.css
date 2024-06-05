@@ -1,0 +1,96 @@
+@font-face {
+    font-family: sbl_greekregular;
+    src: url(sbl_grk-webfont.woff2) format('woff2'), url(sbl_grk-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/***************
+ * Main Layout *
+ ***************/
+
+OpenText {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: sbl_greekregular, serif;
+}
+
+header {
+    display: none;
+}
+
+text {
+    display: flex;
+}
+
+
+/***********************
+ * Layout for Analysis *
+ ***********************/
+
+v,
+v2 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/**********
+ * Tokens *
+ **********/
+
+token {
+    display: inline-flex;
+    align-items: center;
+    margin: 6px 0px 6px 6px;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+token:last-child {
+    margin-right: 6px;
+}
+
+token::before {
+    content: attr(before);
+}
+
+token::after {
+    content: attr(after);
+}
+
+token[gloss_berean]:hover {
+    visibility: hidden;
+    position: relative;
+}
+
+token[gloss_berean]:hover::before {
+    display: inline-flex;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: attr(gloss_berean);
+}
+
+token[gloss_berean]:hover::after {
+    display: none;
+}
+
+*:active token[n] {
+    visibility: hidden;
+    position: relative;
+}
+
+*:active token[n]::before {
+    display: inline-flex;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: attr(n);
+}
+
+*:active token[n]::after {
+    display: none;
+}

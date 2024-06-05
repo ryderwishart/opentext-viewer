@@ -1,0 +1,253 @@
+:root {
+    --utter-color: #696969; /* orange */
+    --act-color: #9F9F9F;
+    --pred-color: pink;
+    --prop-color: pink;
+    --absol-color: pink;
+    --scen-color: pink;
+    --event-color: #d1e39c; /* d1e39c */
+    --abstr-color: #d3d3d3; /* #d3d3d3 #895b2d #D3D3D3 #667049 895b2d cce6ff */
+    --prpty-color: #f2f2f2;
+    --def-color: #d8605a; /* b89c81 d8605a */
+    --sel-color: orange; /* e7ded5 #b89c81 */
+    --coll_d-color: #e6ccff;
+    --assoc-color: #ffee33; /* #d8605a cf3830 ffcccc*/
+    --coll_a-color: #e6ccff;
+    --ent-color: #b89c81; /* #895b2d #808080 d1e39c ac7339 #696969 */
+    --phen-color: #895b2d;
+    --circ-color: #cce6ff; /* #667049 */
+}
+
+
+/**********
+ * Colors *
+ **********/
+
+context {
+    --color: var(--context-color);
+}
+
+[class] {
+    --color: black;
+}
+
+[class = "utterance"] {
+    --color: var(--utter-color);
+}
+
+[class = "speech_act"] {
+    --color: var(--act-color);
+}
+
+[class = "predication"] {
+    --color: var(--pred-color);
+}
+
+[class = "proposition"] {
+    --color: var(--prop-color);
+}
+
+[class = "absolute"] {
+    --color: var(--absol-color);
+}
+
+[class = "scenario"] {
+    --color: var(--scen-color);
+}
+
+[class = "event"] {
+    --color: var(--event-color);
+}
+
+[class = "abstraction"] {
+    --color: var(--abstr-color);
+}
+
+[class = "property"] {
+    --color: var(--prpty-color);
+}
+
+[class = "definition"] {
+    --color: var(--def-color);
+}
+
+[class = "selection"] {
+    --color: var(--sel-color);
+}
+
+[class = "descriptive_collation"] {
+    --color: var(--coll_d-color);
+}
+
+[class = "association"] {
+    --color: var(--assoc-color);
+}
+
+[class = "associative_collation"] {
+    --color: var(--coll_a-color);
+}
+
+[class = "entity"] {
+    --color: var(--ent-color);
+}
+
+[class = "phenomenon"] {
+    --color: var(--phen-color);
+}
+
+[class = "circumstance"] {
+    --color: var(--circ-color);
+}
+
+[class = 'utterance']::before,
+[class = 'name']::before,
+[class = 'category']::before,
+[class = 'descriptive_quality']::before,
+[class = 'associative_quality']::before,
+[class = 'process']::before {
+    color: white !important;
+}
+
+
+/***********
+ * Modules *
+ ***********/
+
+module {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+module:not(:first-child) {
+    margin-left: 10px;
+}
+
+wording > module {
+    margin: 0px 10px;
+}
+
+module[class2 = "activation"] {
+    padding-top: 12px;
+    border-top: 5px double var(--color);
+}
+
+module[class2 = "re-construal"],
+module[class2 = "set"] {
+    padding-top: 12px;
+    border-top: 5px dashed var(--color);
+}
+
+module[class2 = "connection"],
+module[class2 = "operation"],
+module[class2 = "option"] {
+    padding-top: 12px;
+    border-top: 4px dotted var(--color);
+}
+
+module[class2 = "specification"] {
+    padding-top: 12px;
+    border-top: 6px solid var(--color);
+}
+
+/**************
+ * Components *
+ **************/
+
+component {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+}
+
+component:last-child {
+    margin-right: 7px;
+}
+
+component[label]::before {
+    margin-bottom: 10px;
+    height: 20px;
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
+    padding: 2px 5px;
+    border-radius: 15px 15px 0px 0px;    
+    border: 2px solid var(--color);
+    align-items: center;
+    justify-content: center;    
+    content: attr(label);
+    white-space: nowrap;
+    color: #505050;
+}
+
+component[label][class2 = 'specification']::before {
+    border: none;
+    background: var(--color);
+}
+
+
+/**********
+ * Values *
+ **********/
+
+module[values]:hover::before {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 16px;
+    min-width: 100%;
+    /* horizontally center */
+    bottom: 100%;
+    transform: translateX(-10px);
+    /* move to left */
+    /*right: 100%;*/
+    z-index: 1;
+    /* basic styles */
+    margin-right: 5px;
+    padding: 0px 15px;
+    box-shadow: 0 3px 10px black;
+    border-radius: 25px;
+    background: var(--color);
+    content: attr(values);
+    text-align: center;
+    text-wrap: nowrap;
+    font-size: smaller;
+    color: black;
+}
+
+
+/*****************
+ * Discontinuity *
+ ****************/
+
+module[next] {
+    flex-grow: 1;
+}
+
+component[next]::before {
+    border-radius: 15px 0px 0px 0px;
+    content: attr(label) ' …';
+}
+
+module[prev] {
+    flex-grow: 1;
+}
+
+component[prev]::before {
+    border-radius: 0px 15px 0px 0px;
+    content: '… ' attr(label);
+}
+
+component[prev][next]::before {
+    border-radius: 0px;
+    content: '… ' attr(label) ' …';
+}
+
+*:not([next]) > *[next] {
+    flex-grow: 1;
+}
+
+*:not([prev]) > *[prev] {
+    flex-grow: 1;
+}
