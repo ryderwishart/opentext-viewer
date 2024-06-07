@@ -142,6 +142,10 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
       display: contents;    
     }
  
+    #xml-display unit[data-hide-class='true'] > component::before {
+      display: none;
+    }
+    
     #xml-display module wording,
     #xml-display component wording {      
       align-items: center !important;

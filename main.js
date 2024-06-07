@@ -281,24 +281,23 @@ document.addEventListener("DOMContentLoaded", async function () {
     const select = document.createElement("select");
     select.addEventListener("change", async () => {
         // Clear current XML content and stylesheet
-        document.getElementById("xml-display").innerHTML = "";
-        document.getElementById("checkbox-container").innerHTML = "";
-        const oldStylesheet = document.querySelector("link[rel=stylesheet]");
-        if (oldStylesheet) {
-            oldStylesheet.remove();
-        }
+        const xmlDisplayContainer = document.getElementById("xml-display");
+        xmlDisplayContainer.innerHTML = "";
+        const checkboxesContainer = document.getElementById("checkbox-container");
+        checkboxesContainer.innerHTML = "";
+        const oldStylesheets = document.querySelectorAll("link[rel=stylesheet]");
+        oldStylesheets.forEach((stylesheet) => {
+            stylesheet.remove();
+        });
 
         // Fetch and parse selected file
         const selectedFile = select.value;
         const { stylesheets, xmlDoc } = await parseXMLFile(selectedFile);
-
-        for (const stylesheet of stylesheets) {
-            await Promise.all(stylesheets.map(loadStylesheet));
-        }
-
+        await Promise.all(stylesheets.map(loadStylesheet));
         // Repopulate XML content and stylesheet
         populateXMLDisplay(xmlDoc);
         populateCheckboxes(xmlDoc);
+        
     });
 
     fileSelector.appendChild(select);
