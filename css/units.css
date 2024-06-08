@@ -208,6 +208,22 @@ unit[type = "constituency"][next] {
     border-right-style: dashed;
 }
 
+unit[type = "coordination"][prev] {    
+    align-self: stretch;
+    border-left-style: dashed;    
+    border-radius: 0px 15px 15px 0px;
+}
+
+unit[type = "coordination"][next] {
+    align-self: stretch;
+    border-right-style: dashed;    
+    border-radius: 15px 0px 0px 15px;
+}
+
+unit[type = "coordination"][prev][next] {
+    border-radius: 0px;
+}
+
 unit[type = "marking"][prev] {
     align-self: stretch;
     border-radius: 0px 15px 15px 0px;
@@ -223,13 +239,16 @@ unit[type = "marking"][prev][next] {
 }
 
 component[prev]::before {
-    content: attr(label) '… ';
+    content: attr(label) '… ' !important;
+    text-wrap: nowrap;
 }
 
 component[next]::before {
-    content: attr(label) ' …';
+    content: attr(label) ' …' !important;
+    text-wrap: nowrap;
 }
 
 component[prev][next]::before {    
-    content: '… ' attr(label) ' …';
+    content: '… ' attr(label) ' …' !important;
+    text-wrap: nowrap;
 }
