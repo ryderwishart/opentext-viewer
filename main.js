@@ -1,7 +1,9 @@
 const checkboxState = {
     tag: {},
+    type: {},
     class: {},
     class2: {},
+    status: {},
 };
 const tagColors = {};
 
@@ -57,8 +59,10 @@ function populateCheckboxes(xmlDoc) {
     const checkboxesContainer = document.getElementById("checkbox-container");
     const xmlNodes = Array.from(xmlDoc.querySelectorAll("*"));
     const tagNames = new Set();
+    const tagTypeMapping = {};
     const tagClassMapping = {};
     const tagClass2Mapping = {};
+    const tagStatusMapping = {};
 
     xmlNodes.forEach((node) => {
         if (!node.closest("text")) return;
@@ -66,6 +70,14 @@ function populateCheckboxes(xmlDoc) {
         // If tagNames does not yet contain this tagName as an item, add the string value of tagName to tagNames    
         if (!tagNames[tagName]) {
             tagNames.add(tagName);
+        }
+        // If tagName does not yet have a mapping of type names, then create a new set
+        if (!tagTypeMapping[tagName]) {
+            tagTypeMapping[tagName] = new Set();
+        }
+        // If node has @type, then add that to the set of type names
+        if (node.hasAttribute('type')) {
+            tagTypeMapping[tagName].add(node.getAttribute('type'));
         }
         // If tagName does not yet have a mapping of class names, then create a new set
         if (!tagClassMapping[tagName]) {
@@ -79,16 +91,26 @@ function populateCheckboxes(xmlDoc) {
         if (!tagClass2Mapping[tagName]) {
             tagClass2Mapping[tagName] = new Set();
         }
-        // If node has @class2, then add that to the set of class names
+        // If node has @class2, then add that to the set of class2 names
         if (node.hasAttribute('class2')) {
             tagClass2Mapping[tagName].add(node.getAttribute('class2'));
         }
+        // If tagName does not yet have a mapping of status names, then create a new set
+        if (!tagStatusMapping[tagName]) {
+            tagStatusMapping[tagName] = new Set();
+        }
+        // If node has @status, then add that to the set of status names
+        if (node.hasAttribute('status')) {
+            tagStatusMapping[tagName].add(node.getAttribute('status'));
+        }
     });
 
-    // FIXME: this now allows class names to be duplicates (e.g. same class or class2 name on different elements but with independent toggling), but it's a hack (it concatenates strings to produce unique values)
+    // FIXME: this now allows type/class/class2/status names to be duplicates (e.g. same value on different elements but with independent toggling), but it's a hack (it concatenates strings to produce unique values)
     checkboxState.tag = {};
+    checkboxState.type = {};
     checkboxState.class = {};
     checkboxState.class2 = {};
+    checkboxState.status = {};
 
     const createCheckbox = (tag, container, type, value, master) => {
         const label = document.createElement("label");
@@ -110,8 +132,16 @@ function populateCheckboxes(xmlDoc) {
             else if (master) {
                 // Update the checkboxState to reflect the change
                 checkboxState[type][tag + "_" + value] = checkbox.checked;
-                if (type === "class") {
-                    // If it's a className checkbox, hide all classes
+                if (type === "type") {
+                    // If it's a type checkbox, hide all types
+                    const tagName = checkbox.closest("div[data-tag-name]").dataset.tagName
+                    console.log('checkboxTagName', tagName);
+                    const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[type]`);
+                    elements.forEach((element) => {
+                        element.setAttribute('data-hide-type', (!checkbox.checked).toString());
+                    });
+                } else if (type === "class") {
+                    // If it's a class checkbox, hide all classes
                     const tagName = checkbox.closest("div[data-tag-name]").dataset.tagName
                     console.log('checkboxTagName', tagName);
                     const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[class]`);
@@ -124,7 +154,15 @@ function populateCheckboxes(xmlDoc) {
                     console.log('checkboxTagName', tagName);
                     const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[class2]`);
                     elements.forEach((element) => {
-                        element.setAttribute('data-hide-class2', (!checkbox.checked).toString());
+                        element.setAttribute('data-hide-class', (!checkbox.checked).toString());
+                    });
+                } else if (type === "status") {
+                    // If it's a status checkbox, hide all statuses
+                    const tagName = checkbox.closest("div[data-tag-name]").dataset.tagName
+                    console.log('checkboxTagName', tagName);
+                    const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[status]`);
+                    elements.forEach((element) => {
+                        element.setAttribute('data-hide-status', (!checkbox.checked).toString());
                     });
                 }
                 // Update subcheckboxes regardless of whether or not they occur within the same menu section
@@ -136,9 +174,16 @@ function populateCheckboxes(xmlDoc) {
             } else
                 // Update the checkboxState to reflect the change
                 checkboxState[type][tag + "_" + value] = checkbox.checked;
-            if (type === "class") {
+            if (type === "type") {
                 const tagName = checkbox.closest("div[data-tag-name]").dataset.tagName
-                // If it's a className checkbox, hide the specific class
+                // If it's a type checkbox, hide the specific type
+                const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[type="${value}"]`);
+                elements.forEach((element) => {
+                    element.setAttribute('data-hide-type', (!checkbox.checked).toString());
+                });
+            } else if (type === "class") {
+                const tagName = checkbox.closest("div[data-tag-name]").dataset.tagName
+                // If it's a class checkbox, hide the specific class
                 const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[class="${value}"]`);
                 elements.forEach((element) => {
                     element.setAttribute('data-hide-class', (!checkbox.checked).toString());
@@ -148,7 +193,14 @@ function populateCheckboxes(xmlDoc) {
                 // If it's a class2 checkbox, hide the specific orthogonal class
                 const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[class2="${value}"]`);
                 elements.forEach((element) => {
-                    element.setAttribute('data-hide-class2', (!checkbox.checked).toString());
+                    element.setAttribute('data-hide-class', (!checkbox.checked).toString());
+                });
+            } else if (type === "status") {
+                const tagName = checkbox.closest("div[data-tag-name]").dataset.tagName
+                // If it's a status checkbox, hide the specific status
+                const elements = document.querySelectorAll(`#xml-display ${tagName.replace(/([^\w\s])/g, '\\$1')}[status="${value}"]`);
+                elements.forEach((element) => {
+                    element.setAttribute('data-hide-status', (!checkbox.checked).toString());
                 });
             }
         });
@@ -193,24 +245,50 @@ function populateCheckboxes(xmlDoc) {
 
         createCheckbox(tagName, tagNameSection, "tag", tagName, true);
 
-        // Add sections as needed for classes and orthogonal classes
+        // Add sections as needed for typtes, classes, orthogonal classes, and statuses
         const tagElements = document.querySelectorAll(`#xml-display ${tagName}`);
         console.log('tagElements', { tagElements });
+        const typeList = new Set();
         const classList = new Set();
         const class2List = new Set();
+        const statusList = new Set();
 
-        // Populate lists of @class and @class2 values for the current tagName
+        // Populate lists of @type, @class, @class2, and @status values for the current tagName
         tagElements.forEach((element) => {
+            const typeAttr = element.getAttribute('type');
             const classAttr = element.getAttribute('class');
             const class2Attr = element.getAttribute('class2');
+            const statusAttr = element.getAttribute('status');
+            if (typeAttr) {
+                typeList.add(typeAttr);
+            }
             if (classAttr) {
                 classList.add(classAttr);
             }
             if (class2Attr) {
                 class2List.add(class2Attr);
             }
+            if (statusAttr) {
+                statusList.add(statusAttr);
+            }
         });
 
+        // Create type checkboxes if more than one type occurs
+        console.log('tagNameTypeList', typeList);
+        if (typeList.size > 1) {
+            const typeNameSection = document.createElement("div");
+            // Add data attribute identifying div as a list of types (used for toggle all functionality)
+            typeNameSection.dataset.attributeName = "type";
+            const typeNameSectionTitle = document.createElement('h4');
+            typeNameSectionTitle.textContent = 'Types'
+            typeNameSection.appendChild(typeNameSectionTitle)
+            tagNameSection.appendChild(typeNameSection);
+            createCheckbox(tagName, typeNameSection, "type", "type", true);
+            Array.from(typeList).sort().forEach((name) => {
+                createCheckbox(tagName, typeNameSection, "type", name, false);
+            });
+        }
+        
         // Create class checkboxes if more than one class occurs
         console.log('tagNameClassList', classList);
         if (classList.size > 1) {
@@ -240,6 +318,22 @@ function populateCheckboxes(xmlDoc) {
             createCheckbox(tagName, class2NameSection, "class2", "class2", true);
             Array.from(class2List).sort().forEach((name) => {
                 createCheckbox(tagName, class2NameSection, "class2", name, false);
+            });
+        }
+
+        // Create status checkboxes if more than one status occurs
+        console.log('tagNameClassList', statusList);
+        if (statusList.size > 1) {
+            const statusNameSection = document.createElement("div");
+            // Add data attribute identifying div as a list of statuses (used for toggle all functionality)
+            statusNameSection.dataset.attributeName = "status";
+            const statusNameSectionTitle = document.createElement('h4');
+            statusNameSectionTitle.textContent = 'Statuses'
+            statusNameSection.appendChild(statusNameSectionTitle)
+            tagNameSection.appendChild(statusNameSection);
+            createCheckbox(tagName, statusNameSection, "status", "status", true);
+            Array.from(statusList).sort().forEach((name) => {
+                createCheckbox(tagName, statusNameSection, "status", name, false);
             });
         }
     }

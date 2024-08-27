@@ -94,3 +94,11 @@ token[gloss_berean]:hover::after {
 *:active token[n]::after {
     display: none;
 }
+
+/************
+ * Ellipsis *
+ ************/
+
+ellipsis {
+    min-height: 16px;
+}

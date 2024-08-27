@@ -92,58 +92,64 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
       margin-left: 5px;
     }
 
+    #xml-display {
+      display:flex;
+      flex-direction: column;
+    }
+
     #xml-display header {
       display: none;
     }
 
-    #xml-display [data-hide-tag='true'] {
-      flex-direction: row;      
-      margin: 0px;
-      border: none;
-      padding: 0px;
-      background: none;
+    #xml-display [data-hide-tag='true'],
+    #xml-display context[data-hide-class='true'],
+    #xml-display module[data-hide-class='true'],
+    #xml-display wording[data-hide-class='true'] {
+      flex-direction: row !important; 
+      align-items: center !important;
+      justify-content: center !important;     
+      margin: 0px !important;
+      border: none !important;
+      padding: 0px !important;
+      background: none !important;
     }
 
-    #xml-display module[data-hide-tag='true'] component[data-hide-tag='true'] [data-hide-tag='true'] {
-      align-items: center;
-      justify-content: center;
+    #xml-display context[data-hide-tag='true'],
+    #xml-display context[data-hide-class='true'] {
+      flex-direction: column !important;
+      align-items: flex-start !important;
     }
 
-    #xml-display context[data-hide-class='true'] {      
-      flex-direction: column;      
-      margin: 0px;
-      border: none;
-      padding: 0px;
-      background: none;
+    #xml-display module[data-hide-tag='true'],
+    #xml-display module[data-hide-class='true'] {      
+      align-items: flex-start !important;
     }
 
-    #xml-display context[data-hide-class2='true'] * {      
-      display:none;
+    #xml-display unit component[data-hide-tag='true'] {      
+      align-self: center !important;
     }
 
-    #xml-display wording[data-hide-class='true'] {      
-      margin: 0px;
-      border: none;
-      padding: 0px;
-      background: none;    
+    #xml-display [data-hide-tag='true']::before,
+    #xml-display component[data-hide-type='true'],
+    #xml-display component[data-hide-type='true']::before,
+    #xml-display component[data-hide-class='true']::before,
+    #xml-display wording[data-hide-status='true'],
+    #xml-display wording[data-hide-status='true']::before {
+      display:none !important;
     }
 
-    #xml-display wording[data-hide-class2='true'] {      
-      min-width: 10px;
-      min-height: 10px;
+    #xml-display unit[data-hide-type='true'],
+    #xml-display unit[data-hide-class='true'] {      
+      display:contents !important;     
     }
 
-    #xml-display wording[data-hide-class2='true'] * {            
-      display: none;    
+    #xml-display unit[data-hide-class='true'] > component {      
+      display:contents !important;
+      align-self: center !important;     
     }
 
-    #xml-display unit[data-hide-class='true'],
-    #xml-display unit[data-hide-class='true'] > component {            
-      display: contents;    
-    }
- 
-    #xml-display unit[data-hide-class='true'] > component::before {
-      display: none;
+    #xml-display unit[data-hide-class='true'] > component::before {      
+      display:none !important;
     }
     
     #xml-display module wording,
@@ -162,12 +168,12 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
       margin: 7px 0px 7px 7px;
     }
 
-    #xml-display module[data-hide-class='true'] {      
+    #xml-display module[data-hide-atts='true'] {      
       border: none !important;
       padding-top: 0px !important;
     }
 
-    #xml-display module[data-hide-class2='true'] {
+    #xml-display module[data-hide-atts='true'] {
       margin-top: 0px;
       border: none;
       padding-top: 0px !important;
@@ -175,24 +181,20 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
     }
 
     #xml-display [depth='2'] [data-hide-tag='true'],
-    #xml-display [depth='2'] [data-hide-class='true'],
-    #xml-display [depth='2'] [data-hide-class2='true'] {
+    #xml-display [depth='2'] [data-hide-atts='true'] {
       flex-direction: row;
     }
     
     #xml-display component[data-hide-tag='true'],
-    #xml-display component[data-hide-class='true'],
-    #xml-display component[data-hide-class2='true']
+    #xml-display component[data-hide-atts='true']
     {      
       margin: 0px !important;           
     }
 
     #xml-display [data-hide-tag='true']:before,
     #xml-display [data-hide-tag='true']:after,
-    #xml-display [data-hide-class='true']:before,
-    #xml-display [data-hide-class='true']:after,
-    #xml-display [data-hide-class2='true']:before,
-    #xml-display [data-hide-class2='true']:after {
+    #xml-display [data-hide-atts='true']:before,
+    #xml-display [data-hide-atts='true']:after {
       display: none !important;
     }
 

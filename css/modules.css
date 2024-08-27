@@ -39,19 +39,19 @@ context {
     --color: var(--act-color);
 }
 
-[class = "predication"] {
+[class = "active_predication"] {
     --color: var(--pred-color);
 }
 
-[class = "proposition"] {
+[class = "inactive_predication"] {
     --color: var(--prop-color);
 }
 
-[class = "absolute"] {
+[class = "abstract_predication"] {
     --color: var(--absol-color);
 }
 
-[class = "scenario"] {
+[class = "prospective_predication"] {
     --color: var(--scen-color);
 }
 
@@ -63,7 +63,7 @@ context {
     --color: var(--abstr-color);
 }
 
-[class = "property"] {
+[class = "description"] {
     --color: var(--prpty-color);
 }
 

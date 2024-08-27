@@ -1,5 +1,5 @@
 :root {
-    --sn-color: #69696970; /*#696969*/
+    --sn-color: #B7B7B7; /*#696969*/
     --cl-color: pink;
     --vp-color: #d1e39c;
     --np-color: #d3d3d3;
@@ -40,6 +40,8 @@
 unit {
     display: flex;
     margin: 20px 0px 20px 20px;
+    min-width: 16px;
+    min-height: 16px;
 }
 
 unit:last-child {
@@ -50,21 +52,21 @@ unit[type = "constituency"] {
     flex-direction: row;
     align-items: center;
     border: 1px solid black;
+    border-radius: 15px;
 }
 
-unit[type = "coordination"] {
+unit[type = "junction"] {
     flex-direction: column;
     align-items: flex-start;
-    border: 1px solid gray;
+    border-left: 1px dotted gray;
     border-radius: 15px;
 }
 
 unit[type = "marking"] {
     flex-direction: row;
-    align-items: center;
     margin: 15px;
-    border: 1px dotted gray;
-    border-radius: 5px;
+    border: dotted gray;
+    border-width: 1px 0px 0px 1px;
 }
 
 unit[type = "morphology"] {
@@ -74,115 +76,114 @@ unit[type = "morphology"] {
  * Components *
  *************/
 
-component {
+component,
+extraction {
+    position: relative;
     display: flex;
     flex-direction: row;
-}
-
-component[type = "constituent"] {
-    position: relative;
     min-width: 50px;
-    align-self: stretch;
-    align-items: flex-start;    
-    justify-content: center;
-    border-right: 1px solid gray;
-    padding-top: 24px;
 }
 
-component[type = "constituent"]:last-child {
-    border-right: none;
-}
-
-component[type = "constituent"][label]::before {
-    content: attr(label);
+component[label]::before,
+extraction::before {
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, -100%);
     display: block;
     text-align: center;
+    content: attr(label);
+}
+
+component[type = "base"],
+component[type = "argument"],
+component[type = "adjunct"],
+extraction {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 36px 15px 0px 15px;
+    border-radius: 5px;
+}
+
+component[type = "base"],
+component[type = "argument"] {
+    border-top: 1px dotted gray;
+}
+
+component[type = "adjunct"] {
+    border-top: 1px dotted white;
+}
+
+component[type = "base"][label]:before,
+component[type = "argument"][label]:before,
+component[type = "adjunct"][label]:before,
+extraction::before {
+    left: 50%;
+    transform: translate(-50%, -26px);
+    padding: 2px 4px;
     color: gray;
 }
 
-component[type = "conjunct"] {
-    position: relative;
-    min-width: 50px;
+component[type = "argument"][label]::before,
+extraction::before {
+    border: solid gray;
+    border-width: 0px 1px 0px 1px;
+    border-radius: 7px;
+}
+
+component[type = "adjunct"][label]:before {
+    border: solid white;
+    border-width: 0px 1px 0px 1px;
+    border-radius: 7px;
+    color: white;
+}
+
+component[type = "path"] {
     align-self: stretch;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px dotted gray;
     padding-left: 24px;
 }
 
-component[type = "conjunct"]:last-child {
+component[type = "path"]:last-child {
     border-bottom: none;
 }
 
-component[type = "conjunct"][label]::before {
-    content: attr(label);
-    position: absolute;
+component[type = "path"][label]::before {
     top: 50%;
     transform: translate(-100%, -50%);
-    display: block;
-    text-align: center;
     color: gray;
 }
 
-component[type = "marker"] {
-    position: relative;
-    min-width: 50px;
+component[type = "translative"],
+component[type = "junctive"] {
     align-self: flex-start;
     justify-content: center;
     padding-top: 24px;
+    border: dotted gray;
+    border-width: 0px 1px 1px 0px;
+    border-radius: 0px 0px 5px 0px;
 }
 
-component[type = "marker"][label]::before {
-    content: attr(label);
-    position: absolute;
+component[type = "translative"][label]::before,
+component[type = "junctive"][label]::before {
     left: 50%;
     transform: translate(-50%, -100%);
-    display: block;
-    text-align: center;
     color: gray;
 }
-
-component[type = "scope"] {
-    align-self: stretch;
-    align-items: flex-start;  
-}
+/* To prevent discontinuity labels from appearing. */
 
 component[type = "scope"]::before {
-    display: none !important ;
+    display: none;
 }
 /***************
  * Extractions *
  ***************/
 
-extraction {
-    position: relative;
-    min-width: 50px;
-    display: flex;
-    flex-direction: row;
-    align-self: stretch;
-    border-right: 1px solid gray;
-    padding-top: 24px;
-}
-
-extraction:last-child {
-    border-right: none;
-}
-
 extraction::before {
     content: "⇡";
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    display: block;
-    text-align: center;
-    color: gray;
 }
 
 extracted {
     display: flex;
     flex-direction: column;
-    align-self: center;
     justify-content: center;
     margin: 40px;
     box-shadow: 0px 0px 20px 10px gray;
@@ -192,45 +193,38 @@ extracted::before {
     content: "⇣";
     display: block;
     text-align: center;
+    border: solid gray;
+    border-width: 0px 1px 0px 1px;
+    border-radius: 7px;
     color: gray;
 }
 /*****************
  * Discontinuity *
  ****************/
 
-unit[type = "constituency"][prev] {    
+unit[type = "constituency"][prev] {
     align-self: stretch;
     border-left-style: dashed;
+    border-radius: 0px 15px 15px 0px;
 }
 
 unit[type = "constituency"][next] {
     align-self: stretch;
     border-right-style: dashed;
-}
-
-unit[type = "coordination"][prev] {    
-    align-self: stretch;
-    border-left-style: dashed;    
-    border-radius: 0px 15px 15px 0px;
-}
-
-unit[type = "coordination"][next] {
-    align-self: stretch;
-    border-right-style: dashed;    
     border-radius: 15px 0px 0px 15px;
 }
 
-unit[type = "coordination"][prev][next] {
+unit[type = "constituency"][prev][next] {
     border-radius: 0px;
 }
 
-component[type = "conjunct"][label][next],
-component[type = "conjunct"][label][prev] {
-    padding-left: 36px;
+component[type = "path"][label][next],
+component[type = "path"][label][prev] {
+    padding-left: 48px;
 }
 
-component[type = "conjunct"][label][next][prev] {
-    padding-left: 48px;
+component[type = "path"][label][next][prev] {
+    padding-left: 56px;
 }
 
 unit[type = "marking"][prev] {
@@ -248,7 +242,7 @@ unit[type = "marking"][prev][next] {
 }
 
 component[prev]::before {
-    content: attr(label) '… ' !important;
+    content: '… ' attr(label) !important;
     text-wrap: nowrap;
 }
 
@@ -257,7 +251,7 @@ component[next]::before {
     text-wrap: nowrap;
 }
 
-component[prev][next]::before {    
+component[prev][next]::before {
     content: '… ' attr(label) ' …' !important;
     text-wrap: nowrap;
 }

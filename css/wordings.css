@@ -17,6 +17,14 @@ error:last-child {
     margin-right: 10px;
 }
 
+wording[status = "core"] {
+    margin: 7px 0px 7px 7px;
+}
+
+wording[status = "core"]:last-child {
+    margin-right: 7px;
+}
+
 wording[class = "cluster"] {
     position: relative;    
     flex-direction: row;
@@ -35,9 +43,9 @@ wording[class = "word"]:not([status = "core"]) {
     background-color: #f2f2f2;
 }
 
-wording[class = "word"][status = "core"] > token {
+/*wording[class = "word"][status = "core"] > token {
     margin: 0px;
-}
+}*/
 
 wording[class = "word"][status = "connective"] {
     border-radius: 25px;
@@ -54,6 +62,8 @@ wording[class = "word"][status = "junctive"] {
 wording[class = "junction"] {
     position: relative;    
     flex-direction: row;
+    margin: 0px;
+    padding: 0px;
 }
 
 wording[class = "path"] {
