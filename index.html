@@ -143,11 +143,13 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
       display:contents !important;     
     }
 
+    #xml-display unit[data-hide-type='true'] > component,
     #xml-display unit[data-hide-class='true'] > component {      
       display:contents !important;
       align-self: center !important;     
     }
 
+    #xml-display unit[data-hide-type='true'] > component::before,
     #xml-display unit[data-hide-class='true'] > component::before {      
       display:none !important;
     }
