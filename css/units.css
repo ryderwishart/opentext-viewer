@@ -82,44 +82,39 @@ extraction {
     display: flex;
     flex-direction: row;
     min-width: 50px;
-}
-
-component[label]::before,
-extraction::before {
-    position: absolute;
-    display: block;
-    text-align: center;
-    content: attr(label);
+    min-height: 50px;
 }
 
 component[type = "base"],
 component[type = "argument"],
-component[type = "adjunct"],
 extraction {
     align-self: stretch;
     align-items: flex-start;
     justify-content: center;
-    margin: 36px 15px 0px 15px;
-    border-radius: 5px;
+    padding: 36px 15px 0px 15px;
+    border-right: 1px solid gray;
 }
 
-component[type = "base"],
-component[type = "argument"] {
-    border-top: 1px dotted gray;
-}
-
-component[type = "adjunct"] {
-    border-top: 1px dotted white;
+component[type = "base"]:last-child,
+component[type = "argument"]:last-child,
+extraction:last-child {
+    border-right: none;
 }
 
 component[type = "base"][label]:before,
 component[type = "argument"][label]:before,
-component[type = "adjunct"][label]:before,
 extraction::before {
+    position: absolute;
+    display: block;
+    text-align: center;
     left: 50%;
     transform: translate(-50%, -26px);
     padding: 2px 4px;
     color: gray;
+}
+
+component[type = "base"][label]:before {
+    content: attr(label);
 }
 
 component[type = "argument"][label]::before,
@@ -127,14 +122,20 @@ extraction::before {
     border: solid gray;
     border-width: 0px 1px 0px 1px;
     border-radius: 7px;
+    content: attr(label);
 }
 
-component[type = "adjunct"][label]:before {
-    border: solid white;
-    border-width: 0px 1px 0px 1px;
-    border-radius: 7px;
-    color: white;
+component[type = "adjunct"] {
+    margin: 20px;
+    border-radius: 25px;
+    border: 3px dotted white;
 }
+/*component[type = "adjunct"][label]:before {
+    left: 50%;
+    transform: translate(-50%, -26px);
+    padding: 2px 4px;
+    color: gray;
+}*/
 
 component[type = "path"] {
     align-self: stretch;
@@ -147,8 +148,13 @@ component[type = "path"]:last-child {
 }
 
 component[type = "path"][label]::before {
+    position: absolute;
+    display: block;
+    padding: 2px 4px;
     top: 50%;
     transform: translate(-100%, -50%);
+    text-align: center;
+    content: attr(label);
     color: gray;
 }
 
@@ -164,8 +170,13 @@ component[type = "junctive"] {
 
 component[type = "translative"][label]::before,
 component[type = "junctive"][label]::before {
+    position: absolute;
+    display: block;
+    padding: 2px 4px;
     left: 50%;
     transform: translate(-50%, -100%);
+    text-align: center;
+    content: attr(label);
     color: gray;
 }
 /* To prevent discontinuity labels from appearing. */
@@ -241,17 +252,20 @@ unit[type = "marking"][prev][next] {
     border-radius: 0px;
 }
 
-component[prev]::before {
+component[type = "base"][prev]::before,
+component[type = "argument"][prev]::before {
     content: '… ' attr(label) !important;
     text-wrap: nowrap;
 }
 
-component[next]::before {
+component[type = "base"][next]::before,
+component[type = "argument"][next]::before {
     content: attr(label) ' …' !important;
     text-wrap: nowrap;
 }
 
-component[prev][next]::before {
+component[type = "base"][prev][next]::before,
+component[type = "argument"][prev][next]::before {
     content: '… ' attr(label) ' …' !important;
     text-wrap: nowrap;
 }
