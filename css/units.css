@@ -48,7 +48,7 @@ unit:last-child {
     margin-right: 20px;
 }
 
-unit[type = "constituency"] {
+unit[type = "configuration"] {
     flex-direction: row;
     align-items: center;
     border: 1px solid black;
@@ -62,7 +62,8 @@ unit[type = "junction"] {
     border-radius: 15px;
 }
 
-unit[type = "marking"] {
+unit[type = "junctive_marking"],
+unit[type = "translative_marking"] {
     flex-direction: row;
     margin: 15px;
     border: dotted gray;
@@ -82,11 +83,10 @@ extraction {
     display: flex;
     flex-direction: row;
     min-width: 50px;
-    min-height: 50px;
 }
 
-component[type = "base"],
-component[type = "argument"],
+component[status = "core"],
+component[status = "argument"],
 extraction {
     align-self: stretch;
     align-items: flex-start;
@@ -95,14 +95,14 @@ extraction {
     border-right: 1px solid gray;
 }
 
-component[type = "base"]:last-child,
-component[type = "argument"]:last-child,
+component[status = "core"]:last-child,
+component[status = "argument"]:last-child,
 extraction:last-child {
     border-right: none;
 }
 
-component[type = "base"][label]:before,
-component[type = "argument"][label]:before,
+component[status = "core"][label]:before,
+component[status = "argument"][label]:before,
 extraction::before {
     position: absolute;
     display: block;
@@ -113,11 +113,11 @@ extraction::before {
     color: gray;
 }
 
-component[type = "base"][label]:before {
+component[status = "core"][label]:before {
     content: attr(label);
 }
 
-component[type = "argument"][label]::before,
+component[status = "argument"][label]::before,
 extraction::before {
     border: solid gray;
     border-width: 0px 1px 0px 1px;
@@ -125,29 +125,29 @@ extraction::before {
     content: attr(label);
 }
 
-component[type = "adjunct"] {
+component[status = "adjunct"] {
     margin: 20px;
     border-radius: 25px;
     border: 3px dotted white;
 }
-/*component[type = "adjunct"][label]:before {
+/*component[status = "adjunct"][label]:before {
     left: 50%;
     transform: translate(-50%, -26px);
     padding: 2px 4px;
     color: gray;
 }*/
 
-component[type = "path"] {
+component[status = "path"] {
     align-self: stretch;
     border-bottom: 1px dotted gray;
     padding-left: 24px;
 }
 
-component[type = "path"]:last-child {
+component[status = "path"]:last-child {
     border-bottom: none;
 }
 
-component[type = "path"][label]::before {
+component[status = "path"][label]::before {
     position: absolute;
     display: block;
     padding: 2px 4px;
@@ -158,8 +158,8 @@ component[type = "path"][label]::before {
     color: gray;
 }
 
-component[type = "translative"],
-component[type = "junctive"] {
+component[status = "translative"],
+component[status = "junctive"] {
     align-self: flex-start;
     justify-content: center;
     padding-top: 24px;
@@ -168,8 +168,8 @@ component[type = "junctive"] {
     border-radius: 0px 0px 5px 0px;
 }
 
-component[type = "translative"][label]::before,
-component[type = "junctive"][label]::before {
+component[status = "translative"][label]::before,
+component[status = "junctive"][label]::before {
     position: absolute;
     display: block;
     padding: 2px 4px;
@@ -181,7 +181,7 @@ component[type = "junctive"][label]::before {
 }
 /* To prevent discontinuity labels from appearing. */
 
-component[type = "scope"]::before {
+component[status = "scope"]::before {
     display: none;
 }
 /***************
@@ -213,59 +213,62 @@ extracted::before {
  * Discontinuity *
  ****************/
 
-unit[type = "constituency"][prev] {
+unit[type = "configuration"][prev] {
     align-self: stretch;
     border-left-style: dashed;
     border-radius: 0px 15px 15px 0px;
 }
 
-unit[type = "constituency"][next] {
+unit[type = "configuration"][next] {
     align-self: stretch;
     border-right-style: dashed;
     border-radius: 15px 0px 0px 15px;
 }
 
-unit[type = "constituency"][prev][next] {
+unit[type = "configuration"][prev][next] {
     border-radius: 0px;
 }
 
-component[type = "path"][label][next],
-component[type = "path"][label][prev] {
+component[status = "path"][label][next],
+component[status = "path"][label][prev] {
     padding-left: 48px;
 }
 
-component[type = "path"][label][next][prev] {
+component[status = "path"][label][next][prev] {
     padding-left: 56px;
 }
 
-unit[type = "marking"][prev] {
+unit[type = "junctive_marking"][prev],
+unit[type = "translative_marking"][prev] {
     align-self: stretch;
     border-radius: 0px 15px 15px 0px;
 }
 
-unit[type = "marking"][next] {
+unit[type = "junctive_marking"][next],
+unit[type = "translative_marking"][next] {
     align-self: stretch;
     border-radius: 15px 0px 0px 15px;
 }
 
-unit[type = "marking"][prev][next] {
+unit[type = "junctive_marking"][prev][next],
+unit[type = "translative_marking"][prev][next] {
     border-radius: 0px;
 }
 
-component[type = "base"][prev]::before,
-component[type = "argument"][prev]::before {
+component[status = "core"][prev]::before,
+component[status = "argument"][prev]::before {
     content: '… ' attr(label) !important;
     text-wrap: nowrap;
 }
 
-component[type = "base"][next]::before,
-component[type = "argument"][next]::before {
+component[status = "core"][next]::before,
+component[status = "argument"][next]::before {
     content: attr(label) ' …' !important;
     text-wrap: nowrap;
 }
 
-component[type = "base"][prev][next]::before,
-component[type = "argument"][prev][next]::before {
+component[status = "core"][prev][next]::before,
+component[status = "argument"][prev][next]::before {
     content: '… ' attr(label) ' …' !important;
     text-wrap: nowrap;
 }

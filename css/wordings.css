@@ -25,48 +25,48 @@ wording[status = "core"]:last-child {
     margin-right: 7px;
 }
 
-wording[class = "cluster"] {
+wording[type = "cluster"] {
     position: relative;    
     flex-direction: row;
     border: 2px solid #cccccc;
     border-radius: 20px;   
 }
 
-wording[class = "cluster"][pinned] {
+wording[type = "cluster"][pinned] {
     border-radius: 25px 0px 0px 25px;
 }
 
-wording[class = "word"]:not([status = "core"]) {
+wording[type = "word"]:not([status = "core"]) {
     position: relative;
     border: 2px solid #D3D3D3;
     border-radius: 25px;
     background-color: #f2f2f2;
 }
 
-/*wording[class = "word"][status = "core"] > token {
+/*wording[type = "word"][status = "core"] > token {
     margin: 0px;
 }*/
 
-wording[class = "word"][status = "connective"] {
+wording[type = "word"][status = "connective"] {
     border-radius: 25px;
 }
 
-wording[class = "word"][status = "translative"] {
+wording[type = "word"][status = "translative"] {
     border-radius: 25px 0px 0px 25px;
 }
 
-wording[class = "word"][status = "junctive"] {
+wording[type = "word"][status = "junctive"] {
     border-radius: 0px;
 }
 
-wording[class = "junction"] {
+wording[type = "junction"] {
     position: relative;    
     flex-direction: row;
     margin: 0px;
     padding: 0px;
 }
 
-wording[class = "path"] {
+wording[status = "path"] {
     position: relative;
     align-self: stretch;
     border: 1px solid #B8B8B8;
@@ -76,11 +76,11 @@ wording[class = "path"] {
     padding: 5px 0px;
 }
 
-wording[class = "path"]:first-child {
+wording[status = "path"]:first-child {
     margin-left: 10px;
 }
 
-wording[class = "path"]:last-child {
+wording[status = "path"]:last-child {
     margin-right: 10px;
 }
 
@@ -186,29 +186,29 @@ error[note]:hover::before {
  ****************/
 
  /* Discontinuous wordings need to fill the vertical space, so they are visually aligned as having the same height. */
-wording[class = "cluster"][next] {
+wording[type = "cluster"][next] {
     flex-grow: 1;
     border-radius: 20px 0px 0px 20px;
     border-right-style: dashed;
 }
 
-wording[class = "cluster"][prev] {
+wording[type = "cluster"][prev] {
     flex-grow: 1;
     border-radius: 0px 20px 20px 0px;
     border-left-style: dashed;
 }
 
-wording[class = "cluster"][next][prev] {
+wording[type = "cluster"][next][prev] {
     flex-grow: 1;
     border-radius: 0px;
 }
 
-wording[class = "path"][next] {
+wording[status = "path"][next] {
     border-radius: 10px 0px 0px 10px;
     border-width: 1px;
 }
 
-wording[class = "path"][prev] {
+wording[status = "path"][prev] {
     border-radius: 0px 10px 10px 00px;
     border-width: 1px;
 }

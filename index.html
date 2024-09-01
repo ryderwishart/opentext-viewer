@@ -120,19 +120,13 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
       align-items: flex-start !important;
     }
 
-    #xml-display module[data-hide-tag='true'],
-    #xml-display module[data-hide-class='true'] {      
-      align-items: flex-start !important;
-    }
-
     #xml-display unit component[data-hide-tag='true'] {      
       align-self: center !important;
     }
 
     #xml-display [data-hide-tag='true']::before,
-    #xml-display component[data-hide-type='true'],
-    #xml-display component[data-hide-type='true']::before,
-    #xml-display component[data-hide-class='true']::before,
+    #xml-display component[data-hide-status='true'],
+    #xml-display component[data-hide-status='true']::before,
     #xml-display wording[data-hide-status='true'],
     #xml-display wording[data-hide-status='true']::before {
       display:none !important;
@@ -144,7 +138,8 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
     }
 
     #xml-display unit[data-hide-type='true'] > component,
-    #xml-display unit[data-hide-class='true'] > component {      
+    #xml-display unit[data-hide-class='true'] > component,
+    #xml-display unit[data-hide-class='true'] component[status = 'adjunct'] {      
       display:contents !important;
       align-self: center !important;     
     }
@@ -153,44 +148,14 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
     #xml-display unit[data-hide-class='true'] > component::before {      
       display:none !important;
     }
-    
-    #xml-display module wording,
-    #xml-display component wording {      
-      align-items: center !important;
-      align-self: center !important;
-    }
-
-    #xml-display module:not([data-hide-tag='true']) wording,
-    #xml-display component:not([data-hide-tag='true']) wording {      
-      align-items: flex-start !important;
-      align-self: flex-start !important;
-    }
 
     #xml-display *[data-hide-tag='true'] > token {
       margin: 7px 0px 7px 7px;
     }
 
-    #xml-display module[data-hide-atts='true'] {      
-      border: none !important;
-      padding-top: 0px !important;
-    }
-
-    #xml-display module[data-hide-atts='true'] {
-      margin-top: 0px;
-      border: none;
-      padding-top: 0px !important;
-      background: none;
-    }
-
     #xml-display [depth='2'] [data-hide-tag='true'],
     #xml-display [depth='2'] [data-hide-atts='true'] {
       flex-direction: row;
-    }
-    
-    #xml-display component[data-hide-tag='true'],
-    #xml-display component[data-hide-atts='true']
-    {      
-      margin: 0px !important;           
     }
 
     #xml-display [data-hide-tag='true']:before,
