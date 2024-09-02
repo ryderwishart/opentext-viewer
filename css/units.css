@@ -40,8 +40,6 @@
 unit {
     display: flex;
     margin: 20px 0px 20px 20px;
-    min-width: 16px;
-    min-height: 16px;
 }
 
 unit:last-child {
@@ -49,10 +47,22 @@ unit:last-child {
 }
 
 unit[type = "configuration"] {
+    min-width: 16px;
+    min-height: 16px;
     flex-direction: row;
     align-items: center;
     border: 1px solid black;
     border-radius: 15px;
+}
+
+unit[type = "adjunction"] {
+    flex-direction: row;
+    border-top: 1px dotted white;
+    border-radius: 15px;
+}
+
+unit[type = "adjunction"] > unit[type = "adjunction"] {
+    margin: 3px 0px 0px 0px;
 }
 
 unit[type = "junction"] {
@@ -179,11 +189,7 @@ component[status = "junctive"][label]::before {
     content: attr(label);
     color: gray;
 }
-/* To prevent discontinuity labels from appearing. */
 
-component[status = "scope"]::before {
-    display: none;
-}
 /***************
  * Extractions *
  ***************/
@@ -226,6 +232,18 @@ unit[type = "configuration"][next] {
 }
 
 unit[type = "configuration"][prev][next] {
+    border-radius: 0px;
+}
+
+unit[type = "adjunction"][prev] {    
+    border-radius: 0px 15px 15px 0px;
+}
+
+unit[type = "adjunction"][next] {
+    border-radius: 15px 0px 0px 15px;
+}
+
+unit[type = "adjunction"][prev][next] {
     border-radius: 0px;
 }
 
