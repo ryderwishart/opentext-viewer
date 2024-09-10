@@ -5,12 +5,28 @@
     font-style: normal;
 }
 
+:root {
+    --background-color: #ffffff;
+    --context-color: #D3D3D3;
+    --utter-color: #B7B7B7; /* #9F9F9F #696969 orange */
+    --pred-color: pink;    
+    --event-color:#d1e39c; /* d1e39c #d3d3d3 */
+    --abstr-color: #8c8c8c;/*  #d3d3d3 #895b2d #D3D3D3 #667049 cce6ff */
+    --desc-color: #D3D3D3; /* #f2f2f2 */
+    --def-color:  #d8605a; /*  d8605a */
+    --sel-color: rgb(254, 187, 62);/* #d4b193; #debc9c e7ded5 #b89c81 */
+    --coll-color: #e6ccff; /* #8d7863 #e6ccff */
+    --assoc-color: rgb(255, 236, 30);  /* #d8605a cf3830 ffcccc*/    
+    --ent-color: #967c65; /* #707070 #895b2d #808080 d1e39c ac7339 #696969 */    
+    --circ-color:#cce6ff; /* #667049 */
+}
+
 /***************
  * Main Layout *
  ***************/
 
 OpenText {
-    background-color: #ffffff;
+    background-color: var(--background-color);
     color: #000000;
     font-family: sbl_greekregular, serif;
 }

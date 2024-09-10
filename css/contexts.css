@@ -1,11 +1,9 @@
 /*************************
  * Main Context Layout *
  ************************/
-:root {
-    --context-color: #D3D3D3;
-}
 
 context {
+    --color: var(--context-color);
     display: flex;
     padding: 15px;
     flex-direction: column;

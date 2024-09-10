@@ -103,7 +103,6 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
 
     #xml-display [data-hide-tag='true'],
     #xml-display context[data-hide-class='true'],
-    #xml-display module[data-hide-class='true'],
     #xml-display wording[data-hide-class='true'] {
       flex-direction: row !important; 
       align-items: center !important;
@@ -147,6 +146,24 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
     #xml-display unit[data-hide-type='true'] > component::before,
     #xml-display unit[data-hide-class='true'] > component::before {      
       display:none !important;
+    }
+
+    #xml-display module[data-hide-tag='true'],
+    #xml-display module[data-hide-class='true'],
+    #xml-display module[data-hide-type='true'] > component,
+    #xml-display module[data-hide-class='true'] > component {
+      flex-direction: row !important; 
+      align-items: flex-start !important;
+      justify-content: center !important;     
+      margin: 0px !important;
+      border: none !important;
+      padding: 0px !important;
+      background: none !important;    
+    }
+
+    #xml-display module[data-hide-type='true'] > component::before,
+    #xml-display module[data-hide-class='true'] > component::before {      
+      display:none !important;    
     }
 
     #xml-display *[data-hide-tag='true'] > token {
