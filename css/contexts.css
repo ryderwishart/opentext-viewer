@@ -3,7 +3,7 @@
  ************************/
 
 context {
-    --color: var(--context-color);
+    background-color: var(--background-color);
     display: flex;
     padding: 15px;
     flex-direction: column;
