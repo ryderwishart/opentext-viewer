@@ -73,14 +73,14 @@
           <wording type="word" status="core">
            <token n="8" id="SBL.1John.1.1.8" clearId="n62001001008" gloss_berean="we have seen">ἑωράκαμεν</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
            <wording type="word" status="translative">
             <token n="9" id="SBL.1John.1.1.9" clearId="n62001001009" gloss_berean="with the">τοῖς</token>
            </wording>
            <wording type="word" status="core">
             <token n="10" id="SBL.1John.1.1.10" clearId="n62001001010" gloss_berean="eyes">ὀφθαλμοῖς</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="11" id="SBL.1John.1.1.11" clearId="n62001001011" gloss_berean="of us" after=",">ἡμῶν</token>
             </wording>
@@ -110,7 +110,7 @@
              <wording type="word" status="core">
               <token n="16" id="SBL.1John.1.1.16" clearId="n62001001016" gloss_berean="hands">χεῖρες</token>
              </wording>
-             <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+             <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
               <wording type="word" status="core">
                <token n="17" id="SBL.1John.1.1.17" clearId="n62001001017" gloss_berean="of us">ἡμῶν</token>
               </wording>
@@ -133,7 +133,7 @@
        <wording type="word" status="core">
         <token n="21" id="SBL.1John.1.1.21" clearId="n62001001021" gloss_berean="Word">λόγου</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+       <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
         <wording type="word" status="translative">
          <token n="22" id="SBL.1John.1.1.22" clearId="n62001001022" gloss_berean="-">τῆς</token>
         </wording>
@@ -289,7 +289,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="54" id="SBL.1John.1.3.8" clearId="n62001003008" gloss_berean="so that">ἵνα</token>
         </wording>
@@ -313,7 +313,7 @@
         <wording type="word" status="core">
          <token n="58" id="SBL.1John.1.3.12" clearId="n62001003012" gloss_berean="may have">ἔχητε</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="59" id="SBL.1John.1.3.13" clearId="n62001003013" gloss_berean="with">μεθ’</token>
          </wording>
@@ -387,7 +387,7 @@
            <wording type="word" status="core">
             <token n="73" id="SBL.1John.1.3.27" clearId="n62001003027" gloss_berean="Son">υἱοῦ</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="74" id="SBL.1John.1.3.28" clearId="n62001003028" gloss_berean="of Him">αὐτοῦ</token>
             </wording>
@@ -430,7 +430,7 @@
          <token n="80" id="SBL.1John.1.4.4" clearId="n62001004004" gloss_berean="we">ἡμεῖς</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="81" id="SBL.1John.1.4.5" clearId="n62001004005" gloss_berean="so that">ἵνα</token>
         </wording>
@@ -441,7 +441,7 @@
          <wording type="word" status="core">
           <token n="83" id="SBL.1John.1.4.7" clearId="n62001004007" gloss_berean="joy">χαρὰ</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="84" id="SBL.1John.1.4.8" clearId="n62001004008" gloss_berean="of us">ἡμῶν</token>
           </wording>
@@ -491,7 +491,7 @@
            <wording type="word" status="core">
             <token n="93" id="SBL.1John.1.5.7" clearId="n62001005007" gloss_berean="we have heard">ἀκηκόαμεν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+           <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
             <wording type="word" status="translative">
              <token n="94" id="SBL.1John.1.5.8" clearId="n62001005008" gloss_berean="from">ἀπ’</token>
             </wording>
@@ -552,7 +552,7 @@
             </wording>
            </wording>
           </wording>
-          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
            <wording type="word" status="translative">
             <token n="106" id="SBL.1John.1.5.20" clearId="n62001005020" gloss_berean="in">ἐν</token>
            </wording>
@@ -586,7 +586,7 @@
     <context class="move" id="move.SBL.1John.1.6-7">
      <context class="action" id="action.SBL.1John.1.6">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="111" id="SBL.1John.1.6.1" clearId="n62001006001" gloss_berean="If">ἐὰν</token>
         </wording>
@@ -607,7 +607,7 @@
            <wording type="word" status="core">
             <token n="115" id="SBL.1John.1.6.5" clearId="n62001006005" gloss_berean="we have">ἔχομεν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+           <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
             <wording type="word" status="translative">
              <token n="116" id="SBL.1John.1.6.6" clearId="n62001006006" gloss_berean="with">μετ’</token>
             </wording>
@@ -621,7 +621,7 @@
           <wording type="word" status="junctive">
            <token n="118" id="SBL.1John.1.6.8" clearId="n62001006008" gloss_berean="and yet">καὶ</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
            <wording type="word" status="translative">
             <token n="119" id="SBL.1John.1.6.9" clearId="n62001006009" gloss_berean="in">ἐν</token>
            </wording>
@@ -672,7 +672,7 @@
      </context>
      <context class="action" id="action.SBL.1John.1.7">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p" next="d3e510_2" xml:id="d3e510">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred" next="d3e510_2" xml:id="d3e510">
         <wording type="word" status="translative">
          <token n="129" id="SBL.1John.1.7.1" clearId="n62001007001" gloss_berean="If">ἐὰν</token>
         </wording>
@@ -680,8 +680,8 @@
        <wording type="word" status="junctive">
         <token n="130" id="SBL.1John.1.7.2" clearId="n62001007002" gloss_berean="however">δὲ</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p" prev="d3e510" xml:id="d3e510_2">
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred" prev="d3e510" xml:id="d3e510_2">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="131" id="SBL.1John.1.7.3" clearId="n62001007003" gloss_berean="in">ἐν</token>
          </wording>
@@ -695,7 +695,7 @@
         <wording type="word" status="core">
          <token n="134" id="SBL.1John.1.7.6" clearId="n62001007006" gloss_berean="we should walk">περιπατῶμεν</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="135" id="SBL.1John.1.7.7" clearId="n62001007007" gloss_berean="as" pin="relative">ὡς</token>
          </wording>
@@ -730,7 +730,7 @@
          <wording type="word" status="core">
           <token n="142" id="SBL.1John.1.7.14" clearId="n62001007014" gloss_berean="we have">ἔχομεν</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="143" id="SBL.1John.1.7.15" clearId="n62001007015" gloss_berean="with">μετ’</token>
           </wording>
@@ -750,7 +750,7 @@
           <wording type="word" status="core">
            <token n="147" id="SBL.1John.1.7.19" clearId="n62001007019" gloss_berean="blood">αἷμα</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="core">
             <token n="148" id="SBL.1John.1.7.20" clearId="n62001007020" gloss_berean="of Jesus">Ἰησοῦ</token>
            </wording>
@@ -761,7 +761,7 @@
             <wording type="word" status="core">
              <token n="150" id="SBL.1John.1.7.22" clearId="n62001007022" gloss_berean="Son">υἱοῦ</token>
             </wording>
-            <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+            <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
              <wording type="word" status="core">
               <token n="151" id="SBL.1John.1.7.23" clearId="n62001007023" gloss_berean="of Him">αὐτοῦ</token>
              </wording>
@@ -777,7 +777,7 @@
            <token n="153" id="SBL.1John.1.7.25" clearId="n62001007025" gloss_berean="us">ἡμᾶς</token>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="154" id="SBL.1John.1.7.26" clearId="n62001007026" gloss_berean="from">ἀπὸ</token>
           </wording>
@@ -798,7 +798,7 @@
     <context class="move" id="move.SBL.1John.1.8">
      <context class="action" id="action.SBL.1John.1.8">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="157" id="SBL.1John.1.8.1" clearId="n62001008001" gloss_berean="If">ἐὰν</token>
         </wording>
@@ -875,7 +875,7 @@
     <context class="move" id="move.SBL.1John.1.9-9">
      <context class="action" id="action.SBL.1John.1.9-9">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="172" id="SBL.1John.1.9.1" clearId="n62001009001" gloss_berean="If">ἐὰν</token>
         </wording>
@@ -889,7 +889,7 @@
          <wording type="word" status="core">
           <token n="175" id="SBL.1John.1.9.4" clearId="n62001009004" gloss_berean="sins">ἁμαρτίας</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="176" id="SBL.1John.1.9.5" clearId="n62001009005" gloss_berean="of us" after=",">ἡμῶν</token>
           </wording>
@@ -955,7 +955,7 @@
             <token n="188" id="SBL.1John.1.9.17" clearId="n62001009017" gloss_berean="us">ἡμᾶς</token>
            </wording>
           </wording>
-          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
            <wording type="word" status="translative">
             <token n="189" id="SBL.1John.1.9.18" clearId="n62001009018" gloss_berean="from">ἀπὸ</token>
            </wording>
@@ -977,7 +977,7 @@
     <context class="move" id="move.SBL.1John.1.10">
      <context class="action" id="action.SBL.1John.1.10">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="192" id="SBL.1John.1.10.1" clearId="n62001010001" gloss_berean="If">ἐὰν</token>
         </wording>
@@ -1027,7 +1027,7 @@
           <wording type="word" status="core">
            <token n="202" id="SBL.1John.1.10.11" clearId="n62001010011" gloss_berean="word">λόγος</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="core">
             <token n="203" id="SBL.1John.1.10.12" clearId="n62001010012" gloss_berean="of Him">αὐτοῦ</token>
            </wording>
@@ -1065,7 +1065,7 @@
         <wording type="word" status="core">
          <token n="208" id="SBL.1John.2.1.1" clearId="n62002001001" gloss_berean="Little children">Τεκνία</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="core">
           <token n="209" id="SBL.1John.2.1.2" clearId="n62002001002" gloss_berean="of me" after=",">μου</token>
          </wording>
@@ -1084,7 +1084,7 @@
          <token n="212" id="SBL.1John.2.1.5" clearId="n62002001005" gloss_berean="to you">ὑμῖν</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="213" id="SBL.1John.2.1.6" clearId="n62002001006" gloss_berean="so that">ἵνα</token>
         </wording>
@@ -1108,7 +1108,7 @@
        <wording type="word" status="junctive">
         <token n="216" id="SBL.1John.2.1.9" clearId="n62002001009" gloss_berean="And">καὶ</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="217" id="SBL.1John.2.1.10" clearId="n62002001010" gloss_berean="if">ἐάν</token>
         </wording>
@@ -1133,7 +1133,7 @@
        <wording type="word" status="core">
         <token n="221" id="SBL.1John.2.1.14" clearId="n62002001014" gloss_berean="we have">ἔχομεν</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="222" id="SBL.1John.2.1.15" clearId="n62002001015" gloss_berean="with">πρὸς</token>
         </wording>
@@ -1191,7 +1191,7 @@
        <wording type="word" status="core">
         <token n="231" id="SBL.1John.2.2.4" clearId="n62002002004" gloss_berean="is">ἐστιν</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="232" id="SBL.1John.2.2.5" clearId="n62002002005" gloss_berean="for">περὶ</token>
         </wording>
@@ -1201,7 +1201,7 @@
         <wording type="word" status="core">
          <token n="234" id="SBL.1John.2.2.7" clearId="n62002002007" gloss_berean="sins">ἁμαρτιῶν</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="core">
           <token n="235" id="SBL.1John.2.2.8" clearId="n62002002008" gloss_berean="of us" after=",">ἡμῶν</token>
          </wording>
@@ -1211,7 +1211,7 @@
      </context>
      <context class="action" id="action.SBL.1John.2.2.9-20">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e" next="d7e944_2" xml:id="d7e944">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" next="d7e944_2" xml:id="d7e944">
         <wording type="junction" next="d5e941_2" xml:id="d5e941">
          <wording status="path" function="conjunctive" label="±1" next="d3e937_2" xml:id="d3e937">
           <wording type="word" status="junctive">
@@ -1232,7 +1232,7 @@
        <wording type="word" status="junctive">
         <token n="240" id="SBL.1John.2.2.13" clearId="n62002002013" gloss_berean="and">δὲ</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e" prev="d7e944" xml:id="d7e944_2">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" prev="d7e944" xml:id="d7e944_2">
         <wording type="junction" prev="d5e941" xml:id="d5e941_2">
          <wording status="path" function="conjunctive" label="±1" prev="d3e937" xml:id="d3e937_2">
           <wording type="word" status="junctive">
@@ -1275,7 +1275,7 @@
        <wording type="word" status="junctive">
         <token n="248" id="SBL.1John.2.3.1" clearId="n62002003001" gloss_berean="And">Καὶ</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="249" id="SBL.1John.2.3.2" clearId="n62002003002" gloss_berean="by">ἐν</token>
         </wording>
@@ -1299,7 +1299,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="255" id="SBL.1John.2.3.8" clearId="n62002003008" gloss_berean="if">ἐὰν</token>
         </wording>
@@ -1310,7 +1310,7 @@
          <wording type="word" status="core">
           <token n="257" id="SBL.1John.2.3.10" clearId="n62002003010" gloss_berean="commandments">ἐντολὰς</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="258" id="SBL.1John.2.3.11" clearId="n62002003011" gloss_berean="of Him">αὐτοῦ</token>
           </wording>
@@ -1374,7 +1374,7 @@
                <wording type="word" status="core">
                 <token n="267" id="SBL.1John.2.4.8" clearId="n62002004008" gloss_berean="commandments">ἐντολὰς</token>
                </wording>
-               <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+               <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
                 <wording type="word" status="core">
                  <token n="268" id="SBL.1John.2.4.9" clearId="n62002004009" gloss_berean="of Him">αὐτοῦ</token>
                 </wording>
@@ -1458,7 +1458,7 @@
          <token n="283" id="SBL.1John.2.5.4" clearId="n62002005004" gloss_berean="may keep">τηρῇ</token>
         </wording>
         <wording type="cluster" status="argument" function="object_participant" label="obj">
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="284" id="SBL.1John.2.5.5" clearId="n62002005005" gloss_berean="His">αὐτοῦ</token>
           </wording>
@@ -1471,12 +1471,12 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="core">
          <token n="287" id="SBL.1John.2.5.8" clearId="n62002005008" gloss_berean="truly">ἀληθῶς</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="288" id="SBL.1John.2.5.9" clearId="n62002005009" gloss_berean="in">ἐν</token>
         </wording>
@@ -1491,7 +1491,7 @@
         <wording type="word" status="core">
          <token n="291" id="SBL.1John.2.5.12" clearId="n62002005012" gloss_berean="love">ἀγάπη</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="translative">
           <token n="292" id="SBL.1John.2.5.13" clearId="n62002005013" gloss_berean="-">τοῦ</token>
          </wording>
@@ -1509,7 +1509,7 @@
     <context class="move" id="move.SBL.1John.2.5.16-6.12">
      <context class="action" id="action.SBL.1John.2.5.16-22">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="295" id="SBL.1John.2.5.16" clearId="n62002005016" gloss_berean="By">ἐν</token>
         </wording>
@@ -1548,7 +1548,7 @@
          <token n="303" id="SBL.1John.2.6.2" clearId="n62002006002" gloss_berean="claiming" note="Event (at own clause level)">λέγων</token>
         </wording>
         <wording type="cluster" status="argument" function="object_participant" label="obj">
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="304" id="SBL.1John.2.6.3" clearId="n62002006003" gloss_berean="in">ἐν</token>
           </wording>
@@ -1564,7 +1564,7 @@
        <wording type="word" status="core">
         <token n="307" id="SBL.1John.2.6.6" clearId="n62002006006" gloss_berean="ought">ὀφείλει</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="308" id="SBL.1John.2.6.7" clearId="n62002006007" gloss_berean="just as">καθὼς</token>
         </wording>
@@ -1653,7 +1653,7 @@
            <wording type="word" status="core">
             <token n="324" id="SBL.1John.2.7.11" clearId="n62002007011" gloss_berean="you have had">εἴχετε</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+           <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
             <wording type="word" status="translative">
              <token n="325" id="SBL.1John.2.7.12" clearId="n62002007012" gloss_berean="from">ἀπ’</token>
             </wording>
@@ -1712,7 +1712,7 @@
     <context class="move" id="move.SBL.1John.2.8">
      <context class="action" id="action.SBL.1John.2.8">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="core">
          <token n="336" id="SBL.1John.2.8.1" clearId="n62002008001" gloss_berean="Again">πάλιν</token>
         </wording>
@@ -1735,7 +1735,7 @@
          <token n="340" id="SBL.1John.2.8.5" clearId="n62002008005" gloss_berean="to you" after=",">ὑμῖν</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="cluster" status="translative" function="subject" label="subj" pinned="true">
          <wording type="word" status="translative" pinned="true">
           <token n="341" id="SBL.1John.2.8.6" clearId="n62002008006" gloss_berean="which" pin="relative">ὅ</token>
@@ -1749,7 +1749,7 @@
           <token n="343" id="SBL.1John.2.8.8" clearId="n62002008008" gloss_berean="true">ἀληθὲς</token>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="junction">
           <wording status="path" function="conjunctive" label="±1">
            <wording type="word" status="translative">
@@ -1772,7 +1772,7 @@
           </wording>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="349" id="SBL.1John.2.8.14" clearId="n62002008014" gloss_berean="because">ὅτι</token>
          </wording>
@@ -1810,7 +1810,7 @@
              </wording>
             </wording>
            </wording>
-           <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+           <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
             <wording type="word" status="core">
              <token n="358" id="SBL.1John.2.8.23" clearId="n62002008023" gloss_berean="already">ἤδη</token>
             </wording>
@@ -1865,7 +1865,7 @@
            <wording type="word" status="core">
             <token n="368" id="SBL.1John.2.9.9" clearId="n62002009009" gloss_berean="brother">ἀδελφὸν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="369" id="SBL.1John.2.9.10" clearId="n62002009010" gloss_berean="of him">αὐτοῦ</token>
             </wording>
@@ -1891,7 +1891,7 @@
        <wording type="word" status="core">
         <token n="374" id="SBL.1John.2.9.15" clearId="n62002009015" gloss_berean="is">ἐστὶν</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="375" id="SBL.1John.2.9.16" clearId="n62002009016" gloss_berean="even until">ἕως</token>
         </wording>
@@ -1921,14 +1921,14 @@
            <wording type="word" status="core">
             <token n="380" id="SBL.1John.2.10.4" clearId="n62002010004" gloss_berean="brother">ἀδελφὸν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="381" id="SBL.1John.2.10.5" clearId="n62002010005" gloss_berean="of him">αὐτοῦ</token>
             </wording>
            </wording>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="382" id="SBL.1John.2.10.6" clearId="n62002010006" gloss_berean="in">ἐν</token>
           </wording>
@@ -2001,7 +2001,7 @@
            <wording type="word" status="core">
             <token n="396" id="SBL.1John.2.11.5" clearId="n62002011005" gloss_berean="brother">ἀδελφὸν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="397" id="SBL.1John.2.11.6" clearId="n62002011006" gloss_berean="of him">αὐτοῦ</token>
             </wording>
@@ -2027,7 +2027,7 @@
          <wording type="word" status="junctive">
           <token n="402" id="SBL.1John.2.11.11" clearId="n62002011011" gloss_berean="and">καὶ</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="403" id="SBL.1John.2.11.12" clearId="n62002011012" gloss_berean="in">ἐν</token>
           </wording>
@@ -2055,7 +2055,7 @@
             <token n="409" id="SBL.1John.2.11.18" clearId="n62002011018" gloss_berean="does he know">οἶδεν</token>
            </wording>
            <wording type="cluster" status="argument" function="object_participant" label="obj">
-            <wording type="cluster" status="translative" function="predication_circumstance" label="circ:p" pinned="true">
+            <wording type="cluster" status="translative" function="predication_circumstance" label="circ:pred" pinned="true">
              <wording type="word" status="translative" pinned="true">
               <token n="410" id="SBL.1John.2.11.19" clearId="n62002011019" gloss_berean="where" pin="interrogative">ποῦ</token>
              </wording>
@@ -2068,7 +2068,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="412" id="SBL.1John.2.11.21" clearId="n62002011021" gloss_berean="because">ὅτι</token>
         </wording>
@@ -2090,7 +2090,7 @@
          <wording type="word" status="core">
           <token n="417" id="SBL.1John.2.11.26" clearId="n62002011026" gloss_berean="eyes">ὀφθαλμοὺς</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="418" id="SBL.1John.2.11.27" clearId="n62002011027" gloss_berean="of him" after=".">αὐτοῦ</token>
           </wording>
@@ -2116,7 +2116,7 @@
          <token n="421" id="SBL.1John.2.12.3" clearId="n62002012003" gloss_berean="little children" after=",">τεκνία</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="422" id="SBL.1John.2.12.4" clearId="n62002012004" gloss_berean="because">ὅτι</token>
         </wording>
@@ -2136,7 +2136,7 @@
           <token n="426" id="SBL.1John.2.12.8" clearId="n62002012008" gloss_berean="sins">ἁμαρτίαι</token>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="427" id="SBL.1John.2.12.9" clearId="n62002012009" gloss_berean="for the sake of">διὰ</token>
          </wording>
@@ -2146,7 +2146,7 @@
          <wording type="word" status="core">
           <token n="429" id="SBL.1John.2.12.11" clearId="n62002012011" gloss_berean="name">ὄνομα</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="430" id="SBL.1John.2.12.12" clearId="n62002012012" gloss_berean="of Him" after="·">αὐτοῦ</token>
           </wording>
@@ -2170,7 +2170,7 @@
          <token n="433" id="SBL.1John.2.13.3" clearId="n62002013003" gloss_berean="fathers" after=",">πατέρες</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="434" id="SBL.1John.2.13.4" clearId="n62002013004" gloss_berean="because">ὅτι</token>
         </wording>
@@ -2206,7 +2206,7 @@
          <token n="441" id="SBL.1John.2.13.11" clearId="n62002013011" gloss_berean="young men" after=",">νεανίσκοι</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="442" id="SBL.1John.2.13.12" clearId="n62002013012" gloss_berean="because">ὅτι</token>
         </wording>
@@ -2241,7 +2241,7 @@
          <token n="448" id="SBL.1John.2.14.3" clearId="n62002014003" gloss_berean="little children" after=",">παιδία</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="449" id="SBL.1John.2.14.4" clearId="n62002014004" gloss_berean="because">ὅτι</token>
         </wording>
@@ -2274,7 +2274,7 @@
          <token n="455" id="SBL.1John.2.14.10" clearId="n62002014010" gloss_berean="fathers" after=",">πατέρες</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="456" id="SBL.1John.2.14.11" clearId="n62002014011" gloss_berean="because">ὅτι</token>
         </wording>
@@ -2310,7 +2310,7 @@
          <token n="463" id="SBL.1John.2.14.18" clearId="n62002014018" gloss_berean="young men" after=",">νεανίσκοι</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="464" id="SBL.1John.2.14.19" clearId="n62002014019" gloss_berean="because">ὅτι</token>
         </wording>
@@ -2336,7 +2336,7 @@
            <wording type="word" status="core">
             <token n="469" id="SBL.1John.2.14.24" clearId="n62002014024" gloss_berean="word">λόγος</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="translative">
              <token n="470" id="SBL.1John.2.14.25" clearId="n62002014025" gloss_berean="-">τοῦ</token>
             </wording>
@@ -2345,7 +2345,7 @@
             </wording>
            </wording>
           </wording>
-          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
            <wording type="word" status="translative">
             <token n="472" id="SBL.1John.2.14.27" clearId="n62002014027" gloss_berean="in">ἐν</token>
            </wording>
@@ -2426,7 +2426,7 @@
     <context class="move" id="move.SBL.1John.2.15.10-17.19">
      <context class="action" id="action.SBL.1John.2.15.10-16.30">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="488" id="SBL.1John.2.15.10" clearId="n62002015010" gloss_berean="If">ἐάν</token>
         </wording>
@@ -2462,7 +2462,7 @@
           <wording type="word" status="core">
            <token n="496" id="SBL.1John.2.15.18" clearId="n62002015018" gloss_berean="love">ἀγάπη</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="translative">
             <token n="497" id="SBL.1John.2.15.19" clearId="n62002015019" gloss_berean="of the">τοῦ</token>
            </wording>
@@ -2481,7 +2481,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="501" id="SBL.1John.2.16.1" clearId="n62002016001" gloss_berean="because">ὅτι</token>
         </wording>
@@ -2517,7 +2517,7 @@
                <wording type="word" status="core">
                 <token n="508" id="SBL.1John.2.16.8" clearId="n62002016008" gloss_berean="desire">ἐπιθυμία</token>
                </wording>
-               <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+               <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
                 <wording type="word" status="translative">
                  <token n="509" id="SBL.1John.2.16.9" clearId="n62002016009" gloss_berean="of the">τῆς</token>
                 </wording>
@@ -2536,7 +2536,7 @@
                <wording type="word" status="core">
                 <token n="513" id="SBL.1John.2.16.13" clearId="n62002016013" gloss_berean="desire">ἐπιθυμία</token>
                </wording>
-               <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+               <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
                 <wording type="word" status="translative">
                  <token n="514" id="SBL.1John.2.16.14" clearId="n62002016014" gloss_berean="of the">τῶν</token>
                 </wording>
@@ -2555,7 +2555,7 @@
                <wording type="word" status="core">
                 <token n="518" id="SBL.1John.2.16.18" clearId="n62002016018" gloss_berean="vaunting">ἀλαζονεία</token>
                </wording>
-               <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+               <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
                 <wording type="word" status="translative">
                  <token n="519" id="SBL.1John.2.16.19" clearId="n62002016019" gloss_berean="of">τοῦ</token>
                 </wording>
@@ -2641,7 +2641,7 @@
           <wording type="word" status="core">
            <token n="537" id="SBL.1John.2.17.7" clearId="n62002017007" gloss_berean="desire">ἐπιθυμία</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="core">
             <token n="538" id="SBL.1John.2.17.8" clearId="n62002017008" gloss_berean="of it" after=",">αὐτοῦ</token>
            </wording>
@@ -2672,7 +2672,7 @@
          <wording type="word" status="core">
           <token n="543" id="SBL.1John.2.17.13" clearId="n62002017013" gloss_berean="will">θέλημα</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="translative">
            <token n="544" id="SBL.1John.2.17.14" clearId="n62002017014" gloss_berean="-">τοῦ</token>
           </wording>
@@ -2685,7 +2685,7 @@
        <wording type="word" status="core">
         <token n="546" id="SBL.1John.2.17.16" clearId="n62002017016" gloss_berean="abides">μένει</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="547" id="SBL.1John.2.17.17" clearId="n62002017017" gloss_berean="to">εἰς</token>
         </wording>
@@ -2727,7 +2727,7 @@
          <wording type="word" status="junctive">
           <token n="554" id="SBL.1John.2.18.5" clearId="n62002018005" gloss_berean="and">καὶ</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="555" id="SBL.1John.2.18.6" clearId="n62002018006" gloss_berean="as">καθὼς</token>
           </wording>
@@ -2748,7 +2748,7 @@
            </wording>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="junction">
            <wording status="path" function="conjunctive" label="±1">
             <wording type="word" status="junctive">
@@ -2773,7 +2773,7 @@
          <wording type="word" status="core">
           <token n="564" id="SBL.1John.2.18.15" clearId="n62002018015" gloss_berean="have arisen" after="·">γεγόνασιν</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="565" id="SBL.1John.2.18.16" clearId="n62002018016" gloss_berean="whereby" pin="relative">ὅθεν</token>
           </wording>
@@ -2809,7 +2809,7 @@
       <wording type="cluster" status="core" label="root">
        <wording type="junction">
         <wording status="path" function="conjunctive" label="±1">
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="571" id="SBL.1John.2.19.1" clearId="n62002019001" gloss_berean="From among">ἐξ</token>
           </wording>
@@ -2849,7 +2849,7 @@
      </context>
      <context class="action" id="action.SBL.1John.2.19.9-17">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p" next="d3e2256_2" xml:id="d3e2256">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred" next="d3e2256_2" xml:id="d3e2256">
         <wording type="word" status="translative">
          <token n="579" id="SBL.1John.2.19.9" clearId="n62002019009" gloss_berean="if">εἰ</token>
         </wording>
@@ -2857,7 +2857,7 @@
        <wording type="word" status="junctive">
         <token n="580" id="SBL.1John.2.19.10" clearId="n62002019010" gloss_berean="for">γὰρ</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p" prev="d3e2256" xml:id="d3e2256_2">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred" prev="d3e2256" xml:id="d3e2256_2">
         <wording type="cluster" status="argument" function="complement" label="comp">
          <wording type="word" status="translative">
           <token n="581" id="SBL.1John.2.19.11" clearId="n62002019011" gloss_berean="of">ἐξ</token>
@@ -2876,7 +2876,7 @@
        <wording type="word" status="argument">
         <token n="585" id="SBL.1John.2.19.15" clearId="n62002019015" gloss_berean="-">ἂν</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="586" id="SBL.1John.2.19.16" clearId="n62002019016" gloss_berean="with">μεθ’</token>
         </wording>
@@ -2947,7 +2947,7 @@
        <wording type="word" status="core">
         <token n="600" id="SBL.1John.2.20.4" clearId="n62002020004" gloss_berean="have">ἔχετε</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="601" id="SBL.1John.2.20.5" clearId="n62002020005" gloss_berean="from">ἀπὸ</token>
         </wording>
@@ -2977,7 +2977,7 @@
      </context>
      <context class="action" id="action.SBL.1John.2.21">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e" next="d7e2383_2" xml:id="d7e2383">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" next="d7e2383_2" xml:id="d7e2383">
         <wording type="junction" next="d5e2375_2" xml:id="d5e2375">
          <wording status="path" function="conjunctive" label="±1" next="d3e2363_2" xml:id="d3e2363">
           <wording type="word" status="junctive">
@@ -2994,7 +2994,7 @@
          <token n="609" id="SBL.1John.2.21.3" clearId="n62002021003" gloss_berean="to you">ὑμῖν</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e" prev="d7e2383" xml:id="d7e2383_2">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" prev="d7e2383" xml:id="d7e2383_2">
         <wording type="junction" prev="d5e2375" xml:id="d5e2375_2">
          <wording status="path" function="conjunctive" label="±1" prev="d3e2363" xml:id="d3e2363_2">
           <wording type="word" status="translative">
@@ -3102,7 +3102,7 @@
          <token n="631" id="SBL.1John.2.22.4" clearId="n62002022004" gloss_berean="liar">ψεύστης</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="632" id="SBL.1John.2.22.5" clearId="n62002022005" gloss_berean="if">εἰ</token>
         </wording>
@@ -3308,7 +3308,7 @@
         <wording type="word" status="core">
          <token n="672" id="SBL.1John.2.24.3" clearId="n62002024003" gloss_berean="you have heard" note="Event (at own clause level)">ἠκούσατε</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="673" id="SBL.1John.2.24.4" clearId="n62002024004" gloss_berean="from">ἀπ’</token>
          </wording>
@@ -3317,7 +3317,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="675" id="SBL.1John.2.24.6" clearId="n62002024006" gloss_berean="in">ἐν</token>
         </wording>
@@ -3332,11 +3332,11 @@
      </context>
      <context class="action" id="action.SBL.1John.2.24.9-26">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="678" id="SBL.1John.2.24.9" clearId="n62002024009" gloss_berean="If">ἐὰν</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="679" id="SBL.1John.2.24.10" clearId="n62002024010" gloss_berean="in">ἐν</token>
          </wording>
@@ -3353,7 +3353,7 @@
            <token n="682" id="SBL.1John.2.24.13" clearId="n62002024013" gloss_berean="what" pin="relative">ὃ</token>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="683" id="SBL.1John.2.24.14" clearId="n62002024014" gloss_berean="from">ἀπ’</token>
           </wording>
@@ -3378,7 +3378,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="junction">
          <wording status="path" function="conjunctive" label="±1">
           <wording type="word" status="translative">
@@ -3492,7 +3492,7 @@
          <token n="711" id="SBL.1John.2.26.3" clearId="n62002026003" gloss_berean="to you">ὑμῖν</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="712" id="SBL.1John.2.26.4" clearId="n62002026004" gloss_berean="concerning">περὶ</token>
         </wording>
@@ -3540,7 +3540,7 @@
            <wording type="word" status="core">
             <token n="721" id="SBL.1John.2.27.6" clearId="n62002027006" gloss_berean="you received">ἐλάβετε</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+           <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
             <wording type="word" status="translative">
              <token n="722" id="SBL.1John.2.27.7" clearId="n62002027007" gloss_berean="from">ἀπ’</token>
             </wording>
@@ -3553,7 +3553,7 @@
          <wording type="word" status="core">
           <token n="724" id="SBL.1John.2.27.9" clearId="n62002027009" gloss_berean="abides">μένει</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="725" id="SBL.1John.2.27.10" clearId="n62002027010" gloss_berean="in">ἐν</token>
           </wording>
@@ -3616,7 +3616,7 @@
        <wording type="word" status="junctive">
         <token n="735" id="SBL.1John.2.27.20" clearId="n62002027020" gloss_berean="But">ἀλλ’</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="junction">
          <wording status="path" function="conjunctive" label="±1">
           <wording type="word" status="translative">
@@ -3628,7 +3628,7 @@
              <wording type="word" status="translative">
               <token n="737" id="SBL.1John.2.27.22" clearId="n62002027022" gloss_berean="the">τὸ</token>
              </wording>
-             <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+             <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
               <wording type="word" status="core">
                <token n="738" id="SBL.1John.2.27.23" clearId="n62002027023" gloss_berean="same">αὐτοῦ</token>
               </wording>
@@ -3645,7 +3645,7 @@
               <token n="741" id="SBL.1John.2.27.26" clearId="n62002027026" gloss_berean="you">ὑμᾶς</token>
              </wording>
             </wording>
-            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
              <wording type="word" status="translative">
               <token n="742" id="SBL.1John.2.27.27" clearId="n62002027027" gloss_berean="concerning">περὶ</token>
              </wording>
@@ -3714,7 +3714,7 @@
        <wording type="word" status="core">
         <token n="755" id="SBL.1John.2.27.40" clearId="n62002027040" gloss_berean="you shall abide">μένετε</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="756" id="SBL.1John.2.27.41" clearId="n62002027041" gloss_berean="in">ἐν</token>
         </wording>
@@ -3731,7 +3731,7 @@
        <wording type="word" status="junctive">
         <token n="758" id="SBL.1John.2.28.1" clearId="n62002028001" gloss_berean="And">Καὶ</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="core">
          <token n="759" id="SBL.1John.2.28.2" clearId="n62002028002" gloss_berean="now" after=",">νῦν</token>
         </wording>
@@ -3744,7 +3744,7 @@
        <wording type="word" status="core">
         <token n="761" id="SBL.1John.2.28.4" clearId="n62002028004" gloss_berean="abide">μένετε</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="762" id="SBL.1John.2.28.5" clearId="n62002028005" gloss_berean="in">ἐν</token>
         </wording>
@@ -3752,13 +3752,13 @@
          <token n="763" id="SBL.1John.2.28.6" clearId="n62002028006" gloss_berean="Him" after=",">αὐτῷ</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="764" id="SBL.1John.2.28.7" clearId="n62002028007" gloss_berean="so that">ἵνα</token>
         </wording>
         <wording type="junction">
          <wording status="path" function="conjunctive" label="±1">
-          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
            <wording type="word" status="translative">
             <token n="765" id="SBL.1John.2.28.8" clearId="n62002028008" gloss_berean="when">ἐὰν</token>
            </wording>
@@ -3787,7 +3787,7 @@
             <wording type="word" status="core">
              <token n="771" id="SBL.1John.2.28.14" clearId="n62002028014" gloss_berean="be ashamed">αἰσχυνθῶμεν</token>
             </wording>
-            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
              <wording type="word" status="translative">
               <token n="772" id="SBL.1John.2.28.15" clearId="n62002028015" gloss_berean="before">ἀπ’</token>
              </wording>
@@ -3795,7 +3795,7 @@
               <token n="773" id="SBL.1John.2.28.16" clearId="n62002028016" gloss_berean="Him">αὐτοῦ</token>
              </wording>
             </wording>
-            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
              <wording type="word" status="translative">
               <token n="774" id="SBL.1John.2.28.17" clearId="n62002028017" gloss_berean="at">ἐν</token>
              </wording>
@@ -3805,7 +3805,7 @@
              <wording type="word" status="core">
               <token n="776" id="SBL.1John.2.28.19" clearId="n62002028019" gloss_berean="coming">παρουσίᾳ</token>
              </wording>
-             <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+             <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
               <wording type="word" status="core">
                <token n="777" id="SBL.1John.2.28.20" clearId="n62002028020" gloss_berean="of Him" after=".">αὐτοῦ</token>
               </wording>
@@ -3822,7 +3822,7 @@
     <context class="move" id="move.SBL.1John.2.29">
      <context class="action" id="action.SBL.1John.2.29">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="778" id="SBL.1John.2.29.1" clearId="n62002029001" gloss_berean="If">ἐὰν</token>
         </wording>
@@ -3871,7 +3871,7 @@
           </wording>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="790" id="SBL.1John.2.29.13" clearId="n62002029013" gloss_berean="of">ἐξ</token>
          </wording>
@@ -3938,7 +3938,7 @@
              <wording type="word" status="core">
               <token n="801" id="SBL.1John.3.1.9" clearId="n62003001009" gloss_berean="children">τέκνα</token>
              </wording>
-             <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+             <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
               <wording type="word" status="core">
                <token n="802" id="SBL.1John.3.1.10" clearId="n62003001010" gloss_berean="of God">θεοῦ</token>
               </wording>
@@ -3968,7 +3968,7 @@
     <context class="move" id="move.SBL.1John.3.1.14-24">
      <context class="action" id="action.SBL.1John.3.1.14-24">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="806" id="SBL.1John.3.1.14" clearId="n62003001014" gloss_berean="Because of">διὰ</token>
         </wording>
@@ -3999,7 +3999,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="813" id="SBL.1John.3.1.21" clearId="n62003001021" gloss_berean="because">ὅτι</token>
         </wording>
@@ -4032,7 +4032,7 @@
        </wording>
        <wording type="junction">
         <wording status="path" function="conjunctive" label="±1">
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="core">
            <token n="818" id="SBL.1John.3.2.2" clearId="n62003002002" gloss_berean="now">νῦν</token>
           </wording>
@@ -4041,7 +4041,7 @@
           <wording type="word" status="core">
            <token n="819" id="SBL.1John.3.2.3" clearId="n62003002003" gloss_berean="children">τέκνα</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="core">
             <token n="820" id="SBL.1John.3.2.4" clearId="n62003002004" gloss_berean="of God">θεοῦ</token>
            </wording>
@@ -4055,7 +4055,7 @@
          <wording type="word" status="junctive">
           <token n="822" id="SBL.1John.3.2.6" clearId="n62003002006" gloss_berean="and">καὶ</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="core">
            <token n="823" id="SBL.1John.3.2.7" clearId="n62003002007" gloss_berean="not yet">οὔπω</token>
           </wording>
@@ -4088,7 +4088,7 @@
         <wording type="word" status="translative">
          <token n="828" id="SBL.1John.3.2.12" clearId="n62003002012" gloss_berean="that">ὅτι</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="829" id="SBL.1John.3.2.13" clearId="n62003002013" gloss_berean="when">ἐὰν</token>
          </wording>
@@ -4101,7 +4101,7 @@
           <token n="831" id="SBL.1John.3.2.15" clearId="n62003002015" gloss_berean="like">ὅμοιοι</token>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="core">
           <token n="832" id="SBL.1John.3.2.16" clearId="n62003002016" gloss_berean="Him">αὐτῷ</token>
          </wording>
@@ -4109,7 +4109,7 @@
         <wording type="word" status="core">
          <token n="833" id="SBL.1John.3.2.17" clearId="n62003002017" gloss_berean="we will be" after=",">ἐσόμεθα</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="834" id="SBL.1John.3.2.18" clearId="n62003002018" gloss_berean="for">ὅτι</token>
          </wording>
@@ -4121,7 +4121,7 @@
            <token n="836" id="SBL.1John.3.2.20" clearId="n62003002020" gloss_berean="Him">αὐτὸν</token>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="837" id="SBL.1John.3.2.21" clearId="n62003002021" gloss_berean="as">καθώς</token>
           </wording>
@@ -4165,7 +4165,7 @@
           </wording>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="846" id="SBL.1John.3.3.8" clearId="n62003003008" gloss_berean="in">ἐπ’</token>
          </wording>
@@ -4182,7 +4182,7 @@
          <token n="849" id="SBL.1John.3.3.11" clearId="n62003003011" gloss_berean="himself">ἑαυτὸν</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="850" id="SBL.1John.3.3.12" clearId="n62003003012" gloss_berean="just as">καθὼς</token>
         </wording>
@@ -4299,7 +4299,7 @@
           <wording type="word" status="core">
            <token n="873" id="SBL.1John.3.5.5" clearId="n62003005005" gloss_berean="appeared">ἐφανερώθη</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
            <wording type="word" status="translative">
             <token n="874" id="SBL.1John.3.5.6" clearId="n62003005006" gloss_berean="so that">ἵνα</token>
            </wording>
@@ -4361,7 +4361,7 @@
         <wording type="word" status="translative">
          <token n="885" id="SBL.1John.3.6.2" clearId="n62003006002" gloss_berean="-">ὁ</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="886" id="SBL.1John.3.6.3" clearId="n62003006003" gloss_berean="in">ἐν</token>
          </wording>
@@ -4484,7 +4484,7 @@
        <wording type="word" status="core">
         <token n="909" id="SBL.1John.3.7.10" clearId="n62003007010" gloss_berean="is" after=",">ἐστιν</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="910" id="SBL.1John.3.7.11" clearId="n62003007011" gloss_berean="just as">καθὼς</token>
         </wording>
@@ -4536,11 +4536,11 @@
        <wording type="word" status="core">
         <token n="921" id="SBL.1John.3.8.8" clearId="n62003008008" gloss_berean="is" after=",">ἐστίν</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="922" id="SBL.1John.3.8.9" clearId="n62003008009" gloss_berean="because">ὅτι</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="923" id="SBL.1John.3.8.10" clearId="n62003008010" gloss_berean="from">ἀπ’</token>
          </wording>
@@ -4566,7 +4566,7 @@
     <context class="move" id="move.SBL.1John.3.8.15-27">
      <context class="action" id="action.SBL.1John.3.8.15-27">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="928" id="SBL.1John.3.8.15" clearId="n62003008015" gloss_berean="For">εἰς</token>
         </wording>
@@ -4584,7 +4584,7 @@
         <wording type="word" status="core">
          <token n="932" id="SBL.1John.3.8.19" clearId="n62003008019" gloss_berean="Son">υἱὸς</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="translative">
           <token n="933" id="SBL.1John.3.8.20" clearId="n62003008020" gloss_berean="-">τοῦ</token>
          </wording>
@@ -4593,7 +4593,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="935" id="SBL.1John.3.8.22" clearId="n62003008022" gloss_berean="so that">ἵνα</token>
         </wording>
@@ -4607,7 +4607,7 @@
          <wording type="word" status="core">
           <token n="938" id="SBL.1John.3.8.25" clearId="n62003008025" gloss_berean="works">ἔργα</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="translative">
            <token n="939" id="SBL.1John.3.8.26" clearId="n62003008026" gloss_berean="of the">τοῦ</token>
           </wording>
@@ -4635,7 +4635,7 @@
         <wording type="word" status="core">
          <token n="943" id="SBL.1John.3.9.3" clearId="n62003009003" gloss_berean="having been born" note="Event (at own clause level)">γεγεννημένος</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="944" id="SBL.1John.3.9.4" clearId="n62003009004" gloss_berean="of">ἐκ</token>
          </wording>
@@ -4662,7 +4662,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="950" id="SBL.1John.3.9.10" clearId="n62003009010" gloss_berean="because">ὅτι</token>
         </wording>
@@ -4670,13 +4670,13 @@
          <wording type="word" status="core">
           <token n="951" id="SBL.1John.3.9.11" clearId="n62003009011" gloss_berean="seed">σπέρμα</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="952" id="SBL.1John.3.9.12" clearId="n62003009012" gloss_berean="of Him">αὐτοῦ</token>
           </wording>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="953" id="SBL.1John.3.9.13" clearId="n62003009013" gloss_berean="in">ἐν</token>
          </wording>
@@ -4710,11 +4710,11 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="960" id="SBL.1John.3.9.20" clearId="n62003009020" gloss_berean="because">ὅτι</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="961" id="SBL.1John.3.9.21" clearId="n62003009021" gloss_berean="of">ἐκ</token>
          </wording>
@@ -4735,7 +4735,7 @@
     <context class="move" id="move.SBL.1John.3.10">
      <context class="action" id="action.SBL.1John.3.10.1-13">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="965" id="SBL.1John.3.10.1" clearId="n62003010001" gloss_berean="Through">ἐν</token>
         </wording>
@@ -4760,7 +4760,7 @@
           <wording type="word" status="core">
            <token n="970" id="SBL.1John.3.10.6" clearId="n62003010006" gloss_berean="children">τέκνα</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="translative">
             <token n="971" id="SBL.1John.3.10.7" clearId="n62003010007" gloss_berean="-">τοῦ</token>
            </wording>
@@ -4779,7 +4779,7 @@
           <wording type="word" status="core">
            <token n="975" id="SBL.1John.3.10.11" clearId="n62003010011" gloss_berean="children">τέκνα</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="translative">
             <token n="976" id="SBL.1John.3.10.12" clearId="n62003010012" gloss_berean="of the">τοῦ</token>
            </wording>
@@ -4866,7 +4866,7 @@
              <wording type="word" status="core">
               <token n="993" id="SBL.1John.3.10.29" clearId="n62003010029" gloss_berean="brother">ἀδελφὸν</token>
              </wording>
-             <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+             <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
               <wording type="word" status="core">
                <token n="994" id="SBL.1John.3.10.30" clearId="n62003010030" gloss_berean="of him" after=".">αὐτοῦ</token>
               </wording>
@@ -4913,7 +4913,7 @@
          <wording type="word" status="core">
           <token n="1001" id="SBL.1John.3.11.7" clearId="n62003011007" gloss_berean="you have heard">ἠκούσατε</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="1002" id="SBL.1John.3.11.8" clearId="n62003011008" gloss_berean="from">ἀπ’</token>
           </wording>
@@ -4940,7 +4940,7 @@
      </context>
      <context class="action" id="action.SBL.1John.3.12.1-12">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="junction">
          <wording status="path" function="conjunctive" label="±1">
           <wording type="word" status="junctive">
@@ -4985,7 +4985,7 @@
              <wording type="word" status="core">
               <token n="1017" id="SBL.1John.3.12.11" clearId="n62003012011" gloss_berean="brother">ἀδελφὸν</token>
              </wording>
-             <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+             <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
               <wording type="word" status="core">
                <token n="1018" id="SBL.1John.3.12.12" clearId="n62003012012" gloss_berean="of him" after="·">αὐτοῦ</token>
               </wording>
@@ -5004,7 +5004,7 @@
        <wording type="word" status="junctive">
         <token n="1019" id="SBL.1John.3.12.13" clearId="n62003012013" gloss_berean="And">καὶ</token>
        </wording>
-       <wording type="cluster" status="translative" function="predication_circumstance" label="circ:p" pinned="true">
+       <wording type="cluster" status="translative" function="predication_circumstance" label="circ:pred" pinned="true">
         <wording type="word" status="translative">
          <token n="1020" id="SBL.1John.3.12.14" clearId="n62003012014" gloss_berean="because of">χάριν</token>
         </wording>
@@ -5038,7 +5038,7 @@
           <wording type="word" status="core">
            <token n="1026" id="SBL.1John.3.12.20" clearId="n62003012020" gloss_berean="works">ἔργα</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="core">
             <token n="1027" id="SBL.1John.3.12.21" clearId="n62003012021" gloss_berean="of him">αὐτοῦ</token>
            </wording>
@@ -5069,7 +5069,7 @@
           <wording type="word" status="core">
            <token n="1033" id="SBL.1John.3.12.27" clearId="n62003012027" gloss_berean="brother">ἀδελφοῦ</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="core">
             <token n="1034" id="SBL.1John.3.12.28" clearId="n62003012028" gloss_berean="of him">αὐτοῦ</token>
            </wording>
@@ -5101,7 +5101,7 @@
          <token n="1038" id="SBL.1John.3.13.3" clearId="n62003013003" gloss_berean="brothers" after=",">ἀδελφοί</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1039" id="SBL.1John.3.13.4" clearId="n62003013004" gloss_berean="if">εἰ</token>
         </wording>
@@ -5143,7 +5143,7 @@
         <wording type="word" status="core">
          <token n="1047" id="SBL.1John.3.14.4" clearId="n62003014004" gloss_berean="we have passed">μεταβεβήκαμεν</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="1048" id="SBL.1John.3.14.5" clearId="n62003014005" gloss_berean="from">ἐκ</token>
          </wording>
@@ -5154,7 +5154,7 @@
           <token n="1050" id="SBL.1John.3.14.7" clearId="n62003014007" gloss_berean="death">θανάτου</token>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="1051" id="SBL.1John.3.14.8" clearId="n62003014008" gloss_berean="to">εἰς</token>
          </wording>
@@ -5165,7 +5165,7 @@
           <token n="1053" id="SBL.1John.3.14.10" clearId="n62003014010" gloss_berean="life" after=",">ζωήν</token>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="1054" id="SBL.1John.3.14.11" clearId="n62003014011" gloss_berean="because">ὅτι</token>
          </wording>
@@ -5204,7 +5204,7 @@
        <wording type="word" status="core">
         <token n="1061" id="SBL.1John.3.14.18" clearId="n62003014018" gloss_berean="abides">μένει</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="1062" id="SBL.1John.3.14.19" clearId="n62003014019" gloss_berean="in">ἐν</token>
         </wording>
@@ -5242,7 +5242,7 @@
            <wording type="word" status="core">
             <token n="1069" id="SBL.1John.3.15.5" clearId="n62003015005" gloss_berean="brother">ἀδελφὸν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="1070" id="SBL.1John.3.15.6" clearId="n62003015006" gloss_berean="of him">αὐτοῦ</token>
             </wording>
@@ -5297,7 +5297,7 @@
               </wording>
              </wording>
              <wording type="cluster" status="argument" function="attributive" label="attr">
-              <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+              <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
                <wording type="word" status="translative">
                 <token n="1082" id="SBL.1John.3.15.18" clearId="n62003015018" gloss_berean="in">ἐν</token>
                </wording>
@@ -5321,7 +5321,7 @@
     <context class="move" id="move.SBL.1John.3.16">
      <context class="action" id="action.SBL.1John.3.16.1-13">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1085" id="SBL.1John.3.16.1" clearId="n62003016001" gloss_berean="By">ἐν</token>
         </wording>
@@ -5349,7 +5349,7 @@
           <token n="1091" id="SBL.1John.3.16.7" clearId="n62003016007" gloss_berean="He">ἐκεῖνος</token>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="1092" id="SBL.1John.3.16.8" clearId="n62003016008" gloss_berean="for">ὑπὲρ</token>
          </wording>
@@ -5364,7 +5364,7 @@
          <wording type="word" status="core">
           <token n="1095" id="SBL.1John.3.16.11" clearId="n62003016011" gloss_berean="life">ψυχὴν</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="1096" id="SBL.1John.3.16.12" clearId="n62003016012" gloss_berean="of Him">αὐτοῦ</token>
           </wording>
@@ -5389,7 +5389,7 @@
        <wording type="word" status="core">
         <token n="1100" id="SBL.1John.3.16.16" clearId="n62003016016" gloss_berean="ought">ὀφείλομεν</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="1101" id="SBL.1John.3.16.17" clearId="n62003016017" gloss_berean="for">ὑπὲρ</token>
         </wording>
@@ -5449,7 +5449,7 @@
            <wording type="word" status="core">
             <token n="1112" id="SBL.1John.3.17.6" clearId="n62003017006" gloss_berean="goods">βίον</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="translative">
              <token n="1113" id="SBL.1John.3.17.7" clearId="n62003017007" gloss_berean="of the">τοῦ</token>
             </wording>
@@ -5473,7 +5473,7 @@
            <wording type="word" status="core">
             <token n="1118" id="SBL.1John.3.17.12" clearId="n62003017012" gloss_berean="brother">ἀδελφὸν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="1119" id="SBL.1John.3.17.13" clearId="n62003017013" gloss_berean="of him">αὐτοῦ</token>
             </wording>
@@ -5504,13 +5504,13 @@
            <wording type="word" status="core">
             <token n="1125" id="SBL.1John.3.17.19" clearId="n62003017019" gloss_berean="heart">σπλάγχνα</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="1126" id="SBL.1John.3.17.20" clearId="n62003017020" gloss_berean="of him">αὐτοῦ</token>
             </wording>
            </wording>
           </wording>
-          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
            <wording type="word" status="translative">
             <token n="1127" id="SBL.1John.3.17.21" clearId="n62003017021" gloss_berean="from">ἀπ’</token>
            </wording>
@@ -5521,7 +5521,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="translative" function="predication_circumstance" label="circ:p" pinned="true">
+       <wording type="cluster" status="translative" function="predication_circumstance" label="circ:pred" pinned="true">
         <wording type="word" status="translative" pinned="true">
          <token n="1129" id="SBL.1John.3.17.23" clearId="n62003017023" gloss_berean="how" pin="interrogative">πῶς</token>
         </wording>
@@ -5533,7 +5533,7 @@
         <wording type="word" status="core">
          <token n="1131" id="SBL.1John.3.17.25" clearId="n62003017025" gloss_berean="love">ἀγάπη</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="translative">
           <token n="1132" id="SBL.1John.3.17.26" clearId="n62003017026" gloss_berean="-">τοῦ</token>
          </wording>
@@ -5545,7 +5545,7 @@
        <wording type="word" status="core">
         <token n="1134" id="SBL.1John.3.17.28" clearId="n62003017028" gloss_berean="abides">μένει</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="1135" id="SBL.1John.3.17.29" clearId="n62003017029" gloss_berean="in">ἐν</token>
         </wording>
@@ -5564,7 +5564,7 @@
          <token n="1137" id="SBL.1John.3.18.1" clearId="n62003018001" gloss_berean="Little children" after=",">Τεκνία</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e" next="d7e4474_2" xml:id="d7e4474">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" next="d7e4474_2" xml:id="d7e4474">
         <wording type="junction" next="d5e4462_2" xml:id="d5e4462">
          <wording status="path" function="conjunctive" label="±1" next="d3e4445_2" xml:id="d3e4445">
           <wording type="word" status="junctive">
@@ -5576,7 +5576,7 @@
        <wording type="word" status="core">
         <token n="1139" id="SBL.1John.3.18.3" clearId="n62003018003" gloss_berean="we should love">ἀγαπῶμεν</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e" prev="d7e4474" xml:id="d7e4474_2">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" prev="d7e4474" xml:id="d7e4474_2">
         <wording type="junction" prev="d5e4462" xml:id="d5e4462_2">
          <wording status="path" function="conjunctive" label="±1" prev="d3e4445" xml:id="d3e4445_2">
           <wording type="junction">
@@ -5631,7 +5631,7 @@
       <wording type="cluster" status="core" label="root">
        <wording type="junction">
         <wording status="path" function="conjunctive" label="±1">
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="1149" id="SBL.1John.3.19.1" clearId="n62003019001" gloss_berean="by">ἐν</token>
           </wording>
@@ -5666,7 +5666,7 @@
          <wording type="word" status="junctive">
           <token n="1157" id="SBL.1John.3.19.9" clearId="n62003019009" gloss_berean="and">καὶ</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="1158" id="SBL.1John.3.19.10" clearId="n62003019010" gloss_berean="before">ἔμπροσθεν</token>
           </wording>
@@ -5686,7 +5686,7 @@
             <wording type="word" status="core">
              <token n="1162" id="SBL.1John.3.19.14" clearId="n62003019014" gloss_berean="heart">καρδίαν</token>
             </wording>
-            <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+            <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
              <wording type="word" status="core">
               <token n="1163" id="SBL.1John.3.19.15" clearId="n62003019015" gloss_berean="of us">ἡμῶν</token>
              </wording>
@@ -5696,7 +5696,7 @@
             <wording type="word" status="translative" next="d3e4546_2" xml:id="d3e4546">
              <token n="1164" id="SBL.1John.3.20.1" clearId="n62003020001" gloss_berean="that">ὅτι</token>
             </wording>
-            <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+            <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
              <wording type="word" status="translative">
               <token n="1165" id="SBL.1John.3.20.2" clearId="n62003020002" gloss_berean="if">ἐὰν</token>
              </wording>
@@ -5704,7 +5704,7 @@
               <token n="1166" id="SBL.1John.3.20.3" clearId="n62003020003" gloss_berean="should condemn [us]">καταγινώσκῃ</token>
              </wording>
              <wording type="cluster" status="argument" function="subject" label="subj">
-              <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+              <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
                <wording type="word" status="core">
                 <token n="1167" id="SBL.1John.3.20.4" clearId="n62003020004" gloss_berean="our">ἡμῶν</token>
                </wording>
@@ -5738,14 +5738,14 @@
                 <token n="1174" id="SBL.1John.3.20.11" clearId="n62003020011" gloss_berean="God">θεὸς</token>
                </wording>
               </wording>
-              <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+              <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
                <wording type="word" status="translative">
                 <token n="1175" id="SBL.1John.3.20.12" clearId="n62003020012" gloss_berean="the">τῆς</token>
                </wording>
                <wording type="word" status="core">
                 <token n="1176" id="SBL.1John.3.20.13" clearId="n62003020013" gloss_berean="heart">καρδίας</token>
                </wording>
-               <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+               <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
                 <wording type="word" status="core">
                  <token n="1177" id="SBL.1John.3.20.14" clearId="n62003020014" gloss_berean="of us">ἡμῶν</token>
                 </wording>
@@ -5784,7 +5784,7 @@
        </wording>
        <wording type="junction">
         <wording status="path" function="conjunctive" label="±1">
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="1182" id="SBL.1John.3.21.2" clearId="n62003021002" gloss_berean="if">ἐὰν</token>
           </wording>
@@ -5820,7 +5820,7 @@
          <wording type="word" status="core">
           <token n="1189" id="SBL.1John.3.21.9" clearId="n62003021009" gloss_berean="we have">ἔχομεν</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="1190" id="SBL.1John.3.21.10" clearId="n62003021010" gloss_berean="toward">πρὸς</token>
           </wording>
@@ -5852,7 +5852,7 @@
          <wording type="word" status="core">
           <token n="1197" id="SBL.1John.3.22.5" clearId="n62003022005" gloss_berean="we receive">λαμβάνομεν</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="1198" id="SBL.1John.3.22.6" clearId="n62003022006" gloss_berean="from">ἀπ’</token>
           </wording>
@@ -5860,7 +5860,7 @@
            <token n="1199" id="SBL.1John.3.22.7" clearId="n62003022007" gloss_berean="Him" after=",">αὐτοῦ</token>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="1200" id="SBL.1John.3.22.8" clearId="n62003022008" gloss_berean="because">ὅτι</token>
           </wording>
@@ -5873,7 +5873,7 @@
              <wording type="word" status="core">
               <token n="1202" id="SBL.1John.3.22.10" clearId="n62003022010" gloss_berean="commandments">ἐντολὰς</token>
              </wording>
-             <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+             <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
               <wording type="word" status="core">
                <token n="1203" id="SBL.1John.3.22.11" clearId="n62003022011" gloss_berean="of Him">αὐτοῦ</token>
               </wording>
@@ -5895,7 +5895,7 @@
               <token n="1207" id="SBL.1John.3.22.15" clearId="n62003022015" gloss_berean="pleasing">ἀρεστὰ</token>
              </wording>
             </wording>
-            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
              <wording type="word" status="translative">
               <token n="1208" id="SBL.1John.3.22.16" clearId="n62003022016" gloss_berean="before">ἐνώπιον</token>
              </wording>
@@ -5935,7 +5935,7 @@
         <wording type="word" status="core">
          <token n="1215" id="SBL.1John.3.23.5" clearId="n62003023005" gloss_berean="commandment">ἐντολὴ</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="core">
           <token n="1216" id="SBL.1John.3.23.6" clearId="n62003023006" gloss_berean="of Him" after=",">αὐτοῦ</token>
          </wording>
@@ -5957,7 +5957,7 @@
            <wording type="word" status="core">
             <token n="1220" id="SBL.1John.3.23.10" clearId="n62003023010" gloss_berean="name">ὀνόματι</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="junction">
              <wording status="path" function="appositive" label="=1">
               <wording type="word" status="translative">
@@ -5966,7 +5966,7 @@
               <wording type="word" status="core">
                <token n="1222" id="SBL.1John.3.23.12" clearId="n62003023012" gloss_berean="Son">υἱοῦ</token>
               </wording>
-              <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+              <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
                <wording type="word" status="core">
                 <token n="1223" id="SBL.1John.3.23.13" clearId="n62003023013" gloss_berean="of Him">αὐτοῦ</token>
                </wording>
@@ -6002,7 +6002,7 @@
             <token n="1228" id="SBL.1John.3.23.18" clearId="n62003023018" gloss_berean="one another" after=",">ἀλλήλους</token>
            </wording>
           </wording>
-          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
            <wording type="word" status="translative">
             <token n="1229" id="SBL.1John.3.23.19" clearId="n62003023019" gloss_berean="just as">καθὼς</token>
            </wording>
@@ -6046,14 +6046,14 @@
          <wording type="word" status="core">
           <token n="1237" id="SBL.1John.3.24.5" clearId="n62003024005" gloss_berean="commandments">ἐντολὰς</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="1238" id="SBL.1John.3.24.6" clearId="n62003024006" gloss_berean="of Him">αὐτοῦ</token>
           </wording>
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1239" id="SBL.1John.3.24.7" clearId="n62003024007" gloss_berean="in">ἐν</token>
         </wording>
@@ -6076,7 +6076,7 @@
          <token n="1243" id="SBL.1John.3.24.11" clearId="n62003024011" gloss_berean="He">αὐτὸς</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="1244" id="SBL.1John.3.24.12" clearId="n62003024012" gloss_berean="in">ἐν</token>
         </wording>
@@ -6094,7 +6094,7 @@
        <wording type="word" status="junctive">
         <token n="1246" id="SBL.1John.3.24.14" clearId="n62003024014" gloss_berean="And">καὶ</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1247" id="SBL.1John.3.24.15" clearId="n62003024015" gloss_berean="by">ἐν</token>
         </wording>
@@ -6112,7 +6112,7 @@
         <wording type="word" status="core">
          <token n="1251" id="SBL.1John.3.24.19" clearId="n62003024019" gloss_berean="He abides">μένει</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="1252" id="SBL.1John.3.24.20" clearId="n62003024020" gloss_berean="in">ἐν</token>
          </wording>
@@ -6125,7 +6125,7 @@
      </context>
      <context class="action" id="action.SBL.1John.3.24.22-27">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="1254" id="SBL.1John.3.24.22" clearId="n62003024022" gloss_berean="by">ἐκ</token>
         </wording>
@@ -6226,7 +6226,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1274" id="SBL.1John.4.1.15" clearId="n62004001015" gloss_berean="because">ὅτι</token>
         </wording>
@@ -6243,7 +6243,7 @@
         <wording type="word" status="core">
          <token n="1277" id="SBL.1John.4.1.18" clearId="n62004001018" gloss_berean="have gone out">ἐξεληλύθασιν</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="1278" id="SBL.1John.4.1.19" clearId="n62004001019" gloss_berean="into">εἰς</token>
          </wording>
@@ -6261,7 +6261,7 @@
     <context class="move" id="move.SBL.1John.4.2-3">
      <context class="action" id="action.SBL.1John.4.2.1-7">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1281" id="SBL.1John.4.2.1" clearId="n62004002001" gloss_berean="By">ἐν</token>
         </wording>
@@ -6279,7 +6279,7 @@
         <wording type="word" status="core">
          <token n="1285" id="SBL.1John.4.2.5" clearId="n62004002005" gloss_berean="Spirit">πνεῦμα</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="translative">
           <token n="1286" id="SBL.1John.4.2.6" clearId="n62004002006" gloss_berean="-">τοῦ</token>
          </wording>
@@ -6327,7 +6327,7 @@
             </wording>
            </wording>
            <wording type="cluster" status="argument" function="complement" label="comp">
-            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
              <wording type="word" status="translative">
               <token n="1294" id="SBL.1John.4.2.14" clearId="n62004002014" gloss_berean="in">ἐν</token>
              </wording>
@@ -6437,7 +6437,7 @@
         <wording type="word" status="core">
          <token n="1317" id="SBL.1John.4.3.17" clearId="n62004003017" gloss_berean="that">τὸ</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="translative">
           <token n="1318" id="SBL.1John.4.3.18" clearId="n62004003018" gloss_berean="of the">τοῦ</token>
          </wording>
@@ -6448,7 +6448,7 @@
         <wording type="cluster" status="argument" function="attributive" label="attr">
          <wording type="junction" pinned="true">
           <wording status="translative" function="conjunctive" label="±1" pinned="true">
-           <wording type="cluster" status="translative" function="predication_circumstance" label="circ:p" pinned="true">
+           <wording type="cluster" status="translative" function="predication_circumstance" label="circ:pred" pinned="true">
             <wording type="word" status="translative" pinned="true">
              <token n="1320" id="SBL.1John.4.3.20" clearId="n62004003020" gloss_berean="which" pin="relative">ὃ</token>
             </wording>
@@ -6469,7 +6469,7 @@
            <wording type="word" status="junctive">
             <token n="1324" id="SBL.1John.4.3.24" clearId="n62004003024" gloss_berean="and">καὶ</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+           <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
             <wording type="word" status="core">
              <token n="1325" id="SBL.1John.4.3.25" clearId="n62004003025" gloss_berean="now">νῦν</token>
             </wording>
@@ -6488,7 +6488,7 @@
            <wording type="word" status="core">
             <token n="1329" id="SBL.1John.4.3.29" clearId="n62004003029" gloss_berean="is">ἐστὶν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+           <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
             <wording type="word" status="core">
              <token n="1330" id="SBL.1John.4.3.30" clearId="n62004003030" gloss_berean="already" after=".">ἤδη</token>
             </wording>
@@ -6546,7 +6546,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1340" id="SBL.1John.4.4.10" clearId="n62004004010" gloss_berean="because">ὅτι</token>
         </wording>
@@ -6625,7 +6625,7 @@
       <wording type="cluster" status="core" label="root">
        <wording type="junction">
         <wording status="path" function="conjunctive" label="±1">
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="1356" id="SBL.1John.4.5.6" clearId="n62004005006" gloss_berean="because of">διὰ</token>
           </wording>
@@ -6633,7 +6633,7 @@
            <token n="1357" id="SBL.1John.4.5.7" clearId="n62004005007" gloss_berean="this">τοῦτο</token>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="1358" id="SBL.1John.4.5.8" clearId="n62004005008" gloss_berean="from out">ἐκ</token>
           </wording>
@@ -6778,7 +6778,7 @@
     <context class="move" id="move.SBL.1John.4.6.21-32">
      <context class="action" id="action.SBL.1John.4.6.21-32">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1387" id="SBL.1John.4.6.21" clearId="n62004006021" gloss_berean="By">ἐκ</token>
         </wording>
@@ -6798,7 +6798,7 @@
           <wording type="word" status="core">
            <token n="1391" id="SBL.1John.4.6.25" clearId="n62004006025" gloss_berean="Spirit">πνεῦμα</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="translative">
             <token n="1392" id="SBL.1John.4.6.26" clearId="n62004006026" gloss_berean="-">τῆς</token>
            </wording>
@@ -6817,7 +6817,7 @@
           <wording type="word" status="core">
            <token n="1396" id="SBL.1John.4.6.30" clearId="n62004006030" gloss_berean="spirit">πνεῦμα</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="translative">
             <token n="1397" id="SBL.1John.4.6.31" clearId="n62004006031" gloss_berean="-">τῆς</token>
            </wording>
@@ -6847,7 +6847,7 @@
          <token n="1401" id="SBL.1John.4.7.3" clearId="n62004007003" gloss_berean="one another" after=",">ἀλλήλους</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1402" id="SBL.1John.4.7.4" clearId="n62004007004" gloss_berean="because">ὅτι</token>
         </wording>
@@ -6895,7 +6895,7 @@
               <token n="1412" id="SBL.1John.4.7.14" clearId="n62004007014" gloss_berean="loving" note="State (at own clause level)">ἀγαπῶν</token>
              </wording>
             </wording>
-            <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+            <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
              <wording type="word" status="translative">
               <token n="1413" id="SBL.1John.4.7.15" clearId="n62004007015" gloss_berean="from">ἐκ</token>
              </wording>
@@ -6969,7 +6969,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1428" id="SBL.1John.4.8.8" clearId="n62004008008" gloss_berean="because">ὅτι</token>
         </wording>
@@ -6996,7 +6996,7 @@
     <context class="move" id="move.SBL.1John.4.9-9">
      <context class="action" id="action.SBL.1John.4.9-9">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1433" id="SBL.1John.4.9.1" clearId="n62004009001" gloss_berean="In">ἐν</token>
         </wording>
@@ -7014,7 +7014,7 @@
         <wording type="word" status="core">
          <token n="1437" id="SBL.1John.4.9.5" clearId="n62004009005" gloss_berean="love">ἀγάπη</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="translative">
           <token n="1438" id="SBL.1John.4.9.6" clearId="n62004009006" gloss_berean="-">τοῦ</token>
          </wording>
@@ -7023,7 +7023,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="1440" id="SBL.1John.4.9.8" clearId="n62004009008" gloss_berean="among">ἐν</token>
         </wording>
@@ -7042,7 +7042,7 @@
          <wording type="word" status="core">
           <token n="1444" id="SBL.1John.4.9.12" clearId="n62004009012" gloss_berean="Son">υἱὸν</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="1445" id="SBL.1John.4.9.13" clearId="n62004009013" gloss_berean="of Him">αὐτοῦ</token>
           </wording>
@@ -7067,7 +7067,7 @@
           <token n="1450" id="SBL.1John.4.9.18" clearId="n62004009018" gloss_berean="God">θεὸς</token>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="1451" id="SBL.1John.4.9.19" clearId="n62004009019" gloss_berean="into">εἰς</token>
          </wording>
@@ -7078,14 +7078,14 @@
           <token n="1453" id="SBL.1John.4.9.21" clearId="n62004009021" gloss_berean="world">κόσμον</token>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="1454" id="SBL.1John.4.9.22" clearId="n62004009022" gloss_berean="so that">ἵνα</token>
          </wording>
          <wording type="word" status="core">
           <token n="1455" id="SBL.1John.4.9.23" clearId="n62004009023" gloss_berean="we might live">ζήσωμεν</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="1456" id="SBL.1John.4.9.24" clearId="n62004009024" gloss_berean="through">δι’</token>
           </wording>
@@ -7129,7 +7129,7 @@
            <wording type="word" status="junctive">
             <token n="1463" id="SBL.1John.4.10.6" clearId="n62004010006" gloss_berean="not">οὐχ</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+           <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
             <wording type="word" status="translative">
              <token n="1464" id="SBL.1John.4.10.7" clearId="n62004010007" gloss_berean="that">ὅτι</token>
             </wording>
@@ -7156,7 +7156,7 @@
            <wording type="word" status="junctive">
             <token n="1469" id="SBL.1John.4.10.12" clearId="n62004010012" gloss_berean="but">ἀλλ’</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+           <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
             <wording type="word" status="translative">
              <token n="1470" id="SBL.1John.4.10.13" clearId="n62004010013" gloss_berean="that">ὅτι</token>
             </wording>
@@ -7190,7 +7190,7 @@
                <wording type="word" status="core">
                 <token n="1477" id="SBL.1John.4.10.20" clearId="n62004010020" gloss_berean="Son">υἱὸν</token>
                </wording>
-               <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+               <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
                 <wording type="word" status="core">
                  <token n="1478" id="SBL.1John.4.10.21" clearId="n62004010021" gloss_berean="of Him">αὐτοῦ</token>
                 </wording>
@@ -7200,7 +7200,7 @@
                <wording type="word" status="core">
                 <token n="1479" id="SBL.1John.4.10.22" clearId="n62004010022" gloss_berean="[as] a propitiation">ἱλασμὸν</token>
                </wording>
-               <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+               <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
                 <wording type="word" status="translative">
                  <token n="1480" id="SBL.1John.4.10.23" clearId="n62004010023" gloss_berean="for">περὶ</token>
                 </wording>
@@ -7210,7 +7210,7 @@
                 <wording type="word" status="core">
                  <token n="1482" id="SBL.1John.4.10.25" clearId="n62004010025" gloss_berean="sins">ἁμαρτιῶν</token>
                 </wording>
-                <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+                <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
                  <wording type="word" status="core">
                   <token n="1483" id="SBL.1John.4.10.26" clearId="n62004010026" gloss_berean="of us" after=".">ἡμῶν</token>
                  </wording>
@@ -7236,11 +7236,11 @@
          <token n="1484" id="SBL.1John.4.11.1" clearId="n62004011001" gloss_berean="Beloved" after=",">ἀγαπητοί</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1485" id="SBL.1John.4.11.2" clearId="n62004011002" gloss_berean="if">εἰ</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="adjunct">
           <token n="1486" id="SBL.1John.4.11.3" clearId="n62004011003" gloss_berean="so">οὕτως</token>
          </wording>
@@ -7303,7 +7303,7 @@
          <token n="1497" id="SBL.1John.4.12.2" clearId="n62004012002" gloss_berean="no one">οὐδεὶς</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="core">
          <token n="1498" id="SBL.1John.4.12.3" clearId="n62004012003" gloss_berean="at any time">πώποτε</token>
         </wording>
@@ -7315,7 +7315,7 @@
      </context>
      <context class="action" id="action.SBL.1John.4.12.5-20">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1500" id="SBL.1John.4.12.5" clearId="n62004012005" gloss_berean="if">ἐὰν</token>
         </wording>
@@ -7338,7 +7338,7 @@
            <token n="1504" id="SBL.1John.4.12.9" clearId="n62004012009" gloss_berean="God">θεὸς</token>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="1505" id="SBL.1John.4.12.10" clearId="n62004012010" gloss_berean="in">ἐν</token>
           </wording>
@@ -7361,13 +7361,13 @@
           <wording type="word" status="core">
            <token n="1510" id="SBL.1John.4.12.15" clearId="n62004012015" gloss_berean="love">ἀγάπη</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="core">
             <token n="1511" id="SBL.1John.4.12.16" clearId="n62004012016" gloss_berean="of Him">αὐτοῦ</token>
            </wording>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="1512" id="SBL.1John.4.12.17" clearId="n62004012017" gloss_berean="in">ἐν</token>
           </wording>
@@ -7391,7 +7391,7 @@
     <context class="move" id="move.SBL.1John.4.13">
      <context class="action" id="action.SBL.1John.4.13">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1516" id="SBL.1John.4.13.1" clearId="n62004013001" gloss_berean="By">Ἐν</token>
         </wording>
@@ -7408,7 +7408,7 @@
         </wording>
         <wording type="junction">
          <wording status="path" function="conjunctive" label="±1">
-          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
            <wording type="word" status="translative">
             <token n="1520" id="SBL.1John.4.13.5" clearId="n62004013005" gloss_berean="in">ἐν</token>
            </wording>
@@ -7429,7 +7429,7 @@
             <token n="1524" id="SBL.1John.4.13.9" clearId="n62004013009" gloss_berean="He">αὐτὸς</token>
            </wording>
           </wording>
-          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
            <wording type="word" status="translative">
             <token n="1525" id="SBL.1John.4.13.10" clearId="n62004013010" gloss_berean="in">ἐν</token>
            </wording>
@@ -7457,7 +7457,7 @@
          <wording type="word" status="core">
           <token n="1530" id="SBL.1John.4.13.15" clearId="n62004013015" gloss_berean="Spirit">πνεύματος</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="1531" id="SBL.1John.4.13.16" clearId="n62004013016" gloss_berean="of Him">αὐτοῦ</token>
           </wording>
@@ -7527,7 +7527,7 @@
           <wording type="word" status="core">
            <token n="1545" id="SBL.1John.4.14.12" clearId="n62004014012" gloss_berean="Savior">σωτῆρα</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="translative">
             <token n="1546" id="SBL.1John.4.14.13" clearId="n62004014013" gloss_berean="of the">τοῦ</token>
            </wording>
@@ -7575,7 +7575,7 @@
           <wording type="word" status="core">
            <token n="1555" id="SBL.1John.4.15.8" clearId="n62004015008" gloss_berean="Son">υἱὸς</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="translative">
             <token n="1556" id="SBL.1John.4.15.9" clearId="n62004015009" gloss_berean="-">τοῦ</token>
            </wording>
@@ -7596,7 +7596,7 @@
            <token n="1559" id="SBL.1John.4.15.12" clearId="n62004015012" gloss_berean="God">θεὸς</token>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="1560" id="SBL.1John.4.15.13" clearId="n62004015013" gloss_berean="in">ἐν</token>
           </wording>
@@ -7617,7 +7617,7 @@
            <token n="1564" id="SBL.1John.4.15.17" clearId="n62004015017" gloss_berean="he">αὐτὸς</token>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="1565" id="SBL.1John.4.15.18" clearId="n62004015018" gloss_berean="in">ἐν</token>
           </wording>
@@ -7685,7 +7685,7 @@
             <token n="1578" id="SBL.1John.4.16.11" clearId="n62004016011" gloss_berean="God">θεὸς</token>
            </wording>
           </wording>
-          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
            <wording type="word" status="translative">
             <token n="1579" id="SBL.1John.4.16.12" clearId="n62004016012" gloss_berean="as to">ἐν</token>
            </wording>
@@ -7734,7 +7734,7 @@
             <wording type="word" status="core">
              <token n="1587" id="SBL.1John.4.16.20" clearId="n62004016020" gloss_berean="abiding" note="State (at own clause level)">μένων</token>
             </wording>
-            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
              <wording type="word" status="translative">
               <token n="1588" id="SBL.1John.4.16.21" clearId="n62004016021" gloss_berean="in">ἐν</token>
              </wording>
@@ -7746,7 +7746,7 @@
              </wording>
             </wording>
            </wording>
-           <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+           <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
             <wording type="word" status="translative">
              <token n="1591" id="SBL.1John.4.16.24" clearId="n62004016024" gloss_berean="in">ἐν</token>
             </wording>
@@ -7773,7 +7773,7 @@
              <token n="1597" id="SBL.1John.4.16.30" clearId="n62004016030" gloss_berean="God">θεὸς</token>
             </wording>
            </wording>
-           <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+           <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
             <wording type="word" status="translative">
              <token n="1598" id="SBL.1John.4.16.31" clearId="n62004016031" gloss_berean="in">ἐν</token>
             </wording>
@@ -7794,7 +7794,7 @@
     <context class="move" id="move.SBL.1John.4.17">
      <context class="action" id="action.SBL.1John.4.17">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1601" id="SBL.1John.4.17.1" clearId="n62004017001" gloss_berean="In">ἐν</token>
         </wording>
@@ -7813,7 +7813,7 @@
          <token n="1605" id="SBL.1John.4.17.5" clearId="n62004017005" gloss_berean="love">ἀγάπη</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="1606" id="SBL.1John.4.17.6" clearId="n62004017006" gloss_berean="with">μεθ’</token>
         </wording>
@@ -7821,7 +7821,7 @@
          <token n="1607" id="SBL.1John.4.17.7" clearId="n62004017007" gloss_berean="us" after=",">ἡμῶν</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1608" id="SBL.1John.4.17.8" clearId="n62004017008" gloss_berean="so that">ἵνα</token>
         </wording>
@@ -7833,7 +7833,7 @@
         <wording type="word" status="core">
          <token n="1610" id="SBL.1John.4.17.10" clearId="n62004017010" gloss_berean="we may have">ἔχωμεν</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="1611" id="SBL.1John.4.17.11" clearId="n62004017011" gloss_berean="in">ἐν</token>
          </wording>
@@ -7843,7 +7843,7 @@
          <wording type="word" status="core">
           <token n="1613" id="SBL.1John.4.17.13" clearId="n62004017013" gloss_berean="day">ἡμέρᾳ</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="translative">
            <token n="1614" id="SBL.1John.4.17.14" clearId="n62004017014" gloss_berean="-">τῆς</token>
           </wording>
@@ -7857,7 +7857,7 @@
         <wording type="word" status="translative">
          <token n="1616" id="SBL.1John.4.17.16" clearId="n62004017016" gloss_berean="that">ὅτι</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="1617" id="SBL.1John.4.17.17" clearId="n62004017017" gloss_berean="just as">καθὼς</token>
          </wording>
@@ -7954,7 +7954,7 @@
            <token n="1636" id="SBL.1John.4.18.10" clearId="n62004018010" gloss_berean="love">ἀγάπη</token>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="core">
            <token n="1637" id="SBL.1John.4.18.11" clearId="n62004018011" gloss_berean="out">ἔξω</token>
           </wording>
@@ -7972,7 +7972,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1641" id="SBL.1John.4.18.15" clearId="n62004018015" gloss_berean="because">ὅτι</token>
         </wording>
@@ -8017,7 +8017,7 @@
             <wording type="word" status="core">
              <token n="1650" id="SBL.1John.4.18.24" clearId="n62004018024" gloss_berean="has been perfected">τετελείωται</token>
             </wording>
-            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
              <wording type="word" status="translative">
               <token n="1651" id="SBL.1John.4.18.25" clearId="n62004018025" gloss_berean="in">ἐν</token>
              </wording>
@@ -8047,7 +8047,7 @@
        <wording type="word" status="core">
         <token n="1655" id="SBL.1John.4.19.2" clearId="n62004019002" gloss_berean="love" after=",">ἀγαπῶμεν</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1656" id="SBL.1John.4.19.3" clearId="n62004019003" gloss_berean="because">ὅτι</token>
         </wording>
@@ -8056,7 +8056,7 @@
           <token n="1657" id="SBL.1John.4.19.4" clearId="n62004019004" gloss_berean="He">αὐτὸς</token>
          </wording>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="core">
           <token n="1658" id="SBL.1John.4.19.5" clearId="n62004019005" gloss_berean="first">πρῶτος</token>
          </wording>
@@ -8076,7 +8076,7 @@
     <context class="move" id="move.SBL.1John.4.20">
      <context class="action" id="action.SBL.1John.4.20.1-14">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1661" id="SBL.1John.4.20.1" clearId="n62004020001" gloss_berean="If">ἐάν</token>
         </wording>
@@ -8128,7 +8128,7 @@
            <wording type="word" status="core">
             <token n="1670" id="SBL.1John.4.20.10" clearId="n62004020010" gloss_berean="brother">ἀδελφὸν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="1671" id="SBL.1John.4.20.11" clearId="n62004020011" gloss_berean="of him">αὐτοῦ</token>
             </wording>
@@ -8176,7 +8176,7 @@
            <wording type="word" status="core">
             <token n="1680" id="SBL.1John.4.20.20" clearId="n62004020020" gloss_berean="brother">ἀδελφὸν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="1681" id="SBL.1John.4.20.21" clearId="n62004020021" gloss_berean="of him">αὐτοῦ</token>
             </wording>
@@ -8262,7 +8262,7 @@
        <wording type="word" status="core">
         <token n="1696" id="SBL.1John.4.21.5" clearId="n62004021005" gloss_berean="we have">ἔχομεν</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="1697" id="SBL.1John.4.21.6" clearId="n62004021006" gloss_berean="from">ἀπ’</token>
         </wording>
@@ -8305,7 +8305,7 @@
            <wording type="word" status="core">
             <token n="1707" id="SBL.1John.4.21.16" clearId="n62004021016" gloss_berean="brother">ἀδελφὸν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="1708" id="SBL.1John.4.21.17" clearId="n62004021017" gloss_berean="of him" after=".">αὐτοῦ</token>
             </wording>
@@ -8358,7 +8358,7 @@
            </wording>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="1717" id="SBL.1John.5.1.9" clearId="n62005001009" gloss_berean="of">ἐκ</token>
           </wording>
@@ -8413,7 +8413,7 @@
             <wording type="word" status="core">
              <token n="1730" id="SBL.1John.5.1.22" clearId="n62005001022" gloss_berean="having been begotten" note="State (at own clause level)">γεγεννημένον</token>
             </wording>
-            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
              <wording type="word" status="translative">
               <token n="1731" id="SBL.1John.5.1.23" clearId="n62005001023" gloss_berean="from">ἐξ</token>
              </wording>
@@ -8432,7 +8432,7 @@
     <context class="move" id="move.SBL.1John.5.2.1-4.10">
      <context class="action" id="action.SBL.1John.5.2">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1733" id="SBL.1John.5.2.1" clearId="n62005002001" gloss_berean="By">ἐν</token>
         </wording>
@@ -8457,7 +8457,7 @@
          <wording type="word" status="core">
           <token n="1739" id="SBL.1John.5.2.7" clearId="n62005002007" gloss_berean="children">τέκνα</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="translative">
            <token n="1740" id="SBL.1John.5.2.8" clearId="n62005002008" gloss_berean="-">τοῦ</token>
           </wording>
@@ -8467,7 +8467,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1742" id="SBL.1John.5.2.10" clearId="n62005002010" gloss_berean="when" pin="relative">ὅταν</token>
         </wording>
@@ -8496,7 +8496,7 @@
            <wording type="word" status="core">
             <token n="1748" id="SBL.1John.5.2.16" clearId="n62005002016" gloss_berean="commandments">ἐντολὰς</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="1749" id="SBL.1John.5.2.17" clearId="n62005002017" gloss_berean="of Him">αὐτοῦ</token>
             </wording>
@@ -8530,7 +8530,7 @@
         <wording type="word" status="core">
          <token n="1755" id="SBL.1John.5.3.5" clearId="n62005003005" gloss_berean="love">ἀγάπη</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="translative">
           <token n="1756" id="SBL.1John.5.3.6" clearId="n62005003006" gloss_berean="-">τοῦ</token>
          </wording>
@@ -8550,7 +8550,7 @@
          <wording type="word" status="core">
           <token n="1760" id="SBL.1John.5.3.10" clearId="n62005003010" gloss_berean="commandments">ἐντολὰς</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="1761" id="SBL.1John.5.3.11" clearId="n62005003011" gloss_berean="of Him">αὐτοῦ</token>
           </wording>
@@ -8574,7 +8574,7 @@
         <wording type="word" status="core">
          <token n="1765" id="SBL.1John.5.3.15" clearId="n62005003015" gloss_berean="commandments">ἐντολαὶ</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="core">
           <token n="1766" id="SBL.1John.5.3.16" clearId="n62005003016" gloss_berean="of Him">αὐτοῦ</token>
          </wording>
@@ -8595,7 +8595,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1770" id="SBL.1John.5.4.1" clearId="n62005004001" gloss_berean="For">ὅτι</token>
         </wording>
@@ -8611,7 +8611,7 @@
          <wording type="word" status="core">
           <token n="1773" id="SBL.1John.5.4.4" clearId="n62005004004" gloss_berean="having been born" note="Event (at own clause level)">γεγεννημένον</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="1774" id="SBL.1John.5.4.5" clearId="n62005004005" gloss_berean="of">ἐκ</token>
           </wording>
@@ -8683,7 +8683,7 @@
         <wording type="word" status="core">
          <token n="1790" id="SBL.1John.5.4.21" clearId="n62005004021" gloss_berean="faith">πίστις</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="core">
           <token n="1791" id="SBL.1John.5.4.22" clearId="n62005004022" gloss_berean="of us" after="·">ἡμῶν</token>
          </wording>
@@ -8720,7 +8720,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1799" id="SBL.1John.5.5.8" clearId="n62005005008" gloss_berean="if">εἰ</token>
         </wording>
@@ -8754,7 +8754,7 @@
             <wording type="word" status="core">
              <token n="1807" id="SBL.1John.5.5.16" clearId="n62005005016" gloss_berean="Son">υἱὸς</token>
             </wording>
-            <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+            <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
              <wording type="word" status="translative">
               <token n="1808" id="SBL.1John.5.5.17" clearId="n62005005017" gloss_berean="-">τοῦ</token>
              </wording>
@@ -8790,7 +8790,7 @@
           <wording type="word" status="core">
            <token n="1813" id="SBL.1John.5.6.4" clearId="n62005006004" gloss_berean="having come" note="Event (at own clause level)">ἐλθὼν</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
            <wording type="word" status="translative">
             <token n="1814" id="SBL.1John.5.6.5" clearId="n62005006005" gloss_berean="by">δι’</token>
            </wording>
@@ -8836,7 +8836,7 @@
          <wording type="word" status="junctive">
           <token n="1820" id="SBL.1John.5.6.11" clearId="n62005006011" gloss_berean="not">οὐκ</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="1821" id="SBL.1John.5.6.12" clearId="n62005006012" gloss_berean="by">ἐν</token>
           </wording>
@@ -8862,7 +8862,7 @@
          <wording type="word" status="junctive">
           <token n="1825" id="SBL.1John.5.6.16" clearId="n62005006016" gloss_berean="but">ἀλλ’</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="junction">
            <wording status="path" function="conjunctive" label="±1">
             <wording type="word" status="translative">
@@ -8922,7 +8922,7 @@
          <token n="1838" id="SBL.1John.5.6.29" clearId="n62005006029" gloss_berean="testifying" after="," note="Event (at own clause level)">μαρτυροῦν</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1839" id="SBL.1John.5.6.30" clearId="n62005006030" gloss_berean="because">ὅτι</token>
         </wording>
@@ -8952,7 +8952,7 @@
     <context class="move" id="move.SBL.1John.5.7-8">
      <context class="action" id="action.SBL.1John.5.7-8">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1845" id="SBL.1John.5.7.1" clearId="n62005007001" gloss_berean="For">ὅτι</token>
         </wording>
@@ -9049,7 +9049,7 @@
     <context class="move" id="move.SBL.1John.5.9-9">
      <context class="action" id="action.SBL.1John.5.9-9">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1865" id="SBL.1John.5.9.1" clearId="n62005009001" gloss_berean="If">εἰ</token>
         </wording>
@@ -9060,7 +9060,7 @@
          <wording type="word" status="core">
           <token n="1867" id="SBL.1John.5.9.3" clearId="n62005009003" gloss_berean="testimony">μαρτυρίαν</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="translative">
            <token n="1868" id="SBL.1John.5.9.4" clearId="n62005009004" gloss_berean="-">τῶν</token>
           </wording>
@@ -9080,7 +9080,7 @@
         <wording type="word" status="core">
          <token n="1872" id="SBL.1John.5.9.8" clearId="n62005009008" gloss_berean="testimony">μαρτυρία</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="translative">
           <token n="1873" id="SBL.1John.5.9.9" clearId="n62005009009" gloss_berean="-">τοῦ</token>
          </wording>
@@ -9097,7 +9097,7 @@
        <wording type="word" status="core">
         <token n="1876" id="SBL.1John.5.9.12" clearId="n62005009012" gloss_berean="is" after=",">ἐστίν</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1877" id="SBL.1John.5.9.13" clearId="n62005009013" gloss_berean="For">ὅτι</token>
         </wording>
@@ -9116,7 +9116,7 @@
          <wording type="word" status="core">
           <token n="1881" id="SBL.1John.5.9.17" clearId="n62005009017" gloss_berean="testimony">μαρτυρία</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="translative">
            <token n="1882" id="SBL.1John.5.9.18" clearId="n62005009018" gloss_berean="-">τοῦ</token>
           </wording>
@@ -9133,7 +9133,7 @@
         <wording type="word" status="core">
          <token n="1885" id="SBL.1John.5.9.21" clearId="n62005009021" gloss_berean="He has testified">μεμαρτύρηκεν</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="1886" id="SBL.1John.5.9.22" clearId="n62005009022" gloss_berean="concerning">περὶ</token>
          </wording>
@@ -9143,7 +9143,7 @@
          <wording type="word" status="core">
           <token n="1888" id="SBL.1John.5.9.24" clearId="n62005009024" gloss_berean="Son">υἱοῦ</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="core">
            <token n="1889" id="SBL.1John.5.9.25" clearId="n62005009025" gloss_berean="of Him" after=".">αὐτοῦ</token>
           </wording>
@@ -9163,7 +9163,7 @@
         <wording type="word" status="core">
          <token n="1891" id="SBL.1John.5.10.2" clearId="n62005010002" gloss_berean="believing" note="State (at own clause level)">πιστεύων</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+        <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
          <wording type="word" status="translative">
           <token n="1892" id="SBL.1John.5.10.3" clearId="n62005010003" gloss_berean="in">εἰς</token>
          </wording>
@@ -9173,7 +9173,7 @@
          <wording type="word" status="core">
           <token n="1894" id="SBL.1John.5.10.5" clearId="n62005010005" gloss_berean="Son">υἱὸν</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="translative">
            <token n="1895" id="SBL.1John.5.10.6" clearId="n62005010006" gloss_berean="-">τοῦ</token>
           </wording>
@@ -9194,7 +9194,7 @@
          <token n="1899" id="SBL.1John.5.10.10" clearId="n62005010010" gloss_berean="testimony">μαρτυρίαν</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="1900" id="SBL.1John.5.10.11" clearId="n62005010011" gloss_berean="in">ἐν</token>
         </wording>
@@ -9242,7 +9242,7 @@
          <token n="1909" id="SBL.1John.5.10.20" clearId="n62005010020" gloss_berean="Him" after=",">αὐτόν</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1910" id="SBL.1John.5.10.21" clearId="n62005010021" gloss_berean="because">ὅτι</token>
         </wording>
@@ -9254,7 +9254,7 @@
           <wording type="word" status="core">
            <token n="1912" id="SBL.1John.5.10.23" clearId="n62005010023" gloss_berean="he has believed">πεπίστευκεν</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
            <wording type="word" status="translative">
             <token n="1913" id="SBL.1John.5.10.24" clearId="n62005010024" gloss_berean="in">εἰς</token>
            </wording>
@@ -9281,7 +9281,7 @@
               <token n="1919" id="SBL.1John.5.10.30" clearId="n62005010030" gloss_berean="God">θεὸς</token>
              </wording>
             </wording>
-            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+            <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
              <wording type="word" status="translative">
               <token n="1920" id="SBL.1John.5.10.31" clearId="n62005010031" gloss_berean="concerning">περὶ</token>
              </wording>
@@ -9291,7 +9291,7 @@
              <wording type="word" status="core">
               <token n="1922" id="SBL.1John.5.10.33" clearId="n62005010033" gloss_berean="Son">υἱοῦ</token>
              </wording>
-             <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+             <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
               <wording type="word" status="core">
                <token n="1923" id="SBL.1John.5.10.34" clearId="n62005010034" gloss_berean="Him" after=".">αὐτοῦ</token>
               </wording>
@@ -9387,7 +9387,7 @@
            <wording type="word" status="core">
             <token n="1942" id="SBL.1John.5.11.19" clearId="n62005011019" gloss_berean="Son">υἱῷ</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="1943" id="SBL.1John.5.11.20" clearId="n62005011020" gloss_berean="His">αὐτοῦ</token>
             </wording>
@@ -9455,7 +9455,7 @@
            <wording type="word" status="core">
             <token n="1956" id="SBL.1John.5.12.12" clearId="n62005012012" gloss_berean="Son">υἱὸν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="translative">
              <token n="1957" id="SBL.1John.5.12.13" clearId="n62005012013" gloss_berean="-">τοῦ</token>
             </wording>
@@ -9510,7 +9510,7 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="1966" id="SBL.1John.5.13.4" clearId="n62005013004" gloss_berean="so that">ἵνα</token>
         </wording>
@@ -9547,7 +9547,7 @@
           <wording type="word" status="core">
            <token n="1973" id="SBL.1John.5.13.11" clearId="n62005013011" gloss_berean="believing">πιστεύουσιν</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
            <wording type="word" status="translative">
             <token n="1974" id="SBL.1John.5.13.12" clearId="n62005013012" gloss_berean="in">εἰς</token>
            </wording>
@@ -9557,14 +9557,14 @@
            <wording type="word" status="core">
             <token n="1976" id="SBL.1John.5.13.14" clearId="n62005013014" gloss_berean="name">ὄνομα</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="translative">
              <token n="1977" id="SBL.1John.5.13.15" clearId="n62005013015" gloss_berean="of the">τοῦ</token>
             </wording>
             <wording type="word" status="core">
              <token n="1978" id="SBL.1John.5.13.16" clearId="n62005013016" gloss_berean="Son">υἱοῦ</token>
             </wording>
-            <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+            <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
              <wording type="word" status="translative">
               <token n="1979" id="SBL.1John.5.13.17" clearId="n62005013017" gloss_berean="-">τοῦ</token>
              </wording>
@@ -9610,7 +9610,7 @@
          <wording type="word" status="core">
           <token n="1987" id="SBL.1John.5.14.7" clearId="n62005014007" gloss_berean="we have">ἔχομεν</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="1988" id="SBL.1John.5.14.8" clearId="n62005014008" gloss_berean="toward">πρὸς</token>
           </wording>
@@ -9624,7 +9624,7 @@
         <wording type="word" status="translative">
          <token n="1990" id="SBL.1John.5.14.10" clearId="n62005014010" gloss_berean="that">ὅτι</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+        <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="1991" id="SBL.1John.5.14.11" clearId="n62005014011" gloss_berean="if">ἐάν</token>
          </wording>
@@ -9636,7 +9636,7 @@
          <wording type="word" status="core">
           <token n="1993" id="SBL.1John.5.14.13" clearId="n62005014013" gloss_berean="we might ask">αἰτώμεθα</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="1994" id="SBL.1John.5.14.14" clearId="n62005014014" gloss_berean="according to">κατὰ</token>
           </wording>
@@ -9646,7 +9646,7 @@
           <wording type="word" status="core">
            <token n="1996" id="SBL.1John.5.14.16" clearId="n62005014016" gloss_berean="will">θέλημα</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="word" status="core">
             <token n="1997" id="SBL.1John.5.14.17" clearId="n62005014017" gloss_berean="of Him">αὐτοῦ</token>
            </wording>
@@ -9671,7 +9671,7 @@
        <wording type="word" status="junctive">
         <token n="2000" id="SBL.1John.5.15.1" clearId="n62005015001" gloss_berean="And">καὶ</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
         <wording type="word" status="translative">
          <token n="2001" id="SBL.1John.5.15.2" clearId="n62005015002" gloss_berean="if">ἐὰν</token>
         </wording>
@@ -9690,7 +9690,7 @@
            <token n="2005" id="SBL.1John.5.15.6" clearId="n62005015006" gloss_berean="us">ἡμῶν</token>
           </wording>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="cluster" status="translative" function="object_participant" label="obj" pinned="true">
            <wording type="word" status="translative" pinned="true">
             <token n="2006" id="SBL.1John.5.15.7" clearId="n62005015007" gloss_berean="whatever" pin="relative">ὃ</token>
@@ -9731,7 +9731,7 @@
           <wording type="word" status="core">
            <token n="2015" id="SBL.1John.5.15.16" clearId="n62005015016" gloss_berean="we have asked">ᾐτήκαμεν</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
            <wording type="word" status="translative">
             <token n="2016" id="SBL.1John.5.15.17" clearId="n62005015017" gloss_berean="from">ἀπ’</token>
            </wording>
@@ -9750,7 +9750,7 @@
       <wording type="cluster" status="core" label="root">
        <wording type="junction">
         <wording status="path" function="conjunctive" label="±1">
-         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
           <wording type="word" status="translative">
            <token n="2018" id="SBL.1John.5.16.1" clearId="n62005016001" gloss_berean="If">ἐάν</token>
           </wording>
@@ -9769,7 +9769,7 @@
            <wording type="word" status="core">
             <token n="2022" id="SBL.1John.5.16.5" clearId="n62005016005" gloss_berean="brother">ἀδελφὸν</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="core">
              <token n="2023" id="SBL.1John.5.16.6" clearId="n62005016006" gloss_berean="of him">αὐτοῦ</token>
             </wording>
@@ -9783,7 +9783,7 @@
             <wording type="word" status="core">
              <token n="2025" id="SBL.1John.5.16.8" clearId="n62005016008" gloss_berean="a sin">ἁμαρτίαν</token>
             </wording>
-            <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+            <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
              <wording type="junction">
               <wording status="path" function="conjunctive" label="±1">
                <wording type="word" status="junctive">
@@ -9868,7 +9868,7 @@
         <wording type="word" status="core">
          <token n="2040" id="SBL.1John.5.16.23" clearId="n62005016023" gloss_berean="a sin">ἁμαρτία</token>
         </wording>
-        <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+        <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
          <wording type="word" status="translative">
           <token n="2041" id="SBL.1John.5.16.24" clearId="n62005016024" gloss_berean="unto">πρὸς</token>
          </wording>
@@ -9886,7 +9886,7 @@
          <wording type="word" status="junctive">
           <token n="2043" id="SBL.1John.5.16.26" clearId="n62005016026" gloss_berean="not">οὐ</token>
          </wording>
-         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
           <wording type="word" status="translative">
            <token n="2044" id="SBL.1John.5.16.27" clearId="n62005016027" gloss_berean="concerning">περὶ</token>
           </wording>
@@ -9945,7 +9945,7 @@
           <wording type="word" status="core">
            <token n="2055" id="SBL.1John.5.17.7" clearId="n62005017007" gloss_berean="sin">ἁμαρτία</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
            <wording type="junction">
             <wording status="path" function="conjunctive" label="±1">
              <wording type="word" status="junctive">
@@ -9990,7 +9990,7 @@
            <wording type="word" status="core">
             <token n="2063" id="SBL.1John.5.18.5" clearId="n62005018005" gloss_berean="having been born" note="State (at own clause level)">γεγεννημένος</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+           <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
             <wording type="word" status="translative">
              <token n="2064" id="SBL.1John.5.18.6" clearId="n62005018006" gloss_berean="of">ἐκ</token>
             </wording>
@@ -10026,7 +10026,7 @@
              <wording type="word" status="core">
               <token n="2071" id="SBL.1John.5.18.13" clearId="n62005018013" gloss_berean="having been begotten" note="State (at own clause level)">γεννηθεὶς</token>
              </wording>
-             <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+             <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
               <wording type="word" status="translative">
                <token n="2072" id="SBL.1John.5.18.14" clearId="n62005018014" gloss_berean="of">ἐκ</token>
               </wording>
@@ -10126,7 +10126,7 @@
             </wording>
            </wording>
           </wording>
-          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
            <wording type="word" status="translative">
             <token n="2093" id="SBL.1John.5.19.11" clearId="n62005019011" gloss_berean="in">ἐν</token>
            </wording>
@@ -10168,7 +10168,7 @@
            <wording type="word" status="core">
             <token n="2101" id="SBL.1John.5.20.5" clearId="n62005020005" gloss_berean="Son">υἱὸς</token>
            </wording>
-           <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+           <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
             <wording type="word" status="translative">
              <token n="2102" id="SBL.1John.5.20.6" clearId="n62005020006" gloss_berean="-">τοῦ</token>
             </wording>
@@ -10198,7 +10198,7 @@
             <token n="2108" id="SBL.1John.5.20.12" clearId="n62005020012" gloss_berean="understanding">διάνοιαν</token>
            </wording>
           </wording>
-          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:p">
+          <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
            <wording type="word" status="translative">
             <token n="2109" id="SBL.1John.5.20.13" clearId="n62005020013" gloss_berean="so that">ἵνα</token>
            </wording>
@@ -10252,7 +10252,7 @@
             <wording type="word" status="core">
              <token n="2120" id="SBL.1John.5.20.24" clearId="n62005020024" gloss_berean="Son">υἱῷ</token>
             </wording>
-            <wording type="cluster" status="adjunct" function="description_circumstance" label="circ:d">
+            <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
              <wording type="word" status="core">
               <token n="2121" id="SBL.1John.5.20.25" clearId="n62005020025" gloss_berean="of Him">αὐτοῦ</token>
              </wording>
@@ -10339,7 +10339,7 @@
          <token n="2134" id="SBL.1John.5.21.3" clearId="n62005021003" gloss_berean="yourselves">ἑαυτὰ</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:e">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
         <wording type="word" status="translative">
          <token n="2135" id="SBL.1John.5.21.4" clearId="n62005021004" gloss_berean="from">ἀπὸ</token>
         </wording>

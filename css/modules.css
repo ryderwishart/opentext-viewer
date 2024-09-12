@@ -1,13 +1,12 @@
 /**********
  * Colors *
  **********/
-
 [class] {
     --color: black;
 }
 
-[class = "utterance"] {
-    --color: var(--utter-color);
+[class = "action"] {
+    --color: var(--act-color);
 }
 
 [class = "speech_act"] {
@@ -54,16 +53,14 @@
     --color: var(--circ-color);
 }
 
-[class2 = "specification"][class = 'utterance']::before,
-[class2 = "specification"][class = 'name']::before,
-[class2 = "specification"][class = 'category']::before,
-[class2 = "specification"][class = 'descriptive_quality']::before,
-[class2 = "specification"][class = 'associative_quality']::before,
-[class2 = "specification"][class = 'process']::before {
+[class = 'action']::before,
+[class = 'name']::before,
+[class = 'category']::before,
+[class = 'descriptive_quality']::before,
+[class = 'associative_quality']::before,
+[class = 'process']::before {
     color: white !important;
 }
-
-
 /***********
  * Modules *
  ***********/
@@ -72,19 +69,31 @@ module {
     position: relative;
     display: flex;
     align-self: flex-start;
+    justify-content: center;
+    min-width: 70px;
     margin: 0px 3px;
     flex-direction: row;
     align-items: flex-start;
     padding-top: 12px;
-    border-top: 6px solid var(--color);
+    border-top: 20px solid var(--color);
+}
+
+module[class = 'descriptive_quality'],
+module[class= 'associative_quality'] {
+    min-width: 130px;
 }
 
 module:not(:first-child) {
     margin-left: 10px;
 }
 
-wording > module {
-    margin: 5px 10px;
+module[class2 = "set"] {
+    border-top: 12px dashed var(--color);
+}
+
+module[class2 = "operation"],
+module[class2 = "option"] {
+    border-top: 12px dotted var(--color);
 }
 
 wording[type = 'word'] module {
@@ -93,18 +102,28 @@ wording[type = 'word'] module {
     padding: 0px;
 }
 
-module[class2 = "re-construal"],
-module[class2 = "set"] {
-    padding-top: 12px;
-    border-top: 5px dashed var(--color);
+module:hover:before {
+    position: absolute;
+    /* vertical raise */
+    transform: translateY(-32px);
+    padding: 0px 2px;
+    text-align: center;
+    content: attr(class) attr(class2);
+    background: var(--color);
+    color: black;
 }
 
-module[class2 = "connection"],
-module[class2 = "operation"],
-module[class2 = "option"] {
-    padding-top: 12px;
-    border-top: 4px dotted var(--color);
+module[class2]:hover:before {
+
+    transform: translateY(-28px);
+    border-radius: 15px;
+    padding: 0px 15px;
 }
+
+wording > module {
+    margin: 5px 10px;
+}
+
 
 /**************
  * Components *
@@ -127,10 +146,10 @@ component[label]::before {
     flex-grow: 0;
     flex-direction: row;
     padding: 2px 5px;
-    border-radius: 15px 15px 0px 0px;    
+    border-radius: 15px 15px 0px 0px;
     border: 2px solid var(--color);
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     content: attr(label);
     white-space: nowrap;
     color: #505050;
@@ -140,8 +159,6 @@ component[label][class2 = 'specification']::before {
     border: none;
     background: var(--color);
 }
-
-
 /**********
  * Values *
  **********/
@@ -170,8 +187,6 @@ module[values]:hover::before {
     font-size: smaller;
     color: black;
 }
-
-
 /*****************
  * Discontinuity *
  ****************/
