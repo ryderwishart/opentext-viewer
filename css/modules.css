@@ -70,7 +70,7 @@ module {
     display: flex;
     align-self: flex-start;
     justify-content: center;
-    min-width: 70px;
+    min-width: 80px;
     margin: 0px 3px;
     flex-direction: row;
     align-items: flex-start;
@@ -78,9 +78,13 @@ module {
     border-top: 20px solid var(--color);
 }
 
+module[class] {    
+    border-radius: 10px 10px 0px 0px;
+}
+
 module[class = 'descriptive_quality'],
 module[class= 'associative_quality'] {
-    min-width: 130px;
+    min-width: 140px;
 }
 
 module:not(:first-child) {
@@ -191,8 +195,12 @@ module[values]:hover::before {
  * Discontinuity *
  ****************/
 
-module[next] {
-    flex-grow: 1;
+module[class][next] {
+    border-radius: 10px 0px 0px 0px;
+}
+
+module[next]:hover::before {
+    content: attr(class) attr(class2) ' …';
 }
 
 component[next]::before {
@@ -200,8 +208,12 @@ component[next]::before {
     content: attr(label) ' …';
 }
 
-module[prev] {
-    flex-grow: 1;
+module[class][prev] { 
+    border-radius: 0px 10px 0px 0px;
+}
+
+module[prev]:hover::before {
+    content: '… ' attr(class) attr(class2);
 }
 
 component[prev]::before {
@@ -209,15 +221,15 @@ component[prev]::before {
     content: '… ' attr(label);
 }
 
+module[class][prev][next] {
+    border-radius: 0px;
+}
+
+module[prev][next]:hover::before {
+    content: '… ' attr(class) attr(class2) ' …';
+}
+
 component[prev][next]::before {
     border-radius: 0px;
     content: '… ' attr(label) ' …';
-}
-
-*:not([next]) > *[next] {
-    flex-grow: 1;
-}
-
-*:not([prev]) > *[prev] {
-    flex-grow: 1;
 }
