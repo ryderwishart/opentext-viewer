@@ -143,6 +143,17 @@ component:last-child {
     margin-right: 7px;
 }
 
+/*component[status = 'argument'],
+component[status = 'adjunct'],
+component[status = 'junctive'] {
+    display: none;    
+}
+
+module:hover > component {
+    display: flex;
+    flex-direction: column;
+}*/
+
 component[label]::before {
     margin-bottom: 10px;
     height: 20px;

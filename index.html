@@ -169,6 +169,19 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
       display:none !important;    
     }
 
+    #xml-display module component[data-hide-tag='false'][status = 'argument'],
+    #xml-display module component[data-hide-tag='false'][status = 'adjunct'],
+    #xml-display module component[data-hide-tag='false'][status = 'junctive'] {
+    display: none;
+    flex-direction: column;
+    margin-left: 7px;
+    }
+
+    #xml-display module:hover > component[data-hide-tag='false'] {
+    display: flex;
+    flex-direction: column;
+}
+
     #xml-display *[data-hide-tag='true'] > token {
       margin: 7px 0px 7px 7px;
     }
