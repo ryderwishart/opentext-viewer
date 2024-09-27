@@ -50,7 +50,7 @@ unit[type = "configuration"] {
 
 unit[type = "adjunction"] {
     flex-direction: row;
-    border-top: 1px dotted white;
+    border-top: 1px solid gray;
     border-radius: 15px;
 }
 
@@ -131,7 +131,7 @@ extraction::before {
 component[status = "adjunct"] {
     margin: 10px;
     border-radius: 25px;
-    border: 3px dotted white;
+    border: 2px dashed gray;
 }
 /*component[status = "adjunct"][label]:before {
     left: 50%;
