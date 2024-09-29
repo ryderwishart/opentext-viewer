@@ -144,6 +144,11 @@ http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
       align-self: center !important;     
     }
 
+    #xml-display unit[data-hide-class='false'] > component[status = 'adjunct'] {
+      display: flex !important;
+      align-self: flex-start !important; 
+    }
+
     #xml-display unit[data-hide-type='true'] > component::before,
     #xml-display unit[data-hide-class='true'] > component::before {      
       display:none !important;
