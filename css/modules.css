@@ -78,12 +78,12 @@ module {
     border-top: 20px solid var(--color);
 }
 
-module[class] {    
+module[class] {
     border-radius: 10px 10px 0px 0px;
 }
 
 module[class = 'descriptive_quality'],
-module[class= 'associative_quality'] {
+module[class = 'associative_quality'] {
     min-width: 140px;
 }
 
@@ -106,6 +106,51 @@ wording[type = 'word'] module {
     padding: 0px;
 }
 
+module[class = 'process']:before {
+    position: absolute;
+    /* vertical raise */
+    transform: translateY(-32px);
+    padding: 0px 2px;
+    text-align: center;
+    content: 'verb';
+    background: var(--color);
+    color: black;
+}
+
+module[class = 'name']:before,
+module[class = 'category']:before {
+    position: absolute;
+    /* vertical raise */
+    transform: translateY(-32px);
+    padding: 0px 2px;
+    text-align: center;
+    content: 'noun';
+    background: var(--color);
+    color: black;
+}
+
+module[class = 'descriptive_quality']:before {
+    position: absolute;
+    /* vertical raise */
+    transform: translateY(-32px);
+    padding: 0px 2px;
+    text-align: center;
+    content: 'adjective';
+    background: var(--color);
+    color: black;
+}
+
+module[class = 'associative_quality']:before {
+    position: absolute;
+    /* vertical raise */
+    transform: translateY(-32px);
+    padding: 0px 2px;
+    text-align: center;
+    content: 'adverb';
+    background: var(--color);
+    color: black;
+}
+
 module:hover:before {
     position: absolute;
     /* vertical raise */
@@ -118,7 +163,6 @@ module:hover:before {
 }
 
 module[class2]:hover:before {
-
     transform: translateY(-28px);
     border-radius: 15px;
     padding: 0px 15px;
@@ -127,8 +171,6 @@ module[class2]:hover:before {
 wording > module {
     margin: 5px 10px;
 }
-
-
 /**************
  * Components *
  **************/
@@ -142,7 +184,6 @@ component {
 component:last-child {
     margin-right: 7px;
 }
-
 /*component[status = 'argument'],
 component[status = 'adjunct'],
 component[status = 'junctive'] {
@@ -161,24 +202,36 @@ component[label]::before {
     flex-grow: 0;
     flex-direction: row;
     padding: 2px 5px;
-    border-radius: 15px 15px 0px 0px;
-    border: 2px solid var(--color);
     align-items: center;
     justify-content: center;
     content: attr(label);
     white-space: nowrap;
-    color: #505050;
 }
 
-component[label][class2 = 'specification']::before {
-    border: none;
-    background: var(--color);
+component[label][status = 'argument']::before,
+component[label][status = 'adjunct']::before {
+    border: 2px solid black;
+    border-radius: 15px 15px 0px 0px;
+}
+
+component[label][status = 'path']::before {
+    border-top: 2px solid black;
+    border-radius: 15px 15px 0px 0px;
+}
+
+component[label][status = 'translative']::before {
+    border: 2px solid black;
+    border-radius: 15px 0px 0px 15px;
+}
+
+component[label][status = 'junctive']::before {
+    border: 2px solid black;
 }
 /**********
  * Values *
  **********/
 
-module[values]:hover::before {
+module[values]:active::before {
     position: absolute;
     display: flex;
     align-items: center;
@@ -219,7 +272,7 @@ component[next]::before {
     content: attr(label) ' …';
 }
 
-module[class][prev] { 
+module[class][prev] {
     border-radius: 0px 10px 0px 0px;
 }
 
