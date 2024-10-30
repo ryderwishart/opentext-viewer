@@ -18,11 +18,7 @@
     background-color: var(--desc-color);
 }
 
-[label = "adjp"] {
-    background-color: var(--coll-color);
-}
-
-[label = "advp"] {
+[label = "adp"] {
     background-color: var(--coll-color);
 }
 
@@ -228,7 +224,7 @@ unit[type = "configuration"][prev][next] {
     border-radius: 0px;
 }
 
-unit[type = "adjunction"][prev] {    
+unit[type = "adjunction"][prev] {
     align-self: stretch;
     border-radius: 0px 15px 15px 0px;
 }
@@ -242,6 +238,20 @@ unit[type = "adjunction"][prev][next] {
     border-radius: 0px;
 }
 
+component[status = "adjunct"][prev] {
+    align-self: stretch;
+    border-radius: 0px 15px 15px 0px;
+}
+
+component[status = "adjunct"][next] {
+    align-self: stretch;
+    border-radius: 15px 0px 0px 15px;
+}
+
+component[status = "adjunct"][prev][next] {
+    border-radius: 0px;
+}
+
 component[status = "path"][label][next],
 component[status = "path"][label][prev] {
     padding-left: 48px;
@@ -251,24 +261,11 @@ component[status = "path"][label][next][prev] {
     padding-left: 56px;
 }
 
-component[status = "adjunct"][prev],
 unit[type = "junctive_marking"][prev],
-unit[type = "translative_marking"][prev] {
-    align-self: stretch;
-    border-radius: 0px 15px 15px 0px;
-}
-
-component[status = "adjunct"][next],
+unit[type = "translative_marking"][prev],
 unit[type = "junctive_marking"][next],
 unit[type = "translative_marking"][next] {
     align-self: stretch;
-    border-radius: 15px 0px 0px 15px;
-}
-
-component[status = "adjunct"][prev][next],
-unit[type = "junctive_marking"][prev][next],
-unit[type = "translative_marking"][prev][next] {
-    border-radius: 0px;
 }
 
 component[status = "core"][prev]::before,
