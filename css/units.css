@@ -138,6 +138,7 @@ component[status = "adjunct"] {
 
 component[status = "path"] {
     align-self: stretch;
+    min-height: 50px;
     border-bottom: 1px dotted gray;
     padding-left: 24px;
 }
@@ -268,18 +269,21 @@ unit[type = "translative_marking"][next] {
     align-self: stretch;
 }
 
+component[status = "path"][prev]::before,
 component[status = "core"][prev]::before,
 component[status = "argument"][prev]::before {
     content: '… ' attr(label) !important;
     text-wrap: nowrap;
 }
 
+component[status = "path"][next]::before,
 component[status = "core"][next]::before,
 component[status = "argument"][next]::before {
     content: attr(label) ' …' !important;
     text-wrap: nowrap;
 }
 
+component[status = "path"][prev][next]::before,
 component[status = "core"][prev][next]::before,
 component[status = "argument"][prev][next]::before {
     content: '… ' attr(label) ' …' !important;
