@@ -2,25 +2,31 @@
  * Colors *
  **********/
 
-[label = "sn"] {
+[label = "sn"],
+[function = "action_circumstance"] {
     background-color: var(--act-color);
 }
 
-[label = "cl"] {
+[label = "cl"],
+[function = "predication_circumstance"] {
     background-color: var(--pred-color);
 }
 
-[label = "vp"] {
+[label = "vp"],
+[function = "event_circumstance"] {
     background-color: var(--event-color);
 }
 
-[label = "np"] {
+[label = "np"],
+[function = "abstraction_circumstance"] {
     background-color: var(--desc-color);
 }
 
-[label = "adp"] {
+[label = "adp"],
+[function = "collation_circumstance"] {
     background-color: var(--coll-color);
 }
+
 
 /*********
  * Units *
@@ -41,10 +47,14 @@ unit[type = "configuration"] {
     flex-direction: row;
     align-items: center;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 7px;
 }
 
 unit[type = "adjunction"] {
+    margin: 0px;
+}
+
+/*unit[type = "adjunction"] {
     flex-direction: row;
     border-top: 1px solid gray;
     border-radius: 15px;
@@ -52,7 +62,7 @@ unit[type = "adjunction"] {
 
 unit[type = "adjunction"] > unit[type = "adjunction"] {
     margin: 3px 0px 0px 0px;
-}
+}*/
 
 unit[type = "junction"] {
     flex-direction: column;
@@ -126,8 +136,9 @@ extraction::before {
 
 component[status = "adjunct"] {
     margin: 10px;
-    border-radius: 25px;
-    border: 2px dashed gray;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px dashed black;
 }
 /*component[status = "adjunct"][label]:before {
     left: 50%;

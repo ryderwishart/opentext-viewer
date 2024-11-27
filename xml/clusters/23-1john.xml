@@ -253,22 +253,20 @@
      <context class="action" id="action.SBL.1John.1.3.1-14">
       <wording type="cluster" status="core" label="root">
        <wording type="cluster" status="argument" function="object_participant" label="obj">
-        <wording type="junction" pinned="true">
-         <wording type="cluster" status="translative" function="object_participant" label="obj" pinned="true">
-          <wording type="word" status="translative" pinned="true">
-           <token n="47" id="SBL.1John.1.3.1" clearId="n62001003001" gloss_berean="that which" pin="relative">ὃ</token>
-          </wording>
+        <wording type="cluster" status="translative" function="object_participant" label="obj" pinned="true">
+         <wording type="word" status="translative" pinned="true">
+          <token n="47" id="SBL.1John.1.3.1" clearId="n62001003001" gloss_berean="that which" pin="relative">ὃ</token>
          </wording>
-         <wording status="translative" function="conjunctive" label="±1" pinned="true">
-          <wording type="word" status="core">
+        </wording>
+        <wording type="word" status="core">
+         <wording type="junction">
+          <wording status="path" function="conjunctive" label="±1">
            <token n="48" id="SBL.1John.1.3.2" clearId="n62001003002" gloss_berean="we have seen" note="State (at own clause level)">ἑωράκαμεν</token>
           </wording>
-         </wording>
-         <wording status="path" function="conjunctive" label="±2">
-          <wording type="word" status="junctive">
-           <token n="49" id="SBL.1John.1.3.3" clearId="n62001003003" gloss_berean="and">καὶ</token>
-          </wording>
-          <wording type="word" status="core">
+          <wording status="path" function="conjunctive" label="±2">
+           <wording type="word" status="junctive">
+            <token n="49" id="SBL.1John.1.3.3" clearId="n62001003003" gloss_berean="and">καὶ</token>
+           </wording>
            <token n="50" id="SBL.1John.1.3.4" clearId="n62001003004" gloss_berean="have heard">ἀκηκόαμεν</token>
           </wording>
          </wording>
@@ -326,19 +324,17 @@
      </context>
      <context class="action" id="action.SBL.1John.1.3.15-30">
       <wording type="cluster" status="core" label="root">
-       <wording type="junction" next="d9e242_2" xml:id="d9e242">
-        <wording type="cluster" status="argument" function="subject" label="subj" next="d7e243_2" xml:id="d7e243">
-         <wording type="junction" next="d5e244_2" xml:id="d5e244">
-          <wording status="path" function="conjunctive" label="±1" next="d3e245_2" xml:id="d3e245">
-           <wording type="word" status="junctive">
-            <token n="61" id="SBL.1John.1.3.15" clearId="n62001003015" gloss_berean="Indeed">καὶ</token>
-           </wording>
-           <wording type="word" status="translative">
-            <token n="62" id="SBL.1John.1.3.16" clearId="n62001003016" gloss_berean="the">ἡ</token>
-           </wording>
-           <wording type="word" status="core">
-            <token n="63" id="SBL.1John.1.3.17" clearId="n62001003017" gloss_berean="fellowship">κοινωνία</token>
-           </wording>
+       <wording type="cluster" status="argument" function="subject" label="subj" next="d7e241_2" xml:id="d7e241">
+        <wording type="junction" next="d5e242_2" xml:id="d5e242">
+         <wording status="path" function="conjunctive" label="±1" next="d3e243_2" xml:id="d3e243">
+          <wording type="word" status="junctive">
+           <token n="61" id="SBL.1John.1.3.15" clearId="n62001003015" gloss_berean="Indeed">καὶ</token>
+          </wording>
+          <wording type="word" status="translative">
+           <token n="62" id="SBL.1John.1.3.16" clearId="n62001003016" gloss_berean="the">ἡ</token>
+          </wording>
+          <wording type="word" status="core">
+           <token n="63" id="SBL.1John.1.3.17" clearId="n62001003017" gloss_berean="fellowship">κοινωνία</token>
           </wording>
          </wording>
         </wording>
@@ -346,21 +342,21 @@
        <wording type="word" status="junctive">
         <token n="64" id="SBL.1John.1.3.18" clearId="n62001003018" gloss_berean="now">δὲ</token>
        </wording>
-       <wording type="junction" prev="d9e242" xml:id="d9e242_2">
-        <wording type="cluster" status="argument" function="subject" label="subj" prev="d7e243" xml:id="d7e243_2">
-         <wording type="junction" prev="d5e244" xml:id="d5e244_2">
-          <wording status="path" function="conjunctive" label="±1" prev="d3e245" xml:id="d3e245_2">
-           <wording type="cluster" status="argument" function="attributive" label="attr">
-            <wording type="word" status="translative">
-             <token n="65" id="SBL.1John.1.3.19" clearId="n62001003019" gloss_berean="-">ἡ</token>
-            </wording>
-            <wording type="word" status="core">
-             <token n="66" id="SBL.1John.1.3.20" clearId="n62001003020" gloss_berean="of us">ἡμετέρα</token>
-            </wording>
+       <wording type="cluster" status="argument" function="subject" label="subj" prev="d7e241" xml:id="d7e241_2">
+        <wording type="junction" prev="d5e242" xml:id="d5e242_2">
+         <wording status="path" function="conjunctive" label="±1" prev="d3e243" xml:id="d3e243_2">
+          <wording type="cluster" status="argument" function="attributive" label="attr">
+           <wording type="word" status="translative">
+            <token n="65" id="SBL.1John.1.3.19" clearId="n62001003019" gloss_berean="-">ἡ</token>
+           </wording>
+           <wording type="word" status="core">
+            <token n="66" id="SBL.1John.1.3.20" clearId="n62001003020" gloss_berean="of us">ἡμετέρα</token>
            </wording>
           </wording>
          </wording>
         </wording>
+       </wording>
+       <wording type="junction">
         <wording status="path" function="conjunctive" label="±1">
          <wording type="word" status="translative">
           <token n="67" id="SBL.1John.1.3.21" clearId="n62001003021" gloss_berean="[is] with">μετὰ</token>
@@ -543,9 +539,9 @@
           <wording type="word" status="junctive">
            <token n="104" id="SBL.1John.1.5.18" clearId="n62001005018" gloss_berean="and">καὶ</token>
           </wording>
-          <wording type="junction" next="d7e416_2" xml:id="d7e416">
-           <wording status="path" function="conjunctive" label="±1" next="d5e416_2" xml:id="d5e416">
-            <wording type="cluster" status="argument" function="subject" label="subj" next="d3e416_2" xml:id="d3e416">
+          <wording type="junction" next="d7e415_2" xml:id="d7e415">
+           <wording status="path" function="conjunctive" label="±1" next="d5e415_2" xml:id="d5e415">
+            <wording type="cluster" status="argument" function="subject" label="subj" next="d3e415_2" xml:id="d3e415">
              <wording type="word" status="core">
               <token n="105" id="SBL.1John.1.5.19" clearId="n62001005019" gloss_berean="darkness">σκοτία</token>
              </wording>
@@ -560,15 +556,15 @@
             <token n="107" id="SBL.1John.1.5.21" clearId="n62001005021" gloss_berean="Him">αὐτῷ</token>
            </wording>
           </wording>
-          <wording type="junction" prev="d7e416" xml:id="d7e416_2">
-           <wording status="path" function="conjunctive" label="±1" prev="d5e416" xml:id="d5e416_2">
+          <wording type="junction" prev="d7e415" xml:id="d7e415_2">
+           <wording status="path" function="conjunctive" label="±1" prev="d5e415" xml:id="d5e415_2">
             <wording type="word" status="junctive">
              <token n="108" id="SBL.1John.1.5.22" clearId="n62001005022" gloss_berean="not">οὐκ</token>
             </wording>
             <wording type="word" status="core">
              <token n="109" id="SBL.1John.1.5.23" clearId="n62001005023" gloss_berean="is">ἔστιν</token>
             </wording>
-            <wording type="cluster" status="argument" function="subject" label="subj" prev="d3e416" xml:id="d3e416_2">
+            <wording type="cluster" status="argument" function="subject" label="subj" prev="d3e415" xml:id="d3e415_2">
              <wording type="cluster" status="argument" function="attributive" label="attr">
               <wording type="word" status="argument">
                <token n="110" id="SBL.1John.1.5.24" clearId="n62001005024" gloss_berean="none" after=".">οὐδεμία</token>
@@ -672,7 +668,7 @@
      </context>
      <context class="action" id="action.SBL.1John.1.7">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred" next="d3e510_2" xml:id="d3e510">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred" next="d3e509_2" xml:id="d3e509">
         <wording type="word" status="translative">
          <token n="129" id="SBL.1John.1.7.1" clearId="n62001007001" gloss_berean="If">ἐὰν</token>
         </wording>
@@ -680,7 +676,7 @@
        <wording type="word" status="junctive">
         <token n="130" id="SBL.1John.1.7.2" clearId="n62001007002" gloss_berean="however">δὲ</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred" prev="d3e510" xml:id="d3e510_2">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred" prev="d3e509" xml:id="d3e509_2">
         <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
          <wording type="word" status="translative">
           <token n="131" id="SBL.1John.1.7.3" clearId="n62001007003" gloss_berean="in">ἐν</token>
@@ -896,8 +892,8 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="argument" function="complement" label="comp" next="d5e696_2" xml:id="d5e696">
-        <wording type="junction" next="d3e694_2" xml:id="d3e694">
+       <wording type="cluster" status="argument" function="complement" label="comp" next="d5e695_2" xml:id="d5e695">
+        <wording type="junction" next="d3e693_2" xml:id="d3e693">
          <wording status="path" function="conjunctive" label="±1">
           <wording type="word" status="core">
            <token n="177" id="SBL.1John.1.9.6" clearId="n62001009006" gloss_berean="faithful">πιστός</token>
@@ -908,8 +904,8 @@
        <wording type="word" status="core">
         <token n="178" id="SBL.1John.1.9.7" clearId="n62001009007" gloss_berean="He is">ἐστιν</token>
        </wording>
-       <wording type="cluster" status="argument" function="complement" label="comp" prev="d5e696" xml:id="d5e696_2">
-        <wording type="junction" prev="d3e694" xml:id="d3e694_2">
+       <wording type="cluster" status="argument" function="complement" label="comp" prev="d5e695" xml:id="d5e695_2">
+        <wording type="junction" prev="d3e693" xml:id="d3e693_2">
          <wording status="path" function="conjunctive" label="±2">
           <wording type="word" status="junctive">
            <token n="179" id="SBL.1John.1.9.8" clearId="n62001009008" gloss_berean="and">καὶ</token>
@@ -1121,8 +1117,8 @@
          <token n="219" id="SBL.1John.2.1.12" clearId="n62002001012" gloss_berean="should sin" after=",">ἁμάρτῃ</token>
         </wording>
        </wording>
-       <wording type="cluster" status="argument" function="object_participant" label="obj" next="d5e872_2" xml:id="d5e872">
-        <wording type="junction" next="d3e869_2" xml:id="d3e869">
+       <wording type="cluster" status="argument" function="object_participant" label="obj" next="d5e871_2" xml:id="d5e871">
+        <wording type="junction" next="d3e868_2" xml:id="d3e868">
          <wording status="path" function="appositive" label="=1">
           <wording type="word" status="core">
            <token n="220" id="SBL.1John.2.1.13" clearId="n62002001013" gloss_berean="an advocate">παράκλητον</token>
@@ -1144,8 +1140,8 @@
          <token n="224" id="SBL.1John.2.1.17" clearId="n62002001017" gloss_berean="Father">πατέρα</token>
         </wording>
        </wording>
-       <wording type="cluster" status="argument" function="object_participant" label="obj" prev="d5e872" xml:id="d5e872_2">
-        <wording type="junction" prev="d3e869" xml:id="d3e869_2">
+       <wording type="cluster" status="argument" function="object_participant" label="obj" prev="d5e871" xml:id="d5e871_2">
+        <wording type="junction" prev="d3e868" xml:id="d3e868_2">
          <wording status="path" function="appositive" label="=2">
           <wording type="junction">
            <wording status="path" function="appositive" label="=1">
@@ -1211,9 +1207,9 @@
      </context>
      <context class="action" id="action.SBL.1John.2.2.9-20">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" next="d7e944_2" xml:id="d7e944">
-        <wording type="junction" next="d5e941_2" xml:id="d5e941">
-         <wording status="path" function="conjunctive" label="±1" next="d3e937_2" xml:id="d3e937">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" next="d7e943_2" xml:id="d7e943">
+        <wording type="junction" next="d5e940_2" xml:id="d5e940">
+         <wording status="path" function="conjunctive" label="±1" next="d3e936_2" xml:id="d3e936">
           <wording type="word" status="junctive">
            <token n="236" id="SBL.1John.2.2.9" clearId="n62002002009" gloss_berean="not">οὐ</token>
           </wording>
@@ -1232,9 +1228,9 @@
        <wording type="word" status="junctive">
         <token n="240" id="SBL.1John.2.2.13" clearId="n62002002013" gloss_berean="and">δὲ</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" prev="d7e944" xml:id="d7e944_2">
-        <wording type="junction" prev="d5e941" xml:id="d5e941_2">
-         <wording status="path" function="conjunctive" label="±1" prev="d3e937" xml:id="d3e937_2">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" prev="d7e943" xml:id="d7e943_2">
+        <wording type="junction" prev="d5e940" xml:id="d5e940_2">
+         <wording status="path" function="conjunctive" label="±1" prev="d3e936" xml:id="d3e936_2">
           <wording type="word" status="junctive">
            <token n="241" id="SBL.1John.2.2.14" clearId="n62002002014" gloss_berean="only">μόνον</token>
           </wording>
@@ -1404,8 +1400,8 @@
          <wording type="word" status="junctive">
           <token n="273" id="SBL.1John.2.4.14" clearId="n62002004014" gloss_berean="and">καὶ</token>
          </wording>
-         <wording type="junction" next="d5e1093_2" xml:id="d5e1093">
-          <wording status="path" function="conjunctive" label="±1" next="d3e1088_2" xml:id="d3e1088">
+         <wording type="junction" next="d5e1092_2" xml:id="d5e1092">
+          <wording status="path" function="conjunctive" label="±1" next="d3e1087_2" xml:id="d3e1087">
            <wording type="cluster" status="argument" function="complement" label="comp">
             <wording type="word" status="translative">
              <token n="274" id="SBL.1John.2.4.15" clearId="n62002004015" gloss_berean="in">ἐν</token>
@@ -1424,8 +1420,8 @@
            <token n="277" id="SBL.1John.2.4.18" clearId="n62002004018" gloss_berean="truth">ἀλήθεια</token>
           </wording>
          </wording>
-         <wording type="junction" prev="d5e1093" xml:id="d5e1093_2">
-          <wording status="path" function="conjunctive" label="±1" prev="d3e1088" xml:id="d3e1088_2">
+         <wording type="junction" prev="d5e1092" xml:id="d5e1092_2">
+          <wording status="path" function="conjunctive" label="±1" prev="d3e1087" xml:id="d3e1087_2">
            <wording type="word" status="junctive">
             <token n="278" id="SBL.1John.2.4.19" clearId="n62002004019" gloss_berean="not">οὐκ</token>
            </wording>
@@ -1440,7 +1436,7 @@
      </context>
      <context class="action" id="action.SBL.1John.2.5.1-15">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="argument" function="extra_act" label="extra" next="d3e1111_2" xml:id="d3e1111">
+       <wording type="cluster" status="argument" function="extra_act" label="extra" next="d3e1110_2" xml:id="d3e1110">
         <wording type="cluster" status="translative" function="subject" label="subj" pinned="true">
          <wording type="word" status="translative" pinned="true">
           <token n="280" id="SBL.1John.2.5.1" clearId="n62002005001" gloss_berean="Whoever" pin="relative">ὃς</token>
@@ -1450,7 +1446,7 @@
        <wording type="word" status="junctive">
         <token n="281" id="SBL.1John.2.5.2" clearId="n62002005002" gloss_berean="however">δ’</token>
        </wording>
-       <wording type="cluster" status="argument" function="extra_act" label="extra" prev="d3e1111" xml:id="d3e1111_2">
+       <wording type="cluster" status="argument" function="extra_act" label="extra" prev="d3e1110" xml:id="d3e1110_2">
         <wording type="word" status="argument">
          <token n="282" id="SBL.1John.2.5.3" clearId="n62002005003" gloss_berean="-">ἂν</token>
         </wording>
@@ -1605,8 +1601,8 @@
          <token n="314" id="SBL.1John.2.7.1" clearId="n62002007001" gloss_berean="Beloved" after=",">Ἀγαπητοί</token>
         </wording>
        </wording>
-       <wording type="cluster" status="argument" function="object_participant" label="obj" next="d5e1253_2" xml:id="d5e1253">
-        <wording type="junction" next="d3e1246_2" xml:id="d3e1246">
+       <wording type="cluster" status="argument" function="object_participant" label="obj" next="d5e1252_2" xml:id="d5e1252">
+        <wording type="junction" next="d3e1245_2" xml:id="d3e1245">
          <wording status="path" function="conjunctive" label="±1">
           <wording type="word" status="junctive">
            <token n="315" id="SBL.1John.2.7.2" clearId="n62002007002" gloss_berean="not">οὐκ</token>
@@ -1630,8 +1626,8 @@
          <token n="319" id="SBL.1John.2.7.6" clearId="n62002007006" gloss_berean="to you" after=",">ὑμῖν</token>
         </wording>
        </wording>
-       <wording type="cluster" status="argument" function="object_participant" label="obj" prev="d5e1253" xml:id="d5e1253_2">
-        <wording type="junction" prev="d3e1246" xml:id="d3e1246_2">
+       <wording type="cluster" status="argument" function="object_participant" label="obj" prev="d5e1252" xml:id="d5e1252_2">
+        <wording type="junction" prev="d3e1245" xml:id="d3e1245_2">
          <wording status="path" function="conjunctive" label="±2">
           <wording type="word" status="junctive">
            <token n="320" id="SBL.1John.2.7.7" clearId="n62002007007" gloss_berean="but">ἀλλ’</token>
@@ -1976,9 +1972,9 @@
      </context>
      <context class="action" id="action.SBL.1John.2.11">
       <wording type="cluster" status="core" label="root">
-       <wording type="junction" next="d7e1560_2" xml:id="d7e1560">
-        <wording status="path" function="conjunctive" label="±1" next="d5e1554_2" xml:id="d5e1554">
-         <wording type="cluster" status="argument" function="subject" label="subj" next="d3e1546_2" xml:id="d3e1546">
+       <wording type="junction" next="d7e1559_2" xml:id="d7e1559">
+        <wording status="path" function="conjunctive" label="±1" next="d5e1553_2" xml:id="d5e1553">
+         <wording type="cluster" status="argument" function="subject" label="subj" next="d3e1545_2" xml:id="d3e1545">
           <wording type="word" status="translative">
            <token n="392" id="SBL.1John.2.11.1" clearId="n62002011001" gloss_berean="The [one]">ὁ</token>
           </wording>
@@ -1988,9 +1984,9 @@
        <wording type="word" status="junctive">
         <token n="393" id="SBL.1John.2.11.2" clearId="n62002011002" gloss_berean="however">δὲ</token>
        </wording>
-       <wording type="junction" prev="d7e1560" xml:id="d7e1560_2">
-        <wording status="path" function="conjunctive" label="±1" prev="d5e1554" xml:id="d5e1554_2">
-         <wording type="cluster" status="argument" function="subject" label="subj" prev="d3e1546" xml:id="d3e1546_2">
+       <wording type="junction" prev="d7e1559" xml:id="d7e1559_2">
+        <wording status="path" function="conjunctive" label="±1" prev="d5e1553" xml:id="d5e1553_2">
+         <wording type="cluster" status="argument" function="subject" label="subj" prev="d3e1545" xml:id="d3e1545_2">
           <wording type="word" status="core">
            <token n="394" id="SBL.1John.2.11.3" clearId="n62002011003" gloss_berean="hating" note="State (at own clause level)">μισῶν</token>
           </wording>
@@ -2614,8 +2610,8 @@
        <wording type="word" status="junctive">
         <token n="531" id="SBL.1John.2.17.1" clearId="n62002017001" gloss_berean="And">καὶ</token>
        </wording>
-       <wording type="cluster" status="argument" function="subject" label="subj" next="d5e2081_2" xml:id="d5e2081">
-        <wording type="junction" next="d3e2072_2" xml:id="d3e2072">
+       <wording type="cluster" status="argument" function="subject" label="subj" next="d5e2080_2" xml:id="d5e2080">
+        <wording type="junction" next="d3e2071_2" xml:id="d3e2071">
          <wording status="path" function="conjunctive" label="±1">
           <wording type="word" status="translative">
            <token n="532" id="SBL.1John.2.17.2" clearId="n62002017002" gloss_berean="the">ὁ</token>
@@ -2629,8 +2625,8 @@
        <wording type="word" status="core">
         <token n="534" id="SBL.1John.2.17.4" clearId="n62002017004" gloss_berean="is passing away">παράγεται</token>
        </wording>
-       <wording type="cluster" status="argument" function="subject" label="subj" prev="d5e2081" xml:id="d5e2081_2">
-        <wording type="junction" prev="d3e2072" xml:id="d3e2072_2">
+       <wording type="cluster" status="argument" function="subject" label="subj" prev="d5e2080" xml:id="d5e2080_2">
+        <wording type="junction" prev="d3e2071" xml:id="d3e2071_2">
          <wording status="path" function="conjunctive" label="±2">
           <wording type="word" status="junctive">
            <token n="535" id="SBL.1John.2.17.5" clearId="n62002017005" gloss_berean="and">καὶ</token>
@@ -2653,7 +2649,7 @@
      </context>
      <context class="action" id="action.SBL.1John.2.17.9-19">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="argument" function="subject" label="subj" next="d3e2099_2" xml:id="d3e2099">
+       <wording type="cluster" status="argument" function="subject" label="subj" next="d3e2098_2" xml:id="d3e2098">
         <wording type="word" status="translative">
          <token n="539" id="SBL.1John.2.17.9" clearId="n62002017009" gloss_berean="the [one]">ὁ</token>
         </wording>
@@ -2661,7 +2657,7 @@
        <wording type="word" status="junctive">
         <token n="540" id="SBL.1John.2.17.10" clearId="n62002017010" gloss_berean="however">δὲ</token>
        </wording>
-       <wording type="cluster" status="argument" function="subject" label="subj" prev="d3e2099" xml:id="d3e2099_2">
+       <wording type="cluster" status="argument" function="subject" label="subj" prev="d3e2098" xml:id="d3e2098_2">
         <wording type="word" status="core">
          <token n="541" id="SBL.1John.2.17.11" clearId="n62002017011" gloss_berean="doing" note="Event (at own clause level)">ποιῶν</token>
         </wording>
@@ -2847,7 +2843,7 @@
      </context>
      <context class="action" id="action.SBL.1John.2.19.9-17">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred" next="d3e2255_2" xml:id="d3e2255">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred" next="d3e2254_2" xml:id="d3e2254">
         <wording type="word" status="translative">
          <token n="579" id="SBL.1John.2.19.9" clearId="n62002019009" gloss_berean="if">εἰ</token>
         </wording>
@@ -2855,7 +2851,7 @@
        <wording type="word" status="junctive">
         <token n="580" id="SBL.1John.2.19.10" clearId="n62002019010" gloss_berean="for">γὰρ</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred" prev="d3e2255" xml:id="d3e2255_2">
+       <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred" prev="d3e2254" xml:id="d3e2254_2">
         <wording type="cluster" status="argument" function="complement" label="comp">
          <wording type="word" status="translative">
           <token n="581" id="SBL.1John.2.19.11" clearId="n62002019011" gloss_berean="of">ἐξ</token>
@@ -2975,9 +2971,9 @@
      </context>
      <context class="action" id="action.SBL.1John.2.21">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" next="d7e2382_2" xml:id="d7e2382">
-        <wording type="junction" next="d5e2374_2" xml:id="d5e2374">
-         <wording status="path" function="conjunctive" label="±1" next="d3e2362_2" xml:id="d3e2362">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" next="d7e2381_2" xml:id="d7e2381">
+        <wording type="junction" next="d5e2373_2" xml:id="d5e2373">
+         <wording status="path" function="conjunctive" label="±1" next="d3e2361_2" xml:id="d3e2361">
           <wording type="word" status="junctive">
            <token n="607" id="SBL.1John.2.21.1" clearId="n62002021001" gloss_berean="Not">οὐκ</token>
           </wording>
@@ -2992,9 +2988,9 @@
          <token n="609" id="SBL.1John.2.21.3" clearId="n62002021003" gloss_berean="to you">ὑμῖν</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" prev="d7e2382" xml:id="d7e2382_2">
-        <wording type="junction" prev="d5e2374" xml:id="d5e2374_2">
-         <wording status="path" function="conjunctive" label="±1" prev="d3e2362" xml:id="d3e2362_2">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" prev="d7e2381" xml:id="d7e2381_2">
+        <wording type="junction" prev="d5e2373" xml:id="d5e2373_2">
+         <wording status="path" function="conjunctive" label="±1" prev="d3e2361" xml:id="d3e2361_2">
           <wording type="word" status="translative">
            <token n="610" id="SBL.1John.2.21.4" clearId="n62002021004" gloss_berean="because">ὅτι</token>
           </wording>
@@ -3567,8 +3563,8 @@
            <wording type="word" status="junctive">
             <token n="728" id="SBL.1John.2.27.13" clearId="n62002027013" gloss_berean="not">οὐ</token>
            </wording>
-           <wording type="cluster" status="argument" function="object_participant" label="obj" next="d5e2853_2" xml:id="d5e2853">
-            <wording type="junction" next="d3e2840_2" xml:id="d3e2840">
+           <wording type="cluster" status="argument" function="object_participant" label="obj" next="d5e2852_2" xml:id="d5e2852">
+            <wording type="junction" next="d3e2839_2" xml:id="d3e2839">
              <wording status="path" function="appositive" label="=1">
               <wording type="word" status="core">
                <token n="729" id="SBL.1John.2.27.14" clearId="n62002027014" gloss_berean="need">χρείαν</token>
@@ -3579,8 +3575,8 @@
            <wording type="word" status="core">
             <token n="730" id="SBL.1John.2.27.15" clearId="n62002027015" gloss_berean="you have">ἔχετε</token>
            </wording>
-           <wording type="cluster" status="argument" function="object_participant" label="obj" prev="d5e2853" xml:id="d5e2853_2">
-            <wording type="junction" prev="d3e2840" xml:id="d3e2840_2">
+           <wording type="cluster" status="argument" function="object_participant" label="obj" prev="d5e2852" xml:id="d5e2852_2">
+            <wording type="junction" prev="d3e2839" xml:id="d3e2839_2">
              <wording status="path" function="appositive" label="=2">
               <wording type="word" status="translative">
                <token n="731" id="SBL.1John.2.27.16" clearId="n62002027016" gloss_berean="that">ἵνα</token>
@@ -3891,8 +3887,8 @@
         <token n="793" id="SBL.1John.3.1.1" clearId="n62003001001" gloss_berean="Behold">ἴδετε</token>
        </wording>
        <wording type="cluster" status="argument" function="object_participant" label="obj">
-        <wording type="cluster" status="translative" function="object_participant" label="obj" next="d5e3110_2" pinned="true" xml:id="d5e3110">
-         <wording type="junction" next="d3e3096_2" pinned="true" xml:id="d3e3096">
+        <wording type="cluster" status="translative" function="object_participant" label="obj" next="d5e3109_2" pinned="true" xml:id="d5e3109">
+         <wording type="junction" next="d3e3095_2" pinned="true" xml:id="d3e3095">
           <wording status="translative" function="appositive" label="=1" pinned="true">
            <wording type="cluster" status="translative" function="attributive" label="attr" pinned="true">
             <wording type="word" status="translative" pinned="true">
@@ -3921,8 +3917,8 @@
           <token n="799" id="SBL.1John.3.1.7" clearId="n62003001007" gloss_berean="Father">πατὴρ</token>
          </wording>
         </wording>
-        <wording type="cluster" status="translative" function="object_participant" label="obj" pinned="true" prev="d5e3110" xml:id="d5e3110_2">
-         <wording type="junction" pinned="true" prev="d3e3096" xml:id="d3e3096_2">
+        <wording type="cluster" status="translative" function="object_participant" label="obj" pinned="true" prev="d5e3109" xml:id="d5e3109_2">
+         <wording type="junction" pinned="true" prev="d3e3095" xml:id="d3e3095_2">
           <wording status="path" function="appositive" label="=2">
            <wording type="word" status="translative">
             <token n="800" id="SBL.1John.3.1.8" clearId="n62003001008" gloss_berean="that">ἵνα</token>
@@ -4791,8 +4787,8 @@
       <wording type="cluster" status="core" label="root">
        <wording type="junction">
         <wording status="path" function="conjunctive" label="±1">
-         <wording type="cluster" status="argument" function="subject" label="subj" next="d5e3837_2" xml:id="d5e3837">
-          <wording type="junction" next="d3e3822_2" xml:id="d3e3822">
+         <wording type="cluster" status="argument" function="subject" label="subj" next="d5e3836_2" xml:id="d5e3836">
+          <wording type="junction" next="d3e3821_2" xml:id="d3e3821">
            <wording status="path" function="conjunctive" label="±1">
             <wording type="cluster" status="argument" function="attributive" label="attr">
              <wording type="word" status="argument">
@@ -4841,8 +4837,8 @@
            </wording>
           </wording>
          </wording>
-         <wording type="cluster" status="argument" function="subject" label="subj" prev="d5e3837" xml:id="d5e3837_2">
-          <wording type="junction" prev="d3e3822" xml:id="d3e3822_2">
+         <wording type="cluster" status="argument" function="subject" label="subj" prev="d5e3836" xml:id="d5e3836_2">
+          <wording type="junction" prev="d3e3821" xml:id="d3e3821_2">
            <wording status="path" function="conjunctive" label="±2">
             <wording type="word" status="junctive">
              <token n="988" id="SBL.1John.3.10.24" clearId="n62003010024" gloss_berean="and also">καὶ</token>
@@ -5047,7 +5043,7 @@
          </wording>
         </wording>
         <wording status="path" function="conjunctive" label="±2">
-         <wording type="cluster" status="argument" function="subject" label="subj" next="d3e4025_2" xml:id="d3e4025">
+         <wording type="cluster" status="argument" function="subject" label="subj" next="d3e4024_2" xml:id="d3e4024">
           <wording type="word" status="translative">
            <token n="1030" id="SBL.1John.3.12.24" clearId="n62003012024" gloss_berean="those">τὰ</token>
           </wording>
@@ -5055,7 +5051,7 @@
          <wording type="word" status="junctive">
           <token n="1031" id="SBL.1John.3.12.25" clearId="n62003012025" gloss_berean="however">δὲ</token>
          </wording>
-         <wording type="cluster" status="argument" function="subject" label="subj" prev="d3e4025" xml:id="d3e4025_2">
+         <wording type="cluster" status="argument" function="subject" label="subj" prev="d3e4024" xml:id="d3e4024_2">
           <wording type="word" status="translative">
            <token n="1032" id="SBL.1John.3.12.26" clearId="n62003012026" gloss_berean="of the">τοῦ</token>
           </wording>
@@ -5412,9 +5408,9 @@
     <context class="move" id="move.SBL.1John.3.17">
      <context class="action" id="action.SBL.1John.3.17">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="argument" function="extra_act" label="extra" next="d7e4352_2" xml:id="d7e4352">
-        <wording type="junction" next="d5e4340_2" pinned="true" xml:id="d5e4340">
-         <wording status="translative" function="conjunctive" label="±1" next="d3e4323_2" pinned="true" xml:id="d3e4323">
+       <wording type="cluster" status="argument" function="extra_act" label="extra" next="d7e4351_2" xml:id="d7e4351">
+        <wording type="junction" next="d5e4339_2" pinned="true" xml:id="d5e4339">
+         <wording status="translative" function="conjunctive" label="±1" next="d3e4322_2" pinned="true" xml:id="d3e4322">
           <wording type="cluster" status="translative" function="subject" label="subj" pinned="true">
            <wording type="word" status="translative" pinned="true">
             <token n="1107" id="SBL.1John.3.17.1" clearId="n62003017001" gloss_berean="Whoever" pin="relative">ὃς</token>
@@ -5426,9 +5422,9 @@
        <wording type="word" status="junctive">
         <token n="1108" id="SBL.1John.3.17.2" clearId="n62003017002" gloss_berean="now">δ’</token>
        </wording>
-       <wording type="cluster" status="argument" function="extra_act" label="extra" prev="d7e4352" xml:id="d7e4352_2">
-        <wording type="junction" pinned="true" prev="d5e4340" xml:id="d5e4340_2">
-         <wording status="translative" function="conjunctive" label="±1" pinned="true" prev="d3e4323" xml:id="d3e4323_2">
+       <wording type="cluster" status="argument" function="extra_act" label="extra" prev="d7e4351" xml:id="d7e4351_2">
+        <wording type="junction" pinned="true" prev="d5e4339" xml:id="d5e4339_2">
+         <wording status="translative" function="conjunctive" label="±1" pinned="true" prev="d3e4322" xml:id="d3e4322_2">
           <wording type="word" status="argument">
            <token n="1109" id="SBL.1John.3.17.3" clearId="n62003017003" gloss_berean="-">ἂν</token>
           </wording>
@@ -5557,9 +5553,9 @@
          <token n="1137" id="SBL.1John.3.18.1" clearId="n62003018001" gloss_berean="Little children" after=",">Τεκνία</token>
         </wording>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" next="d7e4470_2" xml:id="d7e4470">
-        <wording type="junction" next="d5e4457_2" xml:id="d5e4457">
-         <wording status="path" function="conjunctive" label="±1" next="d3e4439_2" xml:id="d3e4439">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" next="d7e4469_2" xml:id="d7e4469">
+        <wording type="junction" next="d5e4456_2" xml:id="d5e4456">
+         <wording status="path" function="conjunctive" label="±1" next="d3e4438_2" xml:id="d3e4438">
           <wording type="word" status="junctive">
            <token n="1138" id="SBL.1John.3.18.2" clearId="n62003018002" gloss_berean="not">μὴ</token>
           </wording>
@@ -5569,9 +5565,9 @@
        <wording type="word" status="core">
         <token n="1139" id="SBL.1John.3.18.3" clearId="n62003018003" gloss_berean="we should love">ἀγαπῶμεν</token>
        </wording>
-       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" prev="d7e4470" xml:id="d7e4470_2">
-        <wording type="junction" prev="d5e4457" xml:id="d5e4457_2">
-         <wording status="path" function="conjunctive" label="±1" prev="d3e4439" xml:id="d3e4439_2">
+       <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event" prev="d7e4469" xml:id="d7e4469_2">
+        <wording type="junction" prev="d5e4456" xml:id="d5e4456_2">
+         <wording status="path" function="conjunctive" label="±1" prev="d3e4438" xml:id="d3e4438_2">
           <wording type="junction">
            <wording status="path" function="conjunctive" label="±1">
             <wording type="word" status="core">
@@ -5686,7 +5682,7 @@
             </wording>
            </wording>
            <wording status="path" function="appositive" label="=2">
-            <wording type="word" status="translative" next="d3e4540_2" xml:id="d3e4540">
+            <wording type="word" status="translative" next="d3e4539_2" xml:id="d3e4539">
              <token n="1164" id="SBL.1John.3.20.1" clearId="n62003020001" gloss_berean="that">ὅτι</token>
             </wording>
             <wording type="cluster" status="adjunct" function="predication_circumstance" label="circ:pred">
@@ -5710,7 +5706,7 @@
               </wording>
              </wording>
             </wording>
-            <wording type="word" status="translative" prev="d3e4540" xml:id="d3e4540_2">
+            <wording type="word" status="translative" prev="d3e4539" xml:id="d3e4539_2">
              <token n="1170" id="SBL.1John.3.20.7" clearId="n62003020007" gloss_berean="that">ὅτι</token>
             </wording>
             <wording type="junction">
@@ -6496,7 +6492,7 @@
     <context class="move" id="move.SBL.1John.4.4-5">
      <context class="action" id="action.SBL.1John.4.4">
       <wording type="cluster" status="core" label="root">
-       <wording type="junction" next="d3e5194_2" xml:id="d3e5194">
+       <wording type="junction" next="d3e5193_2" xml:id="d3e5193">
         <wording status="path" function="conjunctive" label="±1">
          <wording type="cluster" status="argument" function="subject" label="subj">
           <wording type="word" status="core">
@@ -6524,7 +6520,7 @@
          <token n="1336" id="SBL.1John.4.4.6" clearId="n62004004006" gloss_berean="little children" after=",">τεκνία</token>
         </wording>
        </wording>
-       <wording type="junction" prev="d3e5194" xml:id="d3e5194_2">
+       <wording type="junction" prev="d3e5193" xml:id="d3e5193_2">
         <wording status="path" function="conjunctive" label="±2">
          <wording type="word" status="junctive">
           <token n="1337" id="SBL.1John.4.4.7" clearId="n62004004007" gloss_berean="and">καὶ</token>
@@ -7479,54 +7475,52 @@
          <token n="1535" id="SBL.1John.4.14.2" clearId="n62004014002" gloss_berean="we">ἡμεῖς</token>
         </wording>
        </wording>
-       <wording type="junction">
-        <wording status="path" function="conjunctive" label="±1">
-         <wording type="word" status="core">
+       <wording type="word" status="core">
+        <wording type="junction">
+         <wording status="path" function="conjunctive" label="±1">
           <token n="1536" id="SBL.1John.4.14.3" clearId="n62004014003" gloss_berean="have seen">τεθεάμεθα</token>
          </wording>
-        </wording>
-        <wording status="path" function="conjunctive" label="±2">
-         <wording type="word" status="junctive">
-          <token n="1537" id="SBL.1John.4.14.4" clearId="n62004014004" gloss_berean="and">καὶ</token>
-         </wording>
-         <wording type="word" status="core">
+         <wording status="path" function="conjunctive" label="±2">
+          <wording type="word" status="junctive">
+           <token n="1537" id="SBL.1John.4.14.4" clearId="n62004014004" gloss_berean="and">καὶ</token>
+          </wording>
           <token n="1538" id="SBL.1John.4.14.5" clearId="n62004014005" gloss_berean="testify">μαρτυροῦμεν</token>
          </wording>
         </wording>
-        <wording type="cluster" status="argument" function="object_participant" label="obj">
+       </wording>
+       <wording type="cluster" status="argument" function="object_participant" label="obj">
+        <wording type="word" status="translative">
+         <token n="1539" id="SBL.1John.4.14.6" clearId="n62004014006" gloss_berean="that">ὅτι</token>
+        </wording>
+        <wording type="cluster" status="argument" function="subject" label="subj">
          <wording type="word" status="translative">
-          <token n="1539" id="SBL.1John.4.14.6" clearId="n62004014006" gloss_berean="that">ὅτι</token>
-         </wording>
-         <wording type="cluster" status="argument" function="subject" label="subj">
-          <wording type="word" status="translative">
-           <token n="1540" id="SBL.1John.4.14.7" clearId="n62004014007" gloss_berean="the">ὁ</token>
-          </wording>
-          <wording type="word" status="core">
-           <token n="1541" id="SBL.1John.4.14.8" clearId="n62004014008" gloss_berean="Father">πατὴρ</token>
-          </wording>
+          <token n="1540" id="SBL.1John.4.14.7" clearId="n62004014007" gloss_berean="the">ὁ</token>
          </wording>
          <wording type="word" status="core">
-          <token n="1542" id="SBL.1John.4.14.9" clearId="n62004014009" gloss_berean="has sent">ἀπέσταλκεν</token>
+          <token n="1541" id="SBL.1John.4.14.8" clearId="n62004014008" gloss_berean="Father">πατὴρ</token>
          </wording>
-         <wording type="cluster" status="argument" function="object_participant" label="obj">
+        </wording>
+        <wording type="word" status="core">
+         <token n="1542" id="SBL.1John.4.14.9" clearId="n62004014009" gloss_berean="has sent">ἀπέσταλκεν</token>
+        </wording>
+        <wording type="cluster" status="argument" function="object_participant" label="obj">
+         <wording type="word" status="translative">
+          <token n="1543" id="SBL.1John.4.14.10" clearId="n62004014010" gloss_berean="the">τὸν</token>
+         </wording>
+         <wording type="word" status="core">
+          <token n="1544" id="SBL.1John.4.14.11" clearId="n62004014011" gloss_berean="Son [as]">υἱὸν</token>
+         </wording>
+        </wording>
+        <wording type="cluster" status="argument" function="complement" label="comp">
+         <wording type="word" status="core">
+          <token n="1545" id="SBL.1John.4.14.12" clearId="n62004014012" gloss_berean="Savior">σωτῆρα</token>
+         </wording>
+         <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
           <wording type="word" status="translative">
-           <token n="1543" id="SBL.1John.4.14.10" clearId="n62004014010" gloss_berean="the">τὸν</token>
+           <token n="1546" id="SBL.1John.4.14.13" clearId="n62004014013" gloss_berean="of the">τοῦ</token>
           </wording>
           <wording type="word" status="core">
-           <token n="1544" id="SBL.1John.4.14.11" clearId="n62004014011" gloss_berean="Son [as]">υἱὸν</token>
-          </wording>
-         </wording>
-         <wording type="cluster" status="argument" function="complement" label="comp">
-          <wording type="word" status="core">
-           <token n="1545" id="SBL.1John.4.14.12" clearId="n62004014012" gloss_berean="Savior">σωτῆρα</token>
-          </wording>
-          <wording type="cluster" status="adjunct" function="abstraction_circumstance" label="circ:abstr">
-           <wording type="word" status="translative">
-            <token n="1546" id="SBL.1John.4.14.13" clearId="n62004014013" gloss_berean="of the">τοῦ</token>
-           </wording>
-           <wording type="word" status="core">
-            <token n="1547" id="SBL.1John.4.14.14" clearId="n62004014014" gloss_berean="world" after=".">κόσμου</token>
-           </wording>
+           <token n="1547" id="SBL.1John.4.14.14" clearId="n62004014014" gloss_berean="world" after=".">κόσμου</token>
           </wording>
          </wording>
         </wording>
@@ -7640,51 +7634,49 @@
          <token n="1569" id="SBL.1John.4.16.2" clearId="n62004016002" gloss_berean="we">ἡμεῖς</token>
         </wording>
        </wording>
-       <wording type="junction">
-        <wording status="path" function="conjunctive" label="±1">
-         <wording type="word" status="core">
+       <wording type="word" status="core">
+        <wording type="junction">
+         <wording status="path" function="conjunctive" label="±1">
           <token n="1570" id="SBL.1John.4.16.3" clearId="n62004016003" gloss_berean="have come to know">ἐγνώκαμεν</token>
          </wording>
-        </wording>
-        <wording status="path" function="conjunctive" label="±2">
-         <wording type="word" status="junctive">
-          <token n="1571" id="SBL.1John.4.16.4" clearId="n62004016004" gloss_berean="and">καὶ</token>
-         </wording>
-         <wording type="word" status="core">
+         <wording status="path" function="conjunctive" label="±2">
+          <wording type="word" status="junctive">
+           <token n="1571" id="SBL.1John.4.16.4" clearId="n62004016004" gloss_berean="and">καὶ</token>
+          </wording>
           <token n="1572" id="SBL.1John.4.16.5" clearId="n62004016005" gloss_berean="have come to believe">πεπιστεύκαμεν</token>
          </wording>
         </wording>
-        <wording type="cluster" status="argument" function="object_participant" label="obj">
-         <wording type="word" status="translative">
-          <token n="1573" id="SBL.1John.4.16.6" clearId="n62004016006" gloss_berean="the">τὴν</token>
+       </wording>
+       <wording type="cluster" status="argument" function="object_participant" label="obj">
+        <wording type="word" status="translative">
+         <token n="1573" id="SBL.1John.4.16.6" clearId="n62004016006" gloss_berean="the">τὴν</token>
+        </wording>
+        <wording type="word" status="core">
+         <token n="1574" id="SBL.1John.4.16.7" clearId="n62004016007" gloss_berean="love">ἀγάπην</token>
+        </wording>
+        <wording type="cluster" status="argument" function="attributive" label="attr">
+         <wording type="cluster" status="translative" function="object_participant" label="obj" pinned="true">
+          <wording type="word" status="translative" pinned="true">
+           <token n="1575" id="SBL.1John.4.16.8" clearId="n62004016008" gloss_berean="that" pin="relative">ἣν</token>
+          </wording>
          </wording>
          <wording type="word" status="core">
-          <token n="1574" id="SBL.1John.4.16.7" clearId="n62004016007" gloss_berean="love">ἀγάπην</token>
+          <token n="1576" id="SBL.1John.4.16.9" clearId="n62004016009" gloss_berean="has">ἔχει</token>
          </wording>
-         <wording type="cluster" status="argument" function="attributive" label="attr">
-          <wording type="cluster" status="translative" function="object_participant" label="obj" pinned="true">
-           <wording type="word" status="translative" pinned="true">
-            <token n="1575" id="SBL.1John.4.16.8" clearId="n62004016008" gloss_berean="that" pin="relative">ἣν</token>
-           </wording>
+         <wording type="cluster" status="argument" function="subject" label="subj">
+          <wording type="word" status="translative">
+           <token n="1577" id="SBL.1John.4.16.10" clearId="n62004016010" gloss_berean="-">ὁ</token>
           </wording>
           <wording type="word" status="core">
-           <token n="1576" id="SBL.1John.4.16.9" clearId="n62004016009" gloss_berean="has">ἔχει</token>
+           <token n="1578" id="SBL.1John.4.16.11" clearId="n62004016011" gloss_berean="God">θεὸς</token>
           </wording>
-          <wording type="cluster" status="argument" function="subject" label="subj">
-           <wording type="word" status="translative">
-            <token n="1577" id="SBL.1John.4.16.10" clearId="n62004016010" gloss_berean="-">ὁ</token>
-           </wording>
-           <wording type="word" status="core">
-            <token n="1578" id="SBL.1John.4.16.11" clearId="n62004016011" gloss_berean="God">θεὸς</token>
-           </wording>
+         </wording>
+         <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
+          <wording type="word" status="translative">
+           <token n="1579" id="SBL.1John.4.16.12" clearId="n62004016012" gloss_berean="as to">ἐν</token>
           </wording>
-          <wording type="cluster" status="adjunct" function="event_circumstance" label="circ:event">
-           <wording type="word" status="translative">
-            <token n="1579" id="SBL.1John.4.16.12" clearId="n62004016012" gloss_berean="as to">ἐν</token>
-           </wording>
-           <wording type="word" status="core">
-            <token n="1580" id="SBL.1John.4.16.13" clearId="n62004016013" gloss_berean="us" after=".">ἡμῖν</token>
-           </wording>
+          <wording type="word" status="core">
+           <token n="1580" id="SBL.1John.4.16.13" clearId="n62004016013" gloss_berean="us" after=".">ἡμῖν</token>
           </wording>
          </wording>
         </wording>
@@ -7989,7 +7981,7 @@
           </wording>
          </wording>
          <wording status="path" function="conjunctive" label="±2">
-          <wording type="cluster" status="argument" function="subject" label="subj" next="d3e6417_2" xml:id="d3e6417">
+          <wording type="cluster" status="argument" function="subject" label="subj" next="d3e6414_2" xml:id="d3e6414">
            <wording type="word" status="translative">
             <token n="1646" id="SBL.1John.4.18.20" clearId="n62004018020" gloss_berean="the [one]">ὁ</token>
            </wording>
@@ -7997,7 +7989,7 @@
           <wording type="word" status="junctive">
            <token n="1647" id="SBL.1John.4.18.21" clearId="n62004018021" gloss_berean="now">δὲ</token>
           </wording>
-          <wording type="cluster" status="argument" function="subject" label="subj" prev="d3e6417" xml:id="d3e6417_2">
+          <wording type="cluster" status="argument" function="subject" label="subj" prev="d3e6414" xml:id="d3e6414_2">
            <wording type="word" status="core">
             <token n="1648" id="SBL.1John.4.18.22" clearId="n62004018022" gloss_berean="fearing" note="State (at own clause level)">φοβούμενος</token>
            </wording>
@@ -8145,7 +8137,7 @@
      </context>
      <context class="action" id="action.SBL.1John.4.20.15-31">
       <wording type="cluster" status="core" label="root">
-       <wording type="cluster" status="argument" function="subject" label="subj" next="d3e6536_2" xml:id="d3e6536">
+       <wording type="cluster" status="argument" function="subject" label="subj" next="d3e6533_2" xml:id="d3e6533">
         <wording type="word" status="translative">
          <token n="1675" id="SBL.1John.4.20.15" clearId="n62004020015" gloss_berean="The [one]">ὁ</token>
         </wording>
@@ -8153,7 +8145,7 @@
        <wording type="word" status="junctive">
         <token n="1676" id="SBL.1John.4.20.16" clearId="n62004020016" gloss_berean="for">γὰρ</token>
        </wording>
-       <wording type="cluster" status="argument" function="subject" label="subj" prev="d3e6536" xml:id="d3e6536_2">
+       <wording type="cluster" status="argument" function="subject" label="subj" prev="d3e6533" xml:id="d3e6533_2">
         <wording type="junction">
          <wording status="path" function="conjunctive" label="±1">
           <wording type="word" status="junctive">
@@ -8190,7 +8182,7 @@
        </wording>
        <wording type="junction">
         <wording status="path" function="conjunctive" label="±1">
-         <wording type="cluster" status="argument" function="object_participant" label="obj" next="d3e6572_2" xml:id="d3e6572">
+         <wording type="cluster" status="argument" function="object_participant" label="obj" next="d3e6569_2" xml:id="d3e6569">
           <wording type="cluster" status="argument" function="object_participant" label="obj">
            <wording type="word" status="translative">
             <token n="1684" id="SBL.1John.4.20.24" clearId="n62004020024" gloss_berean="-">τὸν</token>
@@ -8223,7 +8215,7 @@
          <wording type="word" status="core">
           <token n="1690" id="SBL.1John.4.20.30" clearId="n62004020030" gloss_berean="is he able">δύναται</token>
          </wording>
-         <wording type="cluster" status="argument" function="object_participant" label="obj" prev="d3e6572" xml:id="d3e6572_2">
+         <wording type="cluster" status="argument" function="object_participant" label="obj" prev="d3e6569" xml:id="d3e6569_2">
           <wording type="word" status="core">
            <token n="1691" id="SBL.1John.4.20.31" clearId="n62004020031" gloss_berean="to love" after=".">ἀγαπᾶν</token>
           </wording>
@@ -9494,8 +9486,8 @@
        <wording type="word" status="core">
         <token n="1964" id="SBL.1John.5.13.2" clearId="n62005013002" gloss_berean="have I written">ἔγραψα</token>
        </wording>
-       <wording type="cluster" status="argument" function="second_object_participant" label="obj2" next="d5e7670_2" xml:id="d5e7670">
-        <wording type="junction" next="d3e7646_2" xml:id="d3e7646">
+       <wording type="cluster" status="argument" function="second_object_participant" label="obj2" next="d5e7667_2" xml:id="d5e7667">
+        <wording type="junction" next="d3e7643_2" xml:id="d3e7643">
          <wording status="path" function="appositive" label="=1">
           <wording type="word" status="core">
            <token n="1965" id="SBL.1John.5.13.3" clearId="n62005013003" gloss_berean="to you">ὑμῖν</token>
@@ -9514,7 +9506,7 @@
          <wording type="word" status="translative">
           <token n="1968" id="SBL.1John.5.13.6" clearId="n62005013006" gloss_berean="that">ὅτι</token>
          </wording>
-         <wording type="cluster" status="argument" function="object_participant" label="obj" next="d3e7693_2" xml:id="d3e7693">
+         <wording type="cluster" status="argument" function="object_participant" label="obj" next="d3e7690_2" xml:id="d3e7690">
           <wording type="word" status="core">
            <token n="1969" id="SBL.1John.5.13.7" clearId="n62005013007" gloss_berean="life">ζωὴν</token>
           </wording>
@@ -9522,7 +9514,7 @@
          <wording type="word" status="core">
           <token n="1970" id="SBL.1John.5.13.8" clearId="n62005013008" gloss_berean="you have">ἔχετε</token>
          </wording>
-         <wording type="cluster" status="argument" function="object_participant" label="obj" prev="d3e7693" xml:id="d3e7693_2">
+         <wording type="cluster" status="argument" function="object_participant" label="obj" prev="d3e7690" xml:id="d3e7690_2">
           <wording type="cluster" status="argument" function="attributive" label="attr">
            <wording type="word" status="core">
             <token n="1971" id="SBL.1John.5.13.9" clearId="n62005013009" gloss_berean="eternal" after=",">αἰώνιον</token>
@@ -9531,8 +9523,8 @@
          </wording>
         </wording>
        </wording>
-       <wording type="cluster" status="argument" function="second_object_participant" label="obj2" prev="d5e7670" xml:id="d5e7670_2">
-        <wording type="junction" prev="d3e7646" xml:id="d3e7646_2">
+       <wording type="cluster" status="argument" function="second_object_participant" label="obj2" prev="d5e7667" xml:id="d5e7667_2">
+        <wording type="junction" prev="d3e7643" xml:id="d3e7643_2">
          <wording status="path" function="appositive" label="=2">
           <wording type="word" status="translative">
            <token n="1972" id="SBL.1John.5.13.10" clearId="n62005013010" gloss_berean="to those">τοῖς</token>
@@ -9805,8 +9797,8 @@
          <wording type="word" status="core">
           <token n="2031" id="SBL.1John.5.16.14" clearId="n62005016014" gloss_berean="He will give">δώσει</token>
          </wording>
-         <wording type="cluster" status="argument" function="second_object_participant" label="obj2" next="d5e7926_2" xml:id="d5e7926">
-          <wording type="junction" next="d3e7900_2" xml:id="d3e7900">
+         <wording type="cluster" status="argument" function="second_object_participant" label="obj2" next="d5e7923_2" xml:id="d5e7923">
+          <wording type="junction" next="d3e7897_2" xml:id="d3e7897">
            <wording status="path" function="appositive" label="=1">
             <wording type="word" status="core">
              <token n="2032" id="SBL.1John.5.16.15" clearId="n62005016015" gloss_berean="him">αὐτῷ</token>
@@ -9819,8 +9811,8 @@
            <token n="2033" id="SBL.1John.5.16.16" clearId="n62005016016" gloss_berean="life" after=",">ζωήν</token>
           </wording>
          </wording>
-         <wording type="cluster" status="argument" function="second_object_participant" label="obj2" prev="d5e7926" xml:id="d5e7926_2">
-          <wording type="junction" prev="d3e7900" xml:id="d3e7900_2">
+         <wording type="cluster" status="argument" function="second_object_participant" label="obj2" prev="d5e7923" xml:id="d5e7923_2">
+          <wording type="junction" prev="d3e7897" xml:id="d3e7897_2">
            <wording status="path" function="appositive" label="=2">
             <wording type="word" status="translative">
              <token n="2034" id="SBL.1John.5.16.17" clearId="n62005016017" gloss_berean="to those">τοῖς</token>
